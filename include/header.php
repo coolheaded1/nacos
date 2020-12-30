@@ -41,6 +41,7 @@
                                         <li class="nav-item"><a class="nav-link" href="blog.php">Association</a></li>
                                         <li class="nav-item"><a class="nav-link" href="executive.php">National Executive</a></li>
                                         <li class="nav-item"><a class="nav-link" href="boards.php">National Advisory Board</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="boards.php">Past National President</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="event.php">Event</a></li>
@@ -50,7 +51,7 @@
                                     <ul class="dropdown-menu">
                                         <li class="nav-item"><a class="nav-link" href="member.php">Members Directory</a></li>
                                         <li class="nav-item"><a class="nav-link" href="chapter.php">New Chapter Registration</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="Dues.php">Annual Chapter Dues</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="dues.php">Annual Chapter Dues</a></li>
                                         <li class="nav-item"><a class="nav-link" href="boards.php">Member Welfare Scheme</a></li>
                                     </ul>
                                 </li>
