@@ -1,4 +1,4 @@
-<?php include "include/og_graph.php" ?>
+<?php include "include/og_graph.php"; $page="member"; ?>
 <!-- BOOTSTRAP CSS -->
 <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
 <link rel="stylesheet" href="assets/vendor/navbar/bootstrap-4-navbar.css" />

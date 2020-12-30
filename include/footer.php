@@ -1,7 +1,7 @@
  <!--== Footer Area Start ==-->
  <footer id="footer-area">
     <!-- Footer Widget Start -->
-    <div class="footer-widget section-padding">
+    <div class="footer-widget pad-foot">
         <div class="container">
             <div class="row">
                 <!-- Single Widget Start -->
@@ -9,7 +9,7 @@
                     <div class="single-widget-wrap">
                         <div class="widgei-body">
                             <div class="footer-about">
-                                <img src="assets/img/NACOSS site.png" alt="Logo" class="img-fluid" style="height:85px;" />                     
+                                <img src="assets/img/footer_nacos.png" alt="Logo" class="img-fluid" style="height:85px;" />                     
                                 <p> National Secretariat:<br>Department of Computer Science<br>Moshood Abiola Polytechnic<br>Abeokuta, Ogun State <br>Nigeria</p>                                
                             </div>
                         </div>

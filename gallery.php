@@ -1,4 +1,4 @@
-<?php include "include/og_graph.php" ?>
+<?php include "include/og_graph.php"; $page="gallery"; ?>
 <!-- BOOTSTRAP CSS -->
 <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
 <link rel="stylesheet" href="assets/vendor/navbar/bootstrap-4-navbar.css" />
@@ -639,10 +639,5 @@
 
 <!-- custom js: custom js file is added for easy custom js code  -->
 <script src="assets/js/custom.js"></script>
-
-<!-- custom js: custom scripts for theme style switcher for demo purpose  -->
-<script id="switcherhandle" src="assets/switcher/switcher.js"></script>
-
-
 </body>
 </html>

@@ -1,4 +1,4 @@
-<?php include "include/og_graph.php"; $page = 'boards'; ?>
+<?php include "include/og_graph.php"; $page="pastPreidents"; ?>
 <!-- BOOTSTRAP CSS -->
 <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
 <link rel="stylesheet" href="assets/vendor/navbar/bootstrap-4-navbar.css" />
@@ -27,7 +27,6 @@
 <!-- Main Master Style  CSS  -->
 <link id="cbx-style" data-layout="1" rel="stylesheet" href="assets/css/style-default.min.css" media="all" />
 
-
 </head>
 <body>
 
@@ -46,7 +45,7 @@
         <div class="row">
             <div class="col-lg-8 m-auto text-center">
                 <div class="page-title-content">
-                    <h1 class="h2">National Advisory Board</h1>
+                    <h1 class="h2">Past National President</h1>
                     <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the
                         need</p>
                     <!-- <a href="about.html#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a> -->
@@ -71,35 +70,12 @@
 <!-- start sec -->
             <div class="honorable-committee-list">
                 <div class="row">
-                    <div class="col-sm-12" >
-                      <div class="col-sm-9" style="margin:0px auto;">
-                      <div class="row" >
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="single-committee-member">
-                                <div class="commitee-thumb">
-                                    <img src="assets/img/committee/commitee-1.jpg" class="img-fluid exec_others" alt="Committee"/>
-                                </div>
-                                <h3>Prof Adesina Sodiya FNCS<span class="committee-deg">President, Nigeria Computer Society (NCS)</span></h3>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="single-committee-member">
-                                <div class="commitee-thumb">
-                                    <img src="assets/img/committee/commitee-1.jpg" class="img-fluid exec_others" alt="Committee"/>
-                                </div>
-                                <h3>Prof. Chales Uwadia FNCS<span class="committee-deg">President/Chairman-in-Council CPN</span></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- #div row -->
-                     </div>                         
-                    </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
                             <div class="commitee-thumb">
                                 <img src="assets/img/committee/commitee-1.jpg" class="img-fluid exec_others" alt="Committee"/>
                             </div>
-                            <h3>Prof. Olumide Longe FASI<span class="committee-deg">Interim Dean, <br>School of Computing, <br>American University of Nigeria Yola</span></h3>
+                            <h3>Mr Adetayo Bamiduro<span class="committee-deg">University of Ibadan<br>ZONE: South west<br>Year of Service: </span></h3>
                         </div>
                     </div>
 
@@ -108,7 +84,7 @@
                             <div class="commitee-thumb">
                                 <img src="assets/img/committee/commitee-2.jpg" class="img-fluid exec_others" alt="Committee"/>
                             </div>
-                            <h3>Mr Mohammed Ibrahim Jega<span class="committee-deg">Founder Startup Arewa</span></h3>
+                            <h3>Mr Olusegun Olutayo<span class="committee-deg">Obafemi Awolowo University Ile-Ife<br>ZONE: South West<br>Year of Service: March 2004 - Feb 2006</span></h3>
                         </div>
                     </div>
 
@@ -117,7 +93,7 @@
                             <div class="commitee-thumb">
                                 <img src="assets/img/committee/commitee-3.jpg" class="img-fluid exec_others" alt="Committee"/>
                             </div>
-                            <h3>Dr. Nasir Daniya FNCS<span class="committee-deg">DG, ICT Directorate Sokoto State</span></h3>
+                            <h3>Mr Martins Madueke<span class="committee-deg">Zone: South East<br>Year of Service: </span></h3>
                         </div>
                     </div>
 
@@ -126,7 +102,7 @@
                             <div class="commitee-thumb">
                                 <img src="assets/img/committee/commitee-5.jpg" class="img-fluid exec_others" alt="Committee"/>
                             </div>
-                            <h3>Citp. Adekunle Durosinmi MNCS<span class="committee-deg">Registrar, Dots ICT Institute of Technology Abeokuta</span></h3>
+                            <h3>Mr Bayo Mohammed Onimode<span class="committee-deg">University of Jos<br>ZONE:  North Central<br>Year of Service: March 2007 - August 2008</span></h3>
                         </div>
                     </div>
 
@@ -135,7 +111,7 @@
                             <div class="commitee-thumb">
                                 <img src="assets/img/committee/commitee-6.jpg" class="img-fluid exec_others" alt="Committee"/>
                             </div>
-                            <h3>Alhaji Shuaib Afolabi Salisu FNCS<span class="committee-deg">Chief of Staff to Ogun State Governor</span></h3>
+                            <h3>Mr Oluwafemi Ajetunmobi<span class="committee-deg">Federal University of Technology Akure<br>ZONE: South West<br>Year of Service: Jun 2008 - Feb 2010</span></h3>
                         </div>
                     </div>
 
@@ -144,7 +120,7 @@
                             <div class="commitee-thumb">
                                 <img src="assets/img/committee/commitee-7.jpg" class="img-fluid exec_others" alt="Committee"/>
                             </div>
-                            <h3>Dr. Ikechukwu Innocent Umeh FNCS<span class="committee-deg">Senior Lecturer, Nnamdi Azikwe University Awka Anambra State</span></h3>
+                            <h3>Comr. Olamide Odumosu<span class="committee-deg">Federal University of Technology Minna Niger State<br>ZONE:North Central<br>Year of Service: Feb 2010 - July 2011</span></h3>
                         </div>
                     </div>
 
@@ -153,18 +129,55 @@
                             <div class="commitee-thumb">
                                 <img src="assets/img/committee/commitee-8.jpg" class="img-fluid exec_others" alt="Committee"/>
                             </div>
-                            <h3>Evang. (Prof) Ebenezer Obey-Fabiyi MFR<span class="committee-deg">Legend Musician</span></h3>
+                            <h3>Mr Segun Adnigbo<span class="committee-deg">Federal University of Technology Akure<br>ZONE:South West<br>Year of Service: </span></h3>
                         </div>
                     </div>
 
-                    <!-- <div class="col-lg-3 col-sm-6">
+                    <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
                             <div class="commitee-thumb">
                                 <img src="assets/img/committee/commitee-1.jpg" class="img-fluid exec_others" alt="Committee"/>
                             </div>
-                            <h3>PRINCE KAMLA<span class="committee-deg">Committee Member</span></h3>
+                            <h3>Mr Stanley Okotie<span class="committee-deg">Delta State University<br>ZONE:South South<br>Year of Service: Dec 2012 - Dec 2013</span></h3>
                         </div>
-                    </div> -->
+                    </div>
+
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-committee-member">
+                            <div class="commitee-thumb">
+                                <img src="assets/img/committee/commitee-1.jpg" class="img-fluid exec_others" alt="Committee"/>
+                            </div>
+                            <h3>Mr Ositadinma Tochuckwu<span class="committee-deg">Federal University of Technology Owerri<br>ZONE: South East<br>Year of Service: Sept 2014 - February 2016</span></h3>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-committee-member">
+                            <div class="commitee-thumb">
+                                <img src="assets/img/committee/commitee-1.jpg" class="img-fluid exec_others" alt="Committee"/>
+                            </div>
+                            <h3>Mr. Emmanuel Essiet<span class="committee-deg">University of Uyo, Akwa Ibom<br>ZONE: South South<br>Year of Service: Feb 2016 - July 2017</span></h3>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-committee-member">
+                            <div class="commitee-thumb">
+                                <img src="assets/img/committee/commitee-1.jpg" class="img-fluid exec_others" alt="Committee"/>
+                            </div>
+                            <h3>Mr Akintomiwa Abolade<span class="committee-deg">Ladoke Akintola University of Technology Ogbomosho<br>ZONE: South West<br>Year of Service: July 2017 - Oct 2018</span></h3>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-committee-member">
+                            <div class="commitee-thumb">
+                                <img src="assets/img/committee/commitee-1.jpg" class="img-fluid exec_others" alt="Committee"/>
+                            </div>
+                            <h3>Comr. Abubakr Sadiq Hassan<span class="committee-deg">Abubakar Tafawa Balewa University, Bauchi<br>ZONE: North East<br>Year of Service: Oct 2018 - Nov 2020</span></h3>
+                        </div>
+                    </div>
                 </div>
             </div>
 <!-- ended -->
@@ -242,7 +255,6 @@
 </section>
 <!--== Committee Page Content End ==-->
 
-<!--== Footer Area Start ==-->
 <!--== Footer Area Start ==-->
 <?php include "include/footer.php" ?>
 <!--== Scroll Top ==-->

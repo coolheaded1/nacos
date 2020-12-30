@@ -1,4 +1,4 @@
-<?php include "include/og_graph.php" ?>
+<?php include "include/og_graph.php"; $page="executive";  ?>
 <!-- BOOTSTRAP CSS -->
 <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
 <link rel="stylesheet" href="assets/vendor/navbar/bootstrap-4-navbar.css" />
@@ -71,28 +71,28 @@
                 <div class="row">
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
-                            <img src="assets/img/committee/commitee-5.jpg" class="img-fluid" alt="Committee"/>
+                            <img src="assets/img/executives/Ruth_Samuel-VP_National.jpg" class="img-fluid exec_others" alt="Committee"/>
                             <h3>Comr. Samuel Ruth <span class="committee-deg">Vice President</span></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
-                            <img src="assets/img/executives/vptwo.jpg" class="img-fluid" alt="Committee"/>
+                            <img src="assets/img/executives/vptwo.jpg" class="img-fluid exec_others" alt="Committee"/>
                             <h3>Comr. Abdulmalik Ango <span class="committee-deg">Vice president <br>(International Affairs)</span></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
-                            <img src="assets/img/committee/commitee-6.jpg" class="img-fluid" alt="Committee"/>
+                            <img src="assets/img/committee/commitee-6.jpg" class="img-fluid exec_others" alt="Committee"/>
                             <h3>Comr. Olabode Oyinkansola<span class="committee-deg">Secretary General</span></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
-                            <img src="assets/img/committee/commitee-8.jpg" class="img-fluid" alt="Committee"/>
+                            <img src="assets/img/executives/Ponjul_Danjum-Asst_Sec_Gen.jpg" class="img-fluid exec_others" alt="Committee"/>
                             <h3>Comr. Ponjul Danjuma<span class="committee-deg">Assistant Secretary-General</span></h3>
                         </div>
                     </div>
@@ -101,28 +101,28 @@
                 <div class="row">
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
-                            <img src="assets/img/committee/commitee-5.jpg" class="img-fluid" alt="Committee"/>
+                            <img src="assets/img/executives/Apeh_Eneo-Director_of_Publicity.JPG" class="img-fluid exec_others" alt="Committee"/>
                             <h3>Comr. Apeh Enejo <span class="committee-deg">Director of Publicity and Media</span></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
-                            <img src="assets/img/executives/vptwo.jpg" class="img-fluid" alt="Committee"/>
+                            <img src="assets/img/executives/Adeola_Taiwo-Director_of_Finanace.jpg" class="img-fluid exec_others" alt="Committee"/>
                             <h3>Comr. Adeola Olamide Taiwo  <span class="committee-deg">Director of Finance</span></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
-                            <img src="assets/img/committee/commitee-6.jpg" class="img-fluid" alt="Committee"/>
+                            <img src="assets/img/executives/Agbo_Faruq_Rabo-Director_of_Research.jpg" class="img-fluid exec_others" alt="Committee"/>
                             <h3>Comr. Agbo Faruq Rabo<span class="committee-deg">Director of Research and Innovation</span></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
-                            <img src="assets/img/committee/commitee-8.jpg" class="img-fluid" alt="Committee"/>
+                            <img src="assets/img/executives/AliyuMohammed-Directo_rof_Welfare_I.jpg" class="img-fluid exec_others" alt="Committee"/>
                             <h3>Comr. Aliyu Muhammed<span class="committee-deg">Director of Welfare and Membership Services I</span></h3>
                         </div>
                     </div>
@@ -131,28 +131,28 @@
                 <div class="row">
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
-                            <img src="assets/img/committee/commitee-5.jpg" class="img-fluid" alt="Committee"/>
+                            <img src="assets/img/executives/Confidence_Monday-Director_of_Welfare_II.jpg" class="img-fluid exec_others" alt="Committee"/>
                             <h3>Comr. Confidence Monday<span class="committee-deg">Director of Welfare and Membership Services II</span></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
-                            <img src="assets/img/executives/vptwo.jpg" class="img-fluid" alt="Committee"/>
+                            <img src="assets/img/executives/vptwo.jpg" class="img-fluid exec_others" alt="Committee"/>
                             <h3>Comr. Abubakar Sadiq Hassan <span class="committee-deg">Immediate Past President </span></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
-                            <img src="assets/img/committee/commitee-6.jpg" class="img-fluid" alt="Committee"/>
+                            <img src="assets/img/executives/Stephen_Paul-Zonal_Coord_North_Central.png" class="img-fluid exec_others" alt="Committee"/>
                             <h3>Comr. Stephen Edache Paul<span class="committee-deg">North Central Zonal Coordinator</span></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
-                            <img src="assets/img/committee/commitee-8.jpg" class="img-fluid" alt="Committee"/>
+                            <img src="assets/img/committee/commitee-8.jpg" class="img-fluid exec_others" alt="Committee"/>
                             <h3>Comr. Isah Kasim<span class="committee-deg">North West Zonal Coordinator</span></h3>
                         </div>
                     </div>
@@ -161,28 +161,28 @@
                 <div class="row">
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
-                            <img src="assets/img/committee/commitee-5.jpg" class="img-fluid" alt="Committee"/>
+                            <img src="assets/img/committee/commitee-5.jpg" class="img-fluid exec_others" alt="Committee"/>
                             <h3>Comr. Muhammad Sharif<span class="committee-deg">North East Zonal Coordinator</span></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
-                            <img src="assets/img/executives/vptwo.jpg" class="img-fluid" alt="Committee"/>
+                            <img src="assets/img/executives/vptwo.jpg" class="img-fluid exec_others" alt="Committee"/>
                             <h3>Comr. <span class="committee-deg">South West Zonal Coordinator </span></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
-                            <img src="assets/img/committee/commitee-6.jpg" class="img-fluid" alt="Committee"/>
+                            <img src="assets/img/committee/commitee-6.jpg" class="img-fluid exec_others" alt="Committee"/>
                             <h3>Comr. l<span class="committee-deg">South South Zonal Coordinator</span></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
-                            <img src="assets/img/committee/commitee-8.jpg" class="img-fluid" alt="Committee"/>
+                            <img src="assets/img/committee/commitee-8.jpg" class="img-fluid exec_others" alt="Committee"/>
                             <h3>Comr. Ikechuckwu Nwachukwu<span class="committee-deg">South East Zonal Coordinator</span></h3>
                         </div>
                     </div>
