@@ -39,12 +39,21 @@
                                     <a class="nav-link dropdown-toggle" href="about.php" data-toggle="dropdown" role="button">About</a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item"><a class="nav-link" href="blog.php">Association</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="single-blog.php">National Executive</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="single-blog-leftsidebar.php">National Advisory Board</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="executive.php">National Executive</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="boards.php">National Advisory Board</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="event.php">Event</a></li>
                                 <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="member.php" data-toggle="dropdown" role="button">Links</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><a class="nav-link" href="member.php">Members Directory</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="chapter.php">New Chapter Registration</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="Dues.php">Annual Chapter Dues</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="boards.php">Member Welfare Scheme</a></li>
+                                    </ul>
+                                </li>
                                 <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                             </ul>
                         </div>

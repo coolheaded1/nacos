@@ -1,72 +1,4 @@
-<!DOCTYPE html>
-<html class="no-js" lang="zxx">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Nacos National | Official Home Page</title>
-
-    <meta name="description" content="simple description for your site"/>
-<meta name="keywords" content="keyword1, keyword2"/>
-<meta name="author" content="Jobz"/>
-
-<!-- twitter card starts from here, if you don't need remove this section -->
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:site" content="@yourtwitterusername"/>
-<meta name="twitter:creator" content="@yourtwitterusername"/>
-<meta name="twitter:url" content="http://twitter.com"/>
-<meta name="twitter:title" content="Your home page title, max 140 char"/> <!-- maximum 140 char -->
-<meta name="twitter:description" content="Your site description, maximum 140 char "/> <!-- maximum 140 char -->
-<meta name="twitter:image"
-      content="assets/img/NACOSS site.png"/>  <!-- when you post this page url in twitter , this image will be shown -->
-<!-- twitter card ends here -->
-
-<!-- facebook open graph starts from here, if you don't need then delete open graph related  -->
-<meta property="og:title" content="Your home page title"/>
-<meta property="og:url" content="http://your domain here.com"/>
-<meta property="og:locale" content="en_US"/>
-<meta property="og:site_name" content="Your site name here"/>
-<!--meta property="fb:admins" content="" /-->  <!-- use this if you have  -->
-<meta property="og:type" content="website"/> <!-- 'article' for single page  -->
-<meta property="og:image"
-      content="assets/img/NACOSS site.png"/> <!-- when you post this page url in facebook , this image will be shown -->
-<!-- facebook open graph ends here -->
-
-<!-- desktop bookmark -->
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="assets/img/NACOSS site.png">
-<meta name="theme-color" content="#ffffff">
-
-<!-- icons & favicons -->
-<link rel="shortcut icon" type="image/x-icon"  href="assets/img/NACOSS site.png"/>  <!-- this icon shows in browser toolbar -->
-<link rel="icon" type="image/x-icon" href="assets/img/NACOSS site.png"/> <!-- this icon shows in browser toolbar -->
-<link rel="apple-touch-icon" sizes="57x57" href="assets/img/NACOSS site.png">
-<link rel="apple-touch-icon" sizes="60x60" href="assets/img/NACOSS site.png">
-<link rel="apple-touch-icon" sizes="72x72" href="assets/img/NACOSS site.png">
-<link rel="apple-touch-icon" sizes="76x76" href="assets/img/NACOSS site.png">
-<link rel="apple-touch-icon" sizes="114x114" href="assets/img/NACOSS site.png">
-<link rel="apple-touch-icon" sizes="120x120" href="assets/img/NACOSS site.png">
-<link rel="apple-touch-icon" sizes="144x144" href="assets/img/NACOSS site.png">
-<link rel="apple-touch-icon" sizes="152x152" href="assets/img/NACOSS site.png">
-<link rel="apple-touch-icon" sizes="180x180" href="assets/img/NACOSS site.png">
-<link rel="icon" type="image/png" sizes="192x192" href="assets/img/NACOSS site.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/img/NACOSS site.png">
-<link rel="icon" type="image/png" sizes="96x96" href="assets/img/NACOSS site.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/img/NACOSS site.png">
-<link rel="manifest" href="assets/img/favicon/manifest.json">
-
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/NACOSS site.png" />
-<link rel="icon" type="image/x-icon" href="assets/img/NACOSS site.png" />
-
-<!-- Fallback For IE 9 [ Media Query and html5 Shim] -->
-<!--[if lt IE 9]>
-<script src="assets/vendor/css3-mediaqueries-js/css3-mediaqueries.js"></script>
-<![endif]-->
-
-<!-- GOOGLE FONT -->
-<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet" />
-
+<?php include "include/og_graph.php" ?>
 <!-- BOOTSTRAP CSS -->
 <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
 <link rel="stylesheet" href="assets/vendor/navbar/bootstrap-4-navbar.css" />
@@ -115,8 +47,8 @@
                 <div class="row">
                     <div class="col-lg-9">
                         <div class="slider-content">
-                            <h2>Nigeria Association</h2>
-                            <h3> Of Computing  <span>Students.</span></h3>
+                            <h2>Nigeria Association Of Computing Students.</h2>
+                            <!-- <h3> </span></h3> -->
                             <p>We are student professionals in almost all tertiary institutions in Nigeria.</p>
                             <div class="slider-btn">
                                 <a href="index.html#about-area" class="btn btn-brand smooth-scroll">our mission</a>
@@ -421,12 +353,12 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="single-funfact-wrap">
                     <div class="funfact-icon">
-                    <i class="fa fa-calendar-check-o add_space" aria-hidden="true"></i>
+                    <i class="fa fa-map-marker add_space" aria-hidden="true"></i>
                         <!-- <img src="assets/img/fun-fact/event.svg" alt="Funfact"> -->
                     </div>
                     <div class="funfact-info">
-                        <h5><span class="funfact-count">231</span>+</h5>
-                        <p>Events</p>
+                        <h5><span class="funfact-count">36</span></h5>
+                        <p>States + FCT</p>
                     </div>
                 </div>
             </div>
@@ -598,7 +530,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="scholership-promo-text">
-                    <h2>Are you a computing <span>Student?</span></h2>
+                    <h2>Are you a Computing <span>Student?</span></h2>
                     <p><b>NACOS </b> enables you to harness the power of the nacos community network. Whatever may be the need academic, relocation, career, projects, mentorship, etc you can ask the community and get </p>
                     <a href="register.php" class="btn btn-brand">Register Now</a>
                 </div>
