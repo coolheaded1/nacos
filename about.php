@@ -62,39 +62,76 @@
                         <span class="year">1993</span>
                         <img src="assets/img/Conteco2/Conteco D2-225.jpg" alt="About" class="img-fluid img-left">
                         <h2 class="h3">So How Did It All Start...</h2>
-                        <p>NACOSS was founded by groups of students in July 1993 with the backing of Nigerian Computer Society (NCS) as its parent body. It provides avenues for students (in any IT related field) to highlight and champion issues of interest in a coordinated and organized manner.</p>
+                        <p style="text-align:justify;">NACOSS was founded by groups of students in July 1993 with the backing of Nigerian Computer Society (NCS) as its parent body. It provides avenues for students (in any IT related field) to highlight and champion issues of interest in a coordinated and organized manner.</p>
                         <p>NACOSS members (NACOSSites) are students studying in tertiary institutions in computer related disciplines including: Computer Science, Computer Engineering, Information Technology, etc.</p>
                     </div>
                     <!-- Single about text End -->
+                    <section id="page-content-wrap" style="padding-top:3em;">
+                    <div class="event-page-content-wrap ">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="all-event-list">
+                                <!-- Single Event Start -->
+                                <div class="single-upcoming-event">
+                                    <div class="row">
+                                        <div class="col-lg-5">
+                                            <div class="up-event-thumb">
+                                                <img src="assets/img/event/event-img-1.jpg" class="img-fluid" alt="Upcoming Event">
+                                                <h4 class="up-event-date">It’s 27 February 2019</h4>
+                                            </div>
+                                        </div>
 
+                                        <div class="col-lg-7">
+                                            <div class="display-table">
+                                                <div class="display-table-cell">
+                                                    <div class="up-event-text">
+                                                        <div class="event-countdown">
+                                                            <div class="event-countdown-counter" data-date="2018/9/10"></div>
+                                                            <p>Remaining</p>
+                                                        </div>
+                                                        <h3><a href="single-event.html">We are going to arrange a get together!</a></h3>
+                                                        <p>Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipv ex ea.</p>
+                                                        <a href="single-event.html" class="btn btn-brand btn-brand-dark">join with us</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single Event End -->
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                </section>
+     
                     <!-- Single about text start -->
                     <div class="single-about-text">
                         <span class="year">2012</span>
                         <img src="assets/img/Conteco2/Conteco D2-228.jpg" alt="About" class="img-fluid img-right">
                         <h2 class="h3">Our First Achivement in History</h2>
-                        <p>Each member is essentially a member of the Association’s local chapter in his or her institution.<br><br> As of April 2012, NACOSS states that it is the largest and most organized student body in West Africa, with registered members of about Two Hundred and Fifty thousand (250 000) in well over One Hundred and fifty local chapters (and more unregistered) in different Institutions (Universities, Polytechnics and Colleges of Education) across the six (6) Geo-political zones of Nigeria.</p>
+                        <p style="text-align:justify;">Each member is essentially a member of the Association’s local chapter in his or her institution.<br><br> As of April 2012, NACOSS states that it is the largest and most organized student body in West Africa, with registered members of about Two Hundred and Fifty thousand (250 000) in well over One Hundred and fifty local chapters (and more unregistered) in different Institutions (Universities, Polytechnics and Colleges of Education) across the six (6) Geo-political zones of Nigeria.</p>
                        
                     </div>
                     <!-- Single about text End -->
 
                     <!-- Single about text start -->
                     <div class="single-about-text">
-                        <span class="year">2006</span>
+                        <span class="year">2019</span>
                         <img src="assets/img/about-page/about-img-3.jpg" alt="About" class="img-fluid img-left">
-                        <h2 class="h3">Our New Genaretion</h2>
-                        <p>Aenean viverra rhoncus sspede. Phasellssus leo dolor, tempus non, auctor endrerit
-                            quis, nisi. Fusce neque. Donec vitae orci sed dolor rutrum ausssctor. Sed
-                            fringilla mauris sit amet nibh.</p>
-                        <p>Etiam rhoncus. Ut lddffdfqwqeo. Morbi mollis tellus ac sapien. Fusce fermentum oo
-                            nec arcu. Quisque manisl idUt leo. Morbi mollis tellus ac sapien. Fusce
-                            fermentum oo nec ante tempus hendrerit. Curabitur at lacus ac velit ornare
-                            lobortis. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In
-                            turpis. Quisque id mi.Aenean viverra rhoncus pede. Phasellus leo dolor, tempus non, auctor endrerit quis, nisi.
-                            Fusce neque. Donec vitae orci sed dolor rutrum auctor. Sed fringilla mauris sit amet
-                            nibh.Etiam rhoncus. Ut leo. Morbi mollis tellus ac sapien. Fusce fermentum oo nec arcu.
-                            Quisque malesuada placerat nisl. Etiam sit amet orci eget faucitincidunt. Quisque
-                            rutrum. Pellentesque posuere. Praesent ac massa at ligula laoureet iaculis. Cras risus
-                            ipsum, faucibus ut, ullamcorper id, varius ac, leo.</p>
+                        <h2 class="h3">Conteco 2019</h2>
+                        <p style="text-align:justify;">Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. <br><br>Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please.</p>
+                        
+                    </div>
+                    <!-- Single about text End -->
+
+                    <!-- Single about text start -->
+                    <div class="single-about-text">
+                        <span class="year">2020</span>
+                        <img src="assets/img/restructuring.jpg" alt="About" class="img-fluid img-right">
+                        <h2 class="h3">NACOS Restructures</h2>
+                        <p style="text-align:justify;" >On 23rd December, 2020, the Nigeria Association of Computer Science Students (NACOSS) he umbrella body for all students studying computing related courses and the student arm of Nigeria Computer Society (NCS) held a successful congress which was presided over by theNational President. <br><br>At the Congress, the association has accepted to abide and change its nomenclature from Nigeria Association of Computer Science Students (NACOSS) to NIGERIA ASSOCIATION OF COMPUTING STUDENTS (NACOS) as agreed upon with its parent body, Nigeria Computer Society (NCS). The congress which was duly supervised by the Nigeria Computer Society (NCS) came up with the following resolution to be adopted with immediate effect:<a href="assets/Official Memo to all Members of NACOS - 31-12-2020.pdf" download> Click to download the Official Memo</a> </p>
+                       
                     </div>
                     <!-- Single about text End -->
                 </div>
@@ -106,6 +143,12 @@
 <section id="funfact-area">
 <div class="container-fluid">
 <div class="job-opportunity-wrapper">
+    <h2 style="text-align:center;">What We Do</h2>
+    <div class="row" >
+    <div class="col-sm-7" style="margin:0px auto;">
+    <h5 style="text-align:center; font-size:16px;">NACOS provides an excellent foundation for Computer Scientists, Engineers and any IT related disciplines in Nigeria.</h5>
+    </div>
+    </div>
                         <div class="row">
                             <!--== Single Job opportunity Start ==-->
                             <div class="col-lg-3 col-sm-6 text-center">
@@ -265,76 +308,6 @@
                             </div>
                             <h3>PRINCE KAMLA<span class="committee-deg">Committee Member</span></h3>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="people-to-say section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="about-page-area-title">
-                        <h2>Some Speech About Us</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="people-to-say-wrapper owl-carousel">
-                        <!-- Single People Testimonial -->
-                        <div class="single-testimonial-wrap">
-                            <div class="people-thumb">
-                                <img src="assets/img/testimonial/testi-3.png" alt="Alumni" class="img-fluid" />
-                            </div>
-                            <i class="quote-icon"></i>
-                            <p>Exxcellent Lorem ipsum dolor sit amet, ectetur adipisicing elit, sed do eimod tempor
-                                inciidunt ut
-                                labore et dolorgna aliqua. Ut enim ad minim ostrud. </p>
-                            <h4>Robert Albert <span class="people-deg">Founder at Boxr</span></h4>
-                        </div>
-                        <!-- Single People Testimonial -->
-
-                        <!-- Single People Testimonial -->
-                        <div class="single-testimonial-wrap">
-                            <div class="people-thumb">
-                                <img src="assets/img/testimonial/testi-1.png" alt="" class="img-fluid">
-                            </div>
-                            <i class="quote-icon"></i>
-                            <p>Exxcellent Lorem ipsum dolor sit amet, ectetur adipisicing elit, sed do eimod tempor
-                                inciidunt ut
-                                labore et dolorgna aliqua. Ut enim ad minim ostrud. </p>
-                            <h4>Akamla Albert <span class="people-deg">Founder at Kamlakana</span></h4>
-                        </div>
-                        <!-- Single People Testimonial -->
-
-                        <!-- Single People Testimonial -->
-                        <div class="single-testimonial-wrap">
-                            <div class="people-thumb">
-                                <img src="assets/img/testimonial/testi-2.png" alt="" class="img-fluid" />
-                            </div>
-                            <i class="quote-icon"></i>
-                            <p>Exxcellent Lorem ipsum dolor sit amet, ectetur adipisicing elit, sed do eimod tempor
-                                inciidunt ut
-                                labore et dolorgna aliqua. Ut enim ad minim ostrud. </p>
-                            <h4>Taklo Nahid <span class="people-deg">Minister at Nara</span></h4>
-                        </div>
-                        <!-- Single People Testimonial -->
-
-                        <!-- Single People Testimonial -->
-                        <div class="single-testimonial-wrap">
-                            <div class="people-thumb">
-                                <img src="assets/img/testimonial/testi-2.png" alt="" class="img-fluid" />
-                            </div>
-                            <i class="quote-icon"></i>
-                            <p>Exxcellent Lorem ipsum dolor sit amet, ectetur adipisicing elit, sed do eimod tempor
-                                inciidunt ut
-                                labore et dolorgna aliqua. Ut enim ad minim ostrud. </p>
-                            <h4>Mal Muhit<span class="people-deg">Founder at Kamlagiri</span></h4>
-                        </div>
-                        <!-- Single People Testimonial -->
                     </div>
                 </div>
             </div>

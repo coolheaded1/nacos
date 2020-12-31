@@ -239,7 +239,7 @@
                         <h4>Through consistent and professional exposure</h4>
                         <p>A study of NACOS activities indicates that it reveals IT career and entrepreneurship opportunities to the youth of Nigeria. </p>
                         <p>We aim <br>
-                        <ul style="list-style-type:disc; text-align:justify;">
+                        <ul style="list-style-type:disc; text-align:justify;margin-left:4%;">
                             <li> To serve both professional and public interests by fostering the open interchange of information and by promoting the highest professional and ethical standards.</li>
                             <li>To protect the image and safeguard the interest of the Computing profession.</li>
                             <li> To promote the understanding of the study of Computing in Nigeria and abroad.</li>
