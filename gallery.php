@@ -1,5 +1,5 @@
 <?php include "include/og_graph.php"; $page="gallery"; ?>
-<!-- BOOTSTRAP CSS -->
+<!-- BOOTSTRAP CSS  conteco 1Fday 1-->
 <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
 <link rel="stylesheet" href="assets/vendor/navbar/bootstrap-4-navbar.css" />
 
@@ -40,14 +40,14 @@
 <!--== Header Area End ==-->
 
     <!--== Page Title Area Start ==-->
-<section id="page-title-area">
+<section class="contact_img" id="page-title-area">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 m-auto text-center">
                 <div class="page-title-content">
                     <h1 class="h2">Gallery</h1>
                     <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the need</p>
-                    <a href="gallery.html#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a>
+                    <!-- <a href="gallery.html#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a> -->
                 </div>
             </div>
         </div>
@@ -57,15 +57,7 @@
 
     <!--== Gallery Page Content Start ==-->
     <section id="page-content-wrap">
-        <div class="gallery-page-wrap section-padding">
-            <!-- Gallery Menu Start -->
-            <div class="gallery-menu text-center">
-                <a href="gallery.html#" class="active">All</a>
-                <a href="gallery.html#">Seminar</a>
-                <a href="gallery.html#">Event</a>
-                <a href="gallery.html#">Picnic</a>
-            </div>
-            <!-- Gallery Menu End -->
+        <div class="gallery-page-wrap " style="padding-top:3em;">
 
             <!--= Gallery Page Content Wrap Start =-->
             <div class="container">
@@ -75,10 +67,10 @@
                             <!-- Single Album Start -->
                             <div class="single-album-wraper">
                                 <div class="album-heading">
-                                    <h2><a href="single-album.html">Our last Meetup in 2018</a></h2>
+                                    <h2><a href="single-album.html">Conteco 2019 Day 2</a></h2>
                                     <p>Etiam vitae tortor. Curabitur nisi. In hac habitasse platea dictumst. Praesent ac massa at ligula laoreet iaculis. Praesent ac massa at ligula laoreet iaculis.
                                         sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. Nullam quis ante. Curabitur vestibulum.</p>
-                                    <a href="single-album.html" class="btn btn-brand">View Album</a>
+                                    <a href="https://photos.google.com/share/AF1QipPWtiKlfwhBRTeMCDX7_zps_f0fK9KE51pqaBbIZntaqq6r3nE_DBD6KHIoGdBzrA?key=NzktdmFDd3JyN0ZudDl3ek1GakJlVndoTWhmY3VB" class="btn btn-brand">View Album</a>
                                 </div>
 
                                 <div class="album-gallery-item">
@@ -88,10 +80,10 @@
         <div class="single-gallery-item gallery-bg-1">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
-                    <h4>University Cumpus</h4>
-                    <p class="gallery-event-date">28 Oct, 2018</p>
+                    <h4>Conteco 2019 Day 2</h4>
+                    <p class="gallery-event-date">28 Oct, 2019</p>
                 </div>
-                <a href="assets/img/gallery/gellary-img-1.jpg" class="btn-zoom image-popup">
+                <a href="assets/img/Conteco2/Conteco_D2-295.jpg" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
                 </a>
             </div>
@@ -113,8 +105,8 @@
         <div class="single-gallery-item gallery-bg-3">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
-                    <h4>University Cumpus</h4>
-                    <p class="gallery-event-date">28 Oct, 2018</p>
+                    <h4>Conteco 2019 Day 2</h4>
+                    <p class="gallery-event-date">28 Oct, 2019</p>
                 </div>
                 <a href="assets/img/gallery/gellary-img-3.jpg" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
@@ -129,8 +121,8 @@
         <div class="single-gallery-item gallery-bg-4">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
-                    <h4>University Cumpus</h4>
-                    <p class="gallery-event-date">28 Oct, 2018</p>
+                    <h4>Conteco 2019 Day 2</h4>
+                    <p class="gallery-event-date">28 Oct, 2019</p>
                 </div>
                 <a href="assets/img/gallery/gellary-img-4.jpg" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
@@ -145,8 +137,8 @@
         <div class="single-gallery-item gallery-bg-5">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
-                    <h4>University Cumpus</h4>
-                    <p class="gallery-event-date">28 Oct, 2018</p>
+                    <h4>Conteco 2019 Day 2</h4>
+                    <p class="gallery-event-date">28 Oct, 2019</p>
                 </div>
                 <a href="assets/img/gallery/gellary-img-5.jpg" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
@@ -161,8 +153,8 @@
         <div class="single-gallery-item gallery-bg-6">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
-                    <h4>University Cumpus</h4>
-                    <p class="gallery-event-date">28 Oct, 2018</p>
+                    <h4>Conteco 2019 Day 2</h4>
+                    <p class="gallery-event-date">28 Oct, 2019</p>
                 </div>
                 <a href="assets/img/gallery/gellary-img-6.jpg" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
@@ -186,8 +178,8 @@
         <div class="single-gallery-item gallery-bg-8">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
-                    <h4>University Cumpus</h4>
-                    <p class="gallery-event-date">28 Oct, 2018</p>
+                    <h4>Conteco 2019 Day 2</h4>
+                    <p class="gallery-event-date">28 Oct, 2019</p>
                 </div>
                 <a href="assets/img/gallery/gellary-img-8.jpg" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
@@ -204,10 +196,10 @@
                             <!-- Single Album Start -->
                             <div class="single-album-wraper">
                                 <div class="album-heading">
-                                    <h2><a href="single-album.html">Our last Meetup in 2018</a></h2>
+                                    <h2><a href="single-album.html">Conteco 2019 Day 1</a></h2>
                                     <p>Etiam vitae tortor. Curabitur nisi. In hac habitasse platea dictumst. Praesent ac massa at ligula laoreet iaculis. Praesent ac massa at ligula laoreet iaculis.
                                         sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. Nullam quis ante. Curabitur vestibulum.</p>
-                                    <a href="single-album.html" class="btn btn-brand">View Album</a>
+                                    <a href="https://drive.google.com/drive/folders/1xEiXPpW5K9kGkGtZoWs2n0XIu279IkRN" class="btn btn-brand">View Album</a>
                                 </div>
 
                                 <div class="album-gallery-item">
@@ -217,8 +209,8 @@
         <div class="single-gallery-item gallery-bg-1">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
-                    <h4>University Cumpus</h4>
-                    <p class="gallery-event-date">28 Oct, 2018</p>
+                    <h4>Conteco 2019 Day 1</h4>
+                    <p class="gallery-event-date">27 Oct, 2019</p>
                 </div>
                 <a href="assets/img/gallery/gellary-img-1.jpg" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
@@ -242,8 +234,8 @@
         <div class="single-gallery-item gallery-bg-3">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
-                    <h4>University Cumpus</h4>
-                    <p class="gallery-event-date">28 Oct, 2018</p>
+                    <h4>Conteco 2019 Day 1</h4>
+                    <p class="gallery-event-date">27 Oct, 2019</p>
                 </div>
                 <a href="assets/img/gallery/gellary-img-3.jpg" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
@@ -258,8 +250,8 @@
         <div class="single-gallery-item gallery-bg-4">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
-                    <h4>University Cumpus</h4>
-                    <p class="gallery-event-date">28 Oct, 2018</p>
+                    <h4>Conteco 2019 Day 1</h4>
+                    <p class="gallery-event-date">27 Oct, 2019</p>
                 </div>
                 <a href="assets/img/gallery/gellary-img-4.jpg" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
@@ -274,8 +266,8 @@
         <div class="single-gallery-item gallery-bg-5">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
-                    <h4>University Cumpus</h4>
-                    <p class="gallery-event-date">28 Oct, 2018</p>
+                    <h4>Conteco 2019 Day 1</h4>
+                    <p class="gallery-event-date">27 Oct, 2019</p>
                 </div>
                 <a href="assets/img/gallery/gellary-img-5.jpg" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
@@ -290,8 +282,8 @@
         <div class="single-gallery-item gallery-bg-6">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
-                    <h4>University Cumpus</h4>
-                    <p class="gallery-event-date">28 Oct, 2018</p>
+                    <h4>Conteco 2019 Day 1</h4>
+                    <p class="gallery-event-date">27 Oct, 2019</p>
                 </div>
                 <a href="assets/img/gallery/gellary-img-6.jpg" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
@@ -315,8 +307,8 @@
         <div class="single-gallery-item gallery-bg-8">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
-                    <h4>University Cumpus</h4>
-                    <p class="gallery-event-date">28 Oct, 2018</p>
+                    <h4>Conteco 2019 Day 1</h4>
+                    <p class="gallery-event-date">27 Oct, 2019</p>
                 </div>
                 <a href="assets/img/gallery/gellary-img-8.jpg" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
@@ -331,147 +323,24 @@
                             <!-- Single Album End -->
 
                             <!-- Single Album Start -->
-                            <div class="single-album-wraper">
-                                <div class="album-heading">
-                                    <h2><a href="single-album.html">Our last Meetup in 2018</a></h2>
-                                    <p>Etiam vitae tortor. Curabitur nisi. In hac habitasse platea dictumst. Praesent ac massa at ligula laoreet iaculis. Praesent ac massa at ligula laoreet iaculis.
-                                        sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. Nullam quis ante. Curabitur vestibulum.</p>
-                                    <a href="single-album.html" class="btn btn-brand">View Album</a>
-                                </div>
-
-                                <div class="album-gallery-item">
-                                    <div class="row gallery-gird">
-    <!-- Single Gallery Start -->
-    <div class="col-lg-3  col-sm-6 recent event">
-        <div class="single-gallery-item gallery-bg-1">
-            <div class="gallery-hvr-wrap">
-                <div class="gallery-hvr-text">
-                    <h4>University Cumpus</h4>
-                    <p class="gallery-event-date">28 Oct, 2018</p>
-                </div>
-                <a href="assets/img/gallery/gellary-img-1.jpg" class="btn-zoom image-popup">
-                    <img src="assets/img/zoom-icon.png" alt="a">
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- Single Gallery End -->
-
-    <!-- Single Gallery Start -->
-    <div class="col-lg-3  col-sm-6 old event pic">
-        <div class="single-gallery-item video gallery-bg-2">
-            <a href="https://player.vimeo.com/video/140182080?title=0&portrait=0&byline=0&autoplay=1&loop=1"
-               class="btn btn-video-play video-popup"><i class="fa fa-play"></i></a>
-        </div>
-    </div>
-    <!-- Single Gallery End -->
-
-    <!-- Single Gallery Start -->
-    <div class="col-lg-3  col-sm-6 recent pic">
-        <div class="single-gallery-item gallery-bg-3">
-            <div class="gallery-hvr-wrap">
-                <div class="gallery-hvr-text">
-                    <h4>University Cumpus</h4>
-                    <p class="gallery-event-date">28 Oct, 2018</p>
-                </div>
-                <a href="assets/img/gallery/gellary-img-3.jpg" class="btn-zoom image-popup">
-                    <img src="assets/img/zoom-icon.png" alt="a">
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- Single Gallery End -->
-
-    <!-- Single Gallery Start -->
-    <div class="col-lg-3  col-sm-6 old">
-        <div class="single-gallery-item gallery-bg-4">
-            <div class="gallery-hvr-wrap">
-                <div class="gallery-hvr-text">
-                    <h4>University Cumpus</h4>
-                    <p class="gallery-event-date">28 Oct, 2018</p>
-                </div>
-                <a href="assets/img/gallery/gellary-img-4.jpg" class="btn-zoom image-popup">
-                    <img src="assets/img/zoom-icon.png" alt="a">
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- Single Gallery End -->
-
-    <!-- Single Gallery Start -->
-    <div class="col-lg-3  col-sm-6 pic event">
-        <div class="single-gallery-item gallery-bg-5">
-            <div class="gallery-hvr-wrap">
-                <div class="gallery-hvr-text">
-                    <h4>University Cumpus</h4>
-                    <p class="gallery-event-date">28 Oct, 2018</p>
-                </div>
-                <a href="assets/img/gallery/gellary-img-5.jpg" class="btn-zoom image-popup">
-                    <img src="assets/img/zoom-icon.png" alt="a">
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- Single Gallery End -->
-
-    <!-- Single Gallery Start -->
-    <div class="col-lg-3  col-sm-6 old recent">
-        <div class="single-gallery-item gallery-bg-6">
-            <div class="gallery-hvr-wrap">
-                <div class="gallery-hvr-text">
-                    <h4>University Cumpus</h4>
-                    <p class="gallery-event-date">28 Oct, 2018</p>
-                </div>
-                <a href="assets/img/gallery/gellary-img-6.jpg" class="btn-zoom image-popup">
-                    <img src="assets/img/zoom-icon.png" alt="a">
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- Single Gallery End -->
-
-    <!-- Single Gallery Start -->
-    <div class="col-lg-3  col-sm-6 pic">
-        <div class="single-gallery-item video gallery-bg-7">
-            <a href="https://player.vimeo.com/video/181545195?title=0&portrait=0&byline=0&autoplay=1&loop=1"
-               class="btn btn-video-play video-popup"><i class="fa fa-play"></i></a>
-        </div>
-    </div>
-    <!-- Single Gallery End -->
-
-    <!-- Single Gallery Start -->
-    <div class="col-lg-3  col-sm-6 pic recent old">
-        <div class="single-gallery-item gallery-bg-8">
-            <div class="gallery-hvr-wrap">
-                <div class="gallery-hvr-text">
-                    <h4>University Cumpus</h4>
-                    <p class="gallery-event-date">28 Oct, 2018</p>
-                </div>
-                <a href="assets/img/gallery/gellary-img-8.jpg" class="btn-zoom image-popup">
-                    <img src="assets/img/zoom-icon.png" alt="a">
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- Single Gallery End -->
-</div>
-                                </div>
-                            </div>
+                           <!-- incase of another ones -->
                             <!-- Single Album End -->
                         </div>
                         <div class="pagination-wrap text-center">
                             <nav>
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="gallery.html#"><i class="fa fa-angle-left"></i></a></li>
-                                    <li class="page-item active"><a class="page-link" href="gallery.html#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="gallery.html#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="gallery.html#">3</a></li>
-                                    <li class="page-item"><a class="page-link" href="gallery.html#">...</a></li>
-                                    <li class="page-item"><a class="page-link" href="gallery.html#">50</a></li>
-                                    <li class="page-item"><a class="page-link" href="gallery.html#"><i class="fa fa-angle-right"></i></a></li>
+                                    <li class="page-item"><a class="page-link" href=""><i class="fa fa-angle-left"></i></a></li>
+                                    <li class="page-item active"><a class="page-link" href="">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="">...</a></li>
+                                    <li class="page-item"><a class="page-link" href="">50</a></li>
+                                    <li class="page-item"><a class="page-link" href=""><i class="fa fa-angle-right"></i></a></li>
                                 </ul>
                             </nav>
                         </div>
+                        <p></p>
+                        <p></p><br><br>
                     </div>
                 </div>
             </div>
@@ -479,113 +348,9 @@
         </div>
     </section>
     <!--== Gallery Page Content End ==-->
-
+   
     <!--== Footer Area Start ==-->
-<footer id="footer-area">
-    <!-- Footer Widget Start -->
-    <div class="footer-widget section-padding">
-        <div class="container">
-            <div class="row">
-                <!-- Single Widget Start -->
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single-widget-wrap">
-                        <div class="widgei-body">
-                            <div class="footer-about">
-                                <img src="assets/img/footer-logo.png" alt="Logo" class="img-fluid" />
-                                <p>We are legend Lorem ipsum dolor sitmet, nsecte ipisicing eit, sed do eiusmod tempor incidunt ut  et do maga aliqua enim ad minim.</p>
-                                <a href="gallery.html#">Phone: +8745 44 5444</a> <a href="gallery.html#">Fax: +88474 156 362</a> <br> <a href="gallery.html#">Email: demoemail@demo.com</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Widget End -->
-
-                <!-- Single Widget Start -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-widget-wrap">
-                        <h4 class="widget-title">Get In Touch</h4>
-                        <div class="widgei-body">
-                            <p>We are legend Lorem ipsum dolor sitmet, nsecte ipisicing eit, sed</p>
-                            <div class="newsletter-form">
-                                <form id="cbx-subscribe-form" role="search">
-                                    <input type="email" placeholder="Enter Your Email"  id="subscribe" required>
-                                    <button type="submit"><i class="fa fa-send"></i></button>
-                                </form>
-                            </div>
-                            <div class="footer-social-icons">
-                                <a href="gallery.html#" target="_blank"><i class="fa fa-facebook"></i></a>
-                                <a href="gallery.html#" target="_blank"><i class="fa fa-twitter"></i></a>
-                                <a href="gallery.html#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                <a href="gallery.html#" target="_blank"><i class="fa fa-vimeo"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Widget End -->
-
-                <!-- Single Widget Start -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-widget-wrap">
-                        <h4 class="widget-title">Usefull Link</h4>
-                        <div class="widgei-body">
-                            <ul class="double-list footer-list clearfix">
-                                <li><a href="gallery.html#">Pricing Plan</a></li>
-                                <li><a href="gallery.html#">Categories</a></li>
-                                <li><a href="gallery.html#">Populer Deal</a></li>
-                                <li><a href="gallery.html#">FAQ</a></li>
-                                <li><a href="gallery.html#">Support</a></li>
-                                <li><a href="gallery.html#">Pricing Plan</a></li>
-                                <li><a href="gallery.html#">Categories</a></li>
-                                <li><a href="gallery.html#">Populer Deal</a></li>
-                                <li><a href="gallery.html#">FAQ</a></li>
-                                <li><a href="gallery.html#">Support</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Widget End -->
-
-                <!-- Single Widget Start -->
-                <div class="col-lg-2 col-sm-6">
-                    <div class="single-widget-wrap">
-                        <h4 class="widget-title">University</h4>
-                        <div class="widgei-body">
-                            <ul class="footer-list clearfix">
-                                <li><a href="gallery.html#">Pricing Plan</a></li>
-                                <li><a href="gallery.html#">Categories</a></li>
-                                <li><a href="gallery.html#">Populer Deal</a></li>
-                                <li><a href="gallery.html#">FAQ</a></li>
-                                <li><a href="gallery.html#">Support</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Widget End -->
-            </div>
-        </div>
-    </div>
-    <!-- Footer Widget End -->
-
-    <!-- Footer Bottom Start -->
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="footer-bottom-text">
-                        <p>© 2018 Codeboxr, All Rights Reserved.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer Bottom End -->
-</footer>
-<!--== Footer Area End ==-->
-
-<!--== Scroll Top ==-->
-<a href="gallery.html#" class="scroll-top">
-    <i class="fa fa-angle-up"></i>
-</a>
+    <?php include "include/footer.php" ?>
 <!--== Scroll Top ==-->
 
     <!-- SITE SCRIPT  -->
