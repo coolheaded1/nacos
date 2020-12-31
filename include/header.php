@@ -38,7 +38,7 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="about.php" data-toggle="dropdown" role="button">About</a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-link" href="blog.php">Association</a></li>
+                                        <li class="nav-item <?php echo ($page == "about" ? "active" : "")?>"><a class="nav-link" href="about.php">Association</a></li>
                                         <li class="nav-item <?php echo ($page == "executive" ? "active" : "")?>"><a class="nav-link" href="executive.php">National Executive</a></li>
                                         <li class="nav-item <?php echo ($page == "boards" ? "active" : "")?>"><a class="nav-link" href="boards.php">National Advisory Board</a></li>
                                         <li class="nav-item <?php echo ($page == "pastPreidents" ? "active" : "")?>"><a class="nav-link" href="pastPreidents.php">Past National President</a></li>

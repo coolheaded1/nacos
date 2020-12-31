@@ -1,69 +1,4 @@
-<!DOCTYPE html>
-<html class="no-js" lang="zxx">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-    <title>uniAlumni</title>
-
-    <meta name="description" content="simple description for your site"/>
-<meta name="keywords" content="keyword1, keyword2"/>
-<meta name="author" content="Jobz"/>
-
-<!-- twitter card starts from here, if you don't need remove this section -->
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:site" content="@yourtwitterusername"/>
-<meta name="twitter:creator" content="@yourtwitterusername"/>
-<meta name="twitter:url" content="http://twitter.com"/>
-<meta name="twitter:title" content="Your home page title, max 140 char"/> <!-- maximum 140 char -->
-<meta name="twitter:description" content="Your site description, maximum 140 char "/> <!-- maximum 140 char -->
-<meta name="twitter:image"
-      content="assets/img/twittercardimg/twittercard-144-144.png"/>  <!-- when you post this page url in twitter , this image will be shown -->
-<!-- twitter card ends here -->
-
-<!-- facebook open graph starts from here, if you don't need then delete open graph related  -->
-<meta property="og:title" content="Your home page title"/>
-<meta property="og:url" content="http://your domain here.com"/>
-<meta property="og:locale" content="en_US"/>
-<meta property="og:site_name" content="Your site name here"/>
-<!--meta property="fb:admins" content="" /-->  <!-- use this if you have  -->
-<meta property="og:type" content="website"/> <!-- 'article' for single page  -->
-<meta property="og:image"
-      content="assets/img/opengraph/fbphoto-476-476.png"/> <!-- when you post this page url in facebook , this image will be shown -->
-<!-- facebook open graph ends here -->
-
-<!-- desktop bookmark -->
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-
-<!-- icons & favicons -->
-<link rel="shortcut icon" type="image/x-icon"  href="assets/img/favicon/favicon.ico"/>  <!-- this icon shows in browser toolbar -->
-<link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico"/> <!-- this icon shows in browser toolbar -->
-<link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
-<link rel="manifest" href="assets/img/favicon/manifest.json">
-
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
-<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-
-<!-- Fallback For IE 9 [ Media Query and html5 Shim] -->
-<!--[if lt IE 9]>
-<script src="assets/vendor/css3-mediaqueries-js/css3-mediaqueries.js"></script>
-<![endif]-->
-
+<?php $page="about"; include "include/og_graph.php";  ?>
 <!-- GOOGLE FONT -->
 <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet" />
 
@@ -94,30 +29,21 @@
 
 <!-- Main Master Style  CSS  -->
 <link id="cbx-style" data-layout="1" rel="stylesheet" href="assets/css/style-default.min.css" media="all" />
-
-
 </head>
 <body>
-
-<!--[if lt IE 7]>
-<p class="browsehappy">We are Extreamly sorry, But the browser you are using is probably from when civilization started.
-    Which is way behind to view this site properly. Please update to a modern browser, At least a real browser. </p>
-<![endif]-->
-
 <!--== Header Area Start ==-->
 <?php include "include/header.php" ?>
 <!--== Header Area End ==-->
 
 <!--== Page Title Area Start ==-->
-<section id="page-title-area">
+<section class="exec_img" id="page-title-area">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 m-auto text-center">
                 <div class="page-title-content">
                     <h1 class="h2">About Us</h1>
-                    <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the
-                        need</p>
-                    <a href="about.html#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a>
+                    <p>We Are Nacosites</p>
+                    <!-- <a href="about.html#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a> -->
                 </div>
             </div>
         </div>
@@ -127,49 +53,27 @@
 
 <!--== Committee Page Content Start ==-->
 <section id="page-content-wrap">
-    <div class="about-page-content-wrap section-padding">
+    <div class="about-page-content-wrap section-padding" style="padding-top:6em;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-11 m-auto">
                     <!-- Single about text start -->
                     <div class="single-about-text">
-                        <span class="year">1834</span>
-                        <img src="assets/img/about-page/about-img-1.jpg" alt="About" class="img-fluid img-left">
-                        <h2 class="h3">ESTD of This Alumni Assotitation</h2>
-                        <p>Aenean viverra rhoncus sspede. Phasellssus leo dolor, tempus non, auctor endrerit
-                            quis, nisi. Fusce neque. Donec vitae orci sed dolor rutrum ausssctor. Sed
-                            fringilla mauris sit amet nibh.</p>
-                        <p>Etiam rhoncus. Ut lddffdfqwqeo. Morbi mollis tellus ac sapien. Fusce fermentum oo
-                            nec arcu. Quisque manisl idUt leo. Morbi mollis tellus ac sapien. Fusce
-                            fermentum oo nec ante tempus hendrerit. Curabitur at lacus ac velit ornare
-                            lobortis. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In
-                            turpis. Quisque id mi.Aenean viverra rhoncus pede. Phasellus leo dolor, tempus non, auctor endrerit quis, nisi.
-                            Fusce neque. Donec vitae orci sed dolor rutrum auctor. Sed fringilla mauris sit amet
-                            nibh.Etiam rhoncus. Ut leo. Morbi mollis tellus ac sapien. Fusce fermentum oo nec arcu.
-                            Quisque malesuada placerat nisl. Etiam sit amet orci eget faucitincidunt. Quisque
-                            rutrum. Pellentesque posuere. Praesent ac massa at ligula laoureet iaculis. Cras risus
-                            ipsum, faucibus ut, ullamcorper id, varius ac, leo.</p>
+                        <span class="year">1993</span>
+                        <img src="assets/img/Conteco2/Conteco D2-225.jpg" alt="About" class="img-fluid img-left">
+                        <h2 class="h3">So How Did It All Start...</h2>
+                        <p>NACOSS was founded by groups of students in July 1993 with the backing of Nigerian Computer Society (NCS) as its parent body. It provides avenues for students (in any IT related field) to highlight and champion issues of interest in a coordinated and organized manner.</p>
+                        <p>NACOSS members (NACOSSites) are students studying in tertiary institutions in computer related disciplines including: Computer Science, Computer Engineering, Information Technology, etc.</p>
                     </div>
                     <!-- Single about text End -->
 
                     <!-- Single about text start -->
                     <div class="single-about-text">
-                        <span class="year">1920</span>
-                        <img src="assets/img/about-page/about-img-2.jpg" alt="About" class="img-fluid img-right">
+                        <span class="year">2012</span>
+                        <img src="assets/img/Conteco2/Conteco D2-228.jpg" alt="About" class="img-fluid img-right">
                         <h2 class="h3">Our First Achivement in History</h2>
-                        <p>Aenean viverra rhoncus sspede. Phasellssus leo dolor, tempus non, auctor endrerit
-                            quis, nisi. Fusce neque. Donec vitae orci sed dolor rutrum ausssctor. Sed
-                            fringilla mauris sit amet nibh.</p>
-                        <p>Etiam rhoncus. Ut lddffdfqwqeo. Morbi mollis tellus ac sapien. Fusce fermentum oo
-                            nec arcu. Quisque manisl idUt leo. Morbi mollis tellus ac sapien. Fusce
-                            fermentum oo nec ante tempus hendrerit. Curabitur at lacus ac velit ornare
-                            lobortis. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In
-                            turpis. Quisque id mi.Aenean viverra rhoncus pede. Phasellus leo dolor, tempus non, auctor endrerit quis, nisi.
-                            Fusce neque. Donec vitae orci sed dolor rutrum auctor. Sed fringilla mauris sit amet
-                            nibh.Etiam rhoncus. Ut leo. Morbi mollis tellus ac sapien. Fusce fermentum oo nec arcu.
-                            Quisque malesuada placerat nisl. Etiam sit amet orci eget faucitincidunt. Quisque
-                            rutrum. Pellentesque posuere. Praesent ac massa at ligula laoureet iaculis. Cras risus
-                            ipsum, faucibus ut, ullamcorper id, varius ac, leo.</p>
+                        <p>Each member is essentially a member of the Association’s local chapter in his or her institution.<br><br> As of April 2012, NACOSS states that it is the largest and most organized student body in West Africa, with registered members of about Two Hundred and Fifty thousand (250 000) in well over One Hundred and fifty local chapters (and more unregistered) in different Institutions (Universities, Polytechnics and Colleges of Education) across the six (6) Geo-political zones of Nigeria.</p>
+                       
                     </div>
                     <!-- Single about text End -->
 
@@ -200,65 +104,82 @@
 
     <!--== FunFact Area Start ==-->
 <section id="funfact-area">
-    <div class="container-fluid">
-        <div class="row text-center">
-            <!--== Single FunFact Start ==-->
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-funfact-wrap">
-                    <div class="funfact-icon">
-                        <img src="assets/img/fun-fact/user.svg" alt="Funfact">
-                    </div>
-                    <div class="funfact-info">
-                        <h5 class="funfact-count">4025</h5>
-                        <p>Members</p>
-                    </div>
-                </div>
-            </div>
-            <!--== Single FunFact End ==-->
+<div class="container-fluid">
+<div class="job-opportunity-wrapper">
+                        <div class="row">
+                            <!--== Single Job opportunity Start ==-->
+                            <div class="col-lg-3 col-sm-6 text-center">
+                                <div class="single-job-opportunity">
+                                    <div class="job-opportunity-text">
+                                        <div class="job-oppor-logo">
+                                            <div class="display-table">
+                                                <div class="display-table-cell">
+                                                <span class="fa fa-gavel" style="font-size:65px; color:white;" ></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h3 ><a href="career.html# " style="color:white;">Nacos Constitution</a></h3>
+                                    </div>
+                                    <a href="career.html#" class="btn btn-job">Download now</a>
+                                </div>
+                            </div>
+                            <!--== Single Job opportunity End ==-->
 
-            <!--== Single FunFact Start ==-->
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-funfact-wrap">
-                    <div class="funfact-icon">
-                        <img src="assets/img/fun-fact/picture.svg" alt="Funfact">
-                    </div>
-                    <div class="funfact-info">
-                        <h5 class="funfact-count">8725</h5>
-                        <p>Photos</p>
-                    </div>
-                </div>
-            </div>
-            <!--== Single FunFact End ==-->
+                            <!--== Single Job opportunity Start ==-->
+                            <div class="col-lg-3 col-sm-6 text-center">
+                                <div class="single-job-opportunity">
+                                    <div class="job-opportunity-text">
+                                        <div class="job-oppor-logo">
+                                            <div class="display-table">
+                                                <div class="display-table-cell">
+                                                <span class="fa fa-book" style="font-size:65px; color:white;" ></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h3><a href="career.html#"  style="color:white;">Nacos NEC Agenda</a></h3>
+                                         </div>
+                                    <a href="career.html#" class="btn btn-job">Learn More</a>
+                                </div>
+                            </div>
+                            <!--== Single Job opportunity End ==-->
 
-            <!--== Single FunFact Start ==-->
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-funfact-wrap">
-                    <div class="funfact-icon">
-                        <img src="assets/img/fun-fact/event.svg" alt="Funfact">
-                    </div>
-                    <div class="funfact-info">
-                        <h5><span class="funfact-count">231</span>+</h5>
-                        <p>Events</p>
-                    </div>
-                </div>
-            </div>
-            <!--== Single FunFact End ==-->
-
-            <!--== Single FunFact Start ==-->
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-funfact-wrap">
-                    <div class="funfact-icon">
-                        <img src="assets/img/fun-fact/medal.svg" alt="Funfact">
-                    </div>
-                    <div class="funfact-info">
-                        <h5><span class="funfact-count">32</span>+</h5>
-                        <p>Awards</p>
-                    </div>
-                </div>
-            </div>
-            <!--== Single FunFact End ==-->
-        </div>
-    </div>
+                            <!--== Single Job opportunity Start ==-->
+                            <div class="col-lg-3 col-sm-6 text-center">
+                                <div class="single-job-opportunity">
+                                    <div class="job-opportunity-text">
+                                        <div class="job-oppor-logo">
+                                            <div class="display-table">
+                                                <div class="display-table-cell">
+                                                    <span class="fa fa-address-card" style="font-size:65px; color:white;" ></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h3 ><a href="assets/img/NACOSS-National-ID-Template.cdr" style="color:white;">Nacos ID Card Template</a></h3>
+                                         </div>
+                                    <a href="assets/img/NACOSS-National-ID-Template.cdr" download class="btn btn-job ">Download Now</a>
+                                </div>
+                            </div>
+                            <!--== Single Job opportunity End ==-->
+                             <!--== Single Job opportunity Start ==-->
+                             <div class="col-lg-3 col-sm-6 text-center">
+                                <div class="single-job-opportunity">
+                                    <div class="job-opportunity-text">
+                                        <div class="job-oppor-logo">
+                                            <div class="display-table">
+                                                <div class="display-table-cell">
+                                                    <img src="assets/img/NNL.png" alt="Job">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h3 ><a href="assets/img/NNL.png" download style="color:white;">NACOS Official Logo</a></h3>
+                                         </div>
+                                    <a href="assets/img/NNL.png" download class="btn btn-job">Download Now</a>
+                                </div>
+                            </div>
+                            <!--== Single Job opportunity End ==-->
+                        </div>
+                        </div>
+                        </div>
 </section>
 <!--== FunFact Area End ==-->
 
@@ -421,113 +342,8 @@
     </div>
 </section>
 <!--== Committee Page Content End ==-->
-
 <!--== Footer Area Start ==-->
-<footer id="footer-area">
-    <!-- Footer Widget Start -->
-    <div class="footer-widget section-padding">
-        <div class="container">
-            <div class="row">
-                <!-- Single Widget Start -->
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single-widget-wrap">
-                        <div class="widgei-body">
-                            <div class="footer-about">
-                                <img src="assets/img/footer-logo.png" alt="Logo" class="img-fluid" />
-                                <p>We are legend Lorem ipsum dolor sitmet, nsecte ipisicing eit, sed do eiusmod tempor incidunt ut  et do maga aliqua enim ad minim.</p>
-                                <a href="about.html#">Phone: +8745 44 5444</a> <a href="about.html#">Fax: +88474 156 362</a> <br> <a href="about.html#">Email: demoemail@demo.com</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Widget End -->
-
-                <!-- Single Widget Start -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-widget-wrap">
-                        <h4 class="widget-title">Get In Touch</h4>
-                        <div class="widgei-body">
-                            <p>We are legend Lorem ipsum dolor sitmet, nsecte ipisicing eit, sed</p>
-                            <div class="newsletter-form">
-                                <form id="cbx-subscribe-form" role="search">
-                                    <input type="email" placeholder="Enter Your Email"  id="subscribe" required>
-                                    <button type="submit"><i class="fa fa-send"></i></button>
-                                </form>
-                            </div>
-                            <div class="footer-social-icons">
-                                <a href="about.html#" target="_blank"><i class="fa fa-facebook"></i></a>
-                                <a href="about.html#" target="_blank"><i class="fa fa-twitter"></i></a>
-                                <a href="about.html#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                <a href="about.html#" target="_blank"><i class="fa fa-vimeo"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Widget End -->
-
-                <!-- Single Widget Start -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-widget-wrap">
-                        <h4 class="widget-title">Usefull Link</h4>
-                        <div class="widgei-body">
-                            <ul class="double-list footer-list clearfix">
-                                <li><a href="about.html#">Pricing Plan</a></li>
-                                <li><a href="about.html#">Categories</a></li>
-                                <li><a href="about.html#">Populer Deal</a></li>
-                                <li><a href="about.html#">FAQ</a></li>
-                                <li><a href="about.html#">Support</a></li>
-                                <li><a href="about.html#">Pricing Plan</a></li>
-                                <li><a href="about.html#">Categories</a></li>
-                                <li><a href="about.html#">Populer Deal</a></li>
-                                <li><a href="about.html#">FAQ</a></li>
-                                <li><a href="about.html#">Support</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Widget End -->
-
-                <!-- Single Widget Start -->
-                <div class="col-lg-2 col-sm-6">
-                    <div class="single-widget-wrap">
-                        <h4 class="widget-title">University</h4>
-                        <div class="widgei-body">
-                            <ul class="footer-list clearfix">
-                                <li><a href="about.html#">Pricing Plan</a></li>
-                                <li><a href="about.html#">Categories</a></li>
-                                <li><a href="about.html#">Populer Deal</a></li>
-                                <li><a href="about.html#">FAQ</a></li>
-                                <li><a href="about.html#">Support</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Widget End -->
-            </div>
-        </div>
-    </div>
-    <!-- Footer Widget End -->
-
-    <!-- Footer Bottom Start -->
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="footer-bottom-text">
-                        <p>© 2018 Codeboxr, All Rights Reserved.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer Bottom End -->
-</footer>
-<!--== Footer Area End ==-->
-
-<!--== Scroll Top ==-->
-<a href="about.html#" class="scroll-top">
-    <i class="fa fa-angle-up"></i>
-</a>
+<?php include "include/footer.php" ?>
 <!--== Scroll Top ==-->
 
 <!-- SITE SCRIPT  -->
@@ -581,10 +397,5 @@
 
 <!-- custom js: custom js file is added for easy custom js code  -->
 <script src="assets/js/custom.js"></script>
-
-<!-- custom js: custom scripts for theme style switcher for demo purpose  -->
-<script id="switcherhandle" src="assets/switcher/switcher.js"></script>
-
-
 </body>
 </html>

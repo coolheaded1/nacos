@@ -25,6 +25,7 @@
 <script src="assets/vendor/modernizr/modernizr-custom.js"></script>
 
 <!-- Main Master Style  CSS  -->
+<link rel="stylesheet" href="assets/css/gallery.min.css" media="all" />
 <link id="cbx-style" data-layout="1" rel="stylesheet" href="assets/css/style-default.min.css" media="all" />
 
 </head>
@@ -78,6 +79,7 @@
     <!-- Single Gallery Start -->
     <div class="col-lg-3  col-sm-6 recent event">
         <div class="single-gallery-item gallery-bg-1">
+        <img src="assets/img/Conteco2/Conteco_D2-295.jpg" alt="a">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
                     <h4>Conteco 2019 Day 2</h4>
@@ -94,6 +96,7 @@
     <!-- Single Gallery Start -->
     <div class="col-lg-3  col-sm-6 old event pic">
         <div class="single-gallery-item video gallery-bg-2">
+        <img src="assets/img/Conteco2/Conteco D2-235.jpg" alt="">
             <a href="https://player.vimeo.com/video/140182080?title=0&portrait=0&byline=0&autoplay=1&loop=1"
                class="btn btn-video-play video-popup"><i class="fa fa-play"></i></a>
         </div>
@@ -103,12 +106,13 @@
     <!-- Single Gallery Start -->
     <div class="col-lg-3  col-sm-6 recent pic">
         <div class="single-gallery-item gallery-bg-3">
+        <img src="assets/img/Conteco2/Conteco D2-46.jpg" alt="">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
                     <h4>Conteco 2019 Day 2</h4>
                     <p class="gallery-event-date">28 Oct, 2019</p>
                 </div>
-                <a href="assets/img/gallery/gellary-img-3.jpg" class="btn-zoom image-popup">
+                <a href="assets/img/Conteco2/Conteco D2-46.jpg" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
                 </a>
             </div>
@@ -119,12 +123,13 @@
     <!-- Single Gallery Start -->
     <div class="col-lg-3  col-sm-6 old">
         <div class="single-gallery-item gallery-bg-4">
+        <img src="assets/img/Conteco2/Conteco D2-66.jpg" alt="">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
                     <h4>Conteco 2019 Day 2</h4>
                     <p class="gallery-event-date">28 Oct, 2019</p>
                 </div>
-                <a href="assets/img/gallery/gellary-img-4.jpg" class="btn-zoom image-popup">
+                <a href="assets/img/Conteco2/Conteco D2-66.jpg" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
                 </a>
             </div>
@@ -135,12 +140,13 @@
     <!-- Single Gallery Start -->
     <div class="col-lg-3  col-sm-6 pic event">
         <div class="single-gallery-item gallery-bg-5">
+        <img src="assets/img/Conteco2/Conteco D2-223.jpg" alt="">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
                     <h4>Conteco 2019 Day 2</h4>
                     <p class="gallery-event-date">28 Oct, 2019</p>
                 </div>
-                <a href="assets/img/gallery/gellary-img-5.jpg" class="btn-zoom image-popup">
+                <a href="assets/img/Conteco2/Conteco D2-223.jpgg" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
                 </a>
             </div>
@@ -151,12 +157,13 @@
     <!-- Single Gallery Start -->
     <div class="col-lg-3  col-sm-6 old recent">
         <div class="single-gallery-item gallery-bg-6">
+        <img src="assets/img/Conteco2/Conteco D2-242.jpg" alt="">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
                     <h4>Conteco 2019 Day 2</h4>
                     <p class="gallery-event-date">28 Oct, 2019</p>
                 </div>
-                <a href="assets/img/gallery/gellary-img-6.jpg" class="btn-zoom image-popup">
+                <a href="assets/img/Conteco2/Conteco D2-242.jpg" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
                 </a>
             </div>
@@ -167,6 +174,7 @@
     <!-- Single Gallery Start -->
     <div class="col-lg-3  col-sm-6 pic">
         <div class="single-gallery-item video gallery-bg-7">
+    <img src="assets/img/Conteco2/Conteco D2-244.jpg" alt="">
             <a href="https://player.vimeo.com/video/181545195?title=0&portrait=0&byline=0&autoplay=1&loop=1"
                class="btn btn-video-play video-popup"><i class="fa fa-play"></i></a>
         </div>
@@ -176,12 +184,13 @@
     <!-- Single Gallery Start -->
     <div class="col-lg-3  col-sm-6 pic recent old">
         <div class="single-gallery-item gallery-bg-8">
+        <img src="assets/img/Conteco2/Conteco D2-131.jpg" alt="">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
                     <h4>Conteco 2019 Day 2</h4>
                     <p class="gallery-event-date">28 Oct, 2019</p>
                 </div>
-                <a href="assets/img/gallery/gellary-img-8.jpg" class="btn-zoom image-popup">
+                <a href="assets/img/Conteco2/Conteco D2-131.jpg" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
                 </a>
             </div>
@@ -207,12 +216,13 @@
     <!-- Single Gallery Start -->
     <div class="col-lg-3  col-sm-6 recent event">
         <div class="single-gallery-item gallery-bg-1">
+        <img src="assets/img/Conteco1/DSC_0001.JPG" alt="">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
                     <h4>Conteco 2019 Day 1</h4>
                     <p class="gallery-event-date">27 Oct, 2019</p>
                 </div>
-                <a href="assets/img/gallery/gellary-img-1.jpg" class="btn-zoom image-popup">
+                <a href="assets/img/Conteco1/DSC_0001.JPG" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
                 </a>
             </div>
@@ -223,6 +233,7 @@
     <!-- Single Gallery Start -->
     <div class="col-lg-3  col-sm-6 old event pic">
         <div class="single-gallery-item video gallery-bg-2">
+        <img src="assets/img/Conteco1/DSC_0001.JPG" alt="">
             <a href="https://player.vimeo.com/video/140182080?title=0&portrait=0&byline=0&autoplay=1&loop=1"
                class="btn btn-video-play video-popup"><i class="fa fa-play"></i></a>
         </div>
@@ -232,12 +243,13 @@
     <!-- Single Gallery Start -->
     <div class="col-lg-3  col-sm-6 recent pic">
         <div class="single-gallery-item gallery-bg-3">
+        <img src="assets/img/Conteco1/DSC_0039.JPG" alt="">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
                     <h4>Conteco 2019 Day 1</h4>
                     <p class="gallery-event-date">27 Oct, 2019</p>
                 </div>
-                <a href="assets/img/gallery/gellary-img-3.jpg" class="btn-zoom image-popup">
+                <a href="assets/img/Conteco1/DSC_0039.JPG" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
                 </a>
             </div>
@@ -248,12 +260,13 @@
     <!-- Single Gallery Start -->
     <div class="col-lg-3  col-sm-6 old">
         <div class="single-gallery-item gallery-bg-4">
+        <img src="assets/img/Conteco1/DSC_0064.JPG" alt="">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
                     <h4>Conteco 2019 Day 1</h4>
                     <p class="gallery-event-date">27 Oct, 2019</p>
                 </div>
-                <a href="assets/img/gallery/gellary-img-4.jpg" class="btn-zoom image-popup">
+                <a href="assets/img/Conteco1/DSC_0064.JPG" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
                 </a>
             </div>
@@ -264,12 +277,13 @@
     <!-- Single Gallery Start -->
     <div class="col-lg-3  col-sm-6 pic event">
         <div class="single-gallery-item gallery-bg-5">
+        <img src="assets/img/Conteco1/DSC_0072.JPG" alt="">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
                     <h4>Conteco 2019 Day 1</h4>
                     <p class="gallery-event-date">27 Oct, 2019</p>
                 </div>
-                <a href="assets/img/gallery/gellary-img-5.jpg" class="btn-zoom image-popup">
+                <a href="assets/img/Conteco1/DSC_0072.JPG" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
                 </a>
             </div>
@@ -280,12 +294,13 @@
     <!-- Single Gallery Start -->
     <div class="col-lg-3  col-sm-6 old recent">
         <div class="single-gallery-item gallery-bg-6">
+        <img src="assets/img/Conteco1/DSC_0084.JPG" alt="">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
                     <h4>Conteco 2019 Day 1</h4>
                     <p class="gallery-event-date">27 Oct, 2019</p>
                 </div>
-                <a href="assets/img/gallery/gellary-img-6.jpg" class="btn-zoom image-popup">
+                <a href="assets/img/Conteco1/DSC_0084.JPG" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
                 </a>
             </div>
@@ -296,6 +311,7 @@
     <!-- Single Gallery Start -->
     <div class="col-lg-3  col-sm-6 pic">
         <div class="single-gallery-item video gallery-bg-7">
+        <img src="assets/img/Conteco2/Conteco D2-27.jpg" alt="">
             <a href="https://player.vimeo.com/video/181545195?title=0&portrait=0&byline=0&autoplay=1&loop=1"
                class="btn btn-video-play video-popup"><i class="fa fa-play"></i></a>
         </div>
@@ -305,12 +321,13 @@
     <!-- Single Gallery Start -->
     <div class="col-lg-3  col-sm-6 pic recent old">
         <div class="single-gallery-item gallery-bg-8">
+        <img src="assets/img/Conteco2/Conteco D2-175.jpg" alt="">
             <div class="gallery-hvr-wrap">
                 <div class="gallery-hvr-text">
                     <h4>Conteco 2019 Day 1</h4>
                     <p class="gallery-event-date">27 Oct, 2019</p>
                 </div>
-                <a href="assets/img/gallery/gellary-img-8.jpg" class="btn-zoom image-popup">
+                <a href="assets/img/Conteco2/Conteco D2-175.jpg" class="btn-zoom image-popup">
                     <img src="assets/img/zoom-icon.png" alt="a">
                 </a>
             </div>

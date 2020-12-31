@@ -661,7 +661,6 @@
     </div>
 </section>
 <!--== Blog Area EndBlog ==-->
-
 <?php include "include/footer.php" ?>
 <!--== Scroll Top ==-->
 
