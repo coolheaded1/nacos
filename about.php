@@ -66,13 +66,13 @@
                         <p>NACOSS members (NACOSSites) are students studying in tertiary institutions in computer related disciplines including: Computer Science, Computer Engineering, Information Technology, etc.</p>
                     </div>
                     <!-- Single about text End -->
-                    <section id="page-content-wrap" style="padding-top:3em;">
+                    <!-- <section id="page-content-wrap" style="padding-top:3em;">
                     <div class="event-page-content-wrap ">
                     <div class="row">
                         <div class="col-lg-12">
-                            <div class="all-event-list">
+                            <div class="all-event-list"> -->
                                 <!-- Single Event Start -->
-                                <div class="single-upcoming-event">
+                                <!-- <div class="single-upcoming-event">
                                     <div class="row">
                                         <div class="col-lg-5">
                                             <div class="up-event-thumb">
@@ -97,13 +97,13 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Single Event End -->
-                            </div>
+                            <!-- </div>
                     </div>
                     </div>
                 </div>
-                </section>
+                </section> -->
      
                     <!-- Single about text start -->
                     <div class="single-about-text">
@@ -223,97 +223,23 @@
                         </div>
                         </div>
                         </div>
-</section>
-<!--== FunFact Area End ==-->
-
-    <div class="our-honorable-commitee section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="about-page-area-title">
-                        <h2>Our Honorable Committe</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="honorable-committee-list">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-1.jpg" class="img-fluid" alt="Committee"/>
+                </section>
+                            <br><br>
+                            <!--== FunFact Area End ==-->
+                            <h3 style="text-align:center">Our  Partners</h3>
+                            <section class="customer-logos slider">
+                                <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
+                                <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+                                <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+                                <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
+                                <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+                                <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
+                                <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
+                                <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
+                            </section>
                             </div>
-                            <h3>BRYAN WATSHON<span class="committee-deg">President</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-2.jpg" class="img-fluid" alt="Committee"/>
-                            </div>
-                            <h3>CARLOS HELU<span class="committee-deg">Vice President</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-3.jpg" class="img-fluid" alt="Committee"/>
-                            </div>
-                            <h3>ANGLE TUNI<span class="committee-deg">Secretary</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-5.jpg" class="img-fluid" alt="Committee"/>
-                            </div>
-                            <h3>ALEX KALIFA<span class="committee-deg">Asst Secretary</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-6.jpg" class="img-fluid" alt="Committee"/>
-                            </div>
-                            <h3>ALEX Tuntuni<span class="committee-deg">Office Secretary</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-7.jpg" class="img-fluid" alt="Committee"/>
-                            </div>
-                            <h3>MAL MUHIT<span class="committee-deg">Finance Member</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-8.jpg" class="img-fluid" alt="Committee"/>
-                            </div>
-                            <h3>PRINCE RIMON<span class="committee-deg">Committee Member</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-1.jpg" class="img-fluid" alt="Committee"/>
-                            </div>
-                            <h3>PRINCE KAMLA<span class="committee-deg">Committee Member</span></h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+                            <p></p><p></p><br><br>
+                    </section>
 <!--== Committee Page Content End ==-->
 <!--== Footer Area Start ==-->
 <?php include "include/footer.php" ?>
@@ -368,6 +294,8 @@
 <!-- custom js: main custom theme js file  -->
 <script src="assets/js/theme.min.js"></script>
 
+<!-- slick carousel slider -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 <!-- custom js: custom js file is added for easy custom js code  -->
 <script src="assets/js/custom.js"></script>
 </body>
