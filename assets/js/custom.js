@@ -2,8 +2,10 @@
 
 jQuery(document).ready(function($){
     //your custom js code here
-
+    $( "#ndndnd" ).addClass("classToBeAdded");
+    window.setTimeout('hide_loader()',2010);
 });
+function hide_loader(){$('.loader-container').hide();}
 
 $(document).ready(function(){
     $('.customer-logos').slick({
@@ -28,10 +30,9 @@ $(document).ready(function(){
     });
 });
 
-document.getElementById("paraDiv1").className += " btn-brand:focus";
+// document.getElementById("ndndnd").className += " classToBeAdded";
 function showDiv(num) {
-    document.getElementById("paraDiv1").className.replace
-    ( /(?:^|\s)btn-brand:focus(?!\S)/g , '' );
+    jQuery(document).ready(function($){$( "#ndndnd" ).removeClass("classToBeAdded");});
     document.getElementById('paraDiv1').style.display='none';
     document.getElementById('paraDiv2').style.display='none';
     document.getElementById('paraDiv3').style.display='none';

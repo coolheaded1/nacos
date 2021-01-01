@@ -58,15 +58,8 @@
 <!--== Committee Page Content Start ==-->
 <section id="page-content-wrap">
     <div class="about-page-content-wrap ">
-        <div class="container">      
-
-        <!-- <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="about-page-area-title">
-                        <h2>Our Honorable Committe</h2>
-                    </div>
-                </div>
-            </div> -->
+        <div class="container">  
+            
 <!-- start sec -->
             <div class="honorable-committee-list">
                 <div class="row">
@@ -75,7 +68,7 @@
                             <div class="commitee-thumb">
                                 <img src="assets/img/committee/commitee-1.jpg" class="img-fluid exec_others" alt="Committee"/>
                             </div>
-                            <h3>Mr Adetayo Bamiduro<span class="committee-deg">University of Ibadan<br>ZONE: South west<br>Year of Service: </span></h3>
+                            <h3>Mr Adetayo Bamiduro<span class="committee-deg">ZONE: South west<br>Year of Service: </span></h3>
                         </div>
                     </div>
 
@@ -84,7 +77,7 @@
                             <div class="commitee-thumb">
                                 <img src="assets/img/committee/commitee-2.jpg" class="img-fluid exec_others" alt="Committee"/>
                             </div>
-                            <h3>Mr Olusegun Olutayo<span class="committee-deg">Obafemi Awolowo University Ile-Ife<br>ZONE: South West<br>Year of Service: March 2004 - Feb 2006</span></h3>
+                            <h3>Mr Olusegun Olutayo<span class="committee-deg">ZONE: South West<br>Year of Service: March 2004 - Feb 2006</span></h3>
                         </div>
                     </div>
 
@@ -100,27 +93,27 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
                             <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-5.jpg" class="img-fluid exec_others" alt="Committee"/>
+                                <img src="assets/img/committee/Bayo Mohammed Onimode.jpg" class="img-fluid exec_others" alt="Committee"/>
                             </div>
-                            <h3>Mr Bayo Mohammed Onimode<span class="committee-deg">University of Jos<br>ZONE:  North Central<br>Year of Service: March 2007 - August 2008</span></h3>
+                            <h3>Mr Bayo Mohammed Onimode<span class="committee-deg">ZONE:  North Central<br>Year of Service: March 2007 - August 2008</span></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
                             <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-6.jpg" class="img-fluid exec_others" alt="Committee"/>
+                                <img src="assets/img/committee/Ajetunmobi Oluwafemi.jpg" class="img-fluid exec_others" alt="Committee"/>
                             </div>
-                            <h3>Mr Oluwafemi Ajetunmobi<span class="committee-deg">Federal University of Technology Akure<br>ZONE: South West<br>Year of Service: Jun 2008 - Feb 2010</span></h3>
+                            <h3>Mr Oluwafemi Ajetunmobi<span class="committee-deg">ZONE: South West<br>Year of Service: Jun 2008 - Feb 2010</span></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
                             <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-7.jpg" class="img-fluid exec_others" alt="Committee"/>
+                                <img src="assets/img/committee/Olamide Odumosu.jpg" class="img-fluid exec_others" alt="Committee"/>
                             </div>
-                            <h3>Comr. Olamide Odumosu<span class="committee-deg">Federal University of Technology Minna Niger State<br>ZONE:North Central<br>Year of Service: Feb 2010 - July 2011</span></h3>
+                            <h3>Comr. Olamide Odumosu<span class="committee-deg">ZONE:North Central<br>Year of Service: Feb 2010 - July 2011</span></h3>
                         </div>
                     </div>
 
@@ -129,16 +122,16 @@
                             <div class="commitee-thumb">
                                 <img src="assets/img/committee/commitee-8.jpg" class="img-fluid exec_others" alt="Committee"/>
                             </div>
-                            <h3>Mr Segun Adnigbo<span class="committee-deg">Federal University of Technology Akure<br>ZONE:South West<br>Year of Service: </span></h3>
+                            <h3>Mr Segun Adnigbo<span class="committee-deg">ZONE:South West<br>Year of Service: </span></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
                             <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-1.jpg" class="img-fluid exec_others" alt="Committee"/>
+                                <img src="assets/img/committee/Stanley Okotie.jpg" class="img-fluid exec_others" alt="Committee"/>
                             </div>
-                            <h3>Mr Stanley Okotie<span class="committee-deg">Delta State University<br>ZONE:South South<br>Year of Service: Dec 2012 - Dec 2013</span></h3>
+                            <h3>Mr Stanley Okotie<span class="committee-deg">ZONE:South South<br>Year of Service: Dec 2012 - Dec 2013</span></h3>
                         </div>
                     </div>
 
@@ -146,36 +139,36 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
                             <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-1.jpg" class="img-fluid exec_others" alt="Committee"/>
+                                <img src="assets/img/committee/Tochuckwu.jpg" class="img-fluid exec_others" alt="Committee"/>
                             </div>
-                            <h3>Mr Ositadinma Tochuckwu<span class="committee-deg">Federal University of Technology Owerri<br>ZONE: South East<br>Year of Service: Sept 2014 - February 2016</span></h3>
+                            <h3>Mr Ositadinma Tochuckwu<span class="committee-deg">ZONE: South East<br>Year of Service: Sept 2014 - February 2016</span></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
                             <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-1.jpg" class="img-fluid exec_others" alt="Committee"/>
+                                <img src="assets/img/committee/Emmanuel Essiet.jpg" class="img-fluid exec_others" alt="Committee"/>
                             </div>
-                            <h3>Mr. Emmanuel Essiet<span class="committee-deg">University of Uyo, Akwa Ibom<br>ZONE: South South<br>Year of Service: Feb 2016 - July 2017</span></h3>
+                            <h3>Mr. Emmanuel Essiet<span class="committee-deg">ZONE: South South<br>Year of Service: Feb 2016 - July 2017</span></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
                             <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-1.jpg" class="img-fluid exec_others" alt="Committee"/>
+                                <img src="assets/img/committee/Akintomiwa Abolade.jpg" class="img-fluid exec_others" alt="Committee"/>
                             </div>
-                            <h3>Mr Akintomiwa Abolade<span class="committee-deg">Ladoke Akintola University of Technology Ogbomosho<br>ZONE: South West<br>Year of Service: July 2017 - Oct 2018</span></h3>
+                            <h3>Mr Akintomiwa Abolade<span class="committee-deg">ZONE: South West<br>Year of Service: July 2017 - Oct 2018</span></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="single-committee-member">
                             <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-1.jpg" class="img-fluid exec_others" alt="Committee"/>
+                                <img src="assets/img/committee/Abubakar Hassan.png" class="img-fluid exec_others" alt="Committee"/>
                             </div>
-                            <h3>Comr. Abubakr Sadiq Hassan<span class="committee-deg">Abubakar Tafawa Balewa University, Bauchi<br>ZONE: North East<br>Year of Service: Oct 2018 - Nov 2020</span></h3>
+                            <h3>Comr. Abubakr Sadiq Hassan<span class="committee-deg">ZONE: North East<br>Year of Service: Oct 2018 - Nov 2020</span></h3>
                         </div>
                     </div>
                 </div>

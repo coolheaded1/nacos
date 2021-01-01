@@ -79,7 +79,7 @@
                                                 <div class="display-table-cell">
                                                     <div class="up-event-text">
                                                         <div class="event-countdown">
-                                                        <a href="javascript:showDiv('1')" class="btn btn-brand btn-brand-dark " onclick="showDiv('1')">Mission</a>
+                                                        <a href="javascript:showDiv('1')" id="ndndnd" class="btn btn-brand btn-brand-dark " onclick="showDiv('1')">Mission</a>
                                                         <a href="javascript:showDiv('2')" class="btn btn-brand btn-brand-dark" onclick="showDiv('2')">Aims</a>
                                                         <a href="javascript:showDiv('3')" class="btn btn-brand btn-brand-dark" onclick="showDiv('3')">Focus</a>
                                                         </div>
