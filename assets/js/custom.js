@@ -27,3 +27,14 @@ $(document).ready(function(){
         }]
     });
 });
+
+document.getElementById("paraDiv1").className += " btn-brand:focus";
+function showDiv(num) {
+    document.getElementById("paraDiv1").className.replace
+    ( /(?:^|\s)btn-brand:focus(?!\S)/g , '' );
+    document.getElementById('paraDiv1').style.display='none';
+    document.getElementById('paraDiv2').style.display='none';
+    document.getElementById('paraDiv3').style.display='none';
+    document.getElementById('paraDiv'+num).style.display='block';
+}
+

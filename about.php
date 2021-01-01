@@ -66,44 +66,59 @@
                         <p>NACOSS members (NACOSSites) are students studying in tertiary institutions in computer related disciplines including: Computer Science, Computer Engineering, Information Technology, etc.</p>
                     </div>
                     <!-- Single about text End -->
-                    <!-- <section id="page-content-wrap" style="padding-top:3em;">
+                    <section id="page-content-wrap" style="padding-top:3em;">
                     <div class="event-page-content-wrap ">
                     <div class="row">
                         <div class="col-lg-12">
-                            <div class="all-event-list"> -->
+                            <div class="all-event-list">
                                 <!-- Single Event Start -->
-                                <!-- <div class="single-upcoming-event">
+                                <div class="single-upcoming-event">
                                     <div class="row">
-                                        <div class="col-lg-5">
-                                            <div class="up-event-thumb">
-                                                <img src="assets/img/event/event-img-1.jpg" class="img-fluid" alt="Upcoming Event">
-                                                <h4 class="up-event-date">It’s 27 February 2019</h4>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-7">
+                                        <div class="col-lg-12">
                                             <div class="display-table">
                                                 <div class="display-table-cell">
                                                     <div class="up-event-text">
                                                         <div class="event-countdown">
-                                                            <div class="event-countdown-counter" data-date="2018/9/10"></div>
-                                                            <p>Remaining</p>
+                                                        <a href="javascript:showDiv('1')" class="btn btn-brand btn-brand-dark " onclick="showDiv('1')">Mission</a>
+                                                        <a href="javascript:showDiv('2')" class="btn btn-brand btn-brand-dark" onclick="showDiv('2')">Aims</a>
+                                                        <a href="javascript:showDiv('3')" class="btn btn-brand btn-brand-dark" onclick="showDiv('3')">Focus</a>
                                                         </div>
-                                                        <h3><a href="single-event.html">We are going to arrange a get together!</a></h3>
-                                                        <p>Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipv ex ea.</p>
-                                                        <a href="single-event.html" class="btn btn-brand btn-brand-dark">join with us</a>
+                                                        <div id="paraDiv1">
+                                                        <h3><a href="single-event.html">Our Mission</a></h3>
+                                                        <h4>Through consistent and professional exposure</h4>
+                                                        <p>A study of NACOS activities indicates that it reveals IT career and entrepreneurship opportunities to the youth of Nigeria. </p>
+                                                        <p>We aim <br>
+                                                        <ul style="list-style-type:disc; text-align:justify;margin-left:4%;color:white;">
+                                                            <li> To serve both professional and public interests by fostering the open interchange of information and by promoting the highest professional and ethical standards.</li>
+                                                            <li>To protect the image and safeguard the interest of the Computing profession.</li>
+                                                            <li> To promote the understanding of the study of Computing in Nigeria and abroad.</li>
+                                                            <li>To promote the computing profession by organizing seminars, symposia, webinars, computing contests, and other activities aimed at achieving this goal.</li>
+                                                        </ul>
+                                                    </p>
+                                                        <a href="register.php" class="btn btn-brand btn-brand-dark" style="float:right;">Become Member</a>
+                                                        </div>
+                                                        <div id="paraDiv2" style="display:none;">
+                                                        <h3><a href="single-event.html">Our Aims & Objective</a></h3>
+                                                        <p>NACOS aims to re–orient the Nigerian youth and project the IT profession through Seminars, Lectures, Symposia, Workshops and other related activities. The intention appears to be the active and purposeful promotion of the study of IT and other positive forms of IT knowledge acquisition.<br><br>NACOSS organizes capacity building exercises to enlighten the youths, the young people of Nigeria on how to become entrepreneurs using acquired IT skills and also to create platforms for neophytes, and gurus associated with the intriguing world of Information Technology to exhibit their products, services and software to businesses, industry and the public.</p>
+                                                        <a href="register.php" class="btn btn-brand btn-brand-dark" style="float:right;">Become Member</a>
+                                                        </div>
+                                                        <div id="paraDiv3" style="display:none;">
+                                                        <h3><a href="single-event.html">Our Focus</a></h3>
+                                                        <p>Through consistent and professional exposure, NACOSS provides an excellent foundation for Computer Scientists, Engineers and any IT related disciplines in Nigeria. Over the years, NACOSS has given to the economy and society the finest professionals in Information and Communications Technology ICT and is dedicated to doing even more in future.<br><br>A study of NACOSS activities indicates that it reveals IT career and entrepreneurship opportunities to the youth of Nigeria. It provides opportunities for them to explore and fulfill their potentials and become more competitive in the IT environment locally and globally. It is about equipping young people to become contributors and change agents in Nigeria through IT.<br><br>When Nigeria youths are empowered and driven in the field of Computing and related areas, they drive change in Nigeria and Africa, and they change the face of IT.</p>
+                                                        <a href="register.phpl" class="btn btn-brand btn-brand-dark" style="float:right;">Become Member</a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div> -->
+                                </div>
                                 <!-- Single Event End -->
-                            <!-- </div>
+                            </div>
                     </div>
                     </div>
                 </div>
-                </section> -->
+                </section>
      
                     <!-- Single about text start -->
                     <div class="single-about-text">
@@ -117,10 +132,10 @@
 
                     <!-- Single about text start -->
                     <div class="single-about-text">
-                        <span class="year">2019</span>
-                        <img src="assets/img/about-page/about-img-3.jpg" alt="About" class="img-fluid img-left">
-                        <h2 class="h3">Conteco 2019</h2>
-                        <p style="text-align:justify;">Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. <br><br>Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please. Short information about Conteco 2019 here please.</p>
+                        <span class="year">2020</span>
+                        <img src="assets/img/restructuring.jpg" alt="About" class="img-fluid img-left">
+                        <h2 class="h3">The 22nd National Executive Council of NACOS</h2>
+                        <p style="text-align:justify;">The 22nd National Executive Council of the Nigeria Association of Computer Science Students (NACOSS) led by Comr. Olamilekan Abolade proceed on the  RESTRUCTURING process of association affairs. Based on the agreement reached with its Parent body Nigeria Computer Society (NCS) to change the nomenclature of the association to NIGERIA ASSOCIATION OF COMPUTING STUDENTS (NACOS). <br><br>The new nomenclature will see the association serve as the the umbrella body for students studying all IT and computing related courses such as Computer Science, Computer Engineering, Information System, Information Technology, Cyber Security, Software Engineering e.t.c<br><br>The NEC called for a congress scheduled for Wednesday 23rd December, 2020 in order to effect some of the restructuring process needed for the association which includes a new constitution to guide the affairs of the association and its new nomenclature.<br>#NACOSS &nbsp;#NACOSSISRESTRUCTURING &nbsp;#NACOS</p>
                         
                     </div>
                     <!-- Single about text End -->
@@ -128,7 +143,7 @@
                     <!-- Single about text start -->
                     <div class="single-about-text">
                         <span class="year">2020</span>
-                        <img src="assets/img/restructuring.jpg" alt="About" class="img-fluid img-right">
+                        <img src="assets/img/NNL.png" alt="About" class="img-fluid img-right">
                         <h2 class="h3">NACOS Restructures</h2>
                         <p style="text-align:justify;" >On 23rd December, 2020, the Nigeria Association of Computer Science Students (NACOSS) he umbrella body for all students studying computing related courses and the student arm of Nigeria Computer Society (NCS) held a successful congress which was presided over by theNational President. <br><br>At the Congress, the association has accepted to abide and change its nomenclature from Nigeria Association of Computer Science Students (NACOSS) to NIGERIA ASSOCIATION OF COMPUTING STUDENTS (NACOS) as agreed upon with its parent body, Nigeria Computer Society (NCS). The congress which was duly supervised by the Nigeria Computer Society (NCS) came up with the following resolution to be adopted with immediate effect:<a href="assets/Official Memo to all Members of NACOS - 31-12-2020.pdf" download> Click to download the Official Memo</a> </p>
                        

@@ -229,7 +229,7 @@
                 <div class="col-lg-10 ml-auto">
                     <div class="about-content-wrap">
                         <div class="section-title text-center text-lg-left">
-                            <h2>Our Misssion</h2>
+                            <h2>Our Mission</h2>
                         </div>
 
                         <div class="about-thumb">
