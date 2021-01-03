@@ -1,11 +1,4 @@
-<!-- == loader starts here == -->
-<div class='loader-container'>
-	<div class="loader-content">
-	   <span class='modal-loader'></span>
-	</div>
-</div>
-<!-- == loader ends here == -->
-<!--== Header Area Start ==-->
+ <!--== Header Area Start ==-->
  <header id="header-area">
     <div class="preheader-area">
         <div class="container">

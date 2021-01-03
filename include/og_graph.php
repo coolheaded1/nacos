@@ -1,3 +1,4 @@
+<?php include_once "router.php"; ?>
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
 <head>
