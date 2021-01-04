@@ -46,9 +46,9 @@
             <div class="col-lg-8 m-auto text-center">
                 <div class="page-title-content">
                     <h1 class="h2">All Event Archive</h1>
-                    <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the
-                        need</p>
-                    <a href="event.html#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a>
+                    <p>All wide range of NACOS events enables you to harness the power of our Technology programs to develop your esteem self. 
+Whatever may be the need for you, attend a NACOS event</p>
+                    <!-- <a href="event.html#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a> -->
                 </div>
             </div>
         </div>
@@ -65,21 +65,53 @@
                     <div class="event-filter-area">
                         <form action="index.html" class="form-inline">
                             <select name="year" id="year">
-                                <option selected>Year</option>
-                                <option>2018</option>
-                                <option>2017</option>
-                                <option>2016</option>
-                                <option>2015</option>
-                                <option>2014</option>
+                            <option selected disabled>Year</option>
+                                <?php
+                                    for($i = date("Y"); $i >=date("Y")-7; $i--){
+                                        echo '<option value="' . $i . '">' . $i . '</option>';
+                                    }
+                                ?>
                             </select>
 
                             <select name="place" id="place">
-                                <option selected>Place</option>
-                                <option>Alabama</option>
-                                <option>Alaska</option>
-                                <option>Arizona</option>
-                                <option>Colorado</option>
-                                <option>Delaware</option>
+                                <option selected disabled>Place</option>
+                                <option value="Abia">Abia</option>
+                                <option value="Adamawa">Adamawa</option>
+                                <option value="Akwa Ibom">Akwa Ibom</option>
+                                <option value="Anambra">Anambra</option>
+                                <option value="Bauchi">Bauchi</option>
+                                <option value="Bayelsa">Bayelsa</option>
+                                <option value="Benue">Benue</option>
+                                <option value="Borno">Borno</option>
+                                <option value="Cross Rive">Cross River</option>
+                                <option value="Delta">Delta</option>
+                                <option value="Ebonyi">Ebonyi</option>
+                                <option value="Edo">Edo</option>
+                                <option value="Ekiti">Ekiti</option>
+                                <option value="Enugu">Enugu</option>
+                                <option value="FCT">Federal Capital Territory</option>
+                                <option value="Gombe">Gombe</option>
+                                <option value="Imo">Imo</option>
+                                <option value="Jigawa">Jigawa</option>
+                                <option value="Kaduna">Kaduna</option>
+                                <option value="Kano">Kano</option>
+                                <option value="Katsina">Katsina</option>
+                                <option value="Kebbi">Kebbi</option>
+                                <option value="Kogi">Kogi</option>
+                                <option value="Kwara">Kwara</option>
+                                <option value="Lagos">Lagos</option>
+                                <option value="Nasarawa">Nasarawa</option>
+                                <option value="Niger">Niger</option>
+                                <option value="Ogun">Ogun</option>
+                                <option value="Ondo">Ondo</option>
+                                <option value="Osun">Osun</option>
+                                <option value="Oyo">Oyo</option>
+                                <option value="Plateau">Plateau</option>
+                                <option value="Rivers">Rivers</option>
+                                <option value="Sokoto">Sokoto</option>
+                                <option value="Taraba">Taraba</option>
+                                <option value="Yobe">Yobe</option>
+                                <option value="Zamfara">Zamfara</option>
                             </select>
 
                             <select name="type" id="type">

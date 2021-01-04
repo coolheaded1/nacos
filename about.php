@@ -89,17 +89,23 @@
                                                         <p>A study of NACOS activities indicates that it reveals IT career and entrepreneurship opportunities to the youth of Nigeria. </p>
                                                         <p>We aim <br>
                                                         <ul style="list-style-type:disc; text-align:justify;margin-left:4%;color:white;">
-                                                            <li> To serve both professional and public interests by fostering the open interchange of information and by promoting the highest professional and ethical standards.</li>
-                                                            <li>To protect the image and safeguard the interest of the Computing profession.</li>
-                                                            <li> To promote the understanding of the study of Computing in Nigeria and abroad.</li>
-                                                            <li>To promote the computing profession by organizing seminars, symposia, webinars, computing contests, and other activities aimed at achieving this goal.</li>
+                                                            <li> To Become a network of committed Student IT Professionals determined to stimulate the technology, innovation and entrepreneurship scene in Nigeria.</li>
+                                                            <li> To develop a vibrant ecosystem that drives digital inclusion across all tertiary Institutions, Governments, Enterprises and Citizens for the advancement of information technology in Nigeria.</li>
+                                                            <li> To Become the most sort after Students Organization in terms of Information Technology and Entrepreneurship.</li>           
                                                         </ul>
                                                     </p>
                                                         <a href="register.php" class="btn btn-brand btn-brand-dark" style="float:right;">Become Member</a>
                                                         </div>
                                                         <div id="paraDiv2" style="display:none;">
                                                         <h3><a href="single-event.html">Our Aims & Objective</a></h3>
-                                                        <p>NACOS aims to re–orient the Nigerian youth and project the IT profession through Seminars, Lectures, Symposia, Workshops and other related activities. The intention appears to be the active and purposeful promotion of the study of IT and other positive forms of IT knowledge acquisition.<br><br>NACOSS organizes capacity building exercises to enlighten the youths, the young people of Nigeria on how to become entrepreneurs using acquired IT skills and also to create platforms for neophytes, and gurus associated with the intriguing world of Information Technology to exhibit their products, services and software to businesses, industry and the public.</p>
+                                                        <p>NACOS aims to re–orient the Nigerian youth and project the IT profession through Seminars, Lectures, Symposia, Workshops and other related activities. The intention appears to be the active and purposeful promotion of the study of IT and other positive forms of IT knowledge acquisition. NACOSS organizes capacity building exercises to enlighten the youths, the young people of Nigeria on how to become entrepreneurs using acquired IT skills and also to create platforms for neophytes, and gurus associated with the intriguing world of Information Technology to exhibit their products, services and software to businesses, industry and the public. <br><p>We aim <br>
+                                                        <ul style="list-style-type:disc; text-align:justify;margin-left:4%;color:white;">
+                                                            <li> To serve both professional and public interests by fostering the open interchange of information and by promoting the highest professional and ethical standards.</li>
+                                                            <li>To protect the image and safeguard the interest of the Computing profession.</li>
+                                                            <li> To promote the understanding of the study of Computing in Nigeria and abroad.</li>
+                                                            <li>To promote the computing profession by organizing seminars, symposia, webinars, computing contests, and other activities aimed at achieving this goal.</li>
+                                                        </ul>   
+                                                    </p>
                                                         <a href="register.php" class="btn btn-brand btn-brand-dark" style="float:right;">Become Member</a>
                                                         </div>
                                                         <div id="paraDiv3" style="display:none;">

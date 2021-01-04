@@ -49,10 +49,10 @@
                         <div class="slider-content">
                             <h2>Nigeria Association Of Computing Students.</h2>
                             <!-- <h3> </span></h3> -->
-                            <p>We are student professionals in almost all tertiary institutions in Nigeria.</p>
+                            <p>We are Students IT Professional in almost all tertiary institutions in Nigeria.</p>
                             <div class="slider-btn">
-                                <a href="index.html#about-area" class="btn btn-brand smooth-scroll">our mission</a>
-                                <a href="about.html" class="btn btn-brand-rev">our story</a>
+                                <a href="#about-area" class="btn btn-brand smooth-scroll">our mission</a>
+                                <a href="about.php" class="btn btn-brand-rev">our story</a>
                             </div>
                         </div>
                     </div>
@@ -67,12 +67,12 @@
                 <div class="row">
                     <div class="col-lg-9">
                         <div class="slider-content">
-                            <h2> Networking  the world</h2>
-                            <h3>We develop; we create;  <span>we build capacity</span></h3>
+                            <h2> Networking  the World</h2>
+                            <h3>We Develop; We Create;  <span>We Build Capacity</span></h3>
                             <!-- <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the need (academic, relocation, career, projects, mentorship, etc. you can ask the community and get responses in three.</p> -->
                             <div class="slider-btn">
-                                <a href="index.html#" class="btn btn-brand">our mission</a>
-                                <a href="index.html#" class="btn btn-brand-rev">our story</a>
+                                <a href="#about-area" class="btn btn-brand">our mission</a>
+                                <a href="about.php" class="btn btn-brand-rev">our story</a>
                             </div>
                         </div>
                     </div>
@@ -87,12 +87,12 @@
                 <div class="row">
                     <div class="col-lg-9">
                         <div class="slider-content">
-                            <h2>Towards Advanced Computing</h2>
-                            <h3>Students of <span>Oxfornt University</span></h3>
-                            <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the need (academic, relocation, career, projects, mentorship, etc. you can ask the community and get responses in three.</p>
+                            <h2>Towards Advanced Computing </h2>
+                            <h3>Students of <span>Computer Science, Computer Engineering, Information Systems, Cyber security, Software Engineering and all IT related Courses.</span></h3>
+                            <!-- <p>Students of </p> -->
                             <div class="slider-btn">
-                                <a href="index.html#" class="btn btn-brand">our mission</a>
-                                <a href="index.html#" class="btn btn-brand-rev">our story</a>
+                                <a href="#about-area" class="btn btn-brand">our mission</a>
+                                <a href="about.php" class="btn btn-brand-rev">our story</a>
                             </div>
                         </div>
                     </div>
@@ -233,18 +233,17 @@
                         </div>
 
                         <div class="about-thumb">
-                            <img src="assets/img/about-page/DSC_0072.JPG" alt="" class="img-fluid">
+                            <img src="assets/img/NNL.png" alt="" class="img-fluid">
                         </div>
 
                         <h4>Through consistent and professional exposure</h4>
                         <p>A study of NACOS activities indicates that it reveals IT career and entrepreneurship opportunities to the youth of Nigeria. </p>
                         <p>We aim <br>
-                        <ul style="list-style-type:disc; text-align:justify;margin-left:4%;">
-                            <li> To serve both professional and public interests by fostering the open interchange of information and by promoting the highest professional and ethical standards.</li>
-                            <li>To protect the image and safeguard the interest of the Computing profession.</li>
-                            <li> To promote the understanding of the study of Computing in Nigeria and abroad.</li>
-                            <li>To promote the computing profession by organizing seminars, symposia, webinars, computing contests, and other activities aimed at achieving this goal.</li>
-                        </ul>
+                        <ul style="list-style-type:disc; text-align:justify;margin-left:4%;color:white;">
+                                                            <li> To Become a network of committed Student IT Professionals determined to stimulate the technology, innovation and entrepreneurship scene in Nigeria.</li>
+                                                            <li> To develop a vibrant ecosystem that drives digital inclusion across all tertiary Institutions, Governments, Enterprises and Citizens for the advancement of information technology in Nigeria.</li>
+                                                            <li> To Become the most sort after Students Organization in terms of Information Technology and Entrepreneurship.</li>           
+                                                        </ul>
                     </p>
                         <a href="about.php" class="btn btn-brand about-btn">know more</a>
                     </div>
@@ -256,7 +255,7 @@
 <!--== About Area End ==-->
 
     <!--== Our Responsibility Area Start ==-->
-<section id="responsibility-area" class="section-padding">
+<section id="responsibility-area" class="" style="padding-top:3em;padding-bottom:3em;">
     <div class="container">
         <!--== Section Title Start ==-->
         <div class="row">
@@ -273,42 +272,43 @@
             <!--== Single Responsibility Start ==-->
             <div class="col-lg-3 col-sm-6">
                 <div class="single-responsibility">
-                    <img src="assets/img/responsibility/01.png" alt="Responsibility">
-                    <h4>Scholarship</h4>
-                    <p>De create building thinking about your requirment and latest treand on our marketplace area</p>
-                </div>
-            </div>
-            <!--== Single Responsibility End ==-->
-
-            <!--== Single Responsibility Start ==-->
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-responsibility">
                     <img src="assets/img/responsibility/02.png" alt="Responsibility">
-                    <h4>Help Current Students</h4>
-                    <p>De create building thinking about your requirment and latest treand on our marketplace area</p>
+                    <h4>Help Current Students/Members</h4>
+                    <p>NACOS helps its current students and members acquire the best of what the emerging technology entails.</p>
                 </div>
             </div>
             <!--== Single Responsibility End ==-->
-
-            <!--== Single Responsibility Start ==-->
-            <div class="col-lg-3 col-sm-6">
-                <div class="single-responsibility">
-                    <img src="assets/img/responsibility/03.png" alt="Responsibility">
-                    <h4>Help Our University</h4>
-                    <p>De create building thinking about your requirment and latest treand on our marketplace area</p>
-                </div>
-            </div>
-            <!--== Single Responsibility End ==-->
-
+            
             <!--== Single Responsibility Start ==-->
             <div class="col-lg-3 col-sm-6">
                 <div class="single-responsibility">
                     <img src="assets/img/responsibility/04.png" alt="Responsibility">
-                    <h4>Build Our Community</h4>
-                    <p>De create building thinking about your requirment and latest treand on our marketplace area</p>
+                    <h4>We Develop; We Build</h4>
+                    <p>While helping our students and members to know more about emerging technology, we also ensure the development of their individual intellectual capability.</p>
                 </div>
             </div>
             <!--== Single Responsibility End ==-->
+                        
+            <!--== Single Responsibility Start ==-->
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-responsibility">
+                    <img src="assets/img/responsibility/01.png" alt="Responsibility">
+                    <h4>Scholarship</h4>
+                    <p>To ensure our members have what it takes to compete with counterparts, we encourage by giving scholarships to create more membership inclusion.</p>
+                </div>
+            </div>
+            <!--== Single Responsibility End ==-->
+            
+            <!--== Single Responsibility Start ==-->
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-responsibility">
+                    <img src="assets/img/responsibility/03.png" alt="Responsibility">
+                    <h4>Build our Community </h4>
+                    <p>Building the NACOS Community is one of the association's utmost concern because of the association intention of creating a vibrant ecosystem which will aid the advance of Information Technology in Nigeria.</p>
+                </div>
+            </div>
+            <!--== Single Responsibility End ==-->
+            
         </div>
         <!--== Responsibility Content Wrapper ==-->
     </div>

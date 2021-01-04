@@ -10,7 +10,7 @@
                         <div class="widgei-body">
                             <div class="footer-about">
                                 <img src="assets/img/footer_nacos.png" alt="Logo" class="img-fluid" style="height:85px;" />                     
-                                <p> National Secretariat:<br>Department of Computer Science<br>Moshood Abiola Polytechnic<br>Abeokuta, Ogun State <br>Nigeria</p>                                
+                                <p style="z-index:9999;color:white;"> National Secretariat:<br>Department of Computer Science<br>Moshood Abiola Polytechnic<br>Abeokuta, Ogun State <br>Nigeria</p>                                
                             </div>
                         </div>
                     </div>
@@ -37,21 +37,21 @@
                 <!-- Single Widget End -->
 
                 <!-- Single Widget Start -->
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-5 col-sm-6">
                     <div class="single-widget-wrap">
                         <h4 class="widget-title">Usefull Link</h4>
                         <div class="widgei-body">
                             <ul class="double-list footer-list clearfix">
-                                <li><a href="index.html#">Pricing Plan</a></li>
-                                <li><a href="index.html#">Categories</a></li>
-                                <li><a href="index.html#">Populer Deal</a></li>
-                                <li><a href="index.html#">FAQ</a></li>
+                                <li><a href="index.html#">New Chapter Registration</a></li>
+                                <li><a href="index.html#">Membership Registration</a></li>
+                                <li><a href="index.html#">Annual Chapters Due</a></li>
+                                <li><a href="index.html#">Members Welfare Schemepport</a></li>
+                                <li><a href="index.html#">Members Directory</a></li>
+                                <li><a href="index.html#">NCS Membership Registration</a></li>
                                 <li><a href="index.html#">Support</a></li>
-                                <li><a href="index.html#">Pricing Plan</a></li>
-                                <li><a href="index.html#">Categories</a></li>
-                                <li><a href="index.html#">Populer Deal</a></li>
                                 <li><a href="index.html#">FAQ</a></li>
-                                <li><a href="index.html#">Support</a></li>
+                                <!-- <li><a href="index.html#">FAQ</a></li>
+                                <li><a href="index.html#">Support</a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                 <!-- Single Widget End -->
 
                 <!-- Single Widget Start -->
-                <div class="col-lg-2 col-sm-6">
+                <!-- <div class="col-lg-2 col-sm-6">
                     <div class="single-widget-wrap">
                         <h4 class="widget-title">University</h4>
                         <div class="widgei-body">
@@ -72,7 +72,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- Single Widget End -->
             </div>
         </div>
@@ -85,7 +85,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="footer-bottom-text">
-                        <p> <?php echo date('Y'); ?> Nacos | All Rights Reserved.</p>
+                        <p> &copy; <?php echo date('Y'); ?> NACOS National | All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
