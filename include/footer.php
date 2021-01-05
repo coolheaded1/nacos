@@ -39,7 +39,7 @@
                 <!-- Single Widget Start -->
                 <div class="col-lg-5 col-sm-6">
                     <div class="single-widget-wrap">
-                        <h4 class="widget-title">Usefull Link</h4>
+                        <h4 class="widget-title">Useful Link</h4>
                         <div class="widgei-body">
                             <ul class="double-list footer-list clearfix">
                                 <li><a href="index.html#">New Chapter Registration</a></li>
@@ -50,29 +50,10 @@
                                 <li><a href="index.html#">NCS Membership Registration</a></li>
                                 <li><a href="index.html#">Support</a></li>
                                 <li><a href="index.html#">FAQ</a></li>
-                                <!-- <li><a href="index.html#">FAQ</a></li>
-                                <li><a href="index.html#">Support</a></li> -->
                             </ul>
                         </div>
                     </div>
                 </div>
-                <!-- Single Widget End -->
-
-                <!-- Single Widget Start -->
-                <!-- <div class="col-lg-2 col-sm-6">
-                    <div class="single-widget-wrap">
-                        <h4 class="widget-title">University</h4>
-                        <div class="widgei-body">
-                            <ul class="footer-list clearfix">
-                                <li><a href="index.html#">Pricing Plan</a></li>
-                                <li><a href="index.html#">Categories</a></li>
-                                <li><a href="index.html#">Populer Deal</a></li>
-                                <li><a href="index.html#">FAQ</a></li>
-                                <li><a href="index.html#">Support</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> -->
                 <!-- Single Widget End -->
             </div>
         </div>
