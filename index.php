@@ -548,7 +548,7 @@ Innovative Systems for Digital Economy (ISDE’2021)</a></h3>
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="section-title">
-                    <h2>Recent News</h2>
+                    <h2>NACOS Updates</h2>
                 </div>
             </div>
         </div>

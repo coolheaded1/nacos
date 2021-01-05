@@ -10,7 +10,7 @@
                         <div class="widgei-body">
                             <div class="footer-about">
                                 <img src="assets/img/footer_nacos.png" alt="Logo" class="img-fluid" style="height:85px;" />                     
-                                <p style="z-index:9999;color:white;"> National Secretariat:<br>Department of Computer Science<br>Moshood Abiola Polytechnic<br>Abeokuta, Ogun State <br>Nigeria</p>                                
+                                <p style="z-index:9999;color:white;"> <b>National Secretariat:</b><br>Department of Computer Science<br>Moshood Abiola Polytechnic<br>Abeokuta, Ogun State <br>Nigeria</p>                                
                             </div>
                         </div>
                     </div>
@@ -23,7 +23,10 @@
                         <h4 class="widget-title">Get In Touch</h4>
                         <div class="widgei-body">
                             <div class="newsletter-form">
-                            <a href="tel:+2348092461400">Phone: +2348092461400</a><br> <a href="tel:+2347066915892">Phone: +2347066915892</a> <br> <a href="mailto:info@nacos.org.ng">Email: info@nacos.org.ng</a>
+                            <a href="tel:+2348092461400"><b>Phone:</b><br> +2348092461400</a><br> 
+                            <a href="tel:+2347066915892">+2347066915892</a> <br> 
+                            <a href="tel:+2348030960928">+2348030960928</a> <br> 
+                            <a href="mailto:info@nacos.org.ng"><b>Email:</b> info@nacos.org.ng</a>
                             </div>
                             <div class="footer-social-icons">
                                 <a href="https://www.facebook.com/nacosnational" target="_blank"><i class="fa fa-facebook"></i></a>
