@@ -26,10 +26,10 @@
                             <a href="tel:+2348092461400">Phone: +2348092461400</a><br> <a href="tel:+2347066915892">Phone: +2347066915892</a> <br> <a href="mailto:info@nacos.org.ng">Email: info@nacos.org.ng</a>
                             </div>
                             <div class="footer-social-icons">
-                                <a href="https://www.facebook.com/nacossnational" target="_blank"><i class="fa fa-facebook"></i></a>
-                                <a href="https://twitter.com/nacoss_national" target="_blank"><i class="fa fa-twitter"></i></a>
-                                <a href="index.html#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                <a href="https://join-slack.nacoss.org.ng" target="_blank" title="Join us on Slack"><i class="a fa-slack"></i></a>
+                                <a href="https://www.facebook.com/nacosnational" target="_blank"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.twitter.com/nacosnational" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/nacosnational" target="_blank"><i class="fa fa-instagram"></i></a>
+                                <a href="https://join-slack.nacoss.org.ng" target="_blank" title="Join us on Slack"><i class="fa fa-slack"></i></a>
                             </div>
                         </div>
                     </div>

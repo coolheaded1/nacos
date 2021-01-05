@@ -105,10 +105,10 @@
     <!-- Social Icons Area Start -->
     <div class="social-networks-icon">
         <ul>
-            <li><a href="https://www.facebook.com/nacossnational" title="We are n facebook"><i class="fa fa-facebook"></i> <span>7.2k Likes</span></a></li>
-            <li><a href="https://twitter.com/nacoss_national" title="Follow u on twitter"><i class="fa fa-twitter"></i> <span>3.2m Followers</span></a></li>
+            <li><a href="https://www.facebook.com/nacosnational" title="We are n facebook"><i class="fa fa-facebook"></i> <span>7.2k Likes</span></a></li>
+            <li><a href="https://www.twitter.com/nacosnational" title="Follow u on twitter"><i class="fa fa-twitter"></i> <span>3.2m Followers</span></a></li>
             <li><a href="https://join-slack.nacoss.org.ng" title="Join us on Slack"><i class="fa fa-slack"></i> <span>7.2k Likes</span></a></li>
-            <li><a href="" title="Check our video Records on youtube"><i class="fa fa-youtube"></i> <span>2.2k Subscribers</span></a></li>
+            <li><a href="https://www.youtube.com/channel/UCHGgZSCvmmjhj_MxLLQYTOg/videos" title="Check our video Records on youtube"><i class="fa fa-youtube"></i> <span>2.2k Subscribers</span></a></li>
         </ul>
     </div>
     <!-- Social Icons Area End -->
@@ -130,8 +130,8 @@
                             <div class="row">
                                 <div class="col-lg-5">
                                     <div class="up-event-thumb">
-                                        <img src="assets/img/event/event-img-1.jpg" class="img-fluid" alt="Upcoming Event">
-                                        <h4 class="up-event-date">It’s 27 February 2019</h4>
+                                        <img src="assets/img/event/innovative.jpeg" style="height:230px;" class="img-fluid" alt="Upcoming Event">
+                                        <h4 class="up-event-date">It’s 3-5 August 2021</h4>
                                     </div>
                                 </div>
 
@@ -140,12 +140,12 @@
                                         <div class="display-table-cell">
                                             <div class="up-event-text">
                                                 <div class="event-countdown">
-                                                    <div class="event-countdown-counter" data-date="2018/9/10"></div>
+                                                    <div class="event-countdown-counter" data-date="2021/8/3"></div>
                                                     <p>Remaining</p>
                                                 </div>
-                                                <h3><a href="single-event.html">We are going to arrange a get together!</a></h3>
-                                                <p>Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipv ex ea.</p>
-                                                <a href="single-event.html" class="btn btn-brand btn-brand-dark">join with us</a>
+                                                <h3><a href="single-event.html">International Conference on Innovative Systems for Digital Economy (ISDE’2021)</a></h3>
+                                                <p>The past decade has witnessed a major disruption in the way businesses are conducted globally. The digital economy is deeply changing the actions of both governments, businesses, and the citizen. Transforming a nation digitally is a daunting task that requires paradigm shift from the status quo</p>
+                                                <a href="single-event.html" class="btn btn-brand btn-brand-dark">join us</a>
                                             </div>
                                         </div>
                                     </div>
@@ -175,7 +175,7 @@
                                                 </div>
                                                 <h3><a href="single-event.html">We are going to arrange a get together!</a></h3>
                                                 <p>Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipv ex ea.</p>
-                                                <a href="single-event.html" class="btn btn-brand btn-brand-dark">join with us</a>
+                                                <a href="https://www.ncs.org.ng/international-conference-2021/" class="btn btn-brand btn-brand-dark">join with us</a>
                                             </div>
                                         </div>
                                     </div>
@@ -203,9 +203,10 @@
                                                     <div class="event-countdown-counter" data-date="2018/9/10"></div>
                                                     <p>Remaining</p>
                                                 </div>
-                                                <h3><a href="single-event.html">We are going to arrange a get together!</a></h3>
-                                                <p>Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipv ex ea.</p>
-                                                <a href="single-event.html" class="btn btn-brand btn-brand-dark">join with us</a>
+                                                <h3><a href="single-event.html">International Conference on
+Innovative Systems for Digital Economy (ISDE’2021)</a></h3>
+                                                <p>The past decade has witnessed a major disruption in the way businesses are conducted globally. The digital economy is deeply changing the actions of both governments, businesses, and the citizen. Transforming a nation digitally is a daunting task that requires paradigm shift from the status quo</p>
+                                                <a href="" class="btn btn-brand btn-brand-dark">join us</a>
                                             </div>
                                         </div>
                                     </div>
@@ -233,13 +234,13 @@
                         </div>
 
                         <div class="about-thumb">
-                            <img src="assets/img/NNL.png" alt="" class="img-fluid">
+                            <img src="assets/img/event/microchip.jpeg" alt="" class="img-fluid">
                         </div>
-
+<!-- 
                         <h4>Through consistent and professional exposure</h4>
                         <p>A study of NACOS activities indicates that it reveals IT career and entrepreneurship opportunities to the youth of Nigeria. </p>
-                        <p>We aim <br>
-                        <ul style="list-style-type:disc; text-align:justify;margin-left:4%;color:white;">
+                        <p>We aim <br> -->
+                        <ul style="list-style-type:disc; text-align:justify;margin-left:4%;">
                                                             <li> To Become a network of committed Student IT Professionals determined to stimulate the technology, innovation and entrepreneurship scene in Nigeria.</li>
                                                             <li> To develop a vibrant ecosystem that drives digital inclusion across all tertiary Institutions, Governments, Enterprises and Citizens for the advancement of information technology in Nigeria.</li>
                                                             <li> To Become the most sort after Students Organization in terms of Information Technology and Entrepreneurship.</li>           

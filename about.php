@@ -85,9 +85,9 @@
                                                         </div>
                                                         <div id="paraDiv1">
                                                         <h3><a href="single-event.html">Our Mission</a></h3>
-                                                        <h4>Through consistent and professional exposure</h4>
+                                                        <!-- <h4>Through consistent and professional exposure</h4>
                                                         <p>A study of NACOS activities indicates that it reveals IT career and entrepreneurship opportunities to the youth of Nigeria. </p>
-                                                        <p>We aim <br>
+                                                        <p>We aim <br> -->
                                                         <ul style="list-style-type:disc; text-align:justify;margin-left:4%;color:white;">
                                                             <li> To Become a network of committed Student IT Professionals determined to stimulate the technology, innovation and entrepreneurship scene in Nigeria.</li>
                                                             <li> To develop a vibrant ecosystem that drives digital inclusion across all tertiary Institutions, Governments, Enterprises and Citizens for the advancement of information technology in Nigeria.</li>
