@@ -46,8 +46,8 @@
             <div class="col-lg-8 m-auto text-center">
                 <div class="page-title-content">
                     <h1 class="h2">Past National President</h1>
-                    <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the
-                        need</p>
+                    <!-- <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the -->
+                        <!-- need</p> -->
                     <!-- <a href="about.html#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a> -->
                 </div>
             </div>
@@ -62,189 +62,240 @@
             
 <!-- start sec -->
             <div class="honorable-committee-list">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-1.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            </div>
-                            <h3>Mr Adetayo Bamiduro<span class="committee-deg">ZONE: South west<br>Year of Service: </span></h3>
+            <!-- <div class="row"><div class="col-sm-4" ><div class="profile-card"><img src="https://i.imgur.com/bZBG9PE.jpg" alt="image1" class="profile-icon" /><div class="profile-name">Kelly Seikma</div><div class="profile-position">Web Designer</div><a href="#" class="button">Connect</a></div></div></div>  -->
+             <!-- fifth pallet  here  -->
+             <div class="row basis-member staff">                
+                    <div class="col-lg-3">
+                        <div class="card member-box shadow-lg">
+                        <span class="shape"></span>
+                        <img class="card-img-top" src="assets/img/committee/commitee-8.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="member-title">Mr Adetayo Bamiduro<br> (2016-2018)</h4>
+                            <span class="member-degignation"><p>ZONE: South west</p></strong></span>
+                            <br><small class="icon-cent">
+                                <p>
+                                    <i class="fa fa-facebook-f"></i>
+                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </p>
+                            </small>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card member-box shadow-lg">
+                        <span class="shape"></span>
+                        <img class="card-img-top" src="assets/img/committee/commitee-8.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="member-title">Mr Olusegun Olutayo <br>(Mar 2004 - Feb 2006)</h4>
+                            <span class="member-degignation"><p>ZONE: South West</p></span>
+                            <br><small class="icon-cent">
+                                <p>
+                                    <i class="fa fa-facebook-f"></i>
+                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </p>
+                            </small>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card member-box shadow-lg">
+                        <span class="shape"></span>
+                        <img class="card-img-top" src="assets/img/committee/commitee-8.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="member-title">Mr Martins Madueke <br>(Year of Service)</h4>
+                            <span class="member-degignation"><p>Zone: South East</p></span>
+                            <br><small class="icon-cent">
+                                <p>
+                                    <i class="fa fa-facebook-f"></i>
+                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </p>
+                            </small>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card member-box shadow-lg">
+                        <span class="shape"></span>
+                        <img class="card-img-top" src="assets/img/committee/Bayo Mohammed Onimode.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="member-title">Mr Bayo Onimode <br>(Mar 2007 - Aug 2008)</h4>
+                            <span class="member-degignation"><p>ZONE:  North Central</p></span>
+                            <br><small class="icon-cent">
+                                <p>
+                                    <i class="fa fa-facebook-f"></i>
+                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </p>
+                            </small>
+                        </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-2.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            </div>
-                            <h3>Mr Olusegun Olutayo<span class="committee-deg">ZONE: South West<br>Year of Service: March 2004 - Feb 2006</span></h3>
+                    <div class="col-lg-3">
+                        <div class="card member-box shadow-lg">
+                        <span class="shape"></span>
+                        <img class="card-img-top" src="assets/img/committee/Ajetunmobi Oluwafemi.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="member-title">Mr Oluwafemi Ajetunmobi <br>(Jun 2008 - Feb 2010)</h4>
+                            <span class="member-degignation"><p>ZONE: South West</p></span>
+                            <br><small class="icon-cent">
+                                <p>
+                                    <i class="fa fa-facebook-f"></i>
+                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </p>
+                            </small>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card member-box shadow-lg">
+                        <span class="shape"></span>
+                        <img class="card-img-top" src="assets/img/committee/Olamide Odumosu.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="member-title">Comr. Olamide Odumosu  <br>(Feb 2010 - Jul 2011)</h4>
+                            <span class="member-degignation"><p>ZONE:North Central</p></span>
+                            <br><small class="icon-cent">
+                                <p>
+                                    <i class="fa fa-facebook-f"></i>
+                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </p>
+                            </small>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card member-box shadow-lg">
+                        <span class="shape"></span>
+                        <img class="card-img-top" src="assets/img/committee/Bayo Mohammed Onimode.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="member-title">Mr Segun Adnigbo<br>(Year of Service)</h4>
+                            <span class="member-degignation"><p>ZONE:South West</p></span>
+                            <br><small class="icon-cent">
+                                <p>
+                                    <i class="fa fa-facebook-f"></i>
+                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </p>
+                            </small>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card member-box shadow-lg">
+                        <span class="shape"></span>
+                        <img class="card-img-top" src="assets/img/committee/Stanley Okotie.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="member-title">Mr Stanley Okotie  <br>(Dec 2012 - Dec 2013)</h4>
+                            <span class="member-degignation"><p>ZONE:South South</p></span>
+                            <br><small class="icon-cent">
+                                <p>
+                                    <i class="fa fa-facebook-f"></i>
+                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </p>
+                            </small>
+                        </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-3.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            </div>
-                            <h3>Mr Martins Madueke<span class="committee-deg">Zone: South East<br>Year of Service: </span></h3>
+                    <div class="col-lg-3">
+                        <div class="card member-box shadow-lg">
+                        <span class="shape"></span>
+                        <img class="card-img-top" src="assets/img/committee/Tochuckwu.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="member-title">Mr Ositadinma Tochuckwu <br>(Sep 2014 - Feb 2016)</h4>
+                            <span class="member-degignation"><p>ZONE: South East</p></span>
+                            <br><small class="icon-cent">
+                                <p>
+                                    <i class="fa fa-facebook-f"></i>
+                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </p>
+                            </small>
+                        </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/Bayo Mohammed Onimode.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            </div>
-                            <h3>Mr Bayo Mohammed Onimode<span class="committee-deg">ZONE:  North Central<br>Year of Service: March 2007 - August 2008</span></h3>
+                    <div class="col-lg-3">
+                        <div class="card member-box shadow-lg">
+                        <span class="shape"></span>
+                        <img class="card-img-top" src="assets/img/committee/Emmanuel Essiet.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="member-title">Mr. Emmanuel Essiet   <br>(Feb 2016 - July 2017)</h4>
+                            <span class="member-degignation"><p>ZONE: South South</p></span>
+                            <br><small class="icon-cent">
+                                <p>
+                                    <i class="fa fa-facebook-f"></i>
+                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </p>
+                            </small>
+                        </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/Ajetunmobi Oluwafemi.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            </div>
-                            <h3>Mr Oluwafemi Ajetunmobi<span class="committee-deg">ZONE: South West<br>Year of Service: Jun 2008 - Feb 2010</span></h3>
+                    <div class="col-lg-3">
+                        <div class="card member-box shadow-lg">
+                        <span class="shape"></span>
+                        <img class="card-img-top" src="assets/img/committee/Akintomiwa Abolade.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="member-title">Mr Akintomiwa Abolade  <br>(Jul 2017 - Oct 2018)</h4>
+                            <span class="member-degignation"><p>ZONE: South West</p></span>
+                            <br><small class="icon-cent">
+                                <p>
+                                    <i class="fa fa-facebook-f"></i>
+                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </p>
+                            </small>
+                        </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/Olamide Odumosu.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            </div>
-                            <h3>Comr. Olamide Odumosu<span class="committee-deg">ZONE:North Central<br>Year of Service: Feb 2010 - July 2011</span></h3>
+                    <div class="col-lg-3">
+                        <div class="card member-box shadow-lg">
+                        <span class="shape"></span>
+                        <img class="card-img-top" src="assets/img/committee/Abubakar Hassan.png" alt="">
+                        <div class="card-body">
+                            <h4 class="member-title">Comr. Abubakr Hassan  <br>(Oct 2018 - Nov 2020)</h4>
+                            <span class="member-degignation"><p>ZONE: North East</p></span>
+                            <br><small class="icon-cent">
+                                <p>
+                                    <i class="fa fa-facebook-f"></i>
+                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </p>
+                            </small>
                         </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-8.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            </div>
-                            <h3>Mr Segun Adnigbo<span class="committee-deg">ZONE:South West<br>Year of Service: </span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/Stanley Okotie.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            </div>
-                            <h3>Mr Stanley Okotie<span class="committee-deg">ZONE:South South<br>Year of Service: Dec 2012 - Dec 2013</span></h3>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/Tochuckwu.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            </div>
-                            <h3>Mr Ositadinma Tochuckwu<span class="committee-deg">ZONE: South East<br>Year of Service: Sept 2014 - February 2016</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/Emmanuel Essiet.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            </div>
-                            <h3>Mr. Emmanuel Essiet<span class="committee-deg">ZONE: South South<br>Year of Service: Feb 2016 - July 2017</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/Akintomiwa Abolade.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            </div>
-                            <h3>Mr Akintomiwa Abolade<span class="committee-deg">ZONE: South West<br>Year of Service: July 2017 - Oct 2018</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/Abubakar Hassan.png" class="img-fluid exec_others" alt="Committee"/>
-                            </div>
-                            <h3>Comr. Abubakr Sadiq Hassan<span class="committee-deg">ZONE: North East<br>Year of Service: Oct 2018 - Nov 2020</span></h3>
                         </div>
                     </div>
                 </div>
+                <!-- fifth pallet  here ended -->
             </div>
 <!-- ended -->
         </div>
     </div>
 <!-- start speech about us -->
-    <div class="people-to-say section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="about-page-area-title">
-                        <h2>Some Speech About Us</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="people-to-say-wrapper owl-carousel">
-                        <!-- Single People Testimonial -->
-                        <div class="single-testimonial-wrap">
-                            <div class="people-thumb">
-                                <img src="assets/img/testimonial/testi-3.png" alt="Alumni" class="img-fluid" />
-                            </div>
-                            <i class="quote-icon"></i>
-                            <p>Exxcellent Lorem ipsum dolor sit amet, ectetur adipisicing elit, sed do eimod tempor
-                                inciidunt ut
-                                labore et dolorgna aliqua. Ut enim ad minim ostrud. </p>
-                            <h4>Robert Albert <span class="people-deg">Founder at Boxr</span></h4>
-                        </div>
-                        <!-- Single People Testimonial -->
-
-                        <!-- Single People Testimonial -->
-                        <div class="single-testimonial-wrap">
-                            <div class="people-thumb">
-                                <img src="assets/img/testimonial/testi-1.png" alt="" class="img-fluid">
-                            </div>
-                            <i class="quote-icon"></i>
-                            <p>Exxcellent Lorem ipsum dolor sit amet, ectetur adipisicing elit, sed do eimod tempor
-                                inciidunt ut
-                                labore et dolorgna aliqua. Ut enim ad minim ostrud. </p>
-                            <h4>Akamla Albert <span class="people-deg">Founder at Kamlakana</span></h4>
-                        </div>
-                        <!-- Single People Testimonial -->
-
-                        <!-- Single People Testimonial -->
-                        <div class="single-testimonial-wrap">
-                            <div class="people-thumb">
-                                <img src="assets/img/testimonial/testi-2.png" alt="" class="img-fluid" />
-                            </div>
-                            <i class="quote-icon"></i>
-                            <p>Exxcellent Lorem ipsum dolor sit amet, ectetur adipisicing elit, sed do eimod tempor
-                                inciidunt ut
-                                labore et dolorgna aliqua. Ut enim ad minim ostrud. </p>
-                            <h4>Taklo Nahid <span class="people-deg">Minister at Nara</span></h4>
-                        </div>
-                        <!-- Single People Testimonial -->
-
-                        <!-- Single People Testimonial -->
-                        <div class="single-testimonial-wrap">
-                            <div class="people-thumb">
-                                <img src="assets/img/testimonial/testi-2.png" alt="" class="img-fluid" />
-                            </div>
-                            <i class="quote-icon"></i>
-                            <p>Exxcellent Lorem ipsum dolor sit amet, ectetur adipisicing elit, sed do eimod tempor
-                                inciidunt ut
-                                labore et dolorgna aliqua. Ut enim ad minim ostrud. </p>
-                            <h4>Mal Muhit<span class="people-deg">Founder at Kamlagiri</span></h4>
-                        </div>
-                        <!-- Single People Testimonial -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- <div class="people-to-say section-padding">
+       
+    </div> -->
 </section>
 <!--== Committee Page Content End ==-->
 

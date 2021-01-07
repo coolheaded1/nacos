@@ -1,4 +1,4 @@
-<?php include "include/og_graph.php" ?>
+<?php include "include/og_graph.php"; $page="accounts";  ?>
 <!-- BOOTSTRAP CSS -->
 <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
 <link rel="stylesheet" href="assets/vendor/navbar/bootstrap-4-navbar.css" />
@@ -155,7 +155,7 @@
                                                         <div class="form-group">
                                                             <div class="custom-control custom-checkbox float-lg-right">
                                                                 <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                                                <label class="custom-control-label" for="customCheck1"> I have read and agree to the <a href="register.html#">Alumni</a> Terms of Service</label>
+                                                                <label class="custom-control-label" for="customCheck1"> I have read and agree to the <a href="">NACOS</a> Terms of Membership</label>
                                                             </div>
                                                             <input type="submit" class="btn btn-reg" value="Registration">
                                                         </div>

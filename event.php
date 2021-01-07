@@ -20,6 +20,7 @@
 
 <!--Offcanvas css -->
 <link rel="stylesheet" href="assets/vendor/js-offcanvas/css/js-offcanvas.css" media="all" />
+<!-- <link rel="stylesheet" href="assets/css/select2.min.css" media="all" /> -->
 
 <!-- MODERNIZER  -->
 <script src="assets/vendor/modernizr/modernizr-custom.js"></script>
@@ -73,7 +74,7 @@ Whatever may be the need for you, attend a NACOS event</p>
                                 ?>
                             </select>
 
-                            <select name="place" id="place">
+                            <select class="add_height" name="place" id="place" size="8">
                                 <option selected disabled>Place</option>
                                 <option value="Abia">Abia</option>
                                 <option value="Adamawa">Adamawa</option>
@@ -324,10 +325,11 @@ Whatever may be the need for you, attend a NACOS event</p>
 
 <!-- Countdown -->
 <script src="assets/vendor/jquery.countdown/jquery.countdown.min.js"></script>
+<!-- <script src="assets/js/select2.min.js.full.min.js"></script> -->
 
 <!-- custom js: main custom theme js file  -->
 <script src="assets/js/theme.min.js"></script>
-
+<?php include "include/js_file.php"; ?>
 <!-- custom js: custom js file is added for easy custom js code  -->
 <script src="assets/js/custom.js"></script>
 </body>

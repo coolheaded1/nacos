@@ -70,175 +70,277 @@
             </div> -->
 <!-- start sec -->
             <div class="honorable-committee-list">
-                <div class="row">
+                
                     <div class="col-sm-12" >
                       <div class="col-sm-9" style="margin:0px auto;">
                       <div class="row" >
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="single-committee-member">
-                                <div class="commitee-thumb">
-                                    <img src="assets/img/committee/commitee-1.jpg" class="img-fluid exec_others" alt="Committee"/>
+
+                        <!-- Dark Mode ended-->
+                        <div class="col-sm-6 marg-top">
+                            <div class="justify-content-md-center">
+                            <div class="card cardBorderCorners darkCard">
+                                <div class="card-body">
+                                <img class="proPic proDark card-img rounded-circle" src="assets/img/executives/Sodiya.jpg" alt="Profile Pic">
+                                <h5 class="darkTitle card-title">Prof Adesina Sodiya FNCS</h5>
+                                <h6 class="darkSubTitle card-subtitle">President, Nigeria Computer Society (NCS)</h6>
+                                <p class="darkDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
                                 </div>
-                                <h3>Prof Adesina Sodiya FNCS<span class="committee-deg">President, Nigeria Computer Society (NCS)</span></h3>
+
+                                <div class="social">
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4">
+                                    <a href="" ><i class="fa fa-github fa-2x social-color-dark" ></i></a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4">
+                                    <a href="" ><i class="col fa fa-twitter fa-2x social-color-dark" ></i></a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4">
+                                   <a href="" > <i class="col fa fa-instagram fa-2x social-color-dark"></i></a>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="single-committee-member">
-                                <div class="commitee-thumb">
-                                    <img src="assets/img/committee/commitee-1.jpg" class="img-fluid exec_others" alt="Committee"/>
+                            <!-- Dark Mode ended-->
+                        <!-- Light Mode -->
+                        <div class="col-sm-6 marg-top">
+                            <div class="justify-content-md-center">
+                                <div class="card cardBorderCorners lightCard">
+                                    <div class="card-body">
+                                    <img class="proPic proLight card-img rounded-circle" src="assets/img/executives/prof-charles.jpg" alt="Profile Pic">
+                                    <h5 class="lightTitle card-title">Prof. Chales Uwadia FNCS</h5>
+                                    <h6 class="lightSubTitle card-subtitle">President/Chairman-in-Council CPN</h6>
+                                    <p class="lightDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
+                                    </div>
+
+                                    <div class="social">
+                                    <div class="row">
+                                        <div class="col-xs-4 col-sm-4 col-md-4">
+                                       <a href="" > <i class="fa fa-github fa-2x social-color-light"></i></a>
+                                        </div>
+                                        <div class="col-xs-4 col-sm-4 col-md-4">
+                                        <a href="" ><i class="col fa fa-twitter fa-2x social-color-light"></i></a>
+                                        </div>
+                                        <div class="col-xs-4 col-sm-4 col-md-4">
+                                       <a href="" > <i class="col fa fa-instagram fa-2x social-color-light"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <h3>Prof. Chales Uwadia FNCS<span class="committee-deg">President/Chairman-in-Council CPN</span></h3>
                             </div>
                         </div>
+                    </div>
+                        <!-- light mode ended -->
                     </div>
                     <!-- #div row -->
                      </div>                         
                     </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-1.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            </div>
-                            <h3>Prof. Olumide Longe FASI<span class="committee-deg">Interim Dean, <br>School of Computing, <br>American University of Nigeria Yola</span></h3>
-                        </div>
-                    </div>
+                    <div class="row">
+                    <!-- Dark Mode ended-->
+                    <div class="col-sm-4 marg-top">
+                            <div class="justify-content-md-center">
+                            <div class="card cardBorderCorners darkCard">
+                                <div class="card-body">
+                                <img class="proPic proDark card-img rounded-circle" src="assets/img/executives/pp.jpg" alt="Profile Pic">
+                                <h5 class="darkTitle card-title">Prof. Olumide Longe FASI</h5>
+                                <h6 class="darkSubTitle card-subtitle">Interim Dean, <br>School of Computing, <br>American University of Nigeria Yola</h6>
+                                <p class="darkDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
+                                </div>
 
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-2.jpg" class="img-fluid exec_others" alt="Committee"/>
+                                <div class="social">
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4">
+                                   <a href="" > <i class="fa fa-github fa-2x social-color-dark" ></i></a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4">
+                                   <a href="" > <i class="col fa fa-twitter fa-2x social-color-dark" ></i></a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4">
+                                    <a href="" ><i class="col fa fa-instagram fa-2x social-color-dark"></i></a>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-                            <h3>Mr Mohammed Ibrahim Jega<span class="committee-deg">Founder Startup Arewa</span></h3>
+                            </div>
                         </div>
-                    </div>
+                            <!-- Dark Mode ended-->
+                            <!-- Light Mode -->
+                        <div class="col-sm-4 marg-top">
+                            <div class="justify-content-md-center">
+                                <div class="card cardBorderCorners lightCard">
+                                    <div class="card-body">
+                                    <img class="proPic proLight card-img rounded-circle" src="assets/img/executives/ibrahim-jega.jpeg" alt="Profile Pic">
+                                    <h5 class="lightTitle card-title">Mr Mohammed Ibrahim Jega</h5>
+                                    <h6 class="lightSubTitle card-subtitle">Founder Startup Arewa</h6>
+                                    <p class="lightDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
+                                    </div>
 
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-3.jpg" class="img-fluid exec_others" alt="Committee"/>
+                                    <div class="social">
+                                    <div class="row">
+                                        <div class="col-xs-4 col-sm-4 col-md-4">
+                                      <a href="" >  <i class="fa fa-github fa-2x social-color-light"></i></a>
+                                        </div>
+                                        <div class="col-xs-4 col-sm-4 col-md-4">
+                                        <a href="" ><i class="col fa fa-twitter fa-2x social-color-light"></i></a>
+                                        </div>
+                                        <div class="col-xs-4 col-sm-4 col-md-4">
+                                        <a href="" ><i class="col fa fa-instagram fa-2x social-color-light"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <h3>Dr. Nasir Daniya FNCS<span class="committee-deg">DG, ICT Directorate Sokoto State</span></h3>
+                         </div>
                         </div>
-                    </div>
+                        <!-- light mode ended -->
+                            <!-- Dark Mode ended-->
+                        <div class="col-sm-4 marg-top">
+                            <div class="justify-content-md-center">
+                            <div class="card cardBorderCorners darkCard">
+                                <div class="card-body">
+                                <img class="proPic proDark card-img rounded-circle" src="assets/img/executives/Dr-Nasir-Daniya-FNCS.jpg" alt="Profile Pic">
+                                <h5 class="darkTitle card-title">Dr. Nasir Daniya FNCS</h5>
+                                <h6 class="darkSubTitle card-subtitle">DG, ICT Directorate Sokoto State</h6>
+                                <p class="darkDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
+                                </div>
 
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-5.jpg" class="img-fluid exec_others" alt="Committee"/>
+                                <div class="social">
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4">
+                                    <a href="" ><i class="fa fa-github fa-2x social-color-dark" ></i></a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4">
+                                    <a href="" ><i class="col fa fa-twitter fa-2x social-color-dark" ></i></a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4">
+                                    <a href="" ><i class="col fa fa-instagram fa-2x social-color-dark"></i></a>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-                            <h3>Citp. Adekunle Durosinmi MNCS<span class="committee-deg">Registrar, Dots ICT Institute of Technology Abeokuta</span></h3>
+                            </div>
                         </div>
-                    </div>
+                            <!-- Dark Mode ended-->
+                            <!-- Light Mode -->
+                        <div class="col-sm-4 marg-top">
+                            <div class="justify-content-md-center">
+                                <div class="card cardBorderCorners lightCard">
+                                    <div class="card-body">
+                                    <img class="proPic proLight card-img rounded-circle" src="assets/img/executives/mrDuro.jpeg" alt="Profile Pic">
+                                    <h5 class="lightTitle card-title">Citp. Adekunle Durosinmi MNCS</h5>
+                                    <h6 class="lightSubTitle card-subtitle">Registrar, Dots ICT Institute of Technology Abeokuta</h6>
+                                    <p class="lightDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
+                                    </div>
 
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-6.jpg" class="img-fluid exec_others" alt="Committee"/>
+                                    <div class="social">
+                                    <div class="row">
+                                        <div class="col-xs-4 col-sm-4 col-md-4">
+                                        <a href="" ><i class="fa fa-github fa-2x social-color-light"></i></a>
+                                        </div>
+                                        <div class="col-xs-4 col-sm-4 col-md-4">
+                                        <a href="" ><i class="col fa fa-twitter fa-2x social-color-light"></i></a>
+                                        </div>
+                                        <div class="col-xs-4 col-sm-4 col-md-4">
+                                        <a href="" ><i class="col fa fa-instagram fa-2x social-color-light"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <h3>Alhaji Shuaib Afolabi Salisu FNCS<span class="committee-deg">Chief of Staff to Ogun State Governor</span></h3>
+                          </div>
                         </div>
-                    </div>
+                        <!-- light mode ended -->
+                            <!-- Dark Mode ended-->
+                        <div class="col-sm-4 marg-top">
+                            <div class="justify-content-md-center">
+                            <div class="card cardBorderCorners darkCard">
+                                <div class="card-body">
+                                <img class="proPic proDark card-img rounded-circle" src="assets/img/committee/commitee-1.jpg" alt="Profile Pic">
+                                <h5 class="darkTitle card-title">Alhaji Shuaib Afolabi Salisu FNCS</h5>
+                                <h6 class="darkSubTitle card-subtitle">Chief of Staff to Ogun State Governor</h6>
+                                <p class="darkDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
+                                </div>
 
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-7.jpg" class="img-fluid exec_others" alt="Committee"/>
+                                <div class="social">
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4">
+                                   <a href="" > <i class="fa fa-github fa-2x social-color-dark" ></i></a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4">
+                                    <a href="" ><i class="col fa fa-twitter fa-2x social-color-dark" ></i></a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4">
+                                    <a href="" ><i class="col fa fa-instagram fa-2x social-color-dark"></i></a>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-                            <h3>Dr. Ikechukwu Innocent Umeh FNCS<span class="committee-deg">Senior Lecturer, Nnamdi Azikwe University Awka Anambra State</span></h3>
+                            </div>
                         </div>
-                    </div>
+                            <!-- Dark Mode ended-->
+                            <!-- Light Mode -->
+                        <div class="col-sm-4 marg-top">
+                            <div class="justify-content-md-center">
+                                <div class="card cardBorderCorners lightCard">
+                                    <div class="card-body">
+                                    <img class="proPic proLight card-img rounded-circle" src="assets/img/executives/umeh.jpeg" alt="Profile Pic">
+                                    <h5 class="lightTitle card-title">Dr. Ikechukwu Innocent Umeh FNCS</h5>
+                                    <h6 class="lightSubTitle card-subtitle">Senior Lecturer, Nnamdi Azikwe University Awka Anambra State</h6>
+                                    <p class="lightDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
+                                    </div>
 
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-8.jpg" class="img-fluid exec_others" alt="Committee"/>
+                                    <div class="social">
+                                    <div class="row">
+                                        <div class="col-xs-4 col-sm-4 col-md-4">
+                                        <a href="" ><i class="fa fa-github fa-2x social-color-light"></i></a>
+                                        </div>
+                                        <div class="col-xs-4 col-sm-4 col-md-4">
+                                        <a href="" ><i class="col fa fa-twitter fa-2x social-color-light"></i></a>
+                                        </div>
+                                        <div class="col-xs-4 col-sm-4 col-md-4">
+                                        <a href="" ><i class="col fa fa-instagram fa-2x social-color-light"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <h3>Evang. (Prof) Ebenezer Obey-Fabiyi MFR<span class="committee-deg">Legend Musician</span></h3>
-                        </div>
-                    </div>
+                         </div>
+                       </div>
+                        <!-- light mode ended -->
+                            <!-- Dark Mode ended-->
+                        <div class="col-sm-4 marg-top">
+                            <div class="justify-content-md-center">
+                            <div class="card cardBorderCorners darkCard">
+                                <div class="card-body">
+                                <img class="proPic proDark card-img rounded-circle" src="assets/img/executives/Ebenezer-Obey.jpg" alt="Profile Pic">
+                                <h5 class="darkTitle card-title">Evang. (Prof) Ebenezer <br>Obey-Fabiyi MFR</h5>
+                                <h6 class="darkSubTitle card-subtitle">Legend Musician</h6>
+                                <p class="darkDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
+                                </div>
 
-                    <!-- <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <div class="commitee-thumb">
-                                <img src="assets/img/committee/commitee-1.jpg" class="img-fluid exec_others" alt="Committee"/>
+                                <div class="social">
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4">
+                                    <a href="" ><i class="fa fa-github fa-2x social-color-dark" ></i></a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4">
+                                    <a href="" ><i class="col fa fa-twitter fa-2x social-color-dark" ></i></a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4">
+                                  <a href="" ><i class="col fa fa-instagram fa-2x social-color-dark"></i></a>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-                            <h3>PRINCE KAMLA<span class="committee-deg">Committee Member</span></h3>
+                            </div>
                         </div>
-                    </div> -->
+                            <!-- Dark Mode ended--> <p class="col-sm-12"> &nbsp;</p>                   
                 </div>
+                <!-- <p class=""> &nbsp;</p> -->
             </div>
+            
 <!-- ended -->
         </div>
     </div>
 <!-- start speech about us -->
-    <div class="people-to-say section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="about-page-area-title">
-                        <h2>Some Speech About Us</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="people-to-say-wrapper owl-carousel">
-                        <!-- Single People Testimonial -->
-                        <div class="single-testimonial-wrap">
-                            <div class="people-thumb">
-                                <img src="assets/img/testimonial/testi-3.png" alt="Alumni" class="img-fluid" />
-                            </div>
-                            <i class="quote-icon"></i>
-                            <p>Exxcellent Lorem ipsum dolor sit amet, ectetur adipisicing elit, sed do eimod tempor
-                                inciidunt ut
-                                labore et dolorgna aliqua. Ut enim ad minim ostrud. </p>
-                            <h4>Robert Albert <span class="people-deg">Founder at Boxr</span></h4>
-                        </div>
-                        <!-- Single People Testimonial -->
-
-                        <!-- Single People Testimonial -->
-                        <div class="single-testimonial-wrap">
-                            <div class="people-thumb">
-                                <img src="assets/img/testimonial/testi-1.png" alt="" class="img-fluid">
-                            </div>
-                            <i class="quote-icon"></i>
-                            <p>Exxcellent Lorem ipsum dolor sit amet, ectetur adipisicing elit, sed do eimod tempor
-                                inciidunt ut
-                                labore et dolorgna aliqua. Ut enim ad minim ostrud. </p>
-                            <h4>Akamla Albert <span class="people-deg">Founder at Kamlakana</span></h4>
-                        </div>
-                        <!-- Single People Testimonial -->
-
-                        <!-- Single People Testimonial -->
-                        <div class="single-testimonial-wrap">
-                            <div class="people-thumb">
-                                <img src="assets/img/testimonial/testi-2.png" alt="" class="img-fluid" />
-                            </div>
-                            <i class="quote-icon"></i>
-                            <p>Exxcellent Lorem ipsum dolor sit amet, ectetur adipisicing elit, sed do eimod tempor
-                                inciidunt ut
-                                labore et dolorgna aliqua. Ut enim ad minim ostrud. </p>
-                            <h4>Taklo Nahid <span class="people-deg">Minister at Nara</span></h4>
-                        </div>
-                        <!-- Single People Testimonial -->
-
-                        <!-- Single People Testimonial -->
-                        <div class="single-testimonial-wrap">
-                            <div class="people-thumb">
-                                <img src="assets/img/testimonial/testi-2.png" alt="" class="img-fluid" />
-                            </div>
-                            <i class="quote-icon"></i>
-                            <p>Exxcellent Lorem ipsum dolor sit amet, ectetur adipisicing elit, sed do eimod tempor
-                                inciidunt ut
-                                labore et dolorgna aliqua. Ut enim ad minim ostrud. </p>
-                            <h4>Mal Muhit<span class="people-deg">Founder at Kamlagiri</span></h4>
-                        </div>
-                        <!-- Single People Testimonial -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+   
 </section>
 <!--== Committee Page Content End ==-->
 

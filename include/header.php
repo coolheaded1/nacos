@@ -61,8 +61,10 @@
                                         <li class="nav-item"><a class="nav-link" href="chapter.php">New Chapter Registration</a></li>
                                         <li class="nav-item"><a class="nav-link" href="dues.php">Annual Chapter Dues</a></li>
                                         <li class="nav-item"><a class="nav-link" href="boards.php">Member Welfare Scheme</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="updates.php">NACOS Updates</a></li>
                                     </ul>
                                 </li>
+                                <li class="nav-item <?php echo ($page == "accounts" ? "active" : "")?>"><a class="nav-link" href="register.php">Accounts</a></li>
                                 <li class="nav-item <?php echo ($page == "contact" ? "active" : "")?>"><a class="nav-link" href="contact.php">Contact</a></li>
                             </ul>
                         </div>

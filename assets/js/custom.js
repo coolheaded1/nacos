@@ -38,4 +38,3 @@ function showDiv(num) {
     document.getElementById('paraDiv3').style.display='none';
     document.getElementById('paraDiv'+num).style.display='block';
 }
-

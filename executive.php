@@ -44,9 +44,30 @@
         <div class="row">
             <div class="col-lg-8 m-auto text-center">
                 <div class="page-title-content">
-                    <h1 class="h2">National Executive Council</h1>
-<!-- <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the         need</p> -->
-                    <!-- <a href="committee.html#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a> -->
+                <div class="col-sm-7" style="margin:0px auto;" >
+                        <div class="card-mine-president">
+                            <div class="avatar">
+                                <img src="assets/img/executives/presido.jpeg">
+                            </div>
+                            <div class="title">
+                                <h4>Comr. Abolade Olamilekan</h4>
+                            </div>
+                            <div class="description">
+                            NACOS National President
+                            </div>
+                            <div class="social">
+                                <ul>
+                                <li><i class="fa fa-facebook"></i></li>
+                                <li><i class="fa fa-twitter"></i></li>
+                                <li><i class="fa fa-github"></i></li>
+                                <li><i class="fa fa-youtube"></i></li>
+                                <li><i class="fa fa-link"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single user end -->
+                    <!-- <h1 class="h2">National Executive Council</h1> -->
                 </div>
             </div>
         </div>
@@ -59,134 +80,427 @@
     <div class="committee-content-wrap section-padding">
         <div class="committee-member-list">
             <div class="container">
+                <h3 style="text-transform:uppercase;text-align:center;color:#048c0b;margin-bottom:35px;">22<sup>ND</sup> National Executive Council</h3>
                 <div class="row">
-                    <div class="col-lg-4 col-sm-10 col-md-7 m-auto">
-                        <div class="single-committee-member">
-                            <img src="assets/img/executives/president.jpg" class="img-fluid exec" alt="Committee"/>
-                            <h3 class="reducer_h3"> Comr. Abolade Olamilekan <span class="committee-deg">President</span></h3>
+                    <!-- single user start -->
+                    <div class="col-sm-4" >
+                        <div class="card-mine">
+                            <div class="avatar">
+                                <img src="assets/img/executives/Ruth_Samuel-VP_National.jpg">
+                            </div>
+                            <div class="title">
+                                <h4>Comr. Samuel Ruth</h4>
+                            </div>
+                            <div class="description">
+                            Vice President
+                            </div>
+                            <div class="social">
+                                <ul>
+                                <li><i class="fa fa-facebook"></i></li>
+                                <li><i class="fa fa-twitter"></i></li>
+                                <li><i class="fa fa-github"></i></li>
+                                <li><i class="fa fa-youtube"></i></li>
+                                <li><i class="fa fa-link"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single user end -->
+
+                    <!-- single user start -->
+                    <div class="col-sm-4">
+                        <div class="card-mine">
+                            <div class="avatar">
+                                <img src="assets/img/executives/vptwo.jpg">
+                            </div>
+                            <div class="title">
+                                <h4>Comr. Abdulmalik Ango</h4>
+                            </div>
+                            <div class="description">
+                            Vice president <br>(International Affairs)
+                            </div>
+                            <div class="social">
+                                <ul>
+                                <li><i class="fa fa-facebook"></i></li>
+                                <li><i class="fa fa-twitter"></i></li>
+                                <li><i class="fa fa-github"></i></li>
+                                <li><i class="fa fa-youtube"></i></li>
+                                <li><i class="fa fa-link"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single user end -->
+
+                    <!-- single user start -->
+                    <div class="col-sm-4">
+                        <div class="card-mine">
+                            <div class="avatar">
+                                <img src="assets/img/committee/commitee-6.jpg">
+                            </div>
+                            <div class="title">
+                                <h4>Comr. Olabode Oyinkansola</h4>
+                            </div>
+                            <div class="description">
+                            Secretary General
+                            </div>
+                            <div class="social">
+                                <ul>
+                                <li><i class="fa fa-facebook"></i></li>
+                                <li><i class="fa fa-twitter"></i></li>
+                                <li><i class="fa fa-github"></i></li>
+                                <li><i class="fa fa-youtube"></i></li>
+                                <li><i class="fa fa-link"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single user end -->
+
+                    <!-- single user start -->
+                    <div class="col-sm-4">
+                        <div class="card-mine">
+                            <div class="avatar">
+                                <img src="assets/img/executives/Ponjul_Danjum-Asst_Sec_Gen.jpg">
+                            </div>
+                            <div class="title">
+                                <h4>Comr. Ponjul Danjuma</h4>
+                            </div>
+                            <div class="description">
+                            Assistant Secretary-General
+                            </div>
+                            <div class="social">
+                                <ul>
+                                <li><i class="fa fa-facebook"></i></li>
+                                <li><i class="fa fa-twitter"></i></li>
+                                <li><i class="fa fa-github"></i></li>
+                                <li><i class="fa fa-youtube"></i></li>
+                                <li><i class="fa fa-link"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single user end -->
+                
+
+                    <!-- single user start -->
+                    <div class="col-sm-4" >
+                        <div class="card-mine">
+                            <div class="avatar">
+                                <img src="assets/img/executives/Apeh_Eneo-Director_of_Publicity.JPG">
+                            </div>
+                            <div class="title">
+                                <h4>Comr. Apeh Enejo</h4>
+                            </div>
+                            <div class="description">
+                            Director of Publicity and Media
+                            </div>
+                            <div class="social">
+                                <ul>
+                                <li><i class="fa fa-facebook"></i></li>
+                                <li><i class="fa fa-twitter"></i></li>
+                                <li><i class="fa fa-github"></i></li>
+                                <li><i class="fa fa-youtube"></i></li>
+                                <li><i class="fa fa-link"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single user end -->
+                    <!-- single user start -->
+                    <div class="col-sm-4" >
+                        <div class="card-mine">
+                            <div class="avatar">
+                                <img src="assets/img/executives/Adeola_Taiwo-Director_of_Finanace.jpg">
+                            </div>
+                            <div class="title">
+                                <h4>Comr. Adeola Olamide Taiwo </h4>
+                            </div>
+                            <div class="description">
+                            Director of Finance
+                            </div>
+                            <div class="social">
+                                <ul>
+                                <li><i class="fa fa-facebook"></i></li>
+                                <li><i class="fa fa-twitter"></i></li>
+                                <li><i class="fa fa-github"></i></li>
+                                <li><i class="fa fa-youtube"></i></li>
+                                <li><i class="fa fa-link"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single user end -->
+                    <!-- single user start -->
+                    <div class="col-sm-4" >
+                        <div class="card-mine">
+                            <div class="avatar">
+                                <img src="assets/img/executives/Agbo_Faruq_Rabo-Director_of_Research.jpg">
+                            </div>
+                            <div class="title">
+                                <h4>Comr. Agbo Faruq Rabo</h4>
+                            </div>
+                            <div class="description">
+                            Director of Research and Innovation
+                            </div>
+                            <div class="social">
+                                <ul>
+                                <li><i class="fa fa-facebook"></i></li>
+                                <li><i class="fa fa-twitter"></i></li>
+                                <li><i class="fa fa-github"></i></li>
+                                <li><i class="fa fa-youtube"></i></li>
+                                <li><i class="fa fa-link"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single user end -->
+                    <!-- single user start -->
+                    <div class="col-sm-4" >
+                        <div class="card-mine">
+                            <div class="avatar">
+                                <img src="assets/img/executives/AliyuMohammed-Directo_rof_Welfare_I.jpg">
+                            </div>
+                            <div class="title">
+                                <h4>Comr. Aliyu Muhammed</h4>
+                            </div>
+                            <div class="description">
+                            Director of Welfare and Membership Services I
+                            </div>
+                            <div class="social">
+                                <ul>
+                                <li><i class="fa fa-facebook"></i></li>
+                                <li><i class="fa fa-twitter"></i></li>
+                                <li><i class="fa fa-github"></i></li>
+                                <li><i class="fa fa-youtube"></i></li>
+                                <li><i class="fa fa-link"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single user end -->
+                    <!-- single user start -->
+                    <div class="col-sm-4" >
+                        <div class="card-mine">
+                            <div class="avatar">
+                                <img src="assets/img/executives/Confidence_Monday-Director_of_Welfare_II.jpg">
+                            </div>
+                            <div class="title">
+                                <h4>Comr. Confidence Monday</h4>
+                            </div>
+                            <div class="description">
+                            Director of Welfare and Membership Services II
+                            </div>
+                            <div class="social">
+                                <ul>
+                                <li><i class="fa fa-facebook"></i></li>
+                                <li><i class="fa fa-twitter"></i></li>
+                                <li><i class="fa fa-github"></i></li>
+                                <li><i class="fa fa-youtube"></i></li>
+                                <li><i class="fa fa-link"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single user end -->
+                    <!-- single user start -->
+                    <div class="col-sm-4" >
+                        <div class="card-mine">
+                            <div class="avatar">
+                                <img src="assets/img/executives/vptwo.jpg">
+                            </div>
+                            <div class="title">
+                                <h4>Comr. Abubakar Sadiq Hassan</h4>
+                            </div>
+                            <div class="description">
+                            Immediate Past President
+                            </div>
+                            <div class="social">
+                                <ul>
+                                <li><i class="fa fa-facebook"></i></li>
+                                <li><i class="fa fa-twitter"></i></li>
+                                <li><i class="fa fa-github"></i></li>
+                                <li><i class="fa fa-youtube"></i></li>
+                                <li><i class="fa fa-link"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single user end -->
+                </div>
+                <!-- fourth pallet -->
+                <br><br>
+                <h3 style="text-transform:uppercase;text-align:center;color:#048c0b;">Zonal Coordinating Officers</h3>
+                <div class="row">
+                    <!-- card single started -->
+                    <div class="col-sm-4">
+                        <div class="container-prof">                                
+                                <img src="assets/img/executives/Stephen_Paul-Zonal_Coord_North_Central.png" class="profile-s">
+                            <div class="profile-names">Comr. Stephen Edache Paul</div>
+                            <p class="about-rmv">North Central Zonal Coordinator</p>
+                            <div>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-youtube"></i>
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card single ended -->
+                    <!-- card single started -->
+                    <div class="col-sm-4">
+                        <div class="container-prof">
+                                <img src="assets/img/committee/commitee-8.jpg" class="profile-s">
+                            <div class="profile-names">Comr. Isah Kasim</div>
+                            <p class="about-rmv">North West Zonal Coordinator</p>
+                            <div>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-youtube"></i>
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card single ended -->
+                    <!-- card single started -->
+                    <div class="col-sm-4">
+                        <div class="container-prof">
+                                <img src="assets/img/committee/commitee-5.jpg" class="profile-s">
+                            <div class="profile-names">Comr. Muhammad Sharif</div>
+                            <p class="about-rmv">North East Zonal Coordinator</p>
+                            <div>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-youtube"></i>
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card single ended -->
+                    <!-- card single started -->
+                    <div class="col-sm-4">
+                        <div class="container-prof">
+                                <img src="assets/img/committee/commitee-5.jpg" class="profile-s">
+                            <div class="profile-names">Comr. Name Name</div>
+                            <p class="about-rmv">South West Zonal Coordinator </p>
+                            <div>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-youtube"></i>
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card single ended -->
+                    <!-- card single started -->
+                    <div class="col-sm-4">
+                        <div class="container-prof">
+                                <img src="assets/img/committee/commitee-5.jpg" class="profile-s">
+                            <div class="profile-names">Comr. Name Name</div>
+                            <p class="about-rmv">South South Zonal Coordinator</p>
+                            <div>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-youtube"></i>
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card single ended -->
+                    <!-- card single started -->
+                    <div class="col-sm-4">
+                        <div class="container-prof">
+                                <img src="assets/img/committee/commitee-8.jpg" class="profile-s">
+                            <div class="profile-names">Comr. Ikechuckwu Nwachukwu</div>
+                            <p class="about-rmv">South East Zonal Coordinator<r</p>
+                            <div>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-youtube"></i>
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card single ended -->
+                </div>
+                <!-- fifth pallet  here  -->
+                <br><br>
+                <h3 style="text-transform:uppercase;text-align:center;color:#048c0b;margin-bottom:35px;">Office of the National President</h3>
+                <div class="row basis-member staff">                
+                    <div class="col-lg-3">
+                        <div class="card member-box shadow-lg">
+                        <span class="shape"></span>
+                        <img class="card-img-top" src="assets/img/committee/commitee-8.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="member-title">Mr. Mustafa Jabbar (2016-2018)</h4>
+                            <span class="member-degignation"><p>Chief Executive Officer <strong>(President)</p></strong></span>
+                            <br><small class="icon-cent">
+                                <p>
+                                    <i class="fa fa-facebook-f"></i>
+                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </p>
+                            </small>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card member-box shadow-lg">
+                        <span class="shape"></span>
+                        <img class="card-img-top" src="assets/img/committee/commitee-8.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="member-title">Mr. Syed Almas Kabir (2018 Jan- March, 2018 )</h4>
+                            <span class="member-degignation"><p>CEO <strong>(President)</strong></p></span>
+                            <br><small class="icon-cent">
+                                <p>
+                                    <i class="fa fa-facebook-f"></i>
+                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </p>
+                            </small>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card member-box shadow-lg">
+                        <span class="shape"></span>
+                        <img class="card-img-top" src="assets/img/committee/commitee-8.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="member-title">Mr. Syed Almas Kabir (2018 Jan- March, 2018 )</h4>
+                            <span class="member-degignation"><p>CEO <strong>(President)</strong></p></span>
+                            <br><small class="icon-cent">
+                                <p>
+                                    <i class="fa fa-facebook-f"></i>
+                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </p>
+                            </small>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card member-box shadow-lg">
+                        <span class="shape"></span>
+                        <img class="card-img-top" src="assets/img/committee/commitee-8.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="member-title">Mr. Syed Almas Kabir (2018 Jan- March, 2018 )</h4>
+                            <span class="member-degignation"><p>CEO <strong>(President)</strong></p></span>
+                            <br><small class="icon-cent">
+                                <p>
+                                    <i class="fa fa-facebook-f"></i>
+                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </p>
+                            </small>
+                        </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <img src="assets/img/executives/Ruth_Samuel-VP_National.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            <h3>Comr. Samuel Ruth <span class="committee-deg">Vice President</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <img src="assets/img/executives/vptwo.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            <h3>Comr. Abdulmalik Ango <span class="committee-deg">Vice president <br>(International Affairs)</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <img src="assets/img/committee/commitee-6.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            <h3>Comr. Olabode Oyinkansola<span class="committee-deg">Secretary General</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <img src="assets/img/executives/Ponjul_Danjum-Asst_Sec_Gen.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            <h3>Comr. Ponjul Danjuma<span class="committee-deg">Assistant Secretary-General</span></h3>
-                        </div>
-                    </div>
-                </div>
-                <!-- second pallete -->
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <img src="assets/img/executives/Apeh_Eneo-Director_of_Publicity.JPG" class="img-fluid exec_others" alt="Committee"/>
-                            <h3>Comr. Apeh Enejo <span class="committee-deg">Director of Publicity and Media</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <img src="assets/img/executives/Adeola_Taiwo-Director_of_Finanace.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            <h3>Comr. Adeola Olamide Taiwo  <span class="committee-deg">Director of Finance</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <img src="assets/img/executives/Agbo_Faruq_Rabo-Director_of_Research.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            <h3>Comr. Agbo Faruq Rabo<span class="committee-deg">Director of Research and Innovation</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <img src="assets/img/executives/AliyuMohammed-Directo_rof_Welfare_I.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            <h3>Comr. Aliyu Muhammed<span class="committee-deg">Director of Welfare and Membership Services I</span></h3>
-                        </div>
-                    </div>
-                </div>
-                <!-- third pallet -->
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <img src="assets/img/executives/Confidence_Monday-Director_of_Welfare_II.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            <h3>Comr. Confidence Monday<span class="committee-deg">Director of Welfare and Membership Services II</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <img src="assets/img/executives/vptwo.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            <h3>Comr. Abubakar Sadiq Hassan <span class="committee-deg">Immediate Past President </span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <img src="assets/img/executives/Stephen_Paul-Zonal_Coord_North_Central.png" class="img-fluid exec_others" alt="Committee"/>
-                            <h3>Comr. Stephen Edache Paul<span class="committee-deg">North Central Zonal Coordinator</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <img src="assets/img/committee/commitee-8.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            <h3>Comr. Isah Kasim<span class="committee-deg">North West Zonal Coordinator</span></h3>
-                        </div>
-                    </div>
-                </div>
-                <!-- forth pallet -->
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <img src="assets/img/committee/commitee-5.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            <h3>Comr. Muhammad Sharif<span class="committee-deg">North East Zonal Coordinator</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <img src="assets/img/executives/vptwo.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            <h3>Comr. <span class="committee-deg">South West Zonal Coordinator </span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <img src="assets/img/committee/commitee-6.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            <h3>Comr. l<span class="committee-deg">South South Zonal Coordinator</span></h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-committee-member">
-                            <img src="assets/img/committee/commitee-8.jpg" class="img-fluid exec_others" alt="Committee"/>
-                            <h3>Comr. Ikechuckwu Nwachukwu<span class="committee-deg">South East Zonal Coordinator</span></h3>
-                        </div>
-                    </div>
-                </div>
+                <!-- fifth pallet  here ended -->
             </div>
         </div>
     </div>

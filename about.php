@@ -315,8 +315,7 @@
 <!-- custom js: main custom theme js file  -->
 <script src="assets/js/theme.min.js"></script>
 
-<!-- slick carousel slider -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<?php include "include/js_file.php" ?>
 <!-- custom js: custom js file is added for easy custom js code  -->
 <script src="assets/js/custom.js"></script>
 </body>

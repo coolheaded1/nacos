@@ -234,7 +234,7 @@ Innovative Systems for Digital Economy (ISDE’2021)</a></h3>
                         </div>
 
                         <div class="about-thumb">
-                            <img src="assets/img/event/microchip.jpeg" alt="" class="img-fluid">
+                            <img src="assets/img/event/nacosschip2.jpg" alt="" class="img-fluid">
                         </div>
 <!-- 
                         <h4>Through consistent and professional exposure</h4>
@@ -713,13 +713,9 @@ Innovative Systems for Digital Economy (ISDE’2021)</a></h3>
 
 <!-- custom js: main custom theme js file  -->
 <script src="assets/js/theme.min.js"></script>
-
+<?php include "include/js_file.php" ?>
 <!-- custom js: custom js file is added for easy custom js code  -->
 <script src="assets/js/custom.js"></script>
-
-<!-- custom js: custom scripts for theme style switcher for demo purpose  -->
-<!-- <script id="switcherhandle" src="assets/switcher/switcher.js"></script> -->
-
 
 </body>
 </html>

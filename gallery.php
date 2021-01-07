@@ -47,7 +47,7 @@
             <div class="col-lg-8 m-auto text-center">
                 <div class="page-title-content">
                     <h1 class="h2">Gallery</h1>
-                    <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the need</p>
+                    <!-- <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the need</p> -->
                     <!-- <a href="gallery.html#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a> -->
                 </div>
             </div>
