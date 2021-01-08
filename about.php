@@ -245,21 +245,45 @@
                         </div>
                         </div>
                 </section>
-                            <br><br>
-                            <!--== FunFact Area End ==-->
-                            <h3 style="text-align:center">Our  Partners</h3>
-                            <section class="customer-logos slider">
-                                <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
-                                <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
-                                <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
-                                <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
-                                <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
-                                <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
-                                <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
-                                <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
-                            </section>
+                <div class="textMonial">
+                <div class="heading-now white-heading">our parent body</div>
+                    <!-- <div class="row" > -->
+                        <!-- <div class="col-md-offset-2 col-md-8"> -->
+                            <div class="testimonial col-sm-8" style="margin:0px auto;">
+                             <img src="assets/img/executives/cropped-NCS_LOGO-15.jpg" style="width:70%;height:140px;"  /><br><br>
+                                <div class="testimonial-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dolor ipsum
+                                        molestias mollitia ut. Aliquam aperiam corporis cumque debitis delectus dignissimos.
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="cd-author">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85807/usual_suspects_1.png" alt="Author image">
+                                    <ul class="cd-author-info">
+                                    <li>Todd Hockney</li>
+                                    <li>CFO</li>
+                                    </ul>
+                                </div>
+                                <!-- image here -->
                             </div>
-                            <p></p><p></p><br><br>
+                        <!-- </div> -->
+                    <!-- </div>                 -->
+                </div>
+                    <br><br>
+                    <!--== FunFact Area End ==-->
+                        <h3 style="text-align:center">Our  Partners</h3>
+                        <section class="customer-logos slider">
+                            <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
+                            <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+                            <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+                            <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
+                            <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+                            <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
+                            <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
+                            <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
+                        </section>
+                    </div>
+                    <p></p><p></p><br><br>
                     </section>
 <!--== Committee Page Content End ==-->
 <!--== Footer Area Start ==-->

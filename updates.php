@@ -47,9 +47,7 @@
             <div class="row">
                 <div class="col-lg-8 m-auto text-center">
                     <div class="page-title-content">
-                        <h1 class="h2">Blog List</h1>
-                        <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the need</p>
-                        <a href="blog.html#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a>
+                        <h1 class="h2">NACOS Updates</h1>
                     </div>
                 </div>
             </div>

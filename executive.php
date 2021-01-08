@@ -44,28 +44,33 @@
         <div class="row">
             <div class="col-lg-8 m-auto text-center">
                 <div class="page-title-content">
-                <div class="col-sm-7" style="margin:0px auto;" >
-                        <div class="card-mine-president">
-                            <div class="avatar">
-                                <img src="assets/img/executives/presido.jpeg">
+                        <div class="col-sm-6 marg-top" style="margin:0px auto;" >       
+                            <!-- Light Mode -->
+                            <div class="justify-content-md-center">
+                                <div class="card cardBorderCorners lightCard">
+                                    <div class="card-body">
+                                    <img class="proPic proLight card-img rounded-circle" src="assets/img/executives/presido.jpeg" alt="Profile Pic">
+                                    <h5 class="lightTitle card-title">Comr. Olamilekan Toyeeb Abolade</h5>
+                                    <h6 class="lightSubTitle card-subtitle">NACOS National President</h6>
+                                    <p class="lightDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
+                                    </div>
+
+                                    <div class="social">
+                                    <div class="row">
+                                        <div class="col-xs-4 col-sm-4 col-md-4">
+                                       <a href="" > <i class="fa fa-github fa-2x social-color-light"></i></a>
+                                        </div>
+                                        <div class="col-xs-4 col-sm-4 col-md-4">
+                                        <a href="" ><i class="col fa fa-twitter fa-2x social-color-light"></i></a>
+                                        </div>
+                                        <div class="col-xs-4 col-sm-4 col-md-4">
+                                       <a href="" > <i class="col fa fa-instagram fa-2x social-color-light"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="title">
-                                <h4>Comr. Abolade Olamilekan</h4>
-                            </div>
-                            <div class="description">
-                            NACOS National President
-                            </div>
-                            <div class="social">
-                                <ul>
-                                <li><i class="fa fa-facebook"></i></li>
-                                <li><i class="fa fa-twitter"></i></li>
-                                <li><i class="fa fa-github"></i></li>
-                                <li><i class="fa fa-youtube"></i></li>
-                                <li><i class="fa fa-link"></i></li>
-                                </ul>
-                            </div>
+                            <!-- light mode ended -->
                         </div>
-                    </div>
                     <!-- single user end -->
                     <!-- <h1 class="h2">National Executive Council</h1> -->
                 </div>
@@ -83,7 +88,7 @@
                 <h3 style="text-transform:uppercase;text-align:center;color:#048c0b;margin-bottom:35px;">22<sup>ND</sup> National Executive Council</h3>
                 <div class="row">
                     <!-- single user start -->
-                    <div class="col-sm-4" >
+                    <!-- <div class="col-sm-4" >
                         <div class="card-mine">
                             <div class="avatar">
                                 <img src="assets/img/executives/Ruth_Samuel-VP_National.jpg">
@@ -104,229 +109,158 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- single user end -->
-
-                    <!-- single user start -->
+                    <!-- card single started -->
                     <div class="col-sm-4">
-                        <div class="card-mine">
-                            <div class="avatar">
-                                <img src="assets/img/executives/vptwo.jpg">
-                            </div>
-                            <div class="title">
-                                <h4>Comr. Abdulmalik Ango</h4>
-                            </div>
-                            <div class="description">
-                            Vice president <br>(International Affairs)
-                            </div>
-                            <div class="social">
-                                <ul>
-                                <li><i class="fa fa-facebook"></i></li>
-                                <li><i class="fa fa-twitter"></i></li>
-                                <li><i class="fa fa-github"></i></li>
-                                <li><i class="fa fa-youtube"></i></li>
-                                <li><i class="fa fa-link"></i></li>
-                                </ul>
+                        <div class="container-prof">                                
+                                <img src="assets/img/executives/Ruth_Samuel-VP_National.jpg" class="profile-s">
+                            <div class="profile-names">Comr. Samuel Ruth</div>
+                            <p class="about-rmv">Vice President</p>
+                            <div>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-linkedin"></i>
+                                <i class="fa fa-twitter"></i>
                             </div>
                         </div>
                     </div>
-                    <!-- single user end -->
-
-                    <!-- single user start -->
+                    <!-- card single ended -->
+                                        <!-- card single started -->
+                                        <div class="col-sm-4">
+                        <div class="container-prof">                                
+                                <img src="assets/img/executives/vptwo.jpg" class="profile-s">
+                            <div class="profile-names">Comr. Abdulmalik Ango</div>
+                            <p class="about-rmv">Vice president <br>(International Affairs)</p>
+                            <div>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-linkedin"></i>
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card single ended -->
+                    <!-- card single started -->
                     <div class="col-sm-4">
-                        <div class="card-mine">
-                            <div class="avatar">
-                                <img src="assets/img/committee/commitee-6.jpg">
-                            </div>
-                            <div class="title">
-                                <h4>Comr. Olabode Oyinkansola</h4>
-                            </div>
-                            <div class="description">
-                            Secretary General
-                            </div>
-                            <div class="social">
-                                <ul>
-                                <li><i class="fa fa-facebook"></i></li>
-                                <li><i class="fa fa-twitter"></i></li>
-                                <li><i class="fa fa-github"></i></li>
-                                <li><i class="fa fa-youtube"></i></li>
-                                <li><i class="fa fa-link"></i></li>
-                                </ul>
+                        <div class="container-prof">                                
+                                <img src="assets/img/committee/commitee-6.jpg" class="profile-s">
+                            <div class="profile-names">Comr. Olabode Oyinkansola</div>
+                            <p class="about-rmv">Secretary General</p>
+                            <div>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-linkedin"></i>
+                                <i class="fa fa-twitter"></i>
                             </div>
                         </div>
                     </div>
-                    <!-- single user end -->
-
-                    <!-- single user start -->
+                    <!-- card single ended -->
+                    <!-- card single started -->
                     <div class="col-sm-4">
-                        <div class="card-mine">
-                            <div class="avatar">
-                                <img src="assets/img/executives/Ponjul_Danjum-Asst_Sec_Gen.jpg">
-                            </div>
-                            <div class="title">
-                                <h4>Comr. Ponjul Danjuma</h4>
-                            </div>
-                            <div class="description">
-                            Assistant Secretary-General
-                            </div>
-                            <div class="social">
-                                <ul>
-                                <li><i class="fa fa-facebook"></i></li>
-                                <li><i class="fa fa-twitter"></i></li>
-                                <li><i class="fa fa-github"></i></li>
-                                <li><i class="fa fa-youtube"></i></li>
-                                <li><i class="fa fa-link"></i></li>
-                                </ul>
+                        <div class="container-prof">                                
+                                <img src="assets/img/executives/Ponjul_Danjum-Asst_Sec_Gen.jpg" class="profile-s">
+                            <div class="profile-names">Comr. Ponjul Danjuma</div>
+                            <p class="about-rmv">Assistant Secretary-General</p>
+                            <div>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-linkedin"></i>
+                                <i class="fa fa-twitter"></i>
                             </div>
                         </div>
                     </div>
-                    <!-- single user end -->
-                
-
-                    <!-- single user start -->
-                    <div class="col-sm-4" >
-                        <div class="card-mine">
-                            <div class="avatar">
-                                <img src="assets/img/executives/Apeh_Eneo-Director_of_Publicity.JPG">
-                            </div>
-                            <div class="title">
-                                <h4>Comr. Apeh Enejo</h4>
-                            </div>
-                            <div class="description">
-                            Director of Publicity and Media
-                            </div>
-                            <div class="social">
-                                <ul>
-                                <li><i class="fa fa-facebook"></i></li>
-                                <li><i class="fa fa-twitter"></i></li>
-                                <li><i class="fa fa-github"></i></li>
-                                <li><i class="fa fa-youtube"></i></li>
-                                <li><i class="fa fa-link"></i></li>
-                                </ul>
+                    <!-- card single ended -->
+                    <!-- card single started -->
+                    <div class="col-sm-4">
+                        <div class="container-prof">                                
+                                <img src="assets/img/executives/Apeh_Eneo-Director_of_Publicity.JPG" class="profile-s">
+                            <div class="profile-names">Comr. Apeh Enejo</div>
+                            <p class="about-rmv">Director of Publicity and Media</p>
+                            <div>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-linkedin"></i>
+                                <i class="fa fa-twitter"></i>
                             </div>
                         </div>
                     </div>
-                    <!-- single user end -->
-                    <!-- single user start -->
-                    <div class="col-sm-4" >
-                        <div class="card-mine">
-                            <div class="avatar">
-                                <img src="assets/img/executives/Adeola_Taiwo-Director_of_Finanace.jpg">
-                            </div>
-                            <div class="title">
-                                <h4>Comr. Adeola Olamide Taiwo </h4>
-                            </div>
-                            <div class="description">
-                            Director of Finance
-                            </div>
-                            <div class="social">
-                                <ul>
-                                <li><i class="fa fa-facebook"></i></li>
-                                <li><i class="fa fa-twitter"></i></li>
-                                <li><i class="fa fa-github"></i></li>
-                                <li><i class="fa fa-youtube"></i></li>
-                                <li><i class="fa fa-link"></i></li>
-                                </ul>
+                    <!-- card single ended -->
+                    <!-- card single started -->
+                    <div class="col-sm-4">
+                        <div class="container-prof">                                
+                                <img src="assets/img/executives/Adeola_Taiwo-Director_of_Finanace.jpg" class="profile-s">
+                            <div class="profile-names">Comr. Adeola Olamide Taiwo</div>
+                            <p class="about-rmv">Director of Finance</p>
+                            <div>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-linkedin"></i>
+                                <i class="fa fa-twitter"></i>
                             </div>
                         </div>
                     </div>
-                    <!-- single user end -->
-                    <!-- single user start -->
-                    <div class="col-sm-4" >
-                        <div class="card-mine">
-                            <div class="avatar">
-                                <img src="assets/img/executives/Agbo_Faruq_Rabo-Director_of_Research.jpg">
-                            </div>
-                            <div class="title">
-                                <h4>Comr. Agbo Faruq Rabo</h4>
-                            </div>
-                            <div class="description">
-                            Director of Research and Innovation
-                            </div>
-                            <div class="social">
-                                <ul>
-                                <li><i class="fa fa-facebook"></i></li>
-                                <li><i class="fa fa-twitter"></i></li>
-                                <li><i class="fa fa-github"></i></li>
-                                <li><i class="fa fa-youtube"></i></li>
-                                <li><i class="fa fa-link"></i></li>
-                                </ul>
+                    <!-- card single ended -->
+                    <!-- card single started -->
+                    <div class="col-sm-4">
+                        <div class="container-prof">                                
+                                <img src="assets/img/executives/Agbo_Faruq_Rabo-Director_of_Research.jpg" class="profile-s">
+                            <div class="profile-names">Comr. Agbo Faruq Rabo</div>
+                            <p class="about-rmv">Director of Research and Innovation</p>
+                            <div>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-linkedin"></i>
+                                <i class="fa fa-twitter"></i>
                             </div>
                         </div>
                     </div>
-                    <!-- single user end -->
-                    <!-- single user start -->
-                    <div class="col-sm-4" >
-                        <div class="card-mine">
-                            <div class="avatar">
-                                <img src="assets/img/executives/AliyuMohammed-Directo_rof_Welfare_I.jpg">
-                            </div>
-                            <div class="title">
-                                <h4>Comr. Aliyu Muhammed</h4>
-                            </div>
-                            <div class="description">
-                            Director of Welfare and Membership Services I
-                            </div>
-                            <div class="social">
-                                <ul>
-                                <li><i class="fa fa-facebook"></i></li>
-                                <li><i class="fa fa-twitter"></i></li>
-                                <li><i class="fa fa-github"></i></li>
-                                <li><i class="fa fa-youtube"></i></li>
-                                <li><i class="fa fa-link"></i></li>
-                                </ul>
+                    <!-- card single ended -->
+                    <!-- card single started -->
+                    <div class="col-sm-4">
+                        <div class="container-prof">                                
+                                <img src="assets/img/executives/AliyuMohammed-Directo_rof_Welfare_I.jpg" class="profile-s">
+                            <div class="profile-names">Comr. Aliyu Muhammed</div>
+                            <p class="about-rmv">Director of Welfare and Membership Services I</p>
+                            <div>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-linkedin"></i>
+                                <i class="fa fa-twitter"></i>
                             </div>
                         </div>
                     </div>
-                    <!-- single user end -->
-                    <!-- single user start -->
-                    <div class="col-sm-4" >
-                        <div class="card-mine">
-                            <div class="avatar">
-                                <img src="assets/img/executives/Confidence_Monday-Director_of_Welfare_II.jpg">
-                            </div>
-                            <div class="title">
-                                <h4>Comr. Confidence Monday</h4>
-                            </div>
-                            <div class="description">
-                            Director of Welfare and Membership Services II
-                            </div>
-                            <div class="social">
-                                <ul>
-                                <li><i class="fa fa-facebook"></i></li>
-                                <li><i class="fa fa-twitter"></i></li>
-                                <li><i class="fa fa-github"></i></li>
-                                <li><i class="fa fa-youtube"></i></li>
-                                <li><i class="fa fa-link"></i></li>
-                                </ul>
+                    <!-- card single ended -->
+                    <!-- card single started -->
+                    <div class="col-sm-4">
+                        <div class="container-prof">                                
+                                <img src="assets/img/executives/Confidence_Monday-Director_of_Welfare_II.jpg" class="profile-s">
+                            <div class="profile-names">Comr. Confidence Monday</div>
+                            <p class="about-rmv"> Director of Welfare and Membership Services II</p>
+                            <div>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-linkedin"></i>
+                                <i class="fa fa-twitter"></i>
                             </div>
                         </div>
                     </div>
-                    <!-- single user end -->
-                    <!-- single user start -->
-                    <div class="col-sm-4" >
-                        <div class="card-mine">
-                            <div class="avatar">
-                                <img src="assets/img/executives/vptwo.jpg">
-                            </div>
-                            <div class="title">
-                                <h4>Comr. Abubakar Sadiq Hassan</h4>
-                            </div>
-                            <div class="description">
-                            Immediate Past President
-                            </div>
-                            <div class="social">
-                                <ul>
-                                <li><i class="fa fa-facebook"></i></li>
-                                <li><i class="fa fa-twitter"></i></li>
-                                <li><i class="fa fa-github"></i></li>
-                                <li><i class="fa fa-youtube"></i></li>
-                                <li><i class="fa fa-link"></i></li>
-                                </ul>
+                    <!-- card single ended -->
+                    <!-- card single started -->
+                    <div class="col-sm-4">
+                        <div class="container-prof">                                
+                                <img src="assets/img/executives/Confidence_Monday-Director_of_Welfare_II.jpg" class="profile-s">
+                            <div class="profile-names">Comr. Confidence Monday</div>
+                            <p class="about-rmv"> Director of Welfare and Membership Services II</p>
+                            <div>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-linkedin"></i>
+                                <i class="fa fa-twitter"></i>
                             </div>
                         </div>
                     </div>
-                    <!-- single user end -->
+                    <!-- card single ended -->
                 </div>
                 <!-- fourth pallet -->
                 <br><br>
@@ -430,16 +364,16 @@
                     <div class="col-lg-3">
                         <div class="card member-box shadow-lg">
                         <span class="shape"></span>
-                        <img class="card-img-top" src="assets/img/committee/commitee-8.jpg" alt="">
+                        <img class="card-img-top" src="assets/img/executives/yakubuabiola.jpeg" alt="">
                         <div class="card-body">
-                            <h4 class="member-title">Mr. Mustafa Jabbar (2016-2018)</h4>
-                            <span class="member-degignation"><p>Chief Executive Officer <strong>(President)</p></strong></span>
+                            <h4 class="member-title">Comr. Yakubu Abiola</h4>
+                            <span class="member-degignation"><p>Chief of staff to the  <strong>(President)</p></strong></span>
                             <br><small class="icon-cent">
                                 <p>
-                                    <i class="fa fa-facebook-f"></i>
-                                    <i class="fa fa-instagram"></i>
-                                    <i class="fa fa-youtube"></i>
-                                    <i class="fa fa-twitter"></i>
+                                    <a href="https://www.linkedin.com/in/yakubu-abiola-880061ab"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://www.instagram.com/abiola_yakubu/"><i class="fa fa-instagram"></i></a>
+                                    <a href="https://github.com/yakubu234"><i class="fa fa-github"></i></a>
+                                    <a href="https://twitter.com/GrandRubicon"><i class="fa fa-twitter"></i></a>
                                 </p>
                             </small>
                         </div>
@@ -565,3 +499,7 @@
 <script src="assets/js/custom.js"></script>
 </body>
 </html>
+<!-- https://codepen.io/baahubali92/pen/BvdmLo
+https://codepen.io/thenahidul/pen/yPzwMK
+https://codepen.io/ashiktorik/pen/QPOEKN
+https://codepen.io/navidesigns/pen/BrLQzE -->

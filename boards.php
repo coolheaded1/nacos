@@ -47,9 +47,6 @@
             <div class="col-lg-8 m-auto text-center">
                 <div class="page-title-content">
                     <h1 class="h2">National Advisory Board</h1>
-                    <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the
-                        need</p>
-                    <!-- <a href="about.html#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a> -->
                 </div>
             </div>
         </div>
@@ -225,7 +222,7 @@
                             <div class="justify-content-md-center">
                                 <div class="card cardBorderCorners lightCard">
                                     <div class="card-body">
-                                    <img class="proPic proLight card-img rounded-circle" src="assets/img/executives/mrDuro.jpeg" alt="Profile Pic">
+                                    <img class="proPic proLight card-img rounded-circle" src="assets/img/executives/duroAgbalagba.jpeg" alt="Profile Pic">
                                     <h5 class="lightTitle card-title">Citp. Adekunle Durosinmi MNCS</h5>
                                     <h6 class="lightSubTitle card-subtitle">Registrar, Dots ICT Institute of Technology Abeokuta</h6>
                                     <p class="lightDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>

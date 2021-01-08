@@ -2,15 +2,94 @@
 
 
 
+.textMonial{background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg);background-position: center;background-size: cover;padding:50px 20px;}.heading-now {text-align: center;color: #454343;font-size: 30px;font-weight: 700;position: relative;margin-bottom: 70px;text-transform: uppercase;z-index: 999;}.white-heading{color: #ffffff;}.heading-now:after {content: ' ';position: absolute;top: 100%;left: 50%;height: 40px;width: 180px;border-radius: 4px;transform: translateX(-50%);background: url(img/heading-line.png);background-repeat: no-repeat;background-position: center;}.white-heading:after {background: url(../img/heading-line-white.png);background-repeat: no-repeat;background-position: center;}
 
 
 
 
 
 
+.testimonial{
+    margin:40px 20px 30px;
+    background-color: #fff;
+    color: #3a3b3c;
+    text-align: center;
+    border-left: 10px solid #048c0b;
+    border-right: 10px solid #048c0b;
+    padding: 40px 30px 40px;
+    position: relative;
+}
+.testimonial:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 10px;
+    background-color: #048c0b;
+}
+.testimonial:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 10px;
+    background-color:#048c0b;
+}
+.testimonial .testimonial-content{
+    margin-bottom: 30px;
+    font-size: 15px;
+    /* line-height: 30px; */
+}
 
 
-.profile-card {
+
+.cd-author img, .cd-author .cd-author-info {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .cd-author img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  .cd-author .cd-author-info {
+    text-align: left;
+    line-height: 1.2;
+  }
+  .cd-author .cd-author-info li:first-child {
+    font-size: 14px;
+    font-size: 0.875rem;
+  }
+  .cd-author .cd-author-info li:last-child {
+    font-size: 12px;
+    font-size: 0.75rem;
+    color: #6b6b70;
+  }
+  @media only screen and (min-width: 768px) {
+    .cd-author img {
+      width: 50px;
+      height: 50px;
+    }
+    .cd-author .cd-author-info {
+      line-height: 1.4;
+    }
+    .cd-author .cd-author-info li:first-child {
+      font-size: 16px;
+      font-size: 1rem;
+    }
+    .cd-author .cd-author-info li:last-child {
+      font-size: 14px;
+      font-size: 0.875rem;
+    }
+  }
+
+
+
+/* .profile-card {
     max-width: 100%;
     background: #fff;
     padding: 20px;
@@ -49,4 +128,4 @@
     .profile-name {
         font-size: 16px;
     }
-}
+} */
