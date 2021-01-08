@@ -250,7 +250,7 @@
                     <!-- <div class="row" > -->
                         <!-- <div class="col-md-offset-2 col-md-8"> -->
                             <div class="testimonial col-sm-8" style="margin:0px auto;">
-                             <img src="assets/img/executives/cropped-NCS_LOGO-15.jpg" style="width:70%;height:140px;"  /><br><br>
+                             <img src="assets/img/executives/cropped-NCS_LOGO-15.jpg" class="coded_image"  /><br><br>
                                 <div class="testimonial-content">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dolor ipsum
                                         molestias mollitia ut. Aliquam aperiam corporis cumque debitis delectus dignissimos.
