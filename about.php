@@ -257,11 +257,18 @@
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     </p>
                                 </div>
+                                <small class="icon-cent">
+                                <p>
+                                    <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                                    <a href="https://www.ncs.org.ng/"><i class="fa fa-globe"></i></a>
+                                    <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                                </p>
+                                </small>
                                 <div class="cd-author">
-                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85807/usual_suspects_1.png" alt="Author image">
+                                    <img src="assets/img/executives/Sodiya.jpg" alt="Author image">
                                     <ul class="cd-author-info">
-                                    <li>Todd Hockney</li>
-                                    <li>CFO</li>
+                                    <li><h5>Prof Adesina Sodiya FNCS</h5></li>
+                                    <li><h6>PRESIDENT, NIGERIA COMPUTER SOCIETY (NCS)</h6></li>
                                     </ul>
                                 </div>
                                 <!-- image here -->
