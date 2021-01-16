@@ -3,14 +3,14 @@ $conn = DB();
 $mailfrom= "";$mailfromname="";$tag="";
 print_r($_SESSION["token"]);
 if(!empty($token)){
-
-  echo $token;die;
   try {
    $stmt = $conn->prepare('SELECT * FROM registration WHERE token=? AND activate = ? AND alert <> ?');
    $stmt->execute([$token, '1', '1']);
    $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
    $user = $stmt->fetch();
-   if($user == false){ echo $msg = "Please Login First";session_unset($_SESSION["token"]);header('Location:../logout');}
+   if($user == false){ $msg = "Please Login First";
+   session_unset($_SESSION["token"]);
+   header('Location:../logout');}
    $vals = json_decode(json_encode($user));   
    session_unset($_SESSION["token"]);
    $stuData  = $vals;
