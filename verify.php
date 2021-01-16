@@ -34,11 +34,11 @@ if (!empty($_GET['func']) && $_GET['func'] == "Lkwmd") {
 		$stmt = $conn->prepare('SELECT * FROM registration WHERE email=? AND password = ? AND activate > ? ');
 		$stmt->execute([$email, $pass, '0']);
 		$result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
-		echo $user = $stmt->fetch();
+		$user = $stmt->fetch();
 		if($user == false){echo $msg = "Please Activate your Account First, Check your email";header('Location:'.$urlServer.'/register.php');}
 		echo "<script>
 		alert('Login Successful, Redirecting Now');
-		</script>";die;
+		</script>";
 		$_SESSION["stuData"] = json_encode($user);
 		header('Refresh: 0; url=accounts/dashboard.php?data='.$id);
 	} catch(PDOException $e) {
