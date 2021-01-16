@@ -1,7 +1,5 @@
-<?php
+<?php 
 include "api.php";
-session_start();
-ob_start();
 $projectPhase = "";#change to 'online' when going live
 if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') 
     $urlServer = "https"; 
@@ -24,11 +22,13 @@ function DB(){
 		$conn = new PDO("mysql:host=$servername;dbname=nacoss_national", $username, $password);
   // set the PDO error mode to exception
 		$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+		// $session = new we_sessionPdo();
 //   echo "Connected successfully";
 	} catch(PDOException $e) {
 		echo "Connection failed: " . $e->getMessage();
 	}
 	return $conn;
+	$conn = null;
 }
 
 #mailgun api

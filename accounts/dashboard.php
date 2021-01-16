@@ -1,8 +1,10 @@
-﻿<?php include "assets/connect2.php";
+﻿<?php
+session_start();
+include "assets/connect2.php";
 $token = $_SESSION['token'];if(empty($token)){ $token = $_GET['data'];}
 $id = "";
-
-include "assets/fetcher.php";  
+include "assets/fetcher.php";
+$_SESSION['stuData'] = json_encode($stuData); 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -35,6 +37,11 @@ include "assets/fetcher.php";
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xl-9 col-lg-8">
+						<?php 
+						if (empty($allert)) {
+							echo "<div> Please ensure to complete your profile registration <a href='Stupdate.php?func=edit&ColID=".microtime()."'>Here</a> or click on <b>Profile Update </b></div>";
+						}
+						?>
 						<div class="section3125">
 							<h4 class="item_title">Dashboard</h4>
 							<a href="" class="see150">Welcome</a>
@@ -49,7 +56,11 @@ include "assets/fetcher.php";
 											</div>
 											<div class="tutor_content_dt">
 												<div class="tutor150">
-													<a href="instructor_profile_view.html" class="tutor_name">Update Profile</a>
+													<form id="Stuedit" method="POST" action="Stupdate.php?func=edit&ColID=<?php echo microtime(); ?>" >
+													<input type="hidden" name="id" value="">
+													<?php echo sprintf("<input id='json_vals'  name='stuData' type='hidden' value='%s'/>", json_encode($stuData)); ?>
+													<button type="submit" name="stuEdit" class=" btn upload_btn"> Update Profile</button>  
+													</form>
 												</div>
 											</div>
 										</div>
@@ -102,16 +113,13 @@ include "assets/fetcher.php";
 													<a href="instructor_profile_view.html#" class="_216b22">
 														<span><i class="uil uil-windsock"></i></span> Profile
 													</a>
-													<?php 
-													
-													?>
 													<div class="dp_dt150">
 														<div class="img148">
 															<img src="images/left-imgs/img-1.jpg" alt="">
 														</div>
 														<div class="prfledt1">
-															<h2><?php echo $vals->f_name ." ". $vals->s_name." ". $vals->m_name;?></h2>
-															<span>Web DeveloperWeb DeveloperWeb Developer</span>
+															<h2><?php echo $names ;?></h2>
+															<span><?php echo $StumembershipNo; ?></span>
 														</div>
 														<div class="text-right">
 															<a href="" class="_216b12">
@@ -124,39 +132,39 @@ include "assets/fetcher.php";
 																<thead class="thead-s">
 																	<tr>
 																		<th class=" text-white" scope="col">E-mail</th>
-																		<th class="cell-ta text-white" scope="col"><?php echo $vals->email;?></th>
+																		<th class="cell-ta text-white" scope="col"><?php echo $email?></th>
 																	</tr>
 																	<tr>
 																		<th class=" text-white" scope="col">Gender</th>
-																		<th class="cell-ta text-white" scope="col"><?php echo $vals->gender; ?></th>
+																		<th class="cell-ta text-white" scope="col"><?php echo $gender; ?></th>
 																	</tr>
 																	<tr>
 																		<th class="text-white" scope="col">Phone</th>
-																		<th class="cell-ta text-white" scope="col"><?php echo $vals->phone; ?></th>
+																		<th class="cell-ta text-white" scope="col"><?php echo $phone; ?></th>
 																	</tr>
 																	<tr>
 																		<th class="text-white" scope="col">D.O.B</th>
-																		<th class="cell-ta text-white" scope="col">Thumbnail</th>
+																		<th class="cell-ta text-white" scope="col"><?php echo $stuDOB; ?></th>
 																	</tr>
 																	<tr>
 																		<th class="text-white" scope="col">Institution Type</th>
-																		<th class="cell-ta text-white" scope="col">Thumbnail</th>
+																		<th class="cell-ta text-white" scope="col"><?php echo $stuInstType; ?></th>
 																	</tr>
 																	<tr>
 																		<th class=" text-white" scope="col">Institution </th>
-																		<th class="cell-ta text-white" scope="col">Thumbnail</th>
+																		<th class="cell-ta text-white" scope="col"><?php echo $stuInst; ?></th>
 																	</tr>
 																	<tr>
 																		<th class=" text-white" scope="col">Department </th>
-																		<th class="cell-ta text-white" scope="col">Thumbnail</th>
+																		<th class="cell-ta text-white" scope="col"><?php echo $stuDept; ?></th>
 																	</tr>
 																	<tr>
 																		<th class=" text-white" scope="col">Level </th>
-																		<th class="cell-ta text-white" scope="col">Thumbnail</th>
+																		<th class="cell-ta text-white" scope="col"><?php echo $Level ?></th>
 																	</tr>
 																	<tr>
 																		<th class="text-white" scope="col">Area Of Interest </th>
-																		<th class="cell-ta text-white" scope="col">Thumbnail</th>
+																		<th class="cell-ta text-white" scope="col"><?php echo $stuAreOfIntrest ?></th>
 																	</tr>
 																</thead>
 															</table>

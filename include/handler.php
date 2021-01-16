@@ -7,16 +7,15 @@
     case "UploadImage":
     UploadImage();
     break;
-    case "green":
+    case "  ss":
     echo "Your favorite color is green!";
     break;
-    default:
-    echo "Your favorite color is neither red, blue, nor green!";
   }
 
   function RegSubmit($params){
     global $urlServer;
     $conn = DB();   
+    $date = date("Y");
     $id = uniqid();
     $to = $params["register_email"];
     $toname = $params["register_fname"]." ".$params["register_name"];
@@ -37,9 +36,20 @@
       'activate' => '0',
       'alert' => '',
       'params' => $params["register_password"],
+      'dob' => '',
+      'institution_type' => '',
+      'intitution' => '',
+      'dept' => '',
+      'level' => '',
+      'area_of_int' => '',
+      'membershipNo' => '',
+      'year_of_reg' => $date,
+      'pay' => '',
+      'amount' => '',
+      'paystatus' => '',
     ];
     try {
-      $ins = "INSERT INTO registration (f_name, s_name, m_name, email, password, gender, phone, img, token, activate,alert, params) VALUES (:f_name, :s_name, :m_name, :email, :password, :gender, :phone, :img, :token, :activate, :alert, :params)";
+      $ins = "INSERT INTO registration (f_name, s_name, m_name, email, password, gender, phone, img, token, activate,alert, params,dob, institution_type, intitution, dept, level, area_of_int, membershipNo, year_of_reg, pay, amount, paystatus) VALUES (:f_name, :s_name, :m_name, :email, :password, :gender, :phone, :img, :token, :activate, :alert, :params, :dob, :institution_type, :intitution, :dept, :level, :area_of_int, :membershipNo, :year_of_reg, :pay, :amount, :paystatus)";
       $stmt = $conn->prepare($ins);
       $stmt->execute($data);
       $html = 'Thanks for signing up!<br>

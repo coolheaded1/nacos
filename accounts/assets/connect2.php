@@ -1,1 +1,3 @@
-<?php include "../include/connect.php"; ?>
+<?php include "../include/connect.php"; 
+
+?>
