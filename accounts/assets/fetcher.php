@@ -1,8 +1,10 @@
 <?php  
 $conn = DB();
 $mailfrom= "";$mailfromname="";$tag="";
-// print_r($_SESSION);
+print_r($_SESSION["token"]);
 if(!empty($token)){
+
+  echo $token;die;
   try {
    $stmt = $conn->prepare('SELECT * FROM registration WHERE token=? AND activate = ? AND alert <> ?');
    $stmt->execute([$token, '1', '1']);
@@ -56,7 +58,7 @@ if(!empty($token)){
     }catch(PDOException $e) {
       // echo $stmt . "<br>" . $e->getMessage();
       $msg = "Please Login First";
-      header('Location:'.$urlServer.'/register.php');
+      header('Location:../register.php');
     }
     $conn = null;
   }else	if (isset($_SESSION['stuData'])) {
