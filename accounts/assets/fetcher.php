@@ -5,10 +5,10 @@ $mailfrom= "";$mailfromname="";$tag="";
 if(!empty($token)){
   try {
    $stmt = $conn->prepare('SELECT * FROM registration WHERE token=? AND activate = ? AND alert <> ?');
-   echo $stmt->execute([$token, '1', '1']);
+   $stmt->execute([$token, '1', '1']);
    $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
    $user = $stmt->fetch();
-   if($user == false){$msg = "Please Login First";session_unset($_SESSION["token"]);header('Location:'.$urlServer.'/register.php');}
+   if($user == false){ echo $msg = "Please Login First";session_unset($_SESSION["token"]);header('Location:'.$urlServer.'/register.php');}
    $vals = json_decode(json_encode($user));
    $stuData  = $vals;
    $stuid = $vals->id;
