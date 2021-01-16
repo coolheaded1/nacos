@@ -1,4 +1,6 @@
 <?php
+session_start();
+ob_start();
 include "connect.php";
 switch ($_GET['params']) {
   case "RegSubmit":
@@ -69,7 +71,7 @@ function RegSubmit($params){
       echo "<script>
       alert('registration successful. check your mail for activation link');
       </script>";
-      header('Refresh: 0; url=../register.php?');
+      header('Refresh: 0; url=../register.php');
     } catch(PDOException $e) {
       echo $ins . "<br>" . $e->getMessage();
     }    

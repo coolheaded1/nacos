@@ -1,5 +1,6 @@
 ﻿<?php
 session_start();
+ob_start();
 include "assets/connect2.php";
 $token = $_SESSION['token'];if(empty($token)){ $token = $_GET['data'];}
 include "assets/fetcher.php";

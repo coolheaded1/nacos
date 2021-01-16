@@ -1,5 +1,6 @@
 <?php
 session_start();
+ob_start();
 include "include/connect.php";
 $conn = DB();
 if(!empty($_GET['id'])){
