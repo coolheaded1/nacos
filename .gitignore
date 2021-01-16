@@ -1,1 +1,2 @@
-.gitignore
+#ignore the api.php file
+api.php

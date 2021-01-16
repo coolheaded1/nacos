@@ -1,4 +1,4 @@
-<?php include_once "router.php"; ?>
+<?php include_once "alert.php"; include_once "router.php";include_once "connect.php"; ?>
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
 <head>

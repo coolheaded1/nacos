@@ -1,4 +1,4 @@
-<?php include "include/og_graph.php"; $page="accounts";  ?>
+<?php include "include/og_graph.php"; $page="accounts"; ?>
 <!-- BOOTSTRAP CSS -->
 <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
 <link rel="stylesheet" href="assets/vendor/navbar/bootstrap-4-navbar.css" />
@@ -35,9 +35,9 @@
         Which is way behind to view this site properly. Please update to a modern browser, At least a real browser. </p>
     <![endif]-->
 
-<!--== Header Area Start ==-->
-<?php include "include/header.php" ?>
-<!--== Header Area End ==-->
+    <!--== Header Area Start ==-->
+    <?php include "include/header.php" ?>
+    <!--== Header Area End ==-->
 
     <!--== Page Title Area Start ==-->
     <section  class="contact_img" id="page-title-area">
@@ -52,117 +52,129 @@
         </div>
     </section>
     <!--== Page Title Area End ==-->
+    <!-- alert area -->
 
-    <!--== Register Page Content Start ==-->
-    <section id="page-content-wrap">
-        <div class="register-page-wrapper section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="register-page-inner">
-                            <div class="col-lg-10 m-auto">
-                                <div class="register-form-content">
-                                    <div class="row">
-                                        <!-- Signin Area Content Start -->
-                                        <div class="col-lg-4 col-md-6 text-center">
-                                            <div class="display-table">
-                                                <div class="display-table-cell">
-                                                    <div class="signin-area-wrap">
-                                                        <h4>Already a Member?</h4>
-                                                        <div class="sign-form">
-                                                            <form action="index.html">
-                                                                <input type="text" placeholder="Enter your ID">
-                                                                <input type="password" placeholder="Password">
-                                                                <button type="submit" class="btn btn-reg">Login</button>
-                                                            </form>
-                                                        </div>
+
+<!--== Register Page Content Start ==-->
+<section id="page-content-wrap">
+    <div class="register-page-wrapper section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="register-page-inner">
+                        <div class="col-lg-10 m-auto">
+                            <div class="register-form-content">
+                                <div class="row">
+                                    <!-- Signin Area Content Start -->
+                                    <div class="col-lg-4 col-md-6 text-center">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <div class="signin-area-wrap">
+                                                    <h4>Already a Member?</h4>
+                                                    <div class="sign-form">
+                                                        <form action="index.html">
+                                                            <input type="text" placeholder="Enter your Email">
+                                                            <input type="password" placeholder="Password">
+                                                            <button type="submit" class="btn btn-reg">Login</button>
+                                                        </form>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- Signin Area Content End -->
+                                    </div>
+                                    <!-- Signin Area Content End -->
 
-                                        <!-- Regsiter Form Area Start -->
-                                        <div class="col-lg-7 col-md-6 ml-auto">
-                                            <div class="register-form-wrap">
-                                                <h3>registration Form</h3>
-                                                <div class="register-form">
-                                                    <form action="index.html">
-                                                        <div class="row">
-                                                            <div class="col-12 col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label for="register_email">Email</label>
-                                                                    <input type="email" class="form-control" id="register_email" name="register_email" />
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-12 col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label for="register_password">Password</label>
-                                                                    <input type="password" class="form-control" id="register_password" name="register_password" />
-                                                                </div>
+                                    <!-- Regsiter Form Area Start -->
+                                    <div class="col-lg-7 col-md-6 ml-auto">
+                                        <div class="register-form-wrap">
+                                            <h3>registration Form</h3>
+                                            <div class="register-form">
+                                                <form action="include/handler.php?params=RegSubmit" method="POST" id="registerFor" enctype="multipart/form-data">
+                                                    <div class="row">
+                                                        <div class="col-12 col-sm-6">
+                                                            <div class="form-group">
+                                                                <label for="register_name">SurName</label>
+                                                                <input type="text" class="form-control" id="register_name" name="register_name" />
                                                             </div>
                                                         </div>
-                                                        <div class="row">
-                                                            <div class="col-12 col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label for="register_name">Name</label>
-                                                                    <input type="text" class="form-control" id="register_name" name="register_name" />
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-12 col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label for="register_stuid">Student Id</label>
-                                                                    <input type="text" class="form-control" id="register_stuid" name="register_stuid" />
-                                                                </div>
+                                                        <div class="col-12 col-sm-6">
+                                                            <div class="form-group">
+                                                                <label for="register_fname">FirstName</label>
+                                                                <input type="text" class="form-control" id="register_fname" name="register_fname" />
                                                             </div>
                                                         </div>
-                                                        <div class="row">
-                                                            <div class="col-12 col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label for="register_year">Passing Year</label>
-                                                                    <input type="text" class="form-control" id="register_year" name="register_year" />
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-12 col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label for="register_deptno">Depertment No</label>
-                                                                    <input type="text" class="form-control" id="register_deptno" name="register_deptno" />
-                                                                </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 col-sm-6">
+                                                            <div class="form-group">
+                                                                <label for="register_mname">MiddleName</label>
+                                                                <input type="text" class="form-control" id="register_mname" name="register_mname" />
                                                             </div>
                                                         </div>
-                                                        <div class="form-group file-input">
-                                                            <input type="file" name="register_file" id="customfile" class="d-none" />
-                                                            <label class="custom-file" for="customfile"><i class="fa fa-upload"></i>Upload Your Photo</label>
-                                                        </div>
-
-                                                        <div class="gender form-group">
-                                                            <label class="g-name d-block">Gender</label>
-                                                            <div class="custom-control custom-radio custom-control-inline">
-                                                                <input type="radio" id="register_gender_male" name="register_gender" value="mail" class="custom-control-input" />
-                                                                <label class="custom-control-label" for="register_gender_male">Male</label>
+                                                        <div class="col-12 col-sm-6">
+                                                            <div class="form-group">
+                                                                <label for="register_email">Email</label>
+                                                                <input type="email" class="form-control" id="register_email" name="register_email" />
                                                             </div>
-                                                            <div class="custom-control custom-radio custom-control-inline">
-                                                                <input type="radio" id="register_gender_female" name="register_gender" value="female" class="custom-control-input">
-                                                                <label class="custom-control-label" for="register_gender_female">Female</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 col-sm-6">
+                                                            <div class="form-group">
+                                                                <label for="register_password">Password</label>
+                                                                <input type="password" class="form-control" id="register_password" name="register_password" />
                                                             </div>
                                                         </div>
 
-                                                        <div class="form-group">
-                                                            <div class="custom-control custom-checkbox float-lg-right">
+                                                        <div class="col-12 col-sm-6">
+                                                            <div class="form-group">
+                                                                <label for="register_Cpassword">Confirm Password</label>
+                                                                <input type="password" class="form-control" id="register_Cpassword" name="register_Cpassword" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-12" ><span id="alertMSG" ></span></div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 col-sm-6">
+                                                            <div class="gender form-group">
+                                                                <label class="g-name d-block">Gender</label>
+                                                                <div class="custom-control custom-radio custom-control-inline">
+                                                                    <input type="radio" id="register_gender_male" name="register_gender" value="mail" class="custom-control-input" />
+                                                                    <label class="custom-control-label" for="register_gender_male">Male</label>
+                                                                </div>
+                                                                <div class="custom-control custom-radio custom-control-inline">
+                                                                    <input type="radio" id="register_gender_female" name="register_gender" value="female" class="custom-control-input">
+                                                                    <label class="custom-control-label" for="register_gender_female">Female</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-12 col-sm-6">
+                                                            <div class="form-group">
+                                                                <label for="register_deptno">Phone No</label>
+                                                                <input type="text" class="form-control" id="register_deptno" name="register_deptno" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group file-input">
+                                                        <input type="file" name="register_file" id="customfile" class="d-none" accept=".jpg,.png,.gif,.jpeg" required />
+                                                        <label class="custom-file" for="customfile"><i class="fa fa-upload"></i>Upload Your Photo <span class="text-danger">Max 2MB</span></label>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <div class="row" >
+                                                            <div class="custom-control custom-checkbox col-sm-8" style="padding-left:20px;">
                                                                 <input type="checkbox" class="custom-control-input" id="customCheck1">
                                                                 <label class="custom-control-label" for="customCheck1"> I have read and agree to the <a href="">NACOS</a> Terms of Membership</label>
                                                             </div>
-                                                            <input type="submit" class="btn btn-reg" value="Registration">
+                                                            <input type="submit" class="btn btn-reg " style="float:right !important;" value="Registration" id="reg_  stud">
                                                         </div>
-                                                    </form>
-                                                </div>
+                                                    </div>
+                                                </form>
                                             </div>
                                         </div>
-                                        <!-- Regsiter Form Area End -->
                                     </div>
+                                    <!-- Regsiter Form Area End -->
                                 </div>
                             </div>
                         </div>
@@ -170,14 +182,15 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!--== Register Page Content End ==-->
+    </div>
+</section>
+<!--== Register Page Content End ==-->
 
-    <!--== Footer Area Start ==-->
-    <?php include "include/footer.php" ?>
-    <!--== Scroll Top ==-->
+<!--== Footer Area Start ==-->
+<?php include "include/footer.php" ?>
+<!--== Scroll Top ==-->
 
-    <!-- SITE SCRIPT  -->
+<!-- SITE SCRIPT  -->
 
 <!-- Jquery JS  -->
 <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
@@ -222,10 +235,14 @@
 
 <!-- Countdown -->
 <script src="assets/vendor/jquery.countdown/jquery.countdown.min.js"></script>
-
+<?php include "include/js_file.php" ?>
 <!-- custom js: main custom theme js file  -->
 <script src="assets/js/theme.min.js"></script>
 <!-- custom js: custom js file is added for easy custom js code  -->
 <script src="assets/js/custom.js"></script>
+<script type="text/javascript">
+    // showAlert('successMine','Error Information', 'i am testing to be sure it works', '2200');
+    // showAlert();
+</script>
 </body>
 </html>
