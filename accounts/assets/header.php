@@ -171,6 +171,12 @@
 							</li>
 						</ul>
 					</li>
+					<li class="menu--item">
+						<a href="logout.php" class="menu--link" title="History">
+							<i class='fas fa-power-off'></i>
+							<span class="menu--label">Log Out </span>
+						</a>
+					</li>
 				</ul>
 			</div>
 			<div class="left_footer">
