@@ -173,7 +173,7 @@
 					</li>
 					<li class="menu--item">
 						<a href="logout.php" class="menu--link" title="History">
-							<i class='fas fa-power-off'></i>
+							<i class='fas fa-power-off menu--icon'></i>
 							<span class="menu--label">Log Out </span>
 						</a>
 					</li>

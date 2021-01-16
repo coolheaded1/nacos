@@ -8,9 +8,7 @@ if(!empty($token)){
    $stmt->execute([$token, '1', '1']);
    $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
    $user = $stmt->fetch();
-   if($user == false){ $msg = "Please Login First";
-   session_unset($_SESSION["token"]);
-   header('Location:../logout');}
+   if($user == false){ $msg = "Please Login First";session_unset($_SESSION["token"]);header('Location:logout.php');}
    $vals = json_decode(json_encode($user));   
    session_unset($_SESSION["token"]);
    $stuData  = $vals;
