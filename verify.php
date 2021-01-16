@@ -9,7 +9,7 @@ if(!empty($_GET['id'])){
 	try {
 		$stmt = $conn->prepare("UPDATE registration SET activate = ? WHERE token  = ? AND alert <> ?");
 		 $stmt->execute(['1', $id,'1']);
-		if($stmt->rowCount() == 0){$msg = "Please Login First";unset($_SESSION["token"]);session_destroy();session_write_close();$_SESSION=new array();session_regenerate_id(true);header('Location:'.$urlServer.'/register.php');}
+		if($stmt->rowCount() == 0){$msg = "Please Login First";unset($_SESSION["token"]);session_destroy();session_write_close();session_regenerate_id(true);header('Location:'.$urlServer.'/register.php');}
 			echo "<script>
 		alert('Activation Successful, you will be redirected now');
 		</script>";
