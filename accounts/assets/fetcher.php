@@ -11,7 +11,7 @@ if(!empty($token)){
 	if (!empty($vals->alert)) {
 		$msg = "Please Login First";
 		session_unset($_SESSION["token"]);
-		header('Location:'.$urlServer.'register.php');
+		header('Location:'.$urlServer.'/register.php');
 	}
 	$stuData  = $vals;
 	$stuid = $vals->id;
