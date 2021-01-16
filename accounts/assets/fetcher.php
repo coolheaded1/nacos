@@ -5,9 +5,10 @@ $mailfrom= "";$mailfromname="";$tag="";
 if(!empty($token)){
   try {
    $stmt = $conn->prepare('SELECT * FROM registration WHERE token=? AND activate = ? AND alert != ?');
-   $stmt->execute([$token, '1', '1']);
+   echo $stmt->execute([$token, '1', '1']);
    $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
    $user = $stmt->fetch();
+   die($user);
    $vals = json_decode(json_encode($user));
    $stuData  = $vals;
    $stuid = $vals->id;
