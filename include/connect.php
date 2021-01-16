@@ -2,28 +2,28 @@
 include "api.php";
 $projectPhase = "";#change to 'online' when going live
 if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') 
-    $urlServer = "https"; 
+	$urlServer = "https"; 
 else
-    $urlServer = "http"; 
+	$urlServer = "http"; 
 // Here append the common URL characters. 
 $urlServer .= "://"; 
 // Append the host(domain name, ip) to the URL. 
 $urlServer .= $_SERVER['HTTP_HOST'];
 if ($urlServer == 'http://localhost') {
- 	$urlServer .= '/nacos'; 
- }
+	$urlServer .= '/nacos'; 
+}
 
 function DB(){	
-	$servername = "localhost";
-	$username = "root";
-	$password = "password";
+	global $servername;
+	global $username;
+	global $password;
+	global $dbname;	
 	$conn;
 	try {
-		$conn = new PDO("mysql:host=$servername;dbname=nacoss_national", $username, $password);
+		$conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
   // set the PDO error mode to exception
 		$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-		// $session = new we_sessionPdo();
-//   echo "Connected successfully";
+  // echo "Connected successfully";
 	} catch(PDOException $e) {
 		echo "Connection failed: " . $e->getMessage();
 	}
@@ -35,10 +35,10 @@ function DB(){
 define('MAILGUN_URL', $MAILGUN_URL);
 define('MAILGUN_KEY', $MAILGUN_KEY); 
 function sendmailbymailgun($to,$toname,$subject,$html,$text,$mailfrom,$mailfromname,$tag){
-if (empty($mailfrom)) {$mailfrom = "info@nacoss.org.ng";}
-if (empty($mailfromname)) {$mailfromname = "NACOS NATIONAL";}
-if (empty($tag)) {$tag = "important";}
-$replyto = "info@nacoss.org.ng";
+	if (empty($mailfrom)) {$mailfrom = "info@nacoss.org.ng";}
+	if (empty($mailfromname)) {$mailfromname = "NACOS NATIONAL";}
+	if (empty($tag)) {$tag = "important";}
+	$replyto = "info@nacoss.org.ng";
 	$array_data = array(
 		'from'=> $mailfromname .'<'.$mailfrom.'>',
 		'to'=>$toname.'<'.$to.'>',

@@ -37,66 +37,151 @@ $stuDataGet = json_decode($_SESSION['stuData']);
 				<div class="row">
 					<div class="col-xl-9 col-lg-8">
 
-						<div class="membership_chk_bg">
-									<form>
+							<h3>Edit your Profile</h3>
 
-										<div class="row">
-											<div class="col-md-6">
-												<div class="ui search focus mt-30 lbel25">
-													<label>Holder Name </label>
-													<div class="ui left icon input swdh11 swdh19">
-														<input class="prompt srch_explore" type="text" name="holder[name]" value="<?php echo $stuDataGet->f_name; ?>" id="id_holdername" required="" maxlength="64" placeholder="Enter Holder Name">
-													</div>
-												</div>
+						<div class="membership_chk_bg">
+							<form method="POST" action="assets/formHandler.php?func=edit&ColID=<?php echo microtime(); ?>">
+								<input type="hidden" name="id" value="<?php echo $stuDataGet->id; ?>">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="ui search focus mt-30 lbel25">
+											<label>SurName </label>
+											<div class="ui left icon input swdh11 swdh19">
+												<input class="prompt srch_explore" type="text" name="s_name" value="<?php echo $stuDataGet->s_name; ?>" id="id_holdername" required="" >
 											</div>
-											<div class="col-md-6">
-												<div class="ui search focus mt-30 lbel25">
-													<label>Card Number</label>
-													<div class="ui left icon input swdh11 swdh19">
-														<input class="prompt srch_explore" type="text" name="card[number]" maxlength="16" placeholder="Card #">
-													</div>
-												</div>
-											</div>
-											<div class="col-md-4">
-												<div class="lbel25 mt-30">
-													<label>Expiration Month</label>
-													<select class="ui hj145 dropdown cntry152 prompt srch_explore" name="card[expire-month]">
-														<option value="">Month</option>
-														<option value="1">January</option>
-														<option value="2">February</option>
-														<option value="3">March</option>
-														<option value="4">April</option>
-														<option value="5">May</option>
-														<option value="6">June</option>
-														<option value="7">July</option>
-														<option value="8">August</option>
-														<option value="9">September</option>
-														<option value="10">October</option>
-														<option value="11">November</option>
-														<option value="12">December</option>
-													</select>
-												</div>
-											</div>
-											<div class="col-md-4">
-												<div class="ui search focus mt-30 lbel25">
-													<label>Expiration Year</label>
-													<div class="ui left icon input swdh11 swdh19">
-														<input class="prompt srch_explore" type="text" name="card[expire-year]" maxlength="4" placeholder="Year">
-													</div>
-												</div>
-											</div>
-											<div class="col-md-4">
-												<div class="ui search focus mt-30 lbel25">
-													<label>Expiration Year</label>
-													<div class="ui left icon input swdh11 swdh19">
-														<input class="prompt srch_explore" type="text" name="card[cvc]" maxlength="3" placeholder="CVC">
-													</div>
-												</div>
-											</div>
-											<button class="chckot_btn"  style="float: right;" type="submit">Update</button>
 										</div>
-									</form>
+									</div>
+									<div class="col-md-6">
+										<div class="ui search focus mt-30 lbel25">
+											<label>First Name </label>
+											<div class="ui left icon input swdh11 swdh19">
+												<input class="prompt srch_explore" type="text" name="f_name" value="<?php echo $stuDataGet->f_name; ?>" id="id_holdername" required="" >
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="ui search focus mt-30 lbel25">
+											<label>Middle Name </label>
+											<div class="ui left icon input swdh11 swdh19">
+												<input class="prompt srch_explore" type="text" name="m_name" value="<?php echo $stuDataGet->m_name; ?>" id="id_holdername" required="" >
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="ui search focus mt-30 lbel25">
+											<label>E-mail </label>
+											<div class="ui left icon input swdh11 swdh19">
+												<input class="prompt srch_explore" type="email" name="mail" value="<?php echo $stuDataGet->email; ?>" id="id_holdername" required="" >
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="ui search focus mt-30 lbel25">
+											<label>Phone </label>
+											<div class="ui left icon input swdh11 swdh19">
+												<input class="prompt srch_explore" type="text" name="hphone" value="<?php echo $stuDataGet->phone; ?>" id="id_holdername" required="" >
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-4">
+										<div class="ui search focus mt-30 lbel25">
+											<label>Gender </label>
+											<div class="ui left icon input swdh11 swdh19">
+												<input class="prompt srch_explore" type="text" name="gender" value="<?php echo $stuDataGet->gender; ?>" id="id_holdername" required="" >
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-4">
+										<div class="ui search focus mt-30 lbel25">
+											<label>D.O.B </label>
+											<div class="ui left icon input swdh11 swdh19">
+												<input class="prompt srch_explore" type="text" name="dob" value="<?php echo $stuDataGet->dob; ?>" id="id_holdername" required="">
+											</div>
+										</div>
+									</div>
+									
+									<div class="col-md-6">
+										<div class="lbel25 mt-30">
+											<label>Institution Type</label>
+											<select class="ui hj145 dropdown cntry152 prompt srch_explore" name="institution_type">
+												<option value="<?php echo $stuDataGet->institution_type; ?>"><?php echo $stuDataGet->institution_type; ?></option>
+												<option value="1">January</option>
+												<option value="2">February</option>
+												<option value="3">March</option>
+												<option value="4">April</option>
+												<option value="5">May</option>
+												<option value="6">June</option>
+												<option value="7">July</option>
+												<option value="8">August</option>
+												<option value="9">September</option>
+												<option value="10">October</option>
+												<option value="11">November</option>
+												<option value="12">December</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="lbel25 mt-30">
+											<label>Institution </label>
+											<select class="ui hj145 dropdown cntry152 prompt srch_explore" name="institution">
+												<option value="<?php echo $stuDataGet->intitution; ?>"><?php echo $stuDataGet->intitution; ?></option>
+												<option value="">Month</option>
+												<option value="1">January</option>
+												<option value="2">February</option>
+												<option value="3">March</option>
+												<option value="4">April</option>
+												<option value="5">May</option>
+												<option value="6">June</option>
+												<option value="7">July</option>
+												<option value="8">August</option>
+												<option value="9">September</option>
+												<option value="10">October</option>
+												<option value="11">November</option>
+												<option value="12">December</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="ui search focus mt-30 lbel25">
+											<label>Department</label>
+											<div class="ui left icon input swdh11 swdh19">
+												<input class="prompt srch_explore" type="text" name="dept" value="<?php echo $stuDataGet->dept; ?>">
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="ui search focus mt-30 lbel25">
+											<label>Level</label>
+											<div class="ui left icon input swdh11 swdh19">
+												<input class="prompt srch_explore" type="text" name="level"  value="<?php echo $stuDataGet->level; ?>">
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="ui search focus mt-30 lbel25">
+											<label>Area of Interest</label>
+											<div class="ui left icon input swdh11 swdh19">
+												<input class="prompt srch_explore" type="text" name="Area" value="<?php echo $stuDataGet->area_of_int; ?>" >
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="ui search focus mt-30 lbel25">
+											<label>Membership No</label>
+											<div class="ui left icon input swdh11 swdh19">
+												<input class="prompt srch_explore" type="text" name="memebership" readonly="" value="<?php echo $stuDataGet->membershipNo; ?>" >
+											</div>
+										</div>
+									</div>
+									<div style="float: right;margin-top: 4%;" >
+										<button class="btn btn-success chckot_btn" type="submit" >Update</button>
+									</div>
+									<!-- <button class="chckot_btn"  style="float: right;" type="submit">Update</button> -->
 								</div>
+							</form>
+						</div>
 					</div>	
 
 

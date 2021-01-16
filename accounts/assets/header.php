@@ -27,7 +27,7 @@
 					<a href="" class="upload_btn">Student Dashboard</a>
 				</li>
 				<li>
-					<a href="index.html" class="option_links"><i class='uil uil-home-alt'></i><span class="noti_count">9+</span></a>
+					<a href="logout.php" class="option_links"><i class='fas fa-power-off'></i><span class=""></span></a>
 				</li>
 				<li class="ui dropdown">
 					<a href="index.html#" class="option_links"><i class='uil uil-envelope-alt'></i><span class="noti_count">3</span></a>

@@ -2,9 +2,7 @@
 session_start();
 include "assets/connect2.php";
 $token = $_SESSION['token'];if(empty($token)){ $token = $_GET['data'];}
-$id = "";
 include "assets/fetcher.php";
-$_SESSION['stuData'] = json_encode($stuData); 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -122,7 +120,7 @@ $_SESSION['stuData'] = json_encode($stuData);
 															<span><?php echo $StumembershipNo; ?></span>
 														</div>
 														<div class="text-right">
-															<a href="" class="_216b12">
+															<a href="Stupdate.php?func=edit&ColID=<?php echo microtime(); ?>" class="_216b12">
 																<span><i class="fas fa-user-edit"></i></span>Profile
 															</a></div>
 														</div>
