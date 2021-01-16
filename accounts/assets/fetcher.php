@@ -1,7 +1,7 @@
 <?php  
 $conn = DB();
 $mailfrom= "";$mailfromname="";$tag="";
-print_r($_SESSION);
+// print_r($_SESSION);
 if(!empty($token)){
 	$stmt = $conn->prepare('SELECT * FROM registration WHERE token=? AND activate = ?');
 // $stmt = $pdo->prepare('SELECT * FROM registration WHERE email = ? AND token=? AND password = ? AND activate = ?');
