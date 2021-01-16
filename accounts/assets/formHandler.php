@@ -51,7 +51,7 @@ function EditStudent($dataGet){
 		alert('Data Updated successfully, you will be redirected now');
 		</script>";
 		echo $_SESSION['stuData'] = json_encode($userr);
-		// die();
+		die();
 		header('Refresh: 0; url=../dashboard.php?data='.$id);
 	} catch(PDOException $e) {
 		echo $sql . "<br>" . $e->getMessage();
