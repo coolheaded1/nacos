@@ -4,11 +4,11 @@ $mailfrom= "";$mailfromname="";$tag="";
 // print_r($_SESSION);
 if(!empty($token)){
   try {
-   $stmt = $conn->prepare('SELECT * FROM registration WHERE token=? AND activate = ? AND alert != ?');
+   $stmt = $conn->prepare('SELECT * FROM registration WHERE token=? AND activate = ? AND alert <> ?');
    echo $stmt->execute([$token, '1', '1']);
    $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
    $user = $stmt->fetch();
-   die($user);
+   if($user == false){$msg = "Please Login First";session_unset($_SESSION["token"]);header('Location:'.$urlServer.'/register.php');}
    $vals = json_decode(json_encode($user));
    $stuData  = $vals;
    $stuid = $vals->id;
@@ -53,10 +53,10 @@ if(!empty($token)){
       -----------------------------------------------------'; // Our message above including the link
       // sendmailbymailgun($to,$toname,$subject,$html,$text,$mailfrom,$mailfromname,$tag);
     }catch(PDOException $e) {
-      echo $stmt . "<br>" . $e->getMessage();
+      // echo $stmt . "<br>" . $e->getMessage();
       $msg = "Please Login First";
       session_unset($_SESSION["token"]);
-      // header('Location:'.$urlServer.'/register.php');
+      header('Location:'.$urlServer.'/register.php');
     }
     unset($_SESSION["token"]);
     $conn = null;

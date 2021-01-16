@@ -53,12 +53,12 @@ function RegSubmit($params){
   try {
     $ins = "INSERT INTO registration (f_name, s_name, m_name, email, password, gender, phone, img, token, activate,alert, params,dob, institution_type, intitution, dept, level, area_of_int, membershipNo, year_of_reg, pay, amount, paystatus) VALUES (:f_name, :s_name, :m_name, :email, :password, :gender, :phone, :img, :token, :activate, :alert, :params, :dob, :institution_type, :intitution, :dept, :level, :area_of_int, :membershipNo, :year_of_reg, :pay, :amount, :paystatus)";
     $stmt = $conn->prepare($ins);
-    $stmt->execute($data);
-    $html = 'Thanks for signing up!<br>
-    Your account has been created,<br>
-    -----------------------------------------------------<br>
-    Please click this link to activate your account:<br>
-    '.$urlServer.'/verify.php?id='.$id.'&token='.$token.'<br>
+    if ($stmt->execute($data) > 0) {
+      $html = 'Thanks for signing up!<br>
+      Your account has been created,<br>
+      -----------------------------------------------------<br>
+      Please click this link to activate your account:<br>
+      '.$urlServer.'/verify.php?id='.$id.'&token='.$token.'<br>
       -----------------------------------------------------'; // Our message above including the link
       $text = 'Thanks for signing up! 
       Your account has been created,
@@ -72,38 +72,39 @@ function RegSubmit($params){
       alert('registration successful. check your mail for activation link');
       </script>";
       header('Refresh: 0; url=../register.php');
-    } catch(PDOException $e) {
-      echo $ins . "<br>" . $e->getMessage();
-    }    
-    $conn = null;
-  }
+    }else{$msg = "Error submitting your information";header('Location:'.$urlServer.'/register.php');}
+  } catch(PDOException $e) {
+    echo $ins . "<br>" . $e->getMessage();
+  }    
+  $conn = null;
+}
 
-  function UploadImage(){
-    if(isset($_FILES['File']['name'])){
+function UploadImage(){
+  if(isset($_FILES['File']['name'])){
 
-     /* Getting file name */
-     $filename = $_FILES['File']['name'];
+   /* Getting file name */
+   $filename = $_FILES['File']['name'];
 
-     /* Location */
-     $location = '../uploads/'.$filename;
-     $imageFileType = pathinfo($location,PATHINFO_EXTENSION);
-     $imageFileType = strtolower($imageFileType);
+   /* Location */
+   $location = '../uploads/'.$filename;
+   $imageFileType = pathinfo($location,PATHINFO_EXTENSION);
+   $imageFileType = strtolower($imageFileType);
 
-     /* Valid extensions */
-     $valid_extensions = array("jpg","jpeg","png","pdf","word","doc","txt");
+   /* Valid extensions */
+   $valid_extensions = array("jpg","jpeg","png","pdf","word","doc","txt");
 
-     $response = 0;
-     /* Check file extension */
-     if(in_array(strtolower($imageFileType), $valid_extensions)) {
-      /* Upload file */
-      if(move_uploaded_file($_FILES['File']['tmp_name'],$location)){
-       $response = $filename;
-     }
+   $response = 0;
+   /* Check file extension */
+   if(in_array(strtolower($imageFileType), $valid_extensions)) {
+    /* Upload file */
+    if(move_uploaded_file($_FILES['File']['tmp_name'],$location)){
+     $response = $filename;
    }
-
-   echo $response;
-   exit;
  }
+
+ echo $response;
+ exit;
+}
 }
 
 

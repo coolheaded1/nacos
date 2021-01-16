@@ -46,6 +46,7 @@ function EditStudent($dataGet){
 		$stmt2->execute([$id, $dataGet['memebership']]); 
 		$stmt2->setFetchMode(PDO::FETCH_ASSOC);
 		$userr = $stmt2->fetch();
+		if($stmt->rowCount() == 0 AND $stmt2 == false){$msg = "Sorry the update is unsuccessful. we discover a malicious attempt. Please Login First";session_unset($_SESSION["token"]);header('Location:'.$urlServer.'/register.php');}
 		echo "<script>
 		alert('Data Updated successfully, you will be redirected now');
 		</script>";
