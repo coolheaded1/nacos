@@ -8,8 +8,9 @@ if(!empty($token)){
    $stmt->execute([$token, '1', '1']);
    $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
    $user = $stmt->fetch();
-   if($user == false){ echo $msg = "Please Login First";session_unset($_SESSION["token"]);header('Location:'.$urlServer.'/register.php');}
-   $vals = json_decode(json_encode($user));
+   if($user == false){ echo $msg = "Please Login First";session_unset($_SESSION["token"]);header('Location:../logout');}
+   $vals = json_decode(json_encode($user));   
+   unset($_SESSION["token"]);
    $stuData  = $vals;
    $stuid = $vals->id;
    $stutok = $vals->token;
@@ -58,7 +59,6 @@ if(!empty($token)){
       session_unset($_SESSION["token"]);
       header('Location:'.$urlServer.'/register.php');
     }
-    unset($_SESSION["token"]);
     $conn = null;
   }else	if (isset($_SESSION['stuData'])) {
   	$vals = json_decode($_SESSION['stuData']);
