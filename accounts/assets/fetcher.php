@@ -10,7 +10,7 @@ if(!empty($token)){
    $user = $stmt->fetch();
    if($user == false){ echo $msg = "Please Login First";session_unset($_SESSION["token"]);header('Location:../logout');}
    $vals = json_decode(json_encode($user));   
-   unset($_SESSION["token"]);
+   session_unset($_SESSION["token"]);
    $stuData  = $vals;
    $stuid = $vals->id;
    $stutok = $vals->token;
@@ -56,7 +56,6 @@ if(!empty($token)){
     }catch(PDOException $e) {
       // echo $stmt . "<br>" . $e->getMessage();
       $msg = "Please Login First";
-      session_unset($_SESSION["token"]);
       header('Location:'.$urlServer.'/register.php');
     }
     $conn = null;
