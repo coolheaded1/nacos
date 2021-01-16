@@ -4,20 +4,14 @@ $mailfrom= "";$mailfromname="";$tag="";
 // print_r($_SESSION);
 if(!empty($token)){
 	$stmt = $conn->prepare('SELECT * FROM registration WHERE token=? AND activate = ?');
-// $stmt = $pdo->prepare('SELECT * FROM registration WHERE email = ? AND token=? AND password = ? AND activate = ?');
 	$stmt->execute([$token, '1']);
 	$result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
 	$user = $stmt->fetch();
 	$vals = json_decode(json_encode($user));
 	if (!empty($vals->alert)) {
-		echo "
-		<script>
-		alert('Please Login First');
-		</script>
-		";
-		session_unset();
-		session_destroy();
-		header('Refresh: 0; url='.$urlServer.'register.php');
+		$msg = "Please Login First";
+		session_unset($_SESSION["token"]);
+		header('Location:'.$urlServer.'register.php');
 	}
 	$stuData  = $vals;
 	$stuid = $vals->id;
@@ -43,7 +37,7 @@ if(!empty($token)){
 	$stuAreOfIntrest = $vals->area_of_int;
 	$names = $s_name." ".$f_name ." ". $m_name;
 	$allert = $vals->alert;
-  $_SESSION['stuData'] = json_encode($stuData); 
+	$_SESSION['stuData'] = json_encode($stuData); 
 	#send mail 
 	$toname = $vals->f_name ." ". $vals->s_name;
 	$to = $vals->email;
@@ -61,6 +55,7 @@ if(!empty($token)){
       '.$to.'  Password :  '.$vals->params.' Once again you are welcome!<r>
       -----------------------------------------------------'; // Our message above including the link
       // sendmailbymailgun($to,$toname,$subject,$html,$text,$mailfrom,$mailfromname,$tag);
+      unset($_SESSION["token"]);
       $conn = null;
   }else	if (isset($_SESSION['stuData'])) {
   	$vals = json_decode($_SESSION['stuData']);

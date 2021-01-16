@@ -84,12 +84,12 @@ include "assets/fetcher.php";
 										<div class="fcrse_1 mt-30">
 											<div class="tutor_img">
 												<div class="value_icon">
-													<i class='uil uil-user-check'></i>
+													<i class='uil uil-bell'></i>
 												</div>
 											</div>
 											<div class="tutor_content_dt">
 												<div class="tutor150">
-													<a href="instructor_profile_view.html" class="tutor_name">View Profile</a>
+													<a href="instructor_profile_view.html" class="tutor_name">View Notifications</a>
 												</div>
 											</div>
 										</div>

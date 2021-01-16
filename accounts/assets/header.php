@@ -26,44 +26,9 @@
 				<li>
 					<a href="" class="upload_btn">Student Dashboard</a>
 				</li>
-				<li>
-					<a href="logout.php" class="option_links"><i class='fas fa-power-off'></i><span class=""></span></a>
-				</li>
 				<li class="ui dropdown">
-					<a href="index.html#" class="option_links"><i class='uil uil-envelope-alt'></i><span class="noti_count">3</span></a>
-					<div class="menu dropdown_ms">
-						<a href="index.html#" class="channel_my item">
-							<div class="profile_link">
-								<img src="images/left-imgs/img-6.jpg" alt="">
-								<div class="pd_content">
-									<h6>Zoena Singh</h6>
-									<p>Hi! Sir, How are you. I ask you one thing please explain it this video price.</p>
-									<span class="nm_time">2 min ago</span>
-								</div>
-							</div>
-						</a>
-						<a href="index.html#" class="channel_my item">
-							<div class="profile_link">
-								<img src="images/left-imgs/img-5.jpg" alt="">
-								<div class="pd_content">
-									<h6>Joy Dua</h6>
-									<p>Hello, I paid you video tutorial but did not play error 404.</p>
-									<span class="nm_time">10 min ago</span>
-								</div>
-							</div>
-						</a>
-						<a href="index.html#" class="channel_my item">
-							<div class="profile_link">
-								<img src="images/left-imgs/img-8.jpg" alt="">
-								<div class="pd_content">
-									<h6>Jass</h6>
-									<p>Thanks Sir, Such a nice video.</p>
-									<span class="nm_time">25 min ago</span>
-								</div>
-							</div>
-						</a>
-						<a class="vbm_btn" href="instructor_messages.html">View All <i class='uil uil-arrow-right'></i></a>
-					</div>
+					<a href="logout.php" class="option_links"><i class='fas fa-power-off'></i><span class=""></span></a>
+					
 				</li>
 				<li class="ui dropdown">
 					<a href="index.html#" class="option_links"><i class='uil uil-bell'></i><span class="noti_count">3</span></a>
@@ -110,15 +75,13 @@
 								<img src="images/hd_dp.jpg" alt="">
 								<div class="pd_content">
 									<div class="rhte85">
-										<h6>Joginder Singh</h6>
+										<h6><?php echo $names ;?></h6>
 										<div class="mef78" title="Verify">
 											<i class='uil uil-check-circle'></i>
 										</div>
 									</div>
-									<span><a href="../../../cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bedbc6dfd3ced2dbfedbc6dfd3ced2db90ddd1d3">[email&#160;protected]</a></span>
 								</div>
 							</div>
-							<a href="my_instructor_profile_view.html" class="dp_link_12">View Instructor Profile</a>
 						</div>
 						<div class="night_mode_switch__btn">
 							<a href="index.html#" id="night-mode" class="btn-night-mode">
@@ -128,12 +91,8 @@
 								</span>
 							</a>
 						</div>
-						<a href="instructor_dashboard.html" class="item channel_item">Edututs+ dashboard</a>
 						<a href="membership.html" class="item channel_item">Paid Memberships</a>
-						<a href="setting.html" class="item channel_item">Setting</a>
-						<a href="help.html" class="item channel_item">Help</a>
-						<a href="feedback.html" class="item channel_item">Send Feedback</a>
-						<a href="sign_in.html" class="item channel_item">Sign Out</a>
+						<a href="logout.php" class="item channel_item">Sign Out</a>
 					</div>
 				</li>
 			</ul>
@@ -214,72 +173,10 @@
 					</li>
 				</ul>
 			</div>
-			<div class="left_section">
-				<h6 class="left_title">SUBSCRIPTIONS</h6>
-				<ul>
-					<li class="menu--item">
-						<a href="instructor_profile_view.html" class="menu--link user_img">
-							<img src="images/left-imgs/img-1.jpg" alt="">
-							Rock Smith
-							<div class="alrt_dot"></div>
-						</a>
-					</li>
-					<li class="menu--item">
-						<a href="instructor_profile_view.html" class="menu--link user_img">
-							<img src="images/left-imgs/img-2.jpg" alt="">
-							Jassica William
-						</a>
-						<div class="alrt_dot"></div>
-					</li>
-					<li class="menu--item">
-						<a href="all_instructor.html" class="menu--link" title="Browse Instructors">
-							<i class='uil uil-plus-circle menu--icon'></i>
-							<span class="menu--label">Browse Instructors</span>
-						</a>
-					</li>
-				</ul>
-			</div>
-			<div class="left_section pt-2">
-				<ul>
-					<li class="menu--item">
-						<a href="setting.html" class="menu--link" title="Setting">
-							<i class='uil uil-cog menu--icon'></i>
-							<span class="menu--label">Setting</span>
-						</a>
-					</li>
-					<li class="menu--item">
-						<a href="help.html" class="menu--link" title="Help">
-							<i class='uil uil-question-circle menu--icon'></i>
-							<span class="menu--label">Help</span>
-						</a>
-					</li>
-					<li class="menu--item">
-						<a href="report_history.html" class="menu--link" title="Report History">
-							<i class='uil uil-windsock menu--icon'></i>
-							<span class="menu--label">Report History</span>
-						</a>
-					</li>
-					<li class="menu--item">
-						<a href="feedback.html" class="menu--link" title="Send Feedback">
-							<i class='uil uil-comment-alt-exclamation menu--icon'></i>
-							<span class="menu--label">Send Feedback</span>
-						</a>
-					</li>
-				</ul>
-			</div>
 			<div class="left_footer">
-				<ul>
-					<li><a href="about_us.html">About</a></li>
-					<li><a href="press.html">Press</a></li>
-					<li><a href="contact_us.html">Contact Us</a></li>
-					<li><a href="coming_soon.html">Advertise</a></li>
-					<li><a href="coming_soon.html">Developers</a></li>
-					<li><a href="terms_of_use.html">Copyright</a></li>
-					<li><a href="terms_of_use.html">Privacy Policy</a></li>
-					<li><a href="terms_of_use.html">Terms</a></li>
-				</ul>
+				
 				<div class="left_footer_content">
-					<p>© 2020 <strong>Edututs+</strong>. All Rights Reserved.</p>
+					<p>© <?php echo date('Y'); ?> <strong>NACOS NATIONAL</strong>. All Rights Reserved.</p>
 				</div>
 			</div>
 		</div>
