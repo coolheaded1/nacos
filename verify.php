@@ -31,14 +31,14 @@ if (!empty($_GET['func']) && $_GET['func'] == "Lkwmd") {
 	try {
 		$email = $_POST['email'];
 		$pass = MD5($_POST['password']);
-		$stmt = $conn->prepare('SELECT * FROM registration WHERE email=? AND password = ? AND activate <> ? ');
+		$stmt = $conn->prepare('SELECT * FROM registration WHERE email=? AND password = ? AND activate > ? ');
 		$stmt->execute([$email, $pass, '0']);
 		$result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
 		$user = $stmt->fetch();
-		if($user == false){$msg = "Please Activate your Account First, Check your email";session_unset($_SESSION["token"]);header('Location:'.$urlServer.'/register.php');}
+		if($user == false){echo $msg = "Please Activate your Account First, Check your email";header('Location:'.$urlServer.'/register.php');}
 		echo "<script>
 		alert('Login Successful, Redirecting Now');
-		</script>";
+		</script>";die;
 		$_SESSION["stuData"] = json_encode($user);
 		header('Refresh: 0; url=accounts/dashboard.php?data='.$id);
 	} catch(PDOException $e) {
