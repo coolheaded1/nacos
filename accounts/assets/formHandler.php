@@ -25,7 +25,6 @@ function EditStudent($dataGet){
 	try {
 		
 		if(!empty($regMem) && $regMem <> 'no'){
-			var_dump($regMem);die;
 			$data2 = [
 				'user_reg' => $regMem,
 				'chapter_reg' => $dataGet['chapter_reg'],
