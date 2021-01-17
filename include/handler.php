@@ -49,9 +49,11 @@ function RegSubmit($params){
     'pay' => '',
     'amount' => '',
     'paystatus' => '',
+    'zone' => '',
+    'chapter_reg' => '',
   ];
   try {
-    $ins = "INSERT INTO registration (f_name, s_name, m_name, email, password, gender, phone, img, token, activate,alert, params,dob, institution_type, intitution, dept, level, area_of_int, membershipNo, year_of_reg, pay, amount, paystatus) VALUES (:f_name, :s_name, :m_name, :email, :password, :gender, :phone, :img, :token, :activate, :alert, :params, :dob, :institution_type, :intitution, :dept, :level, :area_of_int, :membershipNo, :year_of_reg, :pay, :amount, :paystatus)";
+    $ins = "INSERT INTO registration (f_name, s_name, m_name, email, password, gender, phone, img, token, activate,alert, params,dob, institution_type, intitution, dept, level, area_of_int, membershipNo, year_of_reg, pay, amount, paystatus, zone, chapter_reg) VALUES (:f_name, :s_name, :m_name, :email, :password, :gender, :phone, :img, :token, :activate, :alert, :params, :dob, :institution_type, :intitution, :dept, :level, :area_of_int, :membershipNo, :year_of_reg, :pay, :amount, :paystatus, :zone, :chapter_reg)";
     $stmt = $conn->prepare($ins);
     if ($stmt->execute($data) > 0) {
       $html = 'Thanks for signing up!<br>
@@ -74,7 +76,13 @@ function RegSubmit($params){
       header('Refresh: 0; url=../register.php');
     }else{$msg = "Error submitting your information";header('Location:'.$urlServer.'/register.php');}
   } catch(PDOException $e) {
-    echo $ins . "<br>" . $e->getMessage();
+    if ($e->getCode() == 23000) {
+      echo "dupplicate email";
+       $msg = "Error submitting your information";header('Location:'.$urlServer.'/register.php');
+    } else {
+        $msg = "Error submitting your information";header('Location:'.$urlServer.'/register.php');
+    }
+    // echo $ins . "<br>" . $e->getMessage();
   }    
   $conn = null;
 }

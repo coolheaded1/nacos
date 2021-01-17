@@ -56,9 +56,9 @@ include "assets/fetcher.php";
 											<div class="tutor_content_dt">
 												<div class="tutor150">
 													<form id="Stuedit" method="POST" action="Stupdate.php?func=edit&ColID=<?php echo microtime(); ?>" >
-													<input type="hidden" name="id" value="">
-													<?php echo sprintf("<input id='json_vals'  name='stuData' type='hidden' value='%s'/>", json_encode($stuData)); ?>
-													<button type="submit" name="stuEdit" class=" btn upload_btn"> Update Profile</button>  
+														<input type="hidden" name="id" value="">
+														<?php echo sprintf("<input id='json_vals'  name='stuData' type='hidden' value='%s'/>", json_encode($stuData)); ?>
+														<button type="submit" name="stuEdit" class=" btn upload_btn"> Update Profile</button>  
 													</form>
 												</div>
 											</div>
@@ -66,15 +66,26 @@ include "assets/fetcher.php";
 									</div>
 									<!--  -->
 									<div class="col-lg-4 col-md-4">
+										<?php if($stu_paystatus_cert <= 0){
+											$urlFunc = "assets/payCert.php?func=payment";
+										}else{
+											$urlFunc = "assets/printCert.php?func=printCert";
+										} ?>
 										<div class="fcrse_1 mt-30">
 											<div class="tutor_img">
-												<div class="value_icon">
-													<i class='uil uil-book-open'></i>
-												</div>
+												<a href="<?php echo $urlFunc;?>&ColID=<?php echo microtime(); ?>" >
+													<div class="value_icon">
+														<i class='uil uil-book-open'></i>
+													</div>
+												</a> 
 											</div>
 											<div class="tutor_content_dt">
-												<div class="tutor150">
-													<a href="instructor_profile_view.html" class="tutor_name">Download Certificate</a>
+												<div class="tutor150">													
+													<form id="Stuedit" method="POST" action="<?php echo $urlFunc;?>&ColID=<?php echo microtime(); ?>" >
+														<input type="hidden" name="id" value="">
+														<?php echo sprintf("<input id='json_vals'  name='stuData' type='hidden' value='%s'/>", json_encode($stuData)); ?>
+														<button type="submit" name="stuEdit" class=" btn upload_btn"> Download Certificate</button>  
+													</form>
 												</div>
 											</div>
 										</div>

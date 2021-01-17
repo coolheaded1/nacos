@@ -98,5 +98,58 @@ function getSchoolZone(){
 	return $getSchoolZone;
 }
 $_SESSION['getSchoolZone'] = getSchoolZone();
-#https://metacpan.org/pod/SQL::QueryBuilder::OO
+
+function genReferenceForCustomer($qtd){
+//Under the string $Caracteres you write all the characters you want to be used to randomly generate the code.
+	$Caracteres = 'ABCDEFGHIJKLMOPQRSTUVXWYZ0123456789';
+	$QuantidadeCaracteres = strlen($Caracteres);
+	$QuantidadeCaracteres--;
+	$Hash=NULL;
+	for($x=1;$x<=$qtd;$x++){
+		$Posicao = rand(0,$QuantidadeCaracteres);
+		$Hash .= substr($Caracteres,$Posicao,1);
+	}
+	return $Hash;
+}
+
+function PayStack(){
+
+	$curl = curl_init();
+	$email = "yakubuabiola2003@gmail.com";
+	$amount = 30000; 
+	$callback_url = $urlServer.'/include/callback_url.php';  
+	curl_setopt_array($curl, array(
+		CURLOPT_URL => "https://api.paystack.co/transaction/initialize",
+		CURLOPT_RETURNTRANSFER => true,
+		CURLOPT_CUSTOMREQUEST => "POST",
+		CURLOPT_POSTFIELDS => json_encode([
+			'amount'=>$amount,
+			'email'=>$email,
+			'callback_url' => $callback_url,
+			"metadata" =>['variable_name' => 'damsel','display_name' => 'damsel','value' => genReferenceForCustomer(9)],
+		]),
+		CURLOPT_HTTPHEADER => [
+    "authorization: Bearer sk_test_ccacc3e60ce8dad28d4664250eb36b307f6c3fec", //replace this with your own test key
+    "content-type: application/json",
+    "cache-control: no-cache"
+],
+));
+
+	$response = curl_exec($curl);
+	$err = curl_error($curl);
+
+	if($err){
+  // there was an error contacting the Paystack API
+		die('Curl returned error: ' . $err);
+	}
+
+	$tranx = json_decode($response, true);
+
+	if(!$tranx['status']){
+  // there was an error from the API
+		print_r('API returned error: ' . $tranx['message']);
+	}
+	header('Location: ' . $tranx['data']['authorization_url']);
+
+}
 ?>

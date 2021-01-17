@@ -108,7 +108,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 									<div class="col-md-6">
 										<div class="lbel25 mt-30">
 											<label>Institution Type / Zone</label>
-											<select class="ui hj145 dropdown cntry152 prompt srch_explore" name="institution_type" id="Ultra" onchange="getZone()">
+											<select class="ui hj145 dropdown cntry152 prompt srch_explore" name="institution_type" id="Ultra" onchange="getZone();">
 												<?php if(empty($stuDataGet->institution_type)){$zone = 'Select Institution zone';}else{$zone = $stuDataGet->institution_type; } ?>
 												<option value="<?php echo $zone; ?>"><?php echo $zone; ?></option>
 												<?php foreach ($getSchoolZone as $row) {
@@ -120,7 +120,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 									<div class="col-md-6">
 										<div class="lbel25 mt-30">
 											<label>Institution </label>
-											<select id="institute" class="ui hj145 dropdown cntry152 prompt srch_explore" name="institution">
+											<select id="institute" onchange="ComposeMemNo();" class="ui hj145 dropdown cntry152 prompt srch_explore" name="institution">
 												<?php if(empty($stuDataGet->intitution)){$inst = 'Select Institution';}else{$inst = $stuDataGet->intitution; } ?>
 												<option selected="" value="<?php echo $inst;?>"><?php echo $inst; ?></option>												
 											</select>
@@ -154,7 +154,11 @@ $getSchool =json_encode($_SESSION['getSchool']);
 										<div class="ui search focus mt-30 lbel25">
 											<label>Membership No</label>
 											<div class="ui left icon input swdh11 swdh19">
-												<input class="prompt srch_explore" type="text" name="memebership" readonly="" value="<?php echo $stuDataGet->membershipNo; ?>" >
+												<input class="prompt srch_explore" type="text" name="memebership" readonly="" value="<?php echo $stuDataGet->membershipNo; ?>" id="memebership" >
+												<input type="hidden" name="memebership2" readonly="" value="<?php echo $stuDataGet->membershipNo; ?>" id="memebership2" >
+												<input type="hidden" name="regMem" readonly="" id="regMem" >
+												<input type="hidden" name="zone" readonly="" value="<?php echo $stuDataGet->zone; ?>" id="zone" >
+												<input type="hidden" name="chapter_reg" readonly="" value="<?php echo $stuDataGet->chapter_reg; ?>" id="chapter_reg" >
 											</div>
 										</div>
 									</div>
@@ -184,13 +188,39 @@ $getSchool =json_encode($_SESSION['getSchool']);
 		<script src="js/custom.js"></script>
 		<script src="js/night-mode.js"></script>
 		<script>
+			var data;
+			var reg;
 			function getZone(){
 				var GetZone = document.getElementById("Ultra").value;
-				var data = $.parseJSON('<?php echo $getSchool; ?>');
+				data = $.parseJSON('<?php echo $getSchool; ?>');
 				var newData = data.filter(p => p.zone == GetZone);
 				for(var i=0;i<newData.length; i++)
 				{
-					document.getElementById("institute").innerHTML +="<option value='"+newData[i].schoo_name+'&'+ newData[i].chapter_reg+"'>"+ newData[i].schoo_name +"</option>";             
+
+					document.getElementById("institute").innerHTML +="<option value='"+newData[i].schoo_name+"'>"+ newData[i].schoo_name +"</option>";             
+				}
+			}
+
+			function ComposeMemNo(){
+				
+				var institute = document.getElementById("institute").value;
+				// var memebership = document.getElementById("memebership").value;
+				var memebership2 = document.getElementById("memebership2").value;
+				if(memebership2 == null || memebership2.length === 0 || memebership2 == ""){
+					var d = new Date();
+					var n = d.getFullYear();
+					var newData = data.filter(p => p.schoo_name == institute);
+					for(var i=0;i<newData.length; i++)
+					{
+						if(parseInt(newData[i].user_reg) == 0){reg = '100'+ parseInt(newData[i].user_reg) + 1}else{ reg = parseInt(newData[i].user_reg) + 1}   
+						var data2 ="NA"+n+"-"+newData[i].school_allias+"/"+reg; 
+						document.getElementById("memebership").value = data2
+						document.getElementById("regMem").value = reg
+						document.getElementById("zone").value = newData[i].zone
+						document.getElementById("chapter_reg").value = newData[i].chapter_reg
+					}
+				}else{
+					document.getElementById("regMem").value = 'no';
 				}
 			}
 			

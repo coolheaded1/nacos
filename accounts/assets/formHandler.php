@@ -15,6 +15,7 @@ switch ($_GET['func']) {
 function EditStudent($dataGet){
 	$conn = DB();
 	$id = $dataGet['id'];
+	$regMem = $dataGet['regMem'];
 	if (empty($id)) {
 		echo "<script>
 		alert('sorry, please login ');
@@ -22,7 +23,39 @@ function EditStudent($dataGet){
 		header('Refresh: 0; url=register.php');
 	}
 	try {
-		$data = [
+		
+		if(!empty($regMem) && $regMem <> 'no'){
+			var_dump($regMem);die;
+			$data2 = [
+				'user_reg' => $regMem,
+				'chapter_reg' => $dataGet['chapter_reg'],
+			];
+			$sql2 = "UPDATE schools SET user_reg = :user_reg WHERE chapter_reg  = :chapter_reg";
+			$stmt2= $conn->prepare($sql2);
+			$stmt2->execute($data2);
+		}else if($regMem == 'no'){
+			$data = [
+			's_name' => $dataGet['s_name'],
+			'f_name' => $dataGet['f_name'],
+			'm_name' => $dataGet['m_name'],
+			'email' => $dataGet['mail'],
+			'phone' => $dataGet['hphone'],
+			'gender' => $dataGet['gender'],
+			'dob' => $dataGet['dob'],
+			'dept' => $dataGet['dept'],
+			'level' => $dataGet['level'],
+			'area_of_int' => $dataGet['Area'],
+			'membershipNo' => $dataGet['memebership'],
+			'alert' => '1',
+			'zone' => $dataGet['zone'],
+			'chapter_reg' => $dataGet['chapter_reg'],
+			'id' => $id,
+		];
+		$sql = "UPDATE registration SET f_name = :f_name, s_name= :s_name , m_name = :m_name, email = :email, phone = :phone, gender = :gender, dob = :dob, dept = :dept, level = :level, area_of_int = :area_of_int, membershipNo = :membershipNo , alert = :alert, zone = :zone, chapter_reg = :chapter_reg WHERE id  = :id";
+		$stmt= $conn->prepare($sql);
+		$stmt->execute($data);
+		}else{
+			$data = [
 			's_name' => $dataGet['s_name'],
 			'f_name' => $dataGet['f_name'],
 			'm_name' => $dataGet['m_name'],
@@ -37,11 +70,15 @@ function EditStudent($dataGet){
 			'area_of_int' => $dataGet['Area'],
 			'membershipNo' => $dataGet['memebership'],
 			'alert' => '1',
+			'zone' => $dataGet['zone'],
+			'chapter_reg' => $dataGet['chapter_reg'],
 			'id' => $id,
 		];
-		$sql = "UPDATE registration SET f_name = :f_name, s_name= :s_name , m_name = :m_name, email = :email, phone = :phone, gender = :gender, dob = :dob, institution_type = :institution_type, intitution = :intitution, dept = :dept, level = :level, area_of_int = :area_of_int, membershipNo = :membershipNo , alert = :alert WHERE id  = :id";
+		$sql = "UPDATE registration SET f_name = :f_name, s_name= :s_name , m_name = :m_name, email = :email, phone = :phone, gender = :gender, dob = :dob, institution_type = :institution_type, intitution = :intitution, dept = :dept, level = :level, area_of_int = :area_of_int, membershipNo = :membershipNo , alert = :alert, zone = :zone, chapter_reg = :chapter_reg WHERE id  = :id";
 		$stmt= $conn->prepare($sql);
 		$stmt->execute($data);
+		}
+		
 		$stmt2 = $conn->prepare("SELECT * FROM registration WHERE id=? AND membershipNo=?");
 		$stmt2->execute([$id, $dataGet['memebership']]); 
 		$stmt2->setFetchMode(PDO::FETCH_ASSOC);

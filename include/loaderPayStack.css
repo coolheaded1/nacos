@@ -1,0 +1,27 @@
+  .loader-ordinary-text {
+	  text-align: center;
+	  margin: 20px 0;
+    color: #000;
+	}
+	
+	.loader-ordinary-text::before {
+	  content: "Redirecting to payment page do not reload or close your browser";	
+	}
+	
+	.loader-ordinary-text::after {
+	  overflow: hidden;
+	  display: inline-block;
+	  vertical-align: bottom;
+	  -webkit-animation: ellipsis steps(4,end) 1s infinite;      
+	  animation: ellipsis steps(4,end) 1s infinite;
+	  content: "\2026"; /* ascii code for the ellipsis character */
+	  width: 0;
+	  margin-right: 20px;
+	}
+	
+	@keyframes ellipsis {
+	  to {
+		width: 20px; 
+		margin-right: 0;   
+	  }
+	}
