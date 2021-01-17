@@ -5,6 +5,8 @@ include "assets/connect2.php";
 $id = "";
 include "assets/fetcher.php";
 $stuDataGet = json_decode($_SESSION['stuData']);  
+$getSchoolZone = $_SESSION['getSchoolZone'];
+$getSchool =json_encode($_SESSION['getSchool']);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,7 +40,7 @@ $stuDataGet = json_decode($_SESSION['stuData']);
 				<div class="row">
 					<div class="col-xl-9 col-lg-8">
 
-							<h3>Edit your Profile</h3>
+						<h3>Edit your Profile</h3>
 
 						<div class="membership_chk_bg">
 							<form method="POST" action="assets/formHandler.php?func=edit&ColID=<?php echo microtime(); ?>">
@@ -105,42 +107,22 @@ $stuDataGet = json_decode($_SESSION['stuData']);
 									
 									<div class="col-md-6">
 										<div class="lbel25 mt-30">
-											<label>Institution Type</label>
-											<select class="ui hj145 dropdown cntry152 prompt srch_explore" name="institution_type">
-												<option value="<?php echo $stuDataGet->institution_type; ?>"><?php echo $stuDataGet->institution_type; ?></option>
-												<option value="1">January</option>
-												<option value="2">February</option>
-												<option value="3">March</option>
-												<option value="4">April</option>
-												<option value="5">May</option>
-												<option value="6">June</option>
-												<option value="7">July</option>
-												<option value="8">August</option>
-												<option value="9">September</option>
-												<option value="10">October</option>
-												<option value="11">November</option>
-												<option value="12">December</option>
+											<label>Institution Type / Zone</label>
+											<select class="ui hj145 dropdown cntry152 prompt srch_explore" name="institution_type" id="Ultra" onchange="getZone()">
+												<?php if(empty($stuDataGet->institution_type)){$zone = 'Select Institution zone';}else{$zone = $stuDataGet->institution_type; } ?>
+												<option value="<?php echo $zone; ?>"><?php echo $zone; ?></option>
+												<?php foreach ($getSchoolZone as $row) {
+													echo '<option value="'. $row['zone'].'">'. $row['zone'] .'</option>';
+												} ?>
 											</select>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="lbel25 mt-30">
 											<label>Institution </label>
-											<select class="ui hj145 dropdown cntry152 prompt srch_explore" name="institution">
-												<option value="<?php echo $stuDataGet->intitution; ?>"><?php echo $stuDataGet->intitution; ?></option>
-												<option value="">Month</option>
-												<option value="1">January</option>
-												<option value="2">February</option>
-												<option value="3">March</option>
-												<option value="4">April</option>
-												<option value="5">May</option>
-												<option value="6">June</option>
-												<option value="7">July</option>
-												<option value="8">August</option>
-												<option value="9">September</option>
-												<option value="10">October</option>
-												<option value="11">November</option>
-												<option value="12">December</option>
+											<select id="institute" class="ui hj145 dropdown cntry152 prompt srch_explore" name="institution">
+												<?php if(empty($stuDataGet->intitution)){$inst = 'Select Institution';}else{$inst = $stuDataGet->intitution; } ?>
+												<option selected="" value="<?php echo $inst;?>"><?php echo $inst; ?></option>												
 											</select>
 										</div>
 									</div>
@@ -201,5 +183,17 @@ $stuDataGet = json_decode($_SESSION['stuData']);
 		<script src="vendor/semantic/semantic.min.js"></script>
 		<script src="js/custom.js"></script>
 		<script src="js/night-mode.js"></script>
+		<script>
+			function getZone(){
+				var GetZone = document.getElementById("Ultra").value;
+				var data = $.parseJSON('<?php echo $getSchool; ?>');
+				var newData = data.filter(p => p.zone == GetZone);
+				for(var i=0;i<newData.length; i++)
+				{
+					document.getElementById("institute").innerHTML +="<option value='"+newData[i].schoo_name+'&'+ newData[i].chapter_reg+"'>"+ newData[i].schoo_name +"</option>";             
+				}
+			}
+			
+		</script>
 	</body>
 	</html>

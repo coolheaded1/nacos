@@ -67,5 +67,36 @@ function sendmailbymailgun($to,$toname,$subject,$html,$text,$mailfrom,$mailfromn
 	return $results;
 }
 
+function getSchool(){
+	$conn = DB();
+	try {
+		global $getSchool;
+		$stmt = $conn->prepare('SELECT * FROM schools');
+		$stmt->execute();
+		$result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
+		$getSchool = $stmt->fetchAll();
+		if($getSchool == false){$getSchool = "";}
+	} catch(PDOException $e) {
+		// echo $sql . "<br>" . $e->getMessage();
+	}
+	return $getSchool;
+}
+$_SESSION['getSchool'] = getSchool();
+
+function getSchoolZone(){
+	$conn = DB();
+	try {
+		global $getSchoolZone;
+		$stmt = $conn->prepare("SELECT zone,count(*) as count FROM schools  GROUP BY zone ");
+		$stmt->execute();
+		$result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
+		$getSchoolZone = $stmt->fetchAll();
+		if($getSchoolZone == false){$getSchoolZone = "";}
+	} catch(PDOException $e) {
+		// echo $sql . "<br>" . $e->getMessage();
+	}
+	return $getSchoolZone;
+}
+$_SESSION['getSchoolZone'] = getSchoolZone();
 #https://metacpan.org/pod/SQL::QueryBuilder::OO
 ?>

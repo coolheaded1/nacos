@@ -109,8 +109,8 @@ include "assets/fetcher.php";
 										<div class="section3125 rpt145">
 											<div class="row">
 												<div class="col-lg-12">
-													<a href="instructor_profile_view.html#" class="_216b22">
-														<span><i class="uil uil-windsock"></i></span> Profile
+													<a href="Stupdate.php?func=edit&ColID=<?php echo microtime();?>" class="_216b22">
+														<span><i class="fas fa-user-edit"></i></span> Profile
 													</a>
 													<div class="dp_dt150">
 														<div class="img148">
