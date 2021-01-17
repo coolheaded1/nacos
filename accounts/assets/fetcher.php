@@ -1,7 +1,6 @@
 <?php  
 $conn = DB();
 $mailfrom= "";$mailfromname="";$tag="";
-print_r($_SESSION["token"]);
 if(!empty($token)){
   try {
    $stmt = $conn->prepare('SELECT * FROM registration WHERE token=? AND activate = ? AND alert <> ?');
