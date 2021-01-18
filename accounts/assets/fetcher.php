@@ -55,7 +55,7 @@ if(!empty($token)){
     }catch(PDOException $e) {
       // echo $stmt . "<br>" . $e->getMessage();
       $msg = "Please Login First";
-      header('Location:../register.php');
+      header('Location:../register.php?msg='.$msg);
     }
     $conn = null;
   }else	if (isset($_SESSION['stuData'])) {

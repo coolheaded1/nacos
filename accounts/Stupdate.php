@@ -48,7 +48,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 								<div class="row">
 									<div class="col-md-6">
 										<div class="ui search focus mt-30 lbel25">
-											<label>SurName </label>
+											<label>Surname </label>
 											<div class="ui left icon input swdh11 swdh19">
 												<input class="prompt srch_explore" type="text" name="s_name" value="<?php echo $stuDataGet->s_name; ?>" id="id_holdername" required="" >
 											</div>
@@ -91,7 +91,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 										<div class="ui search focus mt-30 lbel25">
 											<label>Gender </label>
 											<div class="ui left icon input swdh11 swdh19">
-												<input class="prompt srch_explore" type="text" name="gender" value="<?php echo $stuDataGet->gender; ?>" id="id_holdername" required="" >
+												<input class="prompt srch_explore"  readonly="" type="text" name="gender" value="<?php echo $stuDataGet->gender; ?>" id="id_holdername" required="" >
 											</div>
 										</div>
 									</div>

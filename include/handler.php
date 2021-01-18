@@ -26,8 +26,8 @@ function RegSubmit($params){
   $mailfrom= "";$mailfromname="";$tag="";
   $img ="image is here";
   $data = [
-    'f_name' => $params["register_name"],
-    's_name' => $params["register_fname"],
+    'f_name' => $params["register_fname"],
+    's_name' => $params["register_name"],
     'm_name' => $params["register_mname"],
     'email' => $params["register_email"],
     'password' => MD5($params["register_password"]),

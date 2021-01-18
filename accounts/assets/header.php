@@ -26,7 +26,7 @@
 				<li>
 					<a href="" class="upload_btn">Student Dashboard</a>
 				</li>
-				<li class="ui dropdown">
+				<li class="ui ">
 					<a href="logout.php" class="option_links"><i class='fas fa-power-off'></i><span class=""></span></a>
 					
 				</li>
@@ -105,10 +105,24 @@
 			<div class="left_section">
 				<ul>
 					<li class="menu--item">
-						<a href="index.php" class="menu--link active" title="Home">
+						<a href="dashboard.php" class="menu--link active" title="Home">
 							<i class='uil uil-home-alt menu--icon'></i>
 							<span class="menu--label">Dashboard</span>
 						</a>
+					</li>
+					<li class="menu--item  menu--item__has_sub_menu">
+						<label class="menu--link" title="Tests">
+							<i class='uil uil-clipboard-alt menu--icon'></i>
+							<span class="menu--label">Quiz</span>
+						</label>
+						<ul class="sub_menu">
+							<li class="sub_menu--item">
+								<a href="" class="sub_menu--link">Quiz </a>
+							</li>
+							<li class="sub_menu--item">
+								<a href="" class="sub_menu--link">Quiz view</a>
+							</li>
+						</ul>
 					</li>
 					<li class="menu--item">
 						<a href="" class="menu--link" title="Live Streams">
@@ -135,46 +149,46 @@
 						</label>
 						<ul class="sub_menu">
 							<li class="sub_menu--item">
-								<a href="certification_center.html" class="sub_menu--link">Certification Center</a>
+								<a href="" class="sub_menu--link">Certification Center</a>
 							</li>
 							<li class="sub_menu--item">
-								<a href="certification_start_form.html" class="sub_menu--link">Certification Fill Form</a>
+								<a href="" class="sub_menu--link">Certification Fill Form</a>
 							</li>
 							<li class="sub_menu--item">
-								<a href="certification_test_view.html" class="sub_menu--link">Test View</a>
+								<a href="" class="sub_menu--link">Test View</a>
 							</li>
 							<li class="sub_menu--item">
-								<a href="certification_test__result.html" class="sub_menu--link">Test Result</a>
+								<a href="" class="sub_menu--link">Test Result</a>
 							</li>
 							<li class="sub_menu--item">
-								<a href="http://www.gambolthemes.net/html-items/edututs+/Instructor_Dashboard/my_certificates.html" class="sub_menu--link">My Certification</a>
+								<a href="" class="sub_menu--link">My Certification</a>
 							</li>
 						</ul>
 					</li>
 					<li class="menu--item">
-						<a href="history.html" class="menu--link" title="History">
+						<a href="" class="menu--link" title="History">
 							<i class='uil uil-history menu--icon'></i>
 							<span class="menu--label">Profesional Exams</span>
 						</a>
 					</li>
 					<li class="menu--item  menu--item__has_sub_menu">
-						<label class="menu--link" title="Pages">
-							<i class='uil uil-file menu--icon'></i>
+						<label class="menu--link" title="Tests">
+							<i class='uil uil-clipboard-alt menu--icon'></i>
 							<span class="menu--label">Evoting</span>
 						</label>
 						<ul class="sub_menu">
 							<li class="sub_menu--item">
-								<a href="about_us.html" class="sub_menu--link">About</a>
+								<a href="" class="sub_menu--link">Sign In</a>
 							</li>
 							<li class="sub_menu--item">
-								<a href="sign_in.html" class="sub_menu--link">Sign In</a>
+								<a href="" class="sub_menu--link">Sign Up</a>
 							</li>
 						</ul>
 					</li>
 					<li class="menu--item">
-						<a href="logout.php" class="menu--link" title="History">
-							<i class='fas fa-power-off menu--icon'></i>
-							<span class="menu--label">Log Out </span>
+						<a href="logout.php" class="menu--link" title="Liked Courses">
+							<i class='uil fas fa-power-off menu--icon'></i>
+							<span class="menu--label">Log Out</span>
 						</a>
 					</li>
 				</ul>

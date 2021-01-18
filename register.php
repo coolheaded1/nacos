@@ -38,7 +38,13 @@
     <!--== Header Area Start ==-->
     <?php include "include/header.php" ?>
     <!--== Header Area End ==-->
-
+    <!-- == the loader durinh submit -->
+    <div id="overlay-spiner">
+        <div class="cv-spinner">
+            <span class="spinner"></span>
+        </div>
+    </div>
+    <!-- == the loader durinh submit -->
     <!--== Page Title Area Start ==-->
     <section  class="contact_img" id="page-title-area">
         <div class="container">

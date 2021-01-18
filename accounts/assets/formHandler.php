@@ -32,7 +32,7 @@ function EditStudent($dataGet){
 			$sql2 = "UPDATE schools SET user_reg = :user_reg WHERE chapter_reg  = :chapter_reg";
 			$stmt2= $conn->prepare($sql2);
 			$stmt2->execute($data2);
-		}else if($regMem == 'no'){
+		} if($regMem == 'no'){
 			$data = [
 			's_name' => $dataGet['s_name'],
 			'f_name' => $dataGet['f_name'],

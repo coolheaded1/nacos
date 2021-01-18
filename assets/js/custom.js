@@ -148,7 +148,7 @@ $(document).ready(function(){
         cache: false,
         success: function (response) {
           console.log(response);
-                    alert(response);
+          alert(response);
                     // $(".write-image").val(response)
                   },
                   error: function(response){
@@ -169,7 +169,12 @@ $(document).ready(function(){
     });
 
     //   when submit button is clicked
+    jQuery(function($){
+    $(document).ajaxSend(function() {
+      $("#overlay-spiner").fadeIn(300);　
+    });
     $("#reg_stud").click(function(e) {
+
       e.preventDefault();
         // var dataString = $(this).serialize();    
         var IsValid=$("#registerForm").valid();
@@ -183,6 +188,10 @@ $(document).ready(function(){
             contentType: false,
             success: function(response){showAlert(type, message, duration);},
             error: function(e){}
+          }).done(function() {
+            setTimeout(function(){
+              $("#overlay-spiner").fadeOut(300);
+            },500);
           });
         }else{                
           $('#register_Cpassword').val("");
