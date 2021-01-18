@@ -2,7 +2,6 @@
 session_start();
 ob_start();
 include "assets/connect2.php";
-$id = "";
 include "assets/fetcher.php";
 $stuDataGet = json_decode($_SESSION['stuData']);  
 $getSchoolZone = $_SESSION['getSchoolZone'];
@@ -112,7 +111,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 												<?php if(empty($stuDataGet->institution_type)){$zone = 'Select Institution zone';}else{$zone = $stuDataGet->institution_type; } ?>
 												<option value="<?php echo $zone; ?>"><?php echo $zone; ?></option>
 												<?php foreach ($getSchoolZone as $row) {
-													echo '<option value="'. $row['zone'].'">'. $row['zone'] .'</option>';
+													echo '<option value="'. $row['institute_type'].'">'. $row['institute_type'] .'</option>';
 												} ?>
 											</select>
 										</div>
@@ -193,7 +192,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 			function getZone(){
 				var GetZone = document.getElementById("Ultra").value;
 				data = $.parseJSON('<?php echo $getSchool; ?>');
-				var newData = data.filter(p => p.zone == GetZone);
+				var newData = data.filter(p => p.institute_type == GetZone);
 				for(var i=0;i<newData.length; i++)
 				{
 

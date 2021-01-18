@@ -169,7 +169,6 @@ $(document).ready(function(){
     });
 
     //   when submit button is clicked
-    jQuery(function($){
     $(document).ajaxSend(function() {
       $("#overlay-spiner").fadeIn(300);　
     });

@@ -87,7 +87,7 @@ function getSchoolZone(){
 	$conn = DB();
 	try {
 		global $getSchoolZone;
-		$stmt = $conn->prepare("SELECT zone,count(*) as count FROM schools  GROUP BY zone ");
+		$stmt = $conn->prepare("SELECT institute_type,count(*) as count FROM schools  GROUP BY institute_type");
 		$stmt->execute();
 		$result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
 		$getSchoolZone = $stmt->fetchAll();
@@ -112,12 +112,17 @@ function genReferenceForCustomer($qtd){
 	return $Hash;
 }
 
-function PayStack(){
-
+function PayStack($arrayName){
+	global $pri_key;
+	global $pub_key;
+	$param = json_decode(json_encode($arrayName));
 	$curl = curl_init();
-	$email = "yakubuabiola2003@gmail.com";
-	$amount = 30000; 
-	$callback_url = $urlServer.'/include/callback_url.php';  
+	$email = $param->email;
+	$amount = $param->amount; 
+	$f_name = $param->f_name; 
+	$s_name = $param->s_name; 
+	$metadata = $param->metadata; 
+	$callback_url =$param->callback_url;  
 	curl_setopt_array($curl, array(
 		CURLOPT_URL => "https://api.paystack.co/transaction/initialize",
 		CURLOPT_RETURNTRANSFER => true,
@@ -125,19 +130,19 @@ function PayStack(){
 		CURLOPT_POSTFIELDS => json_encode([
 			'amount'=>$amount,
 			'email'=>$email,
+			'first_name'=>$s_name,
+			'last_name'=>$f_name,
 			'callback_url' => $callback_url,
-			"metadata" =>['variable_name' => 'damsel','display_name' => 'damsel','value' => genReferenceForCustomer(9)],
+			"metadata" => $metadata,
 		]),
 		CURLOPT_HTTPHEADER => [
-    "authorization: Bearer sk_test_ccacc3e60ce8dad28d4664250eb36b307f6c3fec", //replace this with your own test key
+    "authorization: Bearer ".$pri_key, //replace this with your own test key
     "content-type: application/json",
     "cache-control: no-cache"
 ],
 ));
-
 	$response = curl_exec($curl);
 	$err = curl_error($curl);
-
 	if($err){
   // there was an error contacting the Paystack API
 		die('Curl returned error: ' . $err);
@@ -150,6 +155,5 @@ function PayStack(){
 		print_r('API returned error: ' . $tranx['message']);
 	}
 	header('Location: ' . $tranx['data']['authorization_url']);
-
 }
 ?>
