@@ -145,6 +145,15 @@ function PayStack($arrayName){
 	$err = curl_error($curl);
 	if($err){
   // there was an error contacting the Paystack API
+		if ($err == 'Could not resolve host: api.paystack.co') {
+			# code...
+			echo "
+			<script>
+			alert('your network bandwidth is low. you will be logedout in a moment');
+			</script>
+			";
+			header('Refresh: 0; url=../index.php');
+		}
 		die('Curl returned error: ' . $err);
 	}
 
