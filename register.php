@@ -145,7 +145,7 @@
                                                                 <div class="gender form-group">
                                                                     <label class="g-name d-block">Gender</label>
                                                                     <div class="custom-control custom-radio custom-control-inline">
-                                                                        <input type="radio" id="register_gender_male" name="register_gender" value="mail" class="custom-control-input" />
+                                                                        <input type="radio" id="register_gender_male" name="register_gender" value="male" class="custom-control-input" />
                                                                         <label class="custom-control-label" for="register_gender_male">Male</label>
                                                                     </div>
                                                                     <div class="custom-control custom-radio custom-control-inline">

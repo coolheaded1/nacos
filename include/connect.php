@@ -83,6 +83,22 @@ function getSchool(){
 }
 $_SESSION['getSchool'] = getSchool();
 
+function getFee(){
+	$conn = DB();
+	$date = date('Y');
+	try {
+		global $getFee;
+		$stmt = $conn->prepare('SELECT * FROM fee WHERE year = ? ');
+		$dee  = $stmt->execute([$date]);
+		$result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
+		$getFee = $stmt->fetch();
+		if($getFee == false){$getFee = "";}
+	} catch(PDOException $e) {
+		echo $stmt . "<br>" . $e->getMessage();
+	}
+	return $getFee;
+}
+
 function getSchoolZone(){
 	$conn = DB();
 	try {

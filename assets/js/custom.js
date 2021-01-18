@@ -169,9 +169,9 @@ $(document).ready(function(){
     });
 
     //   when submit button is clicked
-    $(document).ajaxSend(function() {
-      $("#overlay-spiner").fadeIn(300);　
-    });
+    // $(document).ajaxSend(function() {
+    //   $("#overlay-spiner").fadeIn(300);　
+    // });
     $("#reg_stud").click(function(e) {
 
       e.preventDefault();

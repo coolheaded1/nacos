@@ -18,6 +18,8 @@ function RegSubmit($params){
   global $urlServer;
   $conn = DB();   
   $date = date("Y");
+   $getFee = json_decode(json_encode(getFee()));
+   $getFee = $getFee->ammount;
   $id = uniqid();
   $to = $params["register_email"];
   $toname = $params["register_fname"]." ".$params["register_name"];
@@ -35,7 +37,7 @@ function RegSubmit($params){
     'phone' => $params["register_deptno"],
     'img' => $img,
     'token' => $id,
-    'activate' => '0',
+    'activate' => '1',
     'alert' => '',
     'params' => $params["register_password"],
     'dob' => '',
@@ -47,7 +49,7 @@ function RegSubmit($params){
     'membershipNo' => '',
     'year_of_reg' => $date,
     'pay' => '',
-    'amount' => '',
+    'amount' => $getFee,
     'paystatus' => '',
     'zone' => '',
     'chapter_reg' => '',
@@ -69,9 +71,9 @@ function RegSubmit($params){
       '.$urlServer.'/verify.php?id='.$id.'&token='.$token.'
       -----------------------------------------------------';
       sendmailbymailgun($to,$toname,$subject,$html,$text,$mailfrom,$mailfromname,$tag);
-      // echo"successful"; 
+      // echo"successful" alert('registration successful. check your mail for activation link');; 
       echo "<script>
-      alert('registration successful. check your mail for activation link');
+      alert('registration successful. you can now login');
       </script>";
       header('Refresh: 0; url=../register.php');
     }else{$msg = "Error submitting your information";header('Location:'.$urlServer.'/register.php');}
