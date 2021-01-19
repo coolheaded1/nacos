@@ -31,6 +31,9 @@ $getSchool =json_encode($_SESSION['getSchool']);
 	<link href="vendor/OwlCarousel/assets/owl.theme.default.min.css" rel="stylesheet">
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="css/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
 	<link rel="stylesheet" type="text/css" href="vendor/semantic/semantic.min.css">
 	<?php  include "assets/header.php"; ?>
 
@@ -100,14 +103,14 @@ $getSchool =json_encode($_SESSION['getSchool']);
 										<div class="ui search focus mt-30 lbel25">
 											<label>D.O.B </label>
 											<div class="ui left icon input swdh11 swdh19">
-												<input class="prompt srch_explore" type="text" name="dob" value="<?php echo $stuDataGet->dob; ?>" id="id_holdername" required="">
+												<input class="prompt srch_explore" type="text" name="dob" value="<?php echo $stuDataGet->dob; ?>" id="dob" required="">
 											</div>
 										</div>
 									</div>
 									
 									<div class="col-md-6">
 										<div class="lbel25 mt-30">
-											<label>Institution Type / Zone</label>
+											<label>Institution Type</label>
 											<select class="ui hj145 dropdown cntry152 prompt srch_explore" name="institution_type" id="Ultra" onchange="getZone();">
 												<?php if(empty($stuDataGet->institution_type)){$zone = 'Select Institution zone';}else{$zone = $stuDataGet->institution_type; } ?>
 												<option value="<?php echo $zone; ?>"><?php echo $zone; ?></option>
@@ -194,12 +197,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 							</form>
 						</div>
 					</div>	
-
-
 				</div>
-
-
-
 			</div>
 		</div>
 		<?php  include "assets/footer.php.php"; ?>
@@ -210,6 +208,9 @@ $getSchool =json_encode($_SESSION['getSchool']);
 		<script src="vendor/OwlCarousel/owl.carousel.js"></script>
 		<script src="vendor/semantic/semantic.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js" ></script>
+		<script type="text/javascript" src="js/select2.min.js" ></script><!-- incase if the above cdn is not working -->
+		<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" ></script>
+		<script src="js/jquery-ui.js"></script> <!-- incase if the above cdn is not working -->
 		<script src="js/custom.js"></script>
 		<script src="js/night-mode.js"></script>
 		<script>
@@ -248,14 +249,32 @@ $getSchool =json_encode($_SESSION['getSchool']);
 					document.getElementById("regMem").value = 'no';
 				}
 			}
-
+			var newDate;
 			$(document).ready(function() {
 				$(".select2_mul_hero1").select2({
 					placeholder: "Select one or multiple fields"
-				});
+				});				
+				var serv = new Date().getFullYear();
+				newDate = (serv-10);
+			});
 
+			$('#dob').datepicker({			
+			    onSelect: function(value, ui) {
+			        var today = new Date(), 
+			            dob = new Date(value), 
+			            age = new Date(today - dob).getFullYear() - 1970;
+			    },
+			    maxDate: '+0d',
+			    yearRange: '1920:'+newDate,
+			    changeMonth: true,
+			    changeYear: true
 			});
 
 		</script>
+
+		<!-- $('.datepicker').datepicker({changeYear: true, yearRange : 'yy-50:yy+1'}); -->
+		<!-- changeMonth: true,
+      changeYear: true,
+      yearRange: "1930:2025" -->
 	</body>
 	</html>
