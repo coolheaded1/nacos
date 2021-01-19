@@ -15,7 +15,10 @@ switch ($_GET['func']) {
 function EditStudent($dataGet){
 	$conn = DB();
 	$id = $dataGet['id'];
-	$Area = implode(', ',$dataGet['Area']);
+	$dd = $dataGet['Area'];
+	$area = implode('| ',$dd);
+	// join()
+	$Area = json_encode($area);
 	$regMem = $dataGet['regMem'];
 	if (empty($id)) {
 		echo "<script>
@@ -24,7 +27,7 @@ function EditStudent($dataGet){
 		header('Refresh: 0; url=register.php');
 	}
 	try {
-		
+		// echo $Area;die;
 		if(!empty($regMem) && $regMem <> 'no'){
 			$data2 = [
 				'user_reg' => $regMem,
