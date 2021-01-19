@@ -30,6 +30,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 	<link href="vendor/OwlCarousel/assets/owl.carousel.css" rel="stylesheet">
 	<link href="vendor/OwlCarousel/assets/owl.theme.default.min.css" rel="stylesheet">
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">
 	<link rel="stylesheet" type="text/css" href="vendor/semantic/semantic.min.css">
 	<?php  include "assets/header.php"; ?>
 
@@ -133,23 +134,47 @@ $getSchool =json_encode($_SESSION['getSchool']);
 											</div>
 										</div>
 									</div>
+
 									<div class="col-md-6">
-										<div class="ui search focus mt-30 lbel25">
+										<div class="lbel25 mt-30">
 											<label>Level</label>
-											<div class="ui left icon input swdh11 swdh19">
-												<input class="prompt srch_explore" type="text" name="level"  value="<?php echo $stuDataGet->level; ?>">
-											</div>
+											<select class="ui hj145 dropdown cntry152 prompt srch_explore" name="level" >
+												<?php if(empty($stuDataGet->level)){$level = 'Select Level';}else{$level = $stuDataGet->level; } ?>
+												<option value="<?php echo $level; ?>"><?php echo $level; ?></option>
+												<option value="100L">100L </option>
+												<option value="200L">200L </option>
+												<option value="300L"> 300L</option>
+												<option value="400L"> 400L</option>
+												<option value="500L">500L </option>
+												<option value="ND I"> ND I  </option>
+												<option value="ND II">ND II</option>
+												<option value="HND I"> HND I </option>
+												<option value="HND II">HND I </option>
+												<option value="NCE I">NCE I</option>
+												<option value="NCE II">NCE II</option>
+												<option value="NCE III">NCE III</option>
+											</select>
 										</div>
 									</div>
-									<div class="col-md-4">
-										<div class="ui search focus mt-30 lbel25">
+
+									<div class="col-md-5">
+										<div class="lbel25 mt-30">
 											<label>Area of Interest</label>
-											<div class="ui left icon input swdh11 swdh19">
-												<input class="prompt srch_explore" type="text" name="Area" value="<?php echo $stuDataGet->area_of_int; ?>" >
-											</div>
+											<select multiple="multiple"  class="ui hj145 form-control cntry152 prompt srch_explore select2_mul_hero1" name="Area[]">
+												<?php if(empty($stuDataGet->area_of_int)){$area_of_int = 'Select Option';}else{$area_of_int = $stuDataGet->area_of_int; } ?>
+												<option value="<?php echo $area_of_int; ?>"><?php echo $area_of_int; ?></option>
+												<option value="Accounting & Finance">Accounting & Finance </option>
+												<option value="Office, Clerical, & Administrative">Office, Clerical, & Administrative</option> 
+												<option value="Call Center & Customer Service ">Call Center & Customer Service </option>  
+												<option value="Industrial & Manufacturing">Industrial & Manufacturing </option>		
+												<option value="Science">Science</option>
+												<option value="Information & Technology">Information & Technology </option>    
+												<option value="Engineering">Engineering </option>  
+											</select>
 										</div>
 									</div>
-									<div class="col-md-6">
+
+									<div class="col-md-5">
 										<div class="ui search focus mt-30 lbel25">
 											<label>Membership No</label>
 											<div class="ui left icon input swdh11 swdh19">
@@ -184,6 +209,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 		<script src="vendor/OwlCarousel/owl.carousel.js"></script>
 		<script src="vendor/semantic/semantic.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js" ></script>
 		<script src="js/custom.js"></script>
 		<script src="js/night-mode.js"></script>
 		<script>
@@ -212,7 +238,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 					for(var i=0;i<newData.length; i++)
 					{
 						if(parseInt(newData[i].user_reg) == 0){reg = '100'+ parseInt(newData[i].user_reg) + 1}else{ reg = parseInt(newData[i].user_reg) + 1}   
-						var data2 ="NA"+n+"-"+newData[i].school_allias+"/"+reg; 
+							var data2 ="NA"+n+"-"+newData[i].school_allias+"/"+reg; 
 						document.getElementById("memebership").value = data2
 						document.getElementById("regMem").value = reg
 						document.getElementById("zone").value = newData[i].zone
@@ -222,7 +248,14 @@ $getSchool =json_encode($_SESSION['getSchool']);
 					document.getElementById("regMem").value = 'no';
 				}
 			}
-			
+
+			$(document).ready(function() {
+				$(".select2_mul_hero1").select2({
+					placeholder: "Select one or multiple fields"
+				});
+
+			});
+
 		</script>
 	</body>
 	</html>

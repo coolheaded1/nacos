@@ -15,6 +15,7 @@ switch ($_GET['func']) {
 function EditStudent($dataGet){
 	$conn = DB();
 	$id = $dataGet['id'];
+	$Area = implode(', ',$dataGet['Area']);
 	$regMem = $dataGet['regMem'];
 	if (empty($id)) {
 		echo "<script>
@@ -43,7 +44,7 @@ function EditStudent($dataGet){
 			'dob' => $dataGet['dob'],
 			'dept' => $dataGet['dept'],
 			'level' => $dataGet['level'],
-			'area_of_int' => $dataGet['Area'],
+			'area_of_int' => $Area,
 			'membershipNo' => $dataGet['memebership'],
 			'alert' => '1',
 			'zone' => $dataGet['zone'],

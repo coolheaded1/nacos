@@ -139,30 +139,28 @@
 					<li class="menu--item">
 						<a href="" class="menu--link" title="Liked Courses">
 							<i class='uil uil-thumbs-up menu--icon'></i>
-							<span class="menu--label">Scholaships</span>
+							<span class="menu--label">Scholarships</span>
 						</a>
 					</li>
 					<li class="menu--item  menu--item__has_sub_menu">
 						<label class="menu--link" title="Tests">
 							<i class='uil uil-clipboard-alt menu--icon'></i>
-							<span class="menu--label">Professional Membership <br>Registration</span>
+							<span class="menu--label">Professional Membership </span>
 						</label>
 						<ul class="sub_menu">
 							<li class="sub_menu--item">
-								<a href="" class="sub_menu--link">Certification Center</a>
+								<a href="" class="sub_menu--link"> NCS</a>
 							</li>
 							<li class="sub_menu--item">
-								<a href="" class="sub_menu--link">Certification Fill Form</a>
+								<a href="" class="sub_menu--link">IEEE </a>
 							</li>
 							<li class="sub_menu--item">
-								<a href="" class="sub_menu--link">Test View</a>
+								<a href="" class="sub_menu--link"> IAENG</a>
 							</li>
 							<li class="sub_menu--item">
-								<a href="" class="sub_menu--link">Test Result</a>
+								<a href="" class="sub_menu--link">ISOC</a>
 							</li>
-							<li class="sub_menu--item">
-								<a href="" class="sub_menu--link">My Certification</a>
-							</li>
+							
 						</ul>
 					</li>
 					<li class="menu--item">
