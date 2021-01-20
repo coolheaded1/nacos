@@ -5,14 +5,14 @@ error_reporting(E_ALL);
 include "connect.php";
 if (isset($_SESSION['stuData'])) {
 	$vals = json_decode($_SESSION['stuData']);
-	$StumembershipNo = $vals->membershipNo;
+	$StumembershipNo =  strtoupper($vals->membershipNo);
 	$f_name = $vals->f_name;
 	$s_name = $vals->s_name;
 	$m_name = $vals->m_name;
-	$stuInst = $vals->intitution;
-	$stuDept = $vals->dept;
-	$stuInstType = $vals->institution_type;
-	$names = $s_name." ".$f_name ." ". $m_name;
+	$stuInst =  strtoupper($vals->intitution);
+	$stuDept =  strtoupper($vals->dept);
+	$stuInstType =  strtoupper($vals->institution_type);
+	$names =  strtoupper( $s_name." ".$f_name ." ". $m_name );
 	$_SESSION['stuData'] = $_SESSION['stuData'];	
 }else{
 	$msg = "Please Login First, your IP Address has been flaged by our system";
@@ -32,10 +32,10 @@ $fontColor = `255,0,0`;
 
 $leftMemb = 140;
 $topMem = 53;
-$leftName = 26;
+$leftName = 24;
 $topName = 76;
 $schLeft = 40;
-$schtop = 129;
+$schtop = 122;
 $courleft = 46;
 $courtop = 151;
 $dayleft = 41;
@@ -49,17 +49,22 @@ $pdf->SetAutoPageBreak('auto',0);
 // import page 1
 $tplId = $pdf->importPage(1);
 $pdf->useTemplate($tplId, 0, 0, 280);
-
 $pdf->SetFont("helvetica", "B", 15);
 $pdf->SetTextColor(255,255,255);
 $pdf->Text($leftMemb,$topMem,$StumembershipNo);
 $pdf->SetTextColor($fontColor);
 $pdf->Text($leftName,$topName,$names);
-$pdf->Text($schLeft,$schtop,$stuInst,[10]);
+$pdf->SetXY($schLeft, $schtop);
+$pdf->SetRightMargin(100);
+// $pdf->Text($schLeft,$schtop,$stuInst);
+$pdf->Write(10.5,$stuInst);
 $pdf->Text($courleft,$courtop,$stuDept);
 $pdf->Text($dayleft,$daytop,$day);
 $pdf->Text($montLeft,$daytop,$mont);
 $pdf->Text($yearleft,$daytop,$year);
-$pdf->Output(); 
-							// $pdf->Output($text.'Acceptance LETTER.pdf', 'D'); 
+$names."pdf";
+$pdf->Output($names,'I'); 
+// $pdf->Output($text.'Acceptance LETTER.pdf', 'D'); 
+#https://manuals.setasign.com/fpdi-manual/v1/the-fpdi-class/examples/
+#http://www.fpdf.org/en/doc/setmargins.htm
 ?>
