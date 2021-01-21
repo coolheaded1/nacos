@@ -129,12 +129,20 @@ $getSchool =json_encode($_SESSION['getSchool']);
 											</select>
 										</div>
 									</div>
+
 									<div class="col-md-6">
-										<div class="ui search focus mt-30 lbel25">
+										<div class="lbel25 mt-30">
 											<label>Department</label>
-											<div class="ui left icon input swdh11 swdh19">
-												<input class="prompt srch_explore" type="text" name="dept" value="<?php echo $stuDataGet->dept; ?>">
-											</div>
+											<select class="ui hj145 dropdown cntry152 prompt srch_explore" name="dept" >
+												<?php if(empty($stuDataGet->dept)){$dept = 'Select Department';}else{$dept = $stuDataGet->dept; } ?>
+												<option value="<?php echo $dept; ?>"><?php echo $dept; ?></option>
+												<option value="Computer Science ">Computer Science </option>
+												<option value="Computer Engineering">Computer Engineering </option>
+												<option value="Information Systems"> Information Systems</option>
+												<option value="Software Engineering"> Software Engineering</option>
+												<option value="Cyber Security">Cyber Security </option>
+												<option value="Telecomunications">Telecomunications </option>
+											</select>
 										</div>
 									</div>
 
@@ -165,7 +173,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 											<label>Area of Interest</label>
 											<select multiple="multiple"  class="ui hj145 form-control cntry152 prompt srch_explore select2_mul_hero1" name="Area[]">
 												<?php if(empty($stuDataGet->area_of_int)){$area_of_int = 'Select Option';}else{$area_of_int = $stuDataGet->area_of_int; } ?>
-												<option value="<?php echo $area_of_int; ?>"><?php echo $area_of_int; ?></option>
+												<option selected="" value="<?php echo $area_of_int; ?>"><?php echo $area_of_int; ?></option>
 												<option value="Accounting & Finance">Accounting & Finance </option>
 												<option value="Office, Clerical, & Administrative">Office, Clerical, & Administrative</option> 
 												<option value="Call Center & Customer Service ">Call Center & Customer Service </option>  

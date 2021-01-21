@@ -16,9 +16,9 @@ function EditStudent($dataGet){
 	$conn = DB();
 	$id = $dataGet['id'];
 	$dd = $dataGet['Area'];
-	$area = implode('| ',$dd);
+	$Area = implode(' | ',$dd);
 	// join()
-	$Area = json_encode($area);
+	// $Area = json_encode($area);
 	$regMem = $dataGet['regMem'];
 	if (empty($id)) {
 		echo "<script>
@@ -70,7 +70,7 @@ function EditStudent($dataGet){
 			'intitution' => $dataGet['institution'],
 			'dept' => $dataGet['dept'],
 			'level' => $dataGet['level'],
-			'area_of_int' => $dataGet['Area'],
+			'area_of_int' => $Area,
 			'membershipNo' => $dataGet['memebership'],
 			'alert' => '1',
 			'zone' => $dataGet['zone'],

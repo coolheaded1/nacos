@@ -33,36 +33,7 @@
 				<li class="ui dropdown">
 					<a href="index.html#" class="option_links"><i class='uil uil-bell'></i><span class="noti_count">3</span></a>
 					<div class="menu dropdown_mn">
-						<a href="index.html#" class="channel_my item">
-							<div class="profile_link">
-								<img src="images/left-imgs/img-1.jpg" alt="">
-								<div class="pd_content">
-									<h6>Rock William</h6>
-									<p>Like Your Comment On Video <strong>How to create sidebar menu</strong>.</p>
-									<span class="nm_time">2 min ago</span>
-								</div>
-							</div>
-						</a>
-						<a href="index.html#" class="channel_my item">
-							<div class="profile_link">
-								<img src="images/left-imgs/img-2.jpg" alt="">
-								<div class="pd_content">
-									<h6>Jassica Smith</h6>
-									<p>Added New Review In Video <strong>Full Stack PHP Developer</strong>.</p>
-									<span class="nm_time">12 min ago</span>
-								</div>
-							</div>
-						</a>
-						<a href="index.html#" class="channel_my item">
-							<div class="profile_link">
-								<img src="images/left-imgs/img-9.jpg" alt="">
-								<div class="pd_content">
-									<p> Your Membership Approved <strong>Upload Video</strong>.</p>
-									<span class="nm_time">20 min ago</span>
-								</div>
-							</div>
-						</a>
-						<a class="vbm_btn" href="instructor_notifications.html">View All <i class='uil uil-arrow-right'></i></a>
+						
 					</div>
 				</li>
 				<li class="ui dropdown">
@@ -91,7 +62,7 @@
 								</span>
 							</a>
 						</div>
-						<a href="membership.html" class="item channel_item">Paid Memberships</a>
+						<a href="" class="item channel_item">Paid Memberships</a>
 						<a href="logout.php" class="item channel_item">Sign Out</a>
 					</div>
 				</li>

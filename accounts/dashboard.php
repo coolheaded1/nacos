@@ -99,7 +99,7 @@ include "assets/fetcher.php";
 										} ?>
 										<div class="fcrse_1 mt-30">
 											<div class="tutor_img">
-												<a href="<?php echo $urlFunc3;?>&ColID=<?php echo microtime(); ?>">
+												<a href="">
 												<div class="value_icon">
 													<i class='uil uil-bell'></i>
 												</div>
@@ -107,7 +107,7 @@ include "assets/fetcher.php";
 											</div>
 											<div class="tutor_content_dt">
 												<div class="tutor150">
-													<form id="Stuedit" method="POST" action="<?php echo $urlFunc3;?>&ColID=<?php echo microtime(); ?>" >
+													<form id="Stuedit" method="POST" action="" >
 														<input type="hidden" name="id" value="">
 														<?php echo sprintf("<input id='json_vals'  name='stuData' type='hidden' value='%s'/>", json_encode($stuData)); ?>
 														<button type="submit" name="stuEdit" class=" btn upload_btn">View Notifications</button>  
