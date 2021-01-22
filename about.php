@@ -62,8 +62,7 @@
                         <span class="year">1993</span>
                         <img src="assets/img/Conteco2/Conteco D2-225.jpg" alt="About" class="img-fluid img-left">
                         <h2 class="h3">So How Did It All Start...</h2>
-                        <p style="text-align:justify;">NACOSS was founded by groups of students in July 1993 with the backing of Nigerian Computer Society (NCS) as its parent body. It provides avenues for students (in any IT related field) to highlight and champion issues of interest in a coordinated and organized manner.</p>
-                        <p>NACOSS members (NACOSSites) are students studying in tertiary institutions in computer related disciplines including: Computer Science, Computer Engineering, Information Technology, etc.</p>
+                        <p style="text-align:justify;">Nigeria Association of Computing Students (NACOS) was founded by groups of students in July 1993 as Nigeria Association of Computer Science (NACOSS) with the backing of Nigerian Computer Society (NCS) as its parent body. It provides avenues for students (in any IT related field) to highlight and champion issues of interest in a coordinated and organized manner. <br><br>NACOS members (NACOSites) are students studying in tertiary institutions in computer related disciplines including: Computer Science, Computer Engineering, Information Technology, etc.</p>
                     </div>
                     <!-- Single about text End -->
                     <section id="page-content-wrap" style="padding-top:3em;">
@@ -131,7 +130,7 @@
                         <span class="year">2012</span>
                         <img src="assets/img/Conteco2/Conteco D2-228.jpg" alt="About" class="img-fluid img-right">
                         <h2 class="h3">Our First Achivement in History</h2>
-                        <p style="text-align:justify;">Each member is essentially a member of the Association’s local chapter in his or her institution.<br><br> As of April 2012, NACOSS states that it is the largest and most organized student body in West Africa, with registered members of about Two Hundred and Fifty thousand (250 000) in well over One Hundred and fifty local chapters (and more unregistered) in different Institutions (Universities, Polytechnics and Colleges of Education) across the six (6) Geo-political zones of Nigeria.</p>
+                        <p style="text-align:justify;">Each member is essentially a member of the Association’s local chapter in his or her institution.<br><br>As of April 2012, NACOS states that it is the largest and most organized student body in West Africa, with registered members of about Two Hundred and Fifty thousand (250 000) in well over One Hundred and fifty local chapters (and more unregistered) in different Institutions (Universities, Polytechnics and Colleges of Education) across the six (6) Geo-political zones of Nigeria.</p>
                        
                     </div>
                     <!-- Single about text End -->

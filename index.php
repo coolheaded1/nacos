@@ -262,7 +262,7 @@ Innovative Systems for Digital Economy (ISDE’2021)</a></h3>
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="section-title">
-                    <h2>Our Responsibility</h2>
+                    <h2>What we do</h2>
                 </div>
             </div>
         </div>

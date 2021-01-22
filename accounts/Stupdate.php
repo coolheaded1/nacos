@@ -6,6 +6,8 @@ include "assets/fetcher.php";
 $stuDataGet = json_decode($_SESSION['stuData']);  
 $getSchoolZone = $_SESSION['getSchoolZone'];
 $getSchool =json_encode($_SESSION['getSchool']);
+ $getMemNumber = getMemNumber();
+ $getNum = array_shift($getMemNumber);$getNumN = $getNum['value'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -174,12 +176,13 @@ $getSchool =json_encode($_SESSION['getSchool']);
 											<select multiple="multiple"  class="ui hj145 form-control cntry152 prompt srch_explore select2_mul_hero1" name="Area[]">
 												<?php if(empty($stuDataGet->area_of_int)){$area_of_int = 'Select Option';}else{$area_of_int = $stuDataGet->area_of_int; } ?>
 												<option selected="" value="<?php echo $area_of_int; ?>"><?php echo $area_of_int; ?></option>
-												<option value="Accounting & Finance">Accounting & Finance </option>
-												<option value="Office, Clerical, & Administrative">Office, Clerical, & Administrative</option> 
-												<option value="Call Center & Customer Service ">Call Center & Customer Service </option>  
-												<option value="Industrial & Manufacturing">Industrial & Manufacturing </option>		
-												<option value="Science">Science</option>
-												<option value="Information & Technology">Information & Technology </option>    
+												<option value="Software Development">Software Development</option>
+												<option value="Front End Development">Front End Development</option> 
+												<option value="Back End Development ">Back End Development </option>  
+												<option value="Networking">Networking </option>		
+												<option value="Embedded System">Embedded System</option>
+												<option value="System Analysis">System Analysis  </option>    
+												<option value="Hardware Engineering">Hardware Engineering  </option>    
 												<option value="Engineering">Engineering </option>  
 											</select>
 										</div>
@@ -236,6 +239,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 			}
 
 			function ComposeMemNo(){
+				var mem = "<?php echo $getNumN; ?>";
 				
 				var institute = document.getElementById("institute").value;
 				// var memebership = document.getElementById("memebership").value;
@@ -246,8 +250,8 @@ $getSchool =json_encode($_SESSION['getSchool']);
 					var newData = data.filter(p => p.schoo_name == institute);
 					for(var i=0;i<newData.length; i++)
 					{
-						if(parseInt(newData[i].user_reg) == 0){reg = '100'+ parseInt(newData[i].user_reg) + 1}else{ reg = parseInt(newData[i].user_reg) + 1}   
-							var data2 ="NA"+n+"-"+newData[i].school_allias+"/"+reg; 
+						 reg = parseInt(mem) + 1;   
+							var data2 ="NA"+n+"-/"+reg; 
 						document.getElementById("memebership").value = data2
 						document.getElementById("regMem").value = reg
 						document.getElementById("zone").value = newData[i].zone

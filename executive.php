@@ -44,7 +44,7 @@
         <div class="row">
             <div class="col-lg-8 m-auto text-center">
                 <div class="page-title-content">
-                        <div class="col-sm-6 marg-top" style="margin:0px auto;" >       
+                        <div class="col-sm-7 marg-top" style="margin:0px auto;" >       
                             <!-- Light Mode -->
                             <div class="justify-content-md-center">
                                 <div class="card cardBorderCorners lightCard">
@@ -52,7 +52,7 @@
                                     <img class="proPic proLight card-img rounded-circle" src="assets/img/executives/presido.jpeg" alt="Profile Pic">
                                     <h5 class="lightTitle card-title">Comr. Olamilekan Toyeeb Abolade</h5>
                                     <h6 class="lightSubTitle card-subtitle">NACOS National President</h6>
-                                    <p class="lightDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
+                                    <p class="lightDesc card-text">Comr. Olamilekan Abolade is an IT enthusiast & a junior researcher. He has had a progressive academic, research and professional career in computing. He got admit t ed to study computer science at The Federal Polytechnic, Ilaro where he bagged National Diploma in flying colors, he is currently a Student of Moshood Abiola Polytechnic where he's pursuing his Higher National Diploma.</p>
                                     </div>
 
                                     <div class="social">
@@ -120,7 +120,7 @@
                             <div>
                                 <i class="fa fa-facebook-f"></i>
                                 <i class="fa fa-instagram"></i>
-                                <i class="fa fa-linkedin"></i>
+                                
                                 <i class="fa fa-twitter"></i>
                             </div>
                         </div>
@@ -135,7 +135,7 @@
                             <div>
                                 <i class="fa fa-facebook-f"></i>
                                 <i class="fa fa-instagram"></i>
-                                <i class="fa fa-linkedin"></i>
+                                
                                 <i class="fa fa-twitter"></i>
                             </div>
                         </div>
@@ -150,7 +150,7 @@
                             <div>
                                 <i class="fa fa-facebook-f"></i>
                                 <i class="fa fa-instagram"></i>
-                                <i class="fa fa-linkedin"></i>
+                                
                                 <i class="fa fa-twitter"></i>
                             </div>
                         </div>
@@ -165,7 +165,7 @@
                             <div>
                                 <i class="fa fa-facebook-f"></i>
                                 <i class="fa fa-instagram"></i>
-                                <i class="fa fa-linkedin"></i>
+                                
                                 <i class="fa fa-twitter"></i>
                             </div>
                         </div>
@@ -180,7 +180,7 @@
                             <div>
                                 <i class="fa fa-facebook-f"></i>
                                 <i class="fa fa-instagram"></i>
-                                <i class="fa fa-linkedin"></i>
+                                
                                 <i class="fa fa-twitter"></i>
                             </div>
                         </div>
@@ -195,7 +195,7 @@
                             <div>
                                 <i class="fa fa-facebook-f"></i>
                                 <i class="fa fa-instagram"></i>
-                                <i class="fa fa-linkedin"></i>
+                                
                                 <i class="fa fa-twitter"></i>
                             </div>
                         </div>
@@ -210,7 +210,7 @@
                             <div>
                                 <i class="fa fa-facebook-f"></i>
                                 <i class="fa fa-instagram"></i>
-                                <i class="fa fa-linkedin"></i>
+                                
                                 <i class="fa fa-twitter"></i>
                             </div>
                         </div>
@@ -225,7 +225,7 @@
                             <div>
                                 <i class="fa fa-facebook-f"></i>
                                 <i class="fa fa-instagram"></i>
-                                <i class="fa fa-linkedin"></i>
+                                
                                 <i class="fa fa-twitter"></i>
                             </div>
                         </div>
@@ -240,22 +240,7 @@
                             <div>
                                 <i class="fa fa-facebook-f"></i>
                                 <i class="fa fa-instagram"></i>
-                                <i class="fa fa-linkedin"></i>
-                                <i class="fa fa-twitter"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- card single ended -->
-                    <!-- card single started -->
-                    <div class="col-sm-4">
-                        <div class="container-prof">                                
-                                <img src="assets/img/executives/Confidence_Monday-Director_of_Welfare_II.jpg" class="profile-s">
-                            <div class="profile-names">Comr. Confidence Monday</div>
-                            <p class="about-rmv"> Director of Welfare and Membership Services II</p>
-                            <div>
-                                <i class="fa fa-facebook-f"></i>
-                                <i class="fa fa-instagram"></i>
-                                <i class="fa fa-linkedin"></i>
+                                
                                 <i class="fa fa-twitter"></i>
                             </div>
                         </div>
@@ -266,21 +251,7 @@
                 <br><br>
                 <h3 style="text-transform:uppercase;text-align:center;color:#048c0b;">Zonal Coordinating Officers</h3>
                 <div class="row">
-                    <!-- card single started -->
-                    <div class="col-sm-4">
-                        <div class="container-prof">                                
-                                <img src="assets/img/executives/Stephen_Paul-Zonal_Coord_North_Central.png" class="profile-s">
-                            <div class="profile-names">Comr. Stephen Edache Paul</div>
-                            <p class="about-rmv">North Central Zonal Coordinator</p>
-                            <div>
-                                <i class="fa fa-facebook-f"></i>
-                                <i class="fa fa-instagram"></i>
-                                <i class="fa fa-youtube"></i>
-                                <i class="fa fa-twitter"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- card single ended -->
+                    
                     <!-- card single started -->
                     <div class="col-sm-4">
                         <div class="container-prof">
@@ -290,7 +261,20 @@
                             <div>
                                 <i class="fa fa-facebook-f"></i>
                                 <i class="fa fa-instagram"></i>
-                                <i class="fa fa-youtube"></i>
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card single ended -->
+                    <!-- card single started -->
+                    <div class="col-sm-4">
+                        <div class="container-prof">                                
+                                <img src="assets/img/executives/Stephen_Paul-Zonal_Coord_North_Central.png" class="profile-s">
+                            <div class="profile-names">Comr. Stephen Edache Paul</div>
+                            <p class="about-rmv">North Central Zonal Coordinator</p>
+                            <div>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-instagram"></i>
                                 <i class="fa fa-twitter"></i>
                             </div>
                         </div>
@@ -305,7 +289,6 @@
                             <div>
                                 <i class="fa fa-facebook-f"></i>
                                 <i class="fa fa-instagram"></i>
-                                <i class="fa fa-youtube"></i>
                                 <i class="fa fa-twitter"></i>
                             </div>
                         </div>
@@ -315,12 +298,11 @@
                     <div class="col-sm-4">
                         <div class="container-prof">
                                 <img src="assets/img/committee/commitee-5.jpg" class="profile-s">
-                            <div class="profile-names">Comr. Name Name</div>
+                            <div class="profile-names">Comr. Omowasinuola Ijasanmi</div>
                             <p class="about-rmv">South West Zonal Coordinator </p>
                             <div>
                                 <i class="fa fa-facebook-f"></i>
                                 <i class="fa fa-instagram"></i>
-                                <i class="fa fa-youtube"></i>
                                 <i class="fa fa-twitter"></i>
                             </div>
                         </div>
@@ -330,12 +312,11 @@
                     <div class="col-sm-4">
                         <div class="container-prof">
                                 <img src="assets/img/committee/commitee-5.jpg" class="profile-s">
-                            <div class="profile-names">Comr. Name Name</div>
+                            <div class="profile-names">Comr. Unyime John</div>
                             <p class="about-rmv">South South Zonal Coordinator</p>
                             <div>
                                 <i class="fa fa-facebook-f"></i>
                                 <i class="fa fa-instagram"></i>
-                                <i class="fa fa-youtube"></i>
                                 <i class="fa fa-twitter"></i>
                             </div>
                         </div>
@@ -346,11 +327,10 @@
                         <div class="container-prof">
                                 <img src="assets/img/committee/commitee-8.jpg" class="profile-s">
                             <div class="profile-names">Comr. Ikechuckwu Nwachukwu</div>
-                            <p class="about-rmv">South East Zonal Coordinator<r</p>
+                            <p class="about-rmv">South East Zonal Coordinator</p>
                             <div>
                                 <i class="fa fa-facebook-f"></i>
                                 <i class="fa fa-instagram"></i>
-                                <i class="fa fa-youtube"></i>
                                 <i class="fa fa-twitter"></i>
                             </div>
                         </div>
@@ -370,7 +350,7 @@
                             <span class="member-degignation"><p>Chief of staff to the  <strong>(President)</p></strong></span>
                             <br><small class="icon-cent">
                                 <p>
-                                    <a href="https://www.linkedin.com/in/yakubu-abiola-880061ab"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://www.linkedin.com/in/yakubu-abiola-880061ab"></a>
                                     <a href="https://www.instagram.com/abiola_yakubu/"><i class="fa fa-instagram"></i></a>
                                     <a href="https://github.com/yakubu234"><i class="fa fa-github"></i></a>
                                     <a href="https://twitter.com/GrandRubicon"><i class="fa fa-twitter"></i></a>
@@ -382,15 +362,31 @@
                     <div class="col-lg-3">
                         <div class="card member-box shadow-lg">
                         <span class="shape"></span>
-                        <img class="card-img-top" src="assets/img/committee/commitee-8.jpg" alt="">
+                        <img class="card-img-top" src="assets/img/executives/DSC_0658.jpg" alt="">
                         <div class="card-body">
-                            <h4 class="member-title">Mr. Syed Almas Kabir (2018 Jan- March, 2018 )</h4>
-                            <span class="member-degignation"><p>CEO <strong>(President)</strong></p></span>
+                            <h4 class="member-title">Comr. Samuel Ogunsemowo</h4>
+                            <span class="member-degignation"><p>Executive Assistant on IT & Entrepreneurship<strong></strong></p></span>
                             <br><small class="icon-cent">
                                 <p>
                                     <i class="fa fa-facebook-f"></i>
                                     <i class="fa fa-instagram"></i>
-                                    <i class="fa fa-youtube"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </p>
+                            </small>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card member-box shadow-lg">
+                        <span class="shape"></span>
+                        <img class="card-img-top" src="assets/img/committee/commitee-8.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="member-title">Comr. Esther Okeleye</h4>
+                            <span class="member-degignation"><p>Press Secretary <strong></strong></p></span>
+                            <br><small class="icon-cent">
+                                <p>
+                                    <i class="fa fa-facebook-f"></i>
+                                    <i class="fa fa-instagram"></i>
                                     <i class="fa fa-twitter"></i>
                                 </p>
                             </small>
@@ -408,25 +404,6 @@
                                 <p>
                                     <i class="fa fa-facebook-f"></i>
                                     <i class="fa fa-instagram"></i>
-                                    <i class="fa fa-youtube"></i>
-                                    <i class="fa fa-twitter"></i>
-                                </p>
-                            </small>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="card member-box shadow-lg">
-                        <span class="shape"></span>
-                        <img class="card-img-top" src="assets/img/committee/commitee-8.jpg" alt="">
-                        <div class="card-body">
-                            <h4 class="member-title">Mr. Syed Almas Kabir (2018 Jan- March, 2018 )</h4>
-                            <span class="member-degignation"><p>CEO <strong>(President)</strong></p></span>
-                            <br><small class="icon-cent">
-                                <p>
-                                    <i class="fa fa-facebook-f"></i>
-                                    <i class="fa fa-instagram"></i>
-                                    <i class="fa fa-youtube"></i>
                                     <i class="fa fa-twitter"></i>
                                 </p>
                             </small>

@@ -115,6 +115,21 @@ function getSchoolZone(){
 }
 $_SESSION['getSchoolZone'] = getSchoolZone();
 
+function getMemNumber(){
+	$conn = DB();
+	try {
+		global $getMemNumber;
+		$stmt = $conn->prepare("SELECT value,count(*) as count FROM numList GROUP BY value");
+		$stmt->execute();
+		$result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
+		$getMemNumber = $stmt->fetchAll();
+		if($getMemNumber == false){$getMemNumber = "";}
+	} catch(PDOException $e) {
+		// echo $sql . "<br>" . $e->getMessage();
+	}
+	return $getMemNumber;
+}
+
 function genReferenceForCustomer($qtd){
 //Under the string $Caracteres you write all the characters you want to be used to randomly generate the code.
 	$Caracteres = 'ABCDEFGHIJKLMOPQRSTUVXWYZ0123456789';

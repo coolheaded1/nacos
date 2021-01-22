@@ -30,10 +30,9 @@ function EditStudent($dataGet){
 		// echo $Area;die;
 		if(!empty($regMem) && $regMem <> 'no'){
 			$data2 = [
-				'user_reg' => $regMem,
-				'chapter_reg' => $dataGet['chapter_reg'],
+				'value' => $regMem,
 			];
-			$sql2 = "UPDATE schools SET user_reg = :user_reg WHERE chapter_reg  = :chapter_reg";
+			$sql2 = "UPDATE numList SET value = :value";
 			$stmt2= $conn->prepare($sql2);
 			$stmt2->execute($data2);
 		} if($regMem == 'no'){

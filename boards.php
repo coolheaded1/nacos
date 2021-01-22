@@ -80,13 +80,13 @@
                                 <img class="proPic proDark card-img rounded-circle" src="assets/img/executives/Sodiya.jpg" alt="Profile Pic">
                                 <h5 class="darkTitle card-title">Prof Adesina Sodiya FNCS</h5>
                                 <h6 class="darkSubTitle card-subtitle">President, Nigeria Computer Society (NCS)</h6>
-                                <p class="darkDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
+                                <p class="darkDesc card-text">Prof. Sodiya – Professor Adesina Sodiya is a Professor of Computer Science and Information Security and the National President of Nigeria Computer Society (NCS)</p>
                                 </div>
 
                                 <div class="social">
                                 <div class="row">
                                     <div class="col-sm-4 col-md-4">
-                                    <a href="" ><i class="fa fa-github fa-2x social-color-dark" ></i></a>
+                                    <a href="" ><i class="fa fa-facebook fa-2x social-color-dark" ></i></a>
                                     </div>
                                     <div class="col-sm-4 col-md-4">
                                     <a href="" ><i class="col fa fa-twitter fa-2x social-color-dark" ></i></a>
@@ -108,13 +108,13 @@
                                     <img class="proPic proLight card-img rounded-circle" src="assets/img/executives/prof-charles.jpg" alt="Profile Pic">
                                     <h5 class="lightTitle card-title">Prof. Chales Uwadia FNCS</h5>
                                     <h6 class="lightSubTitle card-subtitle">President/Chairman-in-Council CPN</h6>
-                                    <p class="lightDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
+                                    <!-- <p class="lightDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p> -->
                                     </div>
 
                                     <div class="social">
                                     <div class="row">
                                         <div class="col-xs-4 col-sm-4 col-md-4">
-                                       <a href="" > <i class="fa fa-github fa-2x social-color-light"></i></a>
+                                       <a href="" > <i class="fa fa-facebook fa-2x social-color-light"></i></a>
                                         </div>
                                         <div class="col-xs-4 col-sm-4 col-md-4">
                                         <a href="" ><i class="col fa fa-twitter fa-2x social-color-light"></i></a>
@@ -141,13 +141,13 @@
                                 <img class="proPic proDark card-img rounded-circle" src="assets/img/executives/pp.jpg" alt="Profile Pic">
                                 <h5 class="darkTitle card-title">Prof. Olumide Longe FASI</h5>
                                 <h6 class="darkSubTitle card-subtitle">Interim Dean, <br>School of Computing, <br>American University of Nigeria Yola</h6>
-                                <p class="darkDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
+                                <!-- <p class="darkDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p> -->
                                 </div>
 
                                 <div class="social">
                                 <div class="row">
                                     <div class="col-sm-4 col-md-4">
-                                   <a href="" > <i class="fa fa-github fa-2x social-color-dark" ></i></a>
+                                   <a href="" > <i class="fa fa-facebook fa-2x social-color-dark" ></i></a>
                                     </div>
                                     <div class="col-sm-4 col-md-4">
                                    <a href="" > <i class="col fa fa-twitter fa-2x social-color-dark" ></i></a>
@@ -169,13 +169,13 @@
                                     <img class="proPic proLight card-img rounded-circle" src="assets/img/executives/ibrahim-jega.jpeg" alt="Profile Pic">
                                     <h5 class="lightTitle card-title">Mr Mohammed Ibrahim Jega</h5>
                                     <h6 class="lightSubTitle card-subtitle">Founder Startup Arewa</h6>
-                                    <p class="lightDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
+                                    <!-- <p class="lightDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p> -->
                                     </div>
 
                                     <div class="social">
                                     <div class="row">
                                         <div class="col-xs-4 col-sm-4 col-md-4">
-                                      <a href="" >  <i class="fa fa-github fa-2x social-color-light"></i></a>
+                                      <a href="" >  <i class="fa fa-facebook fa-2x social-color-light"></i></a>
                                         </div>
                                         <div class="col-xs-4 col-sm-4 col-md-4">
                                         <a href="" ><i class="col fa fa-twitter fa-2x social-color-light"></i></a>
@@ -197,13 +197,13 @@
                                 <img class="proPic proDark card-img rounded-circle" src="assets/img/executives/Dr-Nasir-Daniya-FNCS.jpg" alt="Profile Pic">
                                 <h5 class="darkTitle card-title">Dr. Nasir Daniya FNCS</h5>
                                 <h6 class="darkSubTitle card-subtitle">DG, ICT Directorate Sokoto State</h6>
-                                <p class="darkDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
+                                <!-- <p class="darkDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p> -->
                                 </div>
 
                                 <div class="social">
                                 <div class="row">
                                     <div class="col-sm-4 col-md-4">
-                                    <a href="" ><i class="fa fa-github fa-2x social-color-dark" ></i></a>
+                                    <a href="" ><i class="fa fa-facebook fa-2x social-color-dark" ></i></a>
                                     </div>
                                     <div class="col-sm-4 col-md-4">
                                     <a href="" ><i class="col fa fa-twitter fa-2x social-color-dark" ></i></a>
@@ -225,13 +225,13 @@
                                     <img class="proPic proLight card-img rounded-circle" src="assets/img/executives/duroAgbalagba.jpeg" alt="Profile Pic">
                                     <h5 class="lightTitle card-title">Citp. Adekunle Durosinmi MNCS</h5>
                                     <h6 class="lightSubTitle card-subtitle">Registrar, Dots ICT Institute of Technology Abeokuta</h6>
-                                    <p class="lightDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
+                                    <!-- <p class="lightDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p> -->
                                     </div>
 
                                     <div class="social">
                                     <div class="row">
                                         <div class="col-xs-4 col-sm-4 col-md-4">
-                                        <a href="" ><i class="fa fa-github fa-2x social-color-light"></i></a>
+                                        <a href="" ><i class="fa fa-facebook fa-2x social-color-light"></i></a>
                                         </div>
                                         <div class="col-xs-4 col-sm-4 col-md-4">
                                         <a href="" ><i class="col fa fa-twitter fa-2x social-color-light"></i></a>
@@ -253,13 +253,13 @@
                                 <img class="proPic proDark card-img rounded-circle" src="assets/img/committee/commitee-1.jpg" alt="Profile Pic">
                                 <h5 class="darkTitle card-title">Alhaji Shuaib Afolabi Salisu FNCS</h5>
                                 <h6 class="darkSubTitle card-subtitle">Chief of Staff to Ogun State Governor</h6>
-                                <p class="darkDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
+                                <!-- <p class="darkDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p> -->
                                 </div>
 
                                 <div class="social">
                                 <div class="row">
                                     <div class="col-sm-4 col-md-4">
-                                   <a href="" > <i class="fa fa-github fa-2x social-color-dark" ></i></a>
+                                   <a href="" > <i class="fa fa-facebook fa-2x social-color-dark" ></i></a>
                                     </div>
                                     <div class="col-sm-4 col-md-4">
                                     <a href="" ><i class="col fa fa-twitter fa-2x social-color-dark" ></i></a>
@@ -281,13 +281,13 @@
                                     <img class="proPic proLight card-img rounded-circle" src="assets/img/executives/umeh.jpeg" alt="Profile Pic">
                                     <h5 class="lightTitle card-title">Dr. Ikechukwu Innocent Umeh FNCS</h5>
                                     <h6 class="lightSubTitle card-subtitle">Senior Lecturer, Nnamdi Azikwe University Awka Anambra State</h6>
-                                    <p class="lightDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
+                                    <!-- <p class="lightDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p> -->
                                     </div>
 
                                     <div class="social">
                                     <div class="row">
                                         <div class="col-xs-4 col-sm-4 col-md-4">
-                                        <a href="" ><i class="fa fa-github fa-2x social-color-light"></i></a>
+                                        <a href="" ><i class="fa fa-facebook fa-2x social-color-light"></i></a>
                                         </div>
                                         <div class="col-xs-4 col-sm-4 col-md-4">
                                         <a href="" ><i class="col fa fa-twitter fa-2x social-color-light"></i></a>
@@ -309,13 +309,13 @@
                                 <img class="proPic proDark card-img rounded-circle" src="assets/img/executives/Ebenezer-Obey.jpg" alt="Profile Pic">
                                 <h5 class="darkTitle card-title">Evang. (Prof) Ebenezer <br>Obey-Fabiyi MFR</h5>
                                 <h6 class="darkSubTitle card-subtitle">Legend Musician</h6>
-                                <p class="darkDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p>
+                                <!-- <p class="darkDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p> -->
                                 </div>
 
                                 <div class="social">
                                 <div class="row">
                                     <div class="col-sm-4 col-md-4">
-                                    <a href="" ><i class="fa fa-github fa-2x social-color-dark" ></i></a>
+                                    <a href="" ><i class="fa fa-facebook fa-2x social-color-dark" ></i></a>
                                     </div>
                                     <div class="col-sm-4 col-md-4">
                                     <a href="" ><i class="col fa fa-twitter fa-2x social-color-dark" ></i></a>

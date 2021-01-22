@@ -21,7 +21,7 @@
                 <div class="col-lg-6 col-sm-5 col-5 text-right">
                     <div class="preheader-right">
                         <!-- <a title="Login" class="btn-auth btn-auth-rev" href="register.php">Login</a> -->
-                        <a title="Register" class="btn-auth btn-auth" href="register.php"><i class="fa fa-graduation-cap" ></i> Student Portal</a>
+                        <a title="Register" class="btn-auth btn-auth" href="register.php"><i class="fa fa-graduation-cap" ></i> Member Portal</a>
                     </div>
                 </div>
             </div>
