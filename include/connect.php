@@ -147,7 +147,7 @@ function PayStack($arrayName){
 	global $pri_key;
 	global $pub_key;
 	$param = json_decode(json_encode($arrayName));
-	var_dump(extension_loaded('curl'));
+	// var_dump(extension_loaded('curl'));
 	$curl = curl_init();
 	$email = $param->email;
 	$amount = $param->amount; 
