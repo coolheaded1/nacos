@@ -80,7 +80,7 @@
                                 <img class="proPic proDark card-img rounded-circle" src="assets/img/executives/Sodiya.jpg" alt="Profile Pic">
                                 <h5 class="darkTitle card-title">Prof Adesina Sodiya FNCS</h5>
                                 <h6 class="darkSubTitle card-subtitle">President, Nigeria Computer Society (NCS)</h6>
-                                <p class="darkDesc card-text">Prof. Sodiya – Professor Adesina Sodiya is a Professor of Computer Science and Information Security and the National President of Nigeria Computer Society (NCS)</p>
+                                <!-- <p class="darkDesc card-text">Prof. Sodiya – Professor Adesina Sodiya is a Professor of Computer Science and Information Security and the National President of Nigeria Computer Society (NCS)</p> -->
                                 </div>
 
                                 <div class="social">
@@ -92,7 +92,7 @@
                                     <a href="" ><i class="col fa fa-twitter fa-2x social-color-dark" ></i></a>
                                     </div>
                                     <div class="col-sm-4 col-md-4">
-                                   <a href="" > <i class="col fa fa-instagram fa-2x social-color-dark"></i></a>
+                                   <a href="" > <i class="col fa fa-linkedin fa-2x social-color-dark"></i></a>
                                     </div>
                                 </div>
                                 </div>
@@ -120,7 +120,7 @@
                                         <a href="" ><i class="col fa fa-twitter fa-2x social-color-light"></i></a>
                                         </div>
                                         <div class="col-xs-4 col-sm-4 col-md-4">
-                                       <a href="" > <i class="col fa fa-instagram fa-2x social-color-light"></i></a>
+                                       <a href="" > <i class="col fa fa-linkedin fa-2x social-color-light"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -153,7 +153,7 @@
                                    <a href="" > <i class="col fa fa-twitter fa-2x social-color-dark" ></i></a>
                                     </div>
                                     <div class="col-sm-4 col-md-4">
-                                    <a href="" ><i class="col fa fa-instagram fa-2x social-color-dark"></i></a>
+                                    <a href="" ><i class="col fa fa-linkedin fa-2x social-color-dark"></i></a>
                                     </div>
                                 </div>
                                 </div>
@@ -181,7 +181,7 @@
                                         <a href="" ><i class="col fa fa-twitter fa-2x social-color-light"></i></a>
                                         </div>
                                         <div class="col-xs-4 col-sm-4 col-md-4">
-                                        <a href="" ><i class="col fa fa-instagram fa-2x social-color-light"></i></a>
+                                        <a href="https://www.linkedin.com/in/mohammedibrahimjega" ><i class="col fa fa-linkedin fa-2x social-color-light"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -209,7 +209,7 @@
                                     <a href="" ><i class="col fa fa-twitter fa-2x social-color-dark" ></i></a>
                                     </div>
                                     <div class="col-sm-4 col-md-4">
-                                    <a href="" ><i class="col fa fa-instagram fa-2x social-color-dark"></i></a>
+                                    <a href="" ><i class="col fa fa-linkedin fa-2x social-color-dark"></i></a>
                                     </div>
                                 </div>
                                 </div>
@@ -237,7 +237,7 @@
                                         <a href="" ><i class="col fa fa-twitter fa-2x social-color-light"></i></a>
                                         </div>
                                         <div class="col-xs-4 col-sm-4 col-md-4">
-                                        <a href="" ><i class="col fa fa-instagram fa-2x social-color-light"></i></a>
+                                        <a href="" ><i class="col fa fa-linkedin fa-2x social-color-light"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -250,7 +250,7 @@
                             <div class="justify-content-md-center">
                             <div class="card cardBorderCorners darkCard">
                                 <div class="card-body">
-                                <img class="proPic proDark card-img rounded-circle" src="assets/img/committee/commitee-1.jpg" alt="Profile Pic">
+                                <img class="proPic proDark card-img rounded-circle" src="assets/img/executives/salisu.jpeg" alt="Profile Pic">
                                 <h5 class="darkTitle card-title">Alhaji Shuaib Afolabi Salisu FNCS</h5>
                                 <h6 class="darkSubTitle card-subtitle">Chief of Staff to Ogun State Governor</h6>
                                 <!-- <p class="darkDesc card-text">Hi, this is Vivekanand. I am a front-end developer from India. I love Open Source and want to make web a better place for the future generation.</p> -->
@@ -265,7 +265,7 @@
                                     <a href="" ><i class="col fa fa-twitter fa-2x social-color-dark" ></i></a>
                                     </div>
                                     <div class="col-sm-4 col-md-4">
-                                    <a href="" ><i class="col fa fa-instagram fa-2x social-color-dark"></i></a>
+                                    <a href="" ><i class="col fa fa-linkedin fa-2x social-color-dark"></i></a>
                                     </div>
                                 </div>
                                 </div>
@@ -293,7 +293,7 @@
                                         <a href="" ><i class="col fa fa-twitter fa-2x social-color-light"></i></a>
                                         </div>
                                         <div class="col-xs-4 col-sm-4 col-md-4">
-                                        <a href="" ><i class="col fa fa-instagram fa-2x social-color-light"></i></a>
+                                        <a href="" ><i class="col fa fa-linkedin fa-2x social-color-light"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -321,7 +321,7 @@
                                     <a href="" ><i class="col fa fa-twitter fa-2x social-color-dark" ></i></a>
                                     </div>
                                     <div class="col-sm-4 col-md-4">
-                                  <a href="" ><i class="col fa fa-instagram fa-2x social-color-dark"></i></a>
+                                  <a href="" ><i class="col fa fa-linkedin fa-2x social-color-dark"></i></a>
                                     </div>
                                 </div>
                                 </div>

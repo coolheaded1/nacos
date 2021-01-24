@@ -181,9 +181,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <h3 ><a href="career.html# " style="color:white;">Nacos Constitution</a></h3>
+                                        <h3 ><a href="assets/NACOS NATIONAL CONSTITUTION.pdf" download="" style="color:white;">NACOS Constitution</a></h3>
                                     </div>
-                                    <a href="career.html#" class="btn btn-job">Download now</a>
+                                    <a href="assets/NACOS NATIONAL CONSTITUTION.pdf" download="" class="btn btn-job">Download now</a>
                                 </div>
                             </div>
                             <!--== Single Job opportunity End ==-->
@@ -199,7 +199,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <h3><a href="career.html#"  style="color:white;">Nacos NEC Agenda</a></h3>
+                                        <h3><a href="career.html#"  style="color:white;">NACOS NEC Agenda</a></h3>
                                          </div>
                                     <a href="career.html#" class="btn btn-job">Learn More</a>
                                 </div>
@@ -217,7 +217,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <h3 ><a href="assets/img/NACOSS-National-ID-Template.cdr" style="color:white;">Nacos ID Card Template</a></h3>
+                                        <h3 ><a href="assets/img/NACOSS-National-ID-Template.cdr" style="color:white;">NACOS ID Card Template</a></h3>
                                          </div>
                                     <a href="assets/img/NACOSS-National-ID-Template.cdr" download class="btn btn-job ">Download Now</a>
                                 </div>
@@ -288,8 +288,7 @@
                             <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
                             <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
                         </section>
-                    </div>
-                    <p></p><p></p><br><br>
+                    </div><br>
                     </section>
 <!--== Committee Page Content End ==-->
 <!--== Footer Area Start ==-->

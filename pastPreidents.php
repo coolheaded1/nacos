@@ -76,7 +76,7 @@
                                 <p>
                                     <i class="fa fa-facebook-f"></i>
                                     <i class="fa fa-instagram"></i>
-                                    <i class="fa fa-youtube"></i>
+                                    
                                     <i class="fa fa-twitter"></i>
                                 </p>
                             </small>
@@ -94,7 +94,7 @@
                                 <p>
                                     <i class="fa fa-facebook-f"></i>
                                     <i class="fa fa-instagram"></i>
-                                    <i class="fa fa-youtube"></i>
+                                    
                                     <i class="fa fa-twitter"></i>
                                 </p>
                             </small>
@@ -112,7 +112,7 @@
                                 <p>
                                     <i class="fa fa-facebook-f"></i>
                                     <i class="fa fa-instagram"></i>
-                                    <i class="fa fa-youtube"></i>
+                                    
                                     <i class="fa fa-twitter"></i>
                                 </p>
                             </small>
@@ -130,7 +130,7 @@
                                 <p>
                                     <i class="fa fa-facebook-f"></i>
                                     <i class="fa fa-instagram"></i>
-                                    <i class="fa fa-youtube"></i>
+                                    
                                     <i class="fa fa-twitter"></i>
                                 </p>
                             </small>
@@ -149,7 +149,7 @@
                                 <p>
                                     <i class="fa fa-facebook-f"></i>
                                     <i class="fa fa-instagram"></i>
-                                    <i class="fa fa-youtube"></i>
+                                    
                                     <i class="fa fa-twitter"></i>
                                 </p>
                             </small>
@@ -167,7 +167,7 @@
                                 <p>
                                     <i class="fa fa-facebook-f"></i>
                                     <i class="fa fa-instagram"></i>
-                                    <i class="fa fa-youtube"></i>
+                                    
                                     <i class="fa fa-twitter"></i>
                                 </p>
                             </small>
@@ -177,15 +177,15 @@
                     <div class="col-lg-3">
                         <div class="card member-box shadow-lg">
                         <span class="shape"></span>
-                        <img class="card-img-top" src="assets/img/committee/Bayo Mohammed Onimode.jpg" alt="">
+                        <img class="card-img-top" src="assets/img/executives/segunadanigbo.jpeg" alt="">
                         <div class="card-body">
-                            <h4 class="member-title">Mr Segun Adnigbo<br>(Year of Service)</h4>
+                            <h4 class="member-title">Mr Segun Adanigbo<br>(Sept 2011 - Feb 2013)</h4>
                             <span class="member-degignation"><p>ZONE:South West</p></span>
                             <br><small class="icon-cent">
                                 <p>
                                     <i class="fa fa-facebook-f"></i>
                                     <i class="fa fa-instagram"></i>
-                                    <i class="fa fa-youtube"></i>
+                                    
                                     <i class="fa fa-twitter"></i>
                                 </p>
                             </small>
@@ -197,13 +197,13 @@
                         <span class="shape"></span>
                         <img class="card-img-top" src="assets/img/committee/Stanley Okotie.jpg" alt="">
                         <div class="card-body">
-                            <h4 class="member-title">Mr Stanley Okotie  <br>(Dec 2012 - Dec 2013)</h4>
+                            <h4 class="member-title">Mr Stanley Okotie  <br>(May 2013 - Sep 2014)</h4>
                             <span class="member-degignation"><p>ZONE:South South</p></span>
                             <br><small class="icon-cent">
                                 <p>
                                     <i class="fa fa-facebook-f"></i>
                                     <i class="fa fa-instagram"></i>
-                                    <i class="fa fa-youtube"></i>
+                                    
                                     <i class="fa fa-twitter"></i>
                                 </p>
                             </small>
@@ -222,7 +222,7 @@
                                 <p>
                                     <i class="fa fa-facebook-f"></i>
                                     <i class="fa fa-instagram"></i>
-                                    <i class="fa fa-youtube"></i>
+                                    
                                     <i class="fa fa-twitter"></i>
                                 </p>
                             </small>
@@ -241,7 +241,7 @@
                                 <p>
                                     <i class="fa fa-facebook-f"></i>
                                     <i class="fa fa-instagram"></i>
-                                    <i class="fa fa-youtube"></i>
+                                    
                                     <i class="fa fa-twitter"></i>
                                 </p>
                             </small>
@@ -260,7 +260,7 @@
                                 <p>
                                     <i class="fa fa-facebook-f"></i>
                                     <i class="fa fa-instagram"></i>
-                                    <i class="fa fa-youtube"></i>
+                                    
                                     <i class="fa fa-twitter"></i>
                                 </p>
                             </small>
@@ -279,7 +279,7 @@
                                 <p>
                                     <i class="fa fa-facebook-f"></i>
                                     <i class="fa fa-instagram"></i>
-                                    <i class="fa fa-youtube"></i>
+                                    
                                     <i class="fa fa-twitter"></i>
                                 </p>
                             </small>

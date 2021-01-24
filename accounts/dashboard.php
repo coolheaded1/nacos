@@ -200,11 +200,11 @@ include "assets/fetcher.php";
 							<div class="right_side">
 								<div class="fcrse_2 mb-30">
 									<div class="tutor_img">
-										<a href="my_instructor_profile_view.html"><img src="../assets/img/executives/presido.jpeg" alt=""></a>
+										<a href="../executive.php"><img src="../assets/img/executives/presido.jpeg" alt=""></a>
 									</div>
 									<div class="tutor_content_dt">
 										<div class="tutor150">
-											<a href="my_instructor_profile_view.html" class="tutor_name">Comr. Olamilekan Toyeeb Abolade</a>
+											<a href="../executive.php" class="tutor_name">Comr. Olamilekan Toyeeb Abolade</a>
 											<div class="mef78" title="Verify">
 												<i class="uil uil-check-circle"></i>
 											</div>

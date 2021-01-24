@@ -162,7 +162,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 												<option value="ND I"> ND I  </option>
 												<option value="ND II">ND II</option>
 												<option value="HND I"> HND I </option>
-												<option value="HND II">HND I </option>
+												<option value="HND II">HND II </option>
 												<option value="NCE I">NCE I</option>
 												<option value="NCE II">NCE II</option>
 												<option value="NCE III">NCE III</option>
@@ -251,7 +251,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 					for(var i=0;i<newData.length; i++)
 					{
 						 reg = parseInt(mem) + 1;   
-							var data2 ="NA"+n+"-/"+reg; 
+							var data2 ="NA"+reg; 
 						document.getElementById("memebership").value = data2
 						document.getElementById("regMem").value = reg
 						document.getElementById("zone").value = newData[i].zone

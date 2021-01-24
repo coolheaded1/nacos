@@ -561,17 +561,17 @@ Innovative Systems for Digital Economy (ISDE’2021)</a></h3>
                 <article class="single-blog-post">
                     <figure class="blog-thumb">
                         <div class="blog-thumbnail">
-                            <img src="assets/img/blog/blog-1.jpg" alt="Blog" class="img-fluid" />
+                            <img src="assets/img/executives/courtesy.jpeg" alt="Blog" class="img-fluid" />
                         </div>
                         <figcaption class="blog-meta clearfix">
                             <a href="single-blog.html" class="author">
-                                <div class="author-pic">
+                                <!-- <div class="author-pic">
                                     <img src="assets/img/blog/author.jpg" alt="Author">
                                 </div>
                                 <div class="author-info">
                                     <h5>Daney williams</h5>
                                     <p>2 hours Ago</p>
-                                </div>
+                                </div> -->
                             </a>
                             <div class="like-comm pull-right">
                                 <a href="index.html#"><i class="fa fa-comment-o"></i>77</a>
@@ -581,9 +581,9 @@ Innovative Systems for Digital Economy (ISDE’2021)</a></h3>
                     </figure>
 
                     <div class="blog-content">
-                        <h3><a href="single-blog.html">Recently we create a maassive project that</a></h3>
-                        <p>This is a big project of our company, we are happy to completed this type projec which are
-                            get world famous award</p>
+                        <h3><a href="single-blog.html">National President pays Courtesy visit to NSCDC State Commandant</a></h3>
+                       <!--  <p>This is a big project of our company, we are happy to completed this type projec which are
+                            get world famous award</p> -->
                         <a href="single-blog.html" class="btn btn-brand">More</a>
                     </div>
                 </article>
@@ -595,17 +595,17 @@ Innovative Systems for Digital Economy (ISDE’2021)</a></h3>
                 <article class="single-blog-post">
                     <figure class="blog-thumb">
                         <div class="blog-thumbnail">
-                            <img src="assets/img/blog/blog-2.jpg" alt="Blog" class="img-fluid" />
+                            <img src="assets/img/executives/nacossup.jpeg" alt="Blog" class="img-fluid" />
                         </div>
                         <figcaption class="blog-meta clearfix">
                             <a href="single-blog.html" class="author">
-                                <div class="author-pic">
+                                <!-- <div class="author-pic">
                                     <img src="assets/img/blog/author.jpg" alt="Author">
                                 </div>
                                 <div class="author-info">
                                     <h5>Myra Hindley</h5>
                                     <p>1 Day Ago</p>
-                                </div>
+                                </div> -->
                             </a>
                             <div class="like-comm pull-right">
                                 <a href="index.html#"><i class="fa fa-comment-o"></i>77</a>
@@ -615,9 +615,9 @@ Innovative Systems for Digital Economy (ISDE’2021)</a></h3>
                     </figure>
 
                     <div class="blog-content">
-                        <h3><a href="single-blog.html">Myra Hindley and her lover, Ian Brady, plotted and</a></h3>
-                        <p>This is a big project of our company, we are happy to completed this type projec which are
-                            get world famous award</p>
+                        <h3><a href="single-blog.html">NACOS monthly Publication</a></h3>
+                        <!-- <p>This is a big project of our company, we are happy to completed this type projec which are -->
+                            <!-- get world famous award</p> -->
                         <a href="single-blog.html" class="btn btn-brand">More</a>
                     </div>
                 </article>
@@ -629,17 +629,17 @@ Innovative Systems for Digital Economy (ISDE’2021)</a></h3>
                 <article class="single-blog-post">
                     <figure class="blog-thumb">
                         <div class="blog-thumbnail">
-                            <img src="assets/img/blog/blog-3.jpg" alt="Blog" class="img-fluid" />
+                            <img src="assets/img/executives/third.jpeg" alt="Blog" class="img-fluid" />
                         </div>
                         <figcaption class="blog-meta clearfix">
                             <a href="single-blog.html" class="author">
-                                <div class="author-pic">
+                                <!-- <div class="author-pic">
                                     <img src="assets/img/blog/author.jpg" alt="Author">
                                 </div>
                                 <div class="author-info">
                                     <h5>Aileen Wuornos</h5>
                                     <p>3 mins Ago</p>
-                                </div>
+                                </div> -->
                             </a>
                             <div class="like-comm pull-right">
                                 <a href="index.html#"><i class="fa fa-comment-o"></i>77</a>
@@ -649,9 +649,9 @@ Innovative Systems for Digital Economy (ISDE’2021)</a></h3>
                     </figure>
 
                     <div class="blog-content">
-                        <h3><a href="single-blog.html">Nurse with a private practice, racked up dozens of victims</a></h3>
-                        <p>This is a big project of our company, we are happy to completed this type projec which are
-                            get world famous award</p>
+                        <h3><a href="single-blog.html">NCS calls for SMART Agriculture</a></h3>
+                        <!-- <p>This is a big project of our company, we are happy to completed this type projec which are
+                            get world famous award</p> -->
                         <a href="single-blog.html" class="btn btn-brand">More</a>
                     </div>
                 </article>

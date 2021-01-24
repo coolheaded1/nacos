@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Nacos National | Official Home Page</title>
+    <title>NACOS National | Official Home Page</title>
 
     <meta name="description" content="simple description for your site"/>
 <meta name="keywords" content="keyword1, keyword2"/>

@@ -162,10 +162,10 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="form-group file-input">
+                                                       <!--  <div class="form-group file-input">
                                                             <input type="file" name="register_file" id="customfile" class="d-none" accept=".jpg,.png,.gif,.jpeg" required />
                                                             <label class="custom-file" for="customfile"><i class="fa fa-upload"></i>Upload Your Photo <span class="text-danger">Max 2MB</span></label>
-                                                        </div>
+                                                        </div> -->
 
                                                         <div class="form-group">
                                                             <div class="row" >

@@ -58,13 +58,13 @@
                                     <div class="social">
                                     <div class="row">
                                         <div class="col-xs-4 col-sm-4 col-md-4">
-                                       <a href="" > <i class="fa fa-github fa-2x social-color-light"></i></a>
+                                       <a href="" > <i class="fa fa-facebook fa-2x social-color-light"></i></a>
                                         </div>
                                         <div class="col-xs-4 col-sm-4 col-md-4">
                                         <a href="" ><i class="col fa fa-twitter fa-2x social-color-light"></i></a>
                                         </div>
                                         <div class="col-xs-4 col-sm-4 col-md-4">
-                                       <a href="" > <i class="col fa fa-instagram fa-2x social-color-light"></i></a>
+                                       <a href="" > <i class="col fa fa-linkedin fa-2x social-color-light"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -234,7 +234,7 @@
                     <!-- card single started -->
                     <div class="col-sm-4">
                         <div class="container-prof">                                
-                                <img src="assets/img/executives/Confidence_Monday-Director_of_Welfare_II.jpg" class="profile-s">
+                                <img src="assets/img/executives/confidence.jpeg" class="profile-s">
                             <div class="profile-names">Comr. Confidence Monday</div>
                             <p class="about-rmv"> Director of Welfare and Membership Services II</p>
                             <div>
@@ -256,7 +256,7 @@
                     <div class="col-sm-4">
                         <div class="container-prof">
                                 <img src="assets/img/committee/commitee-8.jpg" class="profile-s">
-                            <div class="profile-names">Comr. Isah Kasim</div>
+                            <div class="profile-names">Comr. Isah Kasim Garuba</div>
                             <p class="about-rmv">North West Zonal Coordinator</p>
                             <div>
                                 <i class="fa fa-facebook-f"></i>
@@ -283,8 +283,8 @@
                     <!-- card single started -->
                     <div class="col-sm-4">
                         <div class="container-prof">
-                                <img src="assets/img/committee/commitee-5.jpg" class="profile-s">
-                            <div class="profile-names">Comr. Muhammad Sharif</div>
+                                <img src="assets/img/executives/northEast.jpeg" class="profile-s">
+                            <div class="profile-names">Comr. Muhammad Sharif Halidu</div>
                             <p class="about-rmv">North East Zonal Coordinator</p>
                             <div>
                                 <i class="fa fa-facebook-f"></i>
@@ -297,7 +297,7 @@
                     <!-- card single started -->
                     <div class="col-sm-4">
                         <div class="container-prof">
-                                <img src="assets/img/committee/commitee-5.jpg" class="profile-s">
+                                <img src="assets/img/executives/southWest.jpeg" class="profile-s">
                             <div class="profile-names">Comr. Omowasinuola Ijasanmi</div>
                             <p class="about-rmv">South West Zonal Coordinator </p>
                             <div>
@@ -312,7 +312,7 @@
                     <div class="col-sm-4">
                         <div class="container-prof">
                                 <img src="assets/img/committee/commitee-5.jpg" class="profile-s">
-                            <div class="profile-names">Comr. Unyime John</div>
+                            <div class="profile-names"></div>
                             <p class="about-rmv">South South Zonal Coordinator</p>
                             <div>
                                 <i class="fa fa-facebook-f"></i>
@@ -325,7 +325,7 @@
                     <!-- card single started -->
                     <div class="col-sm-4">
                         <div class="container-prof">
-                                <img src="assets/img/committee/commitee-8.jpg" class="profile-s">
+                                <img src="assets/img/executives/southEast.jpeg" class="profile-s">
                             <div class="profile-names">Comr. Ikechuckwu Nwachukwu</div>
                             <p class="about-rmv">South East Zonal Coordinator</p>
                             <div>
@@ -379,7 +379,7 @@
                     <div class="col-lg-3">
                         <div class="card member-box shadow-lg">
                         <span class="shape"></span>
-                        <img class="card-img-top" src="assets/img/committee/commitee-8.jpg" alt="">
+                        <img class="card-img-top" src="assets/img/executives/esther.jpeg" alt="">
                         <div class="card-body">
                             <h4 class="member-title">Comr. Esther Okeleye</h4>
                             <span class="member-degignation"><p>Press Secretary <strong></strong></p></span>
