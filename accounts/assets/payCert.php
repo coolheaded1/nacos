@@ -3,6 +3,7 @@ session_start();
 ob_start();
 include "connect.php";
 $stuData = $_SESSION['stuData'];
+print_r($_SESSION['stuData']);
 switch ($_GET['func']) {
 	case "payment":
 	initPay($stuData);
