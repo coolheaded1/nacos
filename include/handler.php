@@ -70,8 +70,7 @@ function RegSubmit($params){
       Please click this link to activate your account: 
       '.$urlServer.'/verify.php?id='.$id.'&token='.$token.'
       -----------------------------------------------------';
-      sendmailbymailgun($to,$toname,$subject,$html,$text,$mailfrom,$mailfromname,$tag);
-      // echo"successful" alert('registration successful. check your mail for activation link');; 
+      // sendmailbymailgun($to,$toname,$subject,$html,$text,$mailfrom,$mailfromname,$tag);
       echo "<script>
       alert('registration successful. you can now login');
       </script>";
