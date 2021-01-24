@@ -240,7 +240,7 @@ include "assets/fetcher.php";
 						</div>
 					</div>
 				</div>
-				<?php  include "assets/footer.php.php"; ?>
+				<?php  include "assets/footer.php"; ?>
 
 				<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/vertical-responsive-menu.min.js"></script>
 				<script src="js/jquery-3.3.1.min.js"></script>

@@ -26,6 +26,8 @@ function initPay($data){
 		'payFor' => 'Cert',
 		'transID' => $payID,
 	));
+	var_dump($stuData)die;
+	
 	$arrayName = array(
 		'callback_url' => 'http://localhost/nacos/accounts/assets/callBackPayCert.php', 
 		'email' => $val->email, 

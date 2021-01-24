@@ -92,7 +92,7 @@ function EditStudent($dataGet){
 		$_SESSION['stuData'] = json_encode($userr);
 		header('Refresh: 0; url=../dashboard.php?data='.$id);
 	} catch(PDOException $e) {
-		echo $sql . "<br>" . $e->getMessage();
+		// echo $sql . "<br>" . $e->getMessage();
 		echo "<script>
 		alert('sorry the update is unsuccessful. redirecting');
 		</script>";

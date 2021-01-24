@@ -1,7 +1,6 @@
 <?php
 session_start();
 ob_start();
-error_reporting(E_ALL);
 include "connect.php";
 if (isset($_SESSION['stuData'])) {
 	$vals = json_decode($_SESSION['stuData']);
