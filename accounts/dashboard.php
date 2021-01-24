@@ -55,11 +55,9 @@ include "assets/fetcher.php";
 											</div>
 											<div class="tutor_content_dt">
 												<div class="tutor150">
-													<form id="Stuedit" method="POST" action="Stupdate.php?func=edit&ColID=<?php echo microtime(); ?>" >
-														<input type="hidden" name="id" value="">
-														<?php echo sprintf("<input id='json_vals'  name='stuData' type='hidden' value='%s'/>", json_encode($stuData)); ?>
-														<button type="submit" name="stuEdit" class=" btn upload_btn"> Update Profile</button>  
-													</form>
+														<a href="Stupdate.php?func=edit&ColID=<?php echo microtime(); ?>"  >
+														<button type="" name="stuEdit" class=" btn upload_btn"> Update Profile</button>  
+													</a>
 												</div>
 											</div>
 										</div>
@@ -81,11 +79,9 @@ include "assets/fetcher.php";
 											</div>
 											<div class="tutor_content_dt">
 												<div class="tutor150">													
-													<form id="Stuedit" method="POST" action="<?php echo $urlFunc;?>&ColID=<?php echo microtime(); ?>" >
-														<input type="hidden" name="id" value="">
-														<?php echo sprintf("<input id='json_vals'  name='stuData' type='hidden' value='%s'/>", json_encode($stuData)); ?>
-														<button type="submit" name="stuEdit" class=" btn upload_btn"> Download Certificate</button>  
-													</form>
+													<a href="<?php echo $urlFunc;?>&ColID=<?php echo microtime(); ?>" >
+														<button type="" name="stuEdit" class=" btn upload_btn"> Download Certificate</button>  
+													</a>
 												</div>
 											</div>
 										</div>
@@ -107,11 +103,9 @@ include "assets/fetcher.php";
 											</div>
 											<div class="tutor_content_dt">
 												<div class="tutor150">
-													<form id="Stuedit" method="POST" action="" >
-														<input type="hidden" name="id" value="">
-														<?php echo sprintf("<input id='json_vals'  name='stuData' type='hidden' value='%s'/>", json_encode($stuData)); ?>
-														<button type="submit" name="stuEdit" class=" btn upload_btn">View Notifications</button>  
-													</form>
+													<a href="<?php echo $urlFunc;?>&ColID=<?php echo microtime(); ?>" >
+														<button type="" name="stuEdit" class=" btn upload_btn">View Notifications</button>  
+													</a>
 												</div>
 											</div>
 										</div>

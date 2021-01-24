@@ -89,13 +89,5 @@ if(!empty($token)){
   }
   if(!isset($_SESSION['stuData'])){$_SESSION['msg'] = "Sorry the update is unsuccessful. we discover a malicious attempt. Please Login First";header('Location:logout.php');}
   
-  switch ($_GET['func']) {
-  	case "edit":
-  	// editStudent($_POST);
-  	break;
-  	case "Upl oadImage":
-  	UploadImage();
-  	break;
-  }
   
   ?>
