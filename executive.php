@@ -311,8 +311,8 @@
                     <!-- card single started -->
                     <div class="col-sm-4">
                         <div class="container-prof">
-                                <img src="assets/img/committee/commitee-5.jpg" class="profile-s">
-                            <div class="profile-names"></div>
+                                <img src="assets/img/executives/sotuhsouth.jpeg" class="profile-s">
+                            <div class="profile-names">Comr. Uwemedimoh Sunday Ekpenyong</div>
                             <p class="about-rmv">South South Zonal Coordinator</p>
                             <div>
                                 <i class="fa fa-facebook-f"></i>
