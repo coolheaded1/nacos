@@ -152,7 +152,7 @@ function PayStack($arrayName){
 	$amount = $param->amount; 
 	$f_name = $param->f_name; 
 	$s_name = $param->s_name; 
-	$metadata = $param->metadata; 
+	$metadata = $param->email; 
 	$callback_url =$param->callback_url;  
 	curl_setopt_array($curl, array(
 		CURLOPT_URL => "https://api.paystack.co/transaction/initialize",
