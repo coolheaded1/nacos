@@ -77,7 +77,7 @@ if(isset($_GET['aler'])){
 										} ?>
 										<div class="fcrse_1 mt-30">
 											<div class="tutor_img">
-												<a href="<?php echo $urlFunc;?>&ColID=<?php echo microtime(); ?>" >
+												<a href="<?php echo $urlFunc;?>&ColID=<?php echo microtime(); ?>" target="_blank" >
 													<div class="value_icon">
 														<i class='uil uil-book-open'></i>
 													</div>
@@ -85,7 +85,7 @@ if(isset($_GET['aler'])){
 											</div>
 											<div class="tutor_content_dt">
 												<div class="tutor150">													
-													<a href="<?php echo $urlFunc;?>&ColID=<?php echo microtime(); ?>" >
+													<a href="<?php echo $urlFunc;?>&ColID=<?php echo microtime(); ?>" target="_blank"  >
 														<button type="" name="stuEdit" class=" btn upload_btn"> Download Certificate</button>  
 													</a>
 												</div>
