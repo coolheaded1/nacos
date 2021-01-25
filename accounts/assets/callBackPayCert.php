@@ -84,7 +84,7 @@ try {
 		if($user == false){echo $msg = "Please Activate your Account First, Check your email";header('Location:'.$urlServer.'/register.php');}
 		$_SESSION["stuData"] = json_encode($user);
 
-		header('Refresh: 1; url=../dashboard.php');
+		header('Refresh: 1; url=printCert.php');
 	}else{$msg = "Error submitting your information";header('Location:'.$urlServer.'/register.php');}
 } catch(PDOException $e) {
 	if ($e->getCode() == 23000) {
