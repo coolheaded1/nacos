@@ -48,7 +48,7 @@ if (isset($_SESSION['stuData'])) {
 							<h1 class="thnk_coming_title">Ops !!!</h1>
 							<h4 class="thnk_title1">please update your information before proceeding</h4>
 							<a href="../dashboard.php" class="upload_btn " >Goto Dashboard</a>
-							<a href="../Stupdate.php" class="btn upload_btn" >Update Information</a>
+							<a href="../Stupdate.php" class="upload_btn" >Update Information</a>
 							<!-- <p class="thnk_des">Top Print Your Booking Order No.<span> #ABE-ME-12345678</span> (Invoice) - <a href="invoice.html">Click Here</a></p> -->
 						</div>
 
