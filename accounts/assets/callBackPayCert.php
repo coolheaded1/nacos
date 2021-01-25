@@ -81,7 +81,8 @@ try {
 		$stmt3 = $conn->prepare('SELECT * FROM registration WHERE email=? AND id = ? AND activate > ? ');
 		$stmt3->execute([$email, $stuID, '0']);
 		$result = $stmt3->setFetchMode(PDO::FETCH_ASSOC);
-		$user = $stmt3->fetch();
+		$user = $stmt3->fetch(); 
+		echo $user;die;
 		if($user == false){echo $msg = "Please Activate your Account First, Check your email";header('Location:'.$urlServer.'/register.php');}
 		$_SESSION["stuData"] = json_encode($user);
 
