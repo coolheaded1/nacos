@@ -37,7 +37,8 @@ if(!$tranx->status){
 $message = $tranx->message; #"Verification successful"
 $reference = $tranx->data->reference; #"Verification successful"
 $gatamount = ($tranx->data->amount/100); #"Verification successful"
-echo $paid_at = date("d F Y h:i:s a",$tranx->data->paid_at); #"Verification successful"
+echo $paid_at = $tranx->data->paid_at; #"Verification successful"
+// echo $paid_at = date("d F Y h:i:s a",$tranx->data->paid_at); #"Verification successful"
 $created_at = $tranx->data->created_at; #"Verification successful"
 $stuID = $tranx->data->metadata->stuID; #"Verification successful"
 $email = $tranx->data->metadata->email; #"Verification successful"
@@ -49,7 +50,7 @@ $payFor =  $tranx->data->metadata->payFor; #"Verification successful"
 $transID = $tranx->data->metadata->transID; #"Verification successful"
 $customer_code = $tranx->data->customer->customer_code; #"Verification successful"
 $custemail = $tranx->data->customer->email; #"Verification successful"
-
+die;
 global $urlServer;
 $conn = DB();   
 $data = [
@@ -81,7 +82,7 @@ try {
 		$stmt3 = $conn->prepare('SELECT * FROM registration WHERE email=? AND id = ? AND activate > ? ');
 		$stmt3->execute([$email, $stuID, '0']);
 		$result = $stmt3->setFetchMode(PDO::FETCH_ASSOC);
-		$user = $stmt3->fetch(); die;
+		$user = $stmt3->fetch();
 		if($user == false){echo $msg = "Please Activate your Account First, Check your email";header('Location:'.$urlServer.'/register.php');}
 		$_SESSION["stuData"] = json_encode($user);
 
