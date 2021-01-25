@@ -30,6 +30,8 @@ function initPay($data){
 		'callback_url' => 'https://nacos.org.ng/accounts/assets/callBackPayCert.php',  
 		'email' => $val->email, 
 		'metadata' => $metadata, 
+		'f_name' => $val->f_name,
+		's_name' => $val->s_name,
 		'amount' => $val->amount."00", 
 	);
 	PayStack($arrayName);
