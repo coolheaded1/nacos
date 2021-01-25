@@ -4,6 +4,10 @@ ob_start();
 include "assets/connect2.php";
 $token = $_SESSION['token'];if(empty($token)){ $token = $_GET['parser'];}
 include "assets/fetcher.php";
+if(isset($_GET['aler'])){
+	$data = $_GET['aler'];
+	echo "<script>alert('".$data."')</script>";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
