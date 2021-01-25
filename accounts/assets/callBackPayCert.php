@@ -84,7 +84,7 @@ try {
 		if($user == false){echo $msg = "Please Activate your Account First, Check your email";header('Location:'.$urlServer.'/register.php');}
 		$_SESSION["stuData"] = json_encode($user);
 
-		header('Refresh: 1; url=printCert.php?aler=You can now click on download to Download the Certificate');
+		// header('Refresh: 1; url=printCert.php?aler=You can now click on download to Download the Certificate');
 	}else{$msg = "Error submitting your information";header('Location:'.$urlServer.'/register.php');}
 } catch(PDOException $e) {
 	if ($e->getCode() == 23000) {
@@ -134,6 +134,8 @@ $conn = null;
 						<div class="cmtk_dt">
 							<h1 class="thnk_coming_title">Thank You</h1>
 							<h4 class="thnk_title1">Your Payment  is Confirmed!</h4>
+							<a href="../dashboard.php" class="upload_btn " >Goto Dashboard</a>
+							<a href="printCert.php" target="_blank" class="btn btn-primary" >Download Certificate</a>
 							<!-- <p class="thnk_des">Top Print Your Booking Order No.<span> #ABE-ME-12345678</span> (Invoice) - <a href="invoice.html">Click Here</a></p> -->
 						</div>
 
