@@ -69,6 +69,8 @@ if(isset($_GET['aler'])){
 									<!--  -->
 									<div class="col-lg-4 col-md-4">
 										<?php if($stu_paystatus_cert <= 0){
+											$urlFunc = "assets/complete.php?func=payment";
+										}else if($stu_paystatus_cert >0 && $stu_paystatus_cert <2){
 											$urlFunc = "assets/payCert.php?func=payment";
 										}else{
 											$urlFunc = "assets/printCert.php?func=printCert";

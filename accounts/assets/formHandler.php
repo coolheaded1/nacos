@@ -49,11 +49,12 @@ function EditStudent($dataGet){
 			'area_of_int' => $Area,
 			'membershipNo' => $dataGet['memebership'],
 			'alert' => '1',
+			'paystatus' => '1',
 			'zone' => $dataGet['zone'],
 			'chapter_reg' => $dataGet['chapter_reg'],
 			'id' => $id,
 		];
-		$sql = "UPDATE registration SET f_name = :f_name, s_name= :s_name , m_name = :m_name, email = :email, phone = :phone, gender = :gender, dob = :dob, dept = :dept, level = :level, area_of_int = :area_of_int, membershipNo = :membershipNo , alert = :alert, zone = :zone, chapter_reg = :chapter_reg WHERE id  = :id";
+		$sql = "UPDATE registration SET f_name = :f_name, s_name= :s_name , m_name = :m_name, email = :email, phone = :phone, gender = :gender, dob = :dob, dept = :dept, level = :level, area_of_int = :area_of_int, membershipNo = :membershipNo , alert = :alert, paystatus = :paystatus, zone = :zone, chapter_reg = :chapter_reg WHERE id  = :id";
 		$stmt= $conn->prepare($sql);
 		$stmt->execute($data);
 		}else{
@@ -72,11 +73,12 @@ function EditStudent($dataGet){
 			'area_of_int' => $Area,
 			'membershipNo' => $dataGet['memebership'],
 			'alert' => '1',
+			'paystatus' => '1',
 			'zone' => $dataGet['zone'],
 			'chapter_reg' => $dataGet['chapter_reg'],
 			'id' => $id,
 		];
-		$sql = "UPDATE registration SET f_name = :f_name, s_name= :s_name , m_name = :m_name, email = :email, phone = :phone, gender = :gender, dob = :dob, institution_type = :institution_type, intitution = :intitution, dept = :dept, level = :level, area_of_int = :area_of_int, membershipNo = :membershipNo , alert = :alert, zone = :zone, chapter_reg = :chapter_reg WHERE id  = :id";
+		$sql = "UPDATE registration SET f_name = :f_name, s_name= :s_name , m_name = :m_name, email = :email, phone = :phone, gender = :gender, dob = :dob, institution_type = :institution_type, intitution = :intitution, dept = :dept, level = :level, area_of_int = :area_of_int, membershipNo = :membershipNo , alert = :alert, paystatus = :paystatus, zone = :zone, chapter_reg = :chapter_reg WHERE id  = :id";
 		$stmt= $conn->prepare($sql);
 		$stmt->execute($data);
 		}

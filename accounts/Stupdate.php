@@ -113,7 +113,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 									<div class="col-md-6">
 										<div class="lbel25 mt-30">
 											<label>Institution Type</label>
-											<select class="ui hj145 dropdown cntry152 prompt srch_explore" name="institution_type" id="Ultra" onchange="getZone();">
+											<select class="ui hj145 dropdown cntry152 prompt srch_explore" name="institution_type" id="Ultra" required="" onchange="getZone();">
 												<?php if(empty($stuDataGet->institution_type)){$zone = 'Select Institution zone';}else{$zone = $stuDataGet->institution_type; } ?>
 												<option value="<?php echo $zone; ?>"><?php echo $zone; ?></option>
 												<?php foreach ($getSchoolZone as $row) {
@@ -125,7 +125,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 									<div class="col-md-6">
 										<div class="lbel25 mt-30">
 											<label>Institution </label>
-											<select id="institute" onchange="ComposeMemNo();" class="ui hj145 dropdown cntry152 prompt srch_explore" name="institution">
+											<select id="institute" required="" onchange="ComposeMemNo();" class="ui hj145 dropdown cntry152 prompt srch_explore" name="institution">
 												<?php if(empty($stuDataGet->intitution)){$inst = 'Select Institution';}else{$inst = $stuDataGet->intitution; } ?>
 												<option selected="" value="<?php echo $inst;?>"><?php echo $inst; ?></option>												
 											</select>
@@ -135,7 +135,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 									<div class="col-md-6">
 										<div class="lbel25 mt-30">
 											<label>Department</label>
-											<select class="ui hj145 dropdown cntry152 prompt srch_explore" name="dept" >
+											<select class="ui hj145 dropdown cntry152 prompt srch_explore" name="dept" required="" >
 												<?php if(empty($stuDataGet->dept)){$dept = 'Select Department';}else{$dept = $stuDataGet->dept; } ?>
 												<option value="<?php echo $dept; ?>"><?php echo $dept; ?></option>
 												<option value="Computer Science ">Computer Science </option>
@@ -151,7 +151,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 									<div class="col-md-6">
 										<div class="lbel25 mt-30">
 											<label>Level</label>
-											<select class="ui hj145 dropdown cntry152 prompt srch_explore" name="level" >
+											<select required="" class="ui hj145 dropdown cntry152 prompt srch_explore" name="level" >
 												<?php if(empty($stuDataGet->level)){$level = 'Select Level';}else{$level = $stuDataGet->level; } ?>
 												<option value="<?php echo $level; ?>"><?php echo $level; ?></option>
 												<option value="100L">100L </option>
@@ -173,7 +173,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 									<div class="col-md-5">
 										<div class="lbel25 mt-30">
 											<label>Area of Interest</label>
-											<select multiple="multiple"  class="ui hj145 form-control cntry152 prompt srch_explore select2_mul_hero1" name="Area[]">
+											<select multiple="multiple" required=""  class="ui hj145 form-control cntry152 prompt srch_explore select2_mul_hero1" name="Area[]">
 												<?php if(empty($stuDataGet->area_of_int)){$area_of_int = 'Select Option';}else{$area_of_int = $stuDataGet->area_of_int; } ?>
 												<option selected="" value="<?php echo $area_of_int; ?>"><?php echo $area_of_int; ?></option>
 												<option value="Software Development">Software Development</option>
