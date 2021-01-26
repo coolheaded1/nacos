@@ -64,7 +64,7 @@ $pdf->Text($montLeft,$daytop,$mont);
 $pdf->Text($yearleft,$daytop,$year);
 $names."pdf";
 $pdf->Output($names,'I'); 
-header('Refresh: 1; url=../dashboard.php');
+// header('Refresh: 1; url=../dashboard.php');
 // $pdf->Output($text.'Acceptance LETTER.pdf', 'D'); 
 #https://manuals.setasign.com/fpdi-manual/v1/the-fpdi-class/examples/
 #http://www.fpdf.org/en/doc/setmargins.htm
