@@ -62,8 +62,11 @@ $pdf->Text($courleft,$courtop,$stuDept);
 $pdf->Text($dayleft,$daytop,$day);
 $pdf->Text($montLeft,$daytop,$mont);
 $pdf->Text($yearleft,$daytop,$year);
-$names."pdf";
-$pdf->Output($names,'I'); 
+$search  = array('$', '!', ' ','  ','/');
+$replace = array('-', '-', '-', '', '-');
+$str = str_replace($search, $replace,$names);
+$str = $str."pdf";
+$pdf->Output($str,'I'); 
 // header('Refresh: 1; url=../dashboard.php');
 // $pdf->Output($text.'Acceptance LETTER.pdf', 'D'); 
 #https://manuals.setasign.com/fpdi-manual/v1/the-fpdi-class/examples/
