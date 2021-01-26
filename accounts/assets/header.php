@@ -16,7 +16,7 @@
 		<div class="search120">
 			<div class="ui search">
 				<div class="ui left icon input swdh10">
-					<input class="prompt srch10" type="text" placeholder="Search for Tuts Videos, Tutors, Tests and more..">
+					<input class="prompt srch10" type="text" placeholder="...............">
 					<i class='uil uil-search-alt icon icon1'></i>
 				</div>
 			</div>

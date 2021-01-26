@@ -173,7 +173,7 @@
                                                                     <input type="checkbox" class="custom-control-input" id="customCheck1">
                                                                     <label class="custom-control-label" for="customCheck1"> I have read and agree to the <a href="">NACOS</a> Terms of Membership</label>
                                                                 </div>
-                                                                <input type="submit" class="btn btn-reg " style="float:right !important;" value="Registration" id="reg_  stud">
+                                                                <input type="submit" class="btn btn-reg " style="float:right !important;" value="Register" id="reg_  stud">
                                                             </div>
                                                         </div>
                                                     </form>
