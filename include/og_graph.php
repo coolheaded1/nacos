@@ -13,20 +13,20 @@
 <meta name="author" content="Jobz"/>
 
 <!-- twitter card starts from here, if you don't need remove this section -->
-<meta name="twitter:card" content="summary"/>
+<meta name="twitter:card" content="This is the Official website of the Nigeria Association of Computing Students (NACOS). NACOS is the umbrella body for all students studying IT related courses in higher institutions."/>
 <meta name="twitter:site" content="@yourtwitterusername"/>
 <meta name="twitter:creator" content="@yourtwitterusername"/>
 <meta name="twitter:url" content="http://twitter.com"/>
-<meta name="twitter:title" content="Your home page title, max 140 char"/> <!-- maximum 140 char -->
-<meta name="twitter:description" content="Your site description, maximum 140 char "/> <!-- maximum 140 char -->
+<meta name="twitter:title" content="This is the Official website of the Nigeria Association of Computing Students (NACOS). NACOS is the umbrella body for all students studying IT related courses in higher institutions."/> <!-- maximum 140 char -->
+<meta name="twitter:description" content="This is the Official website of the Nigeria Association of Computing Students (NACOS). NACOS is the umbrella body for all students studying IT related courses in higher institutions."/> <!-- maximum 140 char -->
 <meta name="twitter:image" content="assets/img/NNL.png"/>  <!-- when you post this page url in twitter , this image will be shown -->
 <!-- twitter card ends here -->
 
 <!-- facebook open graph starts from here, if you don't need then delete open graph related  -->
-<meta property="og:title" content="Your home page title"/>
-<meta property="og:url" content="http://your domain here.com"/>
+<meta property="og:title" content="This is the Official website of the Nigeria Association of Computing Students (NACOS). NACOS is the umbrella body for all students studying IT related courses in higher institutions."/>
+<meta property="og:url" content="https://nacos.org.ng"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:site_name" content="Your site name here"/>
+<meta property="og:site_name" content="This is the Official website of the Nigeria Association of Computing Students (NACOS). NACOS is the umbrella body for all students studying IT related courses in higher institutions."/>
 <!--meta property="fb:admins" content="" /-->  <!-- use this if you have  -->
 <meta property="og:type" content="website"/> <!-- 'article' for single page  -->
 <meta property="og:image" content="assets/img/NNL.png"/> <!-- when you post this page url in facebook , this image will be shown -->
