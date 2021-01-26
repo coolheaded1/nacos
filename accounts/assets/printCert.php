@@ -65,7 +65,7 @@ $pdf->Text($yearleft,$daytop,$year);
 $search  = array('$', '!', ' ','  ','/');
 $replace = array('-', '-', '-', '', '-');
 $str = str_replace($search, $replace,$names);
-$str = $str."pdf";
+$str = $str.".pdf";
 $pdf->Output($str,'I'); 
 // header('Refresh: 1; url=../dashboard.php');
 // $pdf->Output($text.'Acceptance LETTER.pdf', 'D'); 
