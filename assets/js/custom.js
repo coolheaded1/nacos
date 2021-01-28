@@ -103,9 +103,6 @@ $(document).ready(function(){
      register_fname: {
        required: "<span class='text-danger'>Please enter your First Name</span>",                  
      },
-     register_mname: {
-      required: "<span class='text-danger'>Please enter your Middle Name</span>",                  
-    },
     register_email: {
       required: "<span class='text-danger'>Please enter your Email</span>",                  
     },

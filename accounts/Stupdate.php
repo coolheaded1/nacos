@@ -71,7 +71,7 @@ $getSchool =json_encode($_SESSION['getSchool']);
 										<div class="ui search focus mt-30 lbel25">
 											<label>Middle Name </label>
 											<div class="ui left icon input swdh11 swdh19">
-												<input class="prompt srch_explore" type="text" name="m_name" value="<?php echo $stuDataGet->m_name; ?>" id="id_holdername" required="" >
+												<input class="prompt srch_explore" type="text" name="m_name" value="<?php echo $stuDataGet->m_name; ?>" id="id_holdername" >
 											</div>
 										</div>
 									</div>
