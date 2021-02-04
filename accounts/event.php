@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 session_start();
 ob_start();
 include "assets/connect2.php";
@@ -24,7 +24,7 @@ if(isset($_GET['aler'])){
 	<meta name="viewport" content="width=device-width, shrink-to-fit=9">
 	<meta name="description" content="Gambolthemes">
 	<meta name="author" content="Gambolthemes">
-	<title>Student Dashboard</title>
+	<title>Student Dashboard - Events</title>
 
 	<link rel="icon" type="image/png" href="../assets/img/NACOSS site.png">
 
@@ -53,8 +53,8 @@ if(isset($_GET['aler'])){
 						}
 						?>
 						<div class="section3125">
-							<h4 class="item_title">Dashboard</h4>
-							<a href="" class="see150">Welcome</a>
+							<h4 class="item_title">Events</h4>
+							<a href="" class="see150">Upcoming Events</a>
 							<div class="la5lo1">
 								<div class="row">
 									<div class="col-lg-4 col-md-4">
@@ -127,85 +127,61 @@ if(isset($_GET['aler'])){
 							</div>
 						</div>
 						
+                        <?php 
+                        
+                            $query=mysqli_query($connect,"SELECT * FROM event WHERE CURRENT_DATE < dateclose and status='valid' order by id desc");
+                            while($row=mysqli_fetch_array($query))
+                            {
+                            ?>
+                                
+                                    <div class="section3125 mt-10  _bg4586">
+                                        <div class="_216b01">
+            
+                                            <div class="row justify-content-md-center ">
+                                                <div class="col-md-10">
+                                                    <div class="section3125 rpt145">
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                
+                                                                <div class="dp_dt150">
+                                                                    <div class="img148">
+                                                                        <img src="../assets/<?= $row['images']?>" alt="">
+                                                                    </div>
+                                                                    <div class="prfledt1">
+                                                                        <h2><?= $row['title'] ?></h2>
+                                                                        <span class="text-justify "><?= $row['description'] ?></span>
+
+                                                                        <p class="text-justify pt-2"><i class="fa fa-map-marker pr-2 text-danger" aria-hidden="true"></i> <span class=""><?= $row['venue'] ?></span></p>
+                                                                        <p class="text-justify pt-2"><i class="fa fa-calendar pr-2 text-danger" aria-hidden="true"></i> Date  <span class=""> <?= $row['date'] ?></span></p>
+                                                                        <div class="alert alert-danger" role="alert">
+                                                                           <b>Note the Event registration is to close by <?=$row['dateclose'] ?></b>
+                                                                           <a role="button" href="eventapply.php?id=<?=$row['id']?>" class="btn btn-success btn-md">Click here to apply</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="text-right">
+                                                                        
+                                                                        </div>
+                                                                    </div>
+            
+                                                                    
+                                                                </div>
+            
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+            
+                                        </div>
+                                
+                                        
+                                <?php    }
+                                ?>
 						
 						
-						<div class="section3125 mt-10  _bg4586">
-							<div class="_216b01">
+                            
 
-
-								<div class="row justify-content-md-center  ">
-									<div class="col-md-10">
-										<div class="section3125 rpt145">
-											<div class="row">
-												<div class="col-lg-12">
-													<a href="Stupdate.php?func=edit&ColID=<?php echo microtime();?>" class="_216b22">
-														<span><i class="fas fa-user-edit"></i></span> Profile
-													</a>
-													<div class="dp_dt150">
-														<div class="img148">
-															<img src="images/left-imgs/img-1.jpg" alt="">
-														</div>
-														<div class="prfledt1">
-															<h2><?php echo $names ;?></h2>
-															<span>Membership No: <?php echo $StumembershipNo; ?></span>
-														</div>
-														<div class="text-right">
-															<a href="Stupdate.php?func=edit&ColID=<?php echo microtime(); ?>" class="_216b12">
-																<span><i class="fas fa-user-edit"></i></span>Profile
-															</a></div>
-														</div>
-
-														<div class="table-responsive mt-20 col-sm-12">
-															<table class="table u cp-table">
-																<thead class="thead-s">
-																	<tr>
-																		<th class=" text-white" scope="col">E-mail</th>
-																		<th class="cell-ta text-white" scope="col"><?php echo $email?></th>
-																	</tr>
-																	<tr>
-																		<th class=" text-white" scope="col">Gender</th>
-																		<th class="cell-ta text-white" scope="col"><?php echo $gender; ?></th>
-																	</tr>
-																	<tr>
-																		<th class="text-white" scope="col">Phone</th>
-																		<th class="cell-ta text-white" scope="col"><?php echo $phone; ?></th>
-																	</tr>
-																	<tr>
-																		<th class="text-white" scope="col">D.O.B</th>
-																		<th class="cell-ta text-white" scope="col"><?php echo $stuDOB; ?></th>
-																	</tr>
-																	<tr>
-																		<th class="text-white" scope="col">Institution Type</th>
-																		<th class="cell-ta text-white" scope="col"><?php echo $stuInstType; ?></th>
-																	</tr>
-																	<tr>
-																		<th class=" text-white" scope="col">Institution </th>
-																		<th class="cell-ta text-white" scope="col"><?php echo $stuInst; ?></th>
-																	</tr>
-																	<tr>
-																		<th class=" text-white" scope="col">Department </th>
-																		<th class="cell-ta text-white" scope="col"><?php echo $stuDept; ?></th>
-																	</tr>
-																	<tr>
-																		<th class=" text-white" scope="col">Level </th>
-																		<th class="cell-ta text-white" scope="col"><?php echo $Level ?></th>
-																	</tr>
-																	<tr>
-																		<th class="text-white" scope="col">Area Of Interest </th>
-																		<th class="cell-ta text-white" scope="col"><?php echo $stuAreOfIntrest ?></th>
-																	</tr>
-																</thead>
-															</table>
-														</div>
-													</div>
-
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-							</div>
+                            <!--End of events  -->
 						</div>
 
 

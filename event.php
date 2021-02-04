@@ -1,3 +1,4 @@
+
 <?php include "include/og_graph.php";$page="event";  ?>
 <!-- BOOTSTRAP CSS -->
 <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
@@ -132,12 +133,19 @@ Whatever may be the need for you, attend a NACOS event</p>
                 <div class="col-lg-12">
                     <div class="all-event-list">
                         <!-- Single Event Start -->
+                        <?php 
+                        
+                            include "accounts/assets/connect2.php";
+                            $query=mysqli_query($connect,"SELECT * FROM event WHERE CURRENT_DATE < dateclose and status='valid' order by id desc");
+                            while($row=mysqli_fetch_array($query))
+                            {
+                        ?>
                         <div class="single-upcoming-event">
                             <div class="row">
                                 <div class="col-lg-5">
                                     <div class="up-event-thumb">
-                                        <img src="assets/img/event/event-img-1.jpg" class="img-fluid" alt="Upcoming Event">
-                                        <h4 class="up-event-date">It’s 27 February 2019</h4>
+                                        <img src="assets/<?=$row['images']?>" class="img-fluid" alt="Upcoming Event">
+                                        <h4 class="up-event-date">Date <?=$row['date']?></h4>
                                     </div>
                                 </div>
 
@@ -146,106 +154,21 @@ Whatever may be the need for you, attend a NACOS event</p>
                                         <div class="display-table-cell">
                                             <div class="up-event-text">
                                                 <div class="event-countdown">
-                                                    <div class="event-countdown-counter" data-date="2018/9/10"></div>
+                                                    <div class="event-countdown-counter" data-date="<?=$row['date']?>"></div>
                                                     <p>Remaining</p>
                                                 </div>
-                                                <h3><a href="single-event.html">We are going to arrange a get together!</a></h3>
-                                                <p>Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipv ex ea.</p>
-                                                <a href="single-event.html" class="btn btn-brand btn-brand-dark">join with us</a>
+                                                <h3><a href="single-event.php?eventid=<?=$row['id']?>"><?=$row['title']?></a></h3>
+                                                <p><?=$row['description']?></p>
+                                                <a href="accounts/event.php" class="btn btn-brand btn-brand-dark">join with us</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- Single Event End -->
 
-                        <!-- Single Event Start -->
-                        <div class="single-upcoming-event">
-                            <div class="row">
-                                <div class="col-lg-5">
-                                    <div class="up-event-thumb">
-                                        <img src="assets/img/event/event-img-3.jpg" class="img-fluid" alt="Upcoming Event">
-                                        <h4 class="up-event-date">It’s 27 February 2019</h4>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-7">
-                                    <div class="display-table">
-                                        <div class="display-table-cell">
-                                            <div class="up-event-text">
-                                                <div class="event-countdown">
-                                                    <div class="event-countdown-counter" data-date="2018/9/10"></div>
-                                                    <p>Remaining</p>
-                                                </div>
-                                                <h3><a href="single-event.html">We are going to arrange a get together!</a></h3>
-                                                <p>Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipv ex ea.</p>
-                                                <a href="single-event.html" class="btn btn-brand btn-brand-dark">join with us</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Event End -->
-
-                        <!-- Single Event Start -->
-                        <div class="single-upcoming-event">
-    <div class="row">
-        <div class="col-lg-5">
-            <div class="up-event-thumb">
-                <img src="assets/img/event/event-img-1.jpg" class="img-fluid" alt="Upcoming Event">
-                <h4 class="up-event-date">It’s 27 February 2019</h4>
-            </div>
-        </div>
-
-        <div class="col-lg-7">
-            <div class="display-table">
-                <div class="display-table-cell">
-                    <div class="up-event-text">
-                        <div class="event-countdown">
-                            <div class="event-countdown-counter" data-date="2018/9/10"></div>
-                            <p>Remaining</p>
-                        </div>
-                        <h3><a href="single-event.html">We are going to arrange a get together!</a></h3>
-                        <p>Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipv ex ea.</p>
-                        <a href="single-event.html" class="btn btn-brand btn-brand-dark">join with us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-                        <!-- Single Event End -->
-
-                        <!-- Single Event Start -->
-                        <div class="single-upcoming-event">
-                            <div class="row">
-                                <div class="col-lg-5">
-                                    <div class="up-event-thumb">
-                                        <img src="assets/img/event/event-img-4.jpg" class="img-fluid" alt="Upcoming Event">
-                                        <h4 class="up-event-date">It’s 27 February 2019</h4>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-7">
-                                    <div class="display-table">
-                                        <div class="display-table-cell">
-                                            <div class="up-event-text">
-                                                <div class="event-countdown">
-                                                    <div class="event-countdown-counter" data-date="2018/9/10"></div>
-                                                    <p>Remaining</p>
-                                                </div>
-                                                <h3><a href="single-event.html">We are going to arrange a get together!</a></h3>
-                                                <p>Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipv ex ea.</p>
-                                                <a href="single-event.html" class="btn btn-brand btn-brand-dark">join with us</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Event End -->
+                        <?php } ?>
+                        
                     </div>
                 </div>
             </div>

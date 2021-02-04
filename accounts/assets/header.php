@@ -96,7 +96,7 @@
 						</ul>
 					</li>
 					<li class="menu--item">
-						<a href="" class="menu--link" title="Live Streams">
+						<a href="event.php" class="menu--link" title="Live Streams">
 							<i class='uil uil-kayak menu--icon'></i>
 							<span class="menu--label">Event Registration</span>
 						</a>

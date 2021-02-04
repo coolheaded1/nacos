@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.5deb2
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Feb 01, 2021 at 09:38 AM
--- Server version: 10.3.25-MariaDB-0ubuntu0.20.04.1
+-- Host: 127.0.0.1
+-- Generation Time: Feb 04, 2021 at 08:30 AM
+-- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.4.13
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -37,6 +36,53 @@ CREATE TABLE `ets` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `event`
+--
+
+CREATE TABLE `event` (
+  `id` int(11) NOT NULL,
+  `title` text NOT NULL,
+  `description` longtext NOT NULL,
+  `images` text NOT NULL,
+  `venue` varchar(50) NOT NULL,
+  `dateclose` date NOT NULL,
+  `date` date NOT NULL,
+  `status` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `event`
+--
+
+INSERT INTO `event` (`id`, `title`, `description`, `images`, `venue`, `dateclose`, `date`, `status`) VALUES
+(1, 'Events one', 'Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipv ex ea.\r\n\r\nJOIN WITH US', 'img/event/event-img-1.jpg', 'Moshood Abiola Polytechnic', '2021-02-09', '2021-02-13', 'valid'),
+(2, 'We are going to arrange a get together!', 'Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipv ex ea.\r\n\r\nJOIN WITH US', 'img/event/event-img-1.jpg', 'Moshood Abiola Polytechnic', '2021-02-09', '2021-02-13', 'valid');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `eventreg`
+--
+
+CREATE TABLE `eventreg` (
+  `id` int(11) NOT NULL,
+  `eventid` int(11) NOT NULL,
+  `membershipNo` varchar(10) NOT NULL,
+  `password` varchar(40) NOT NULL,
+  `date` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `eventreg`
+--
+
+INSERT INTO `eventreg` (`id`, `eventid`, `membershipNo`, `password`, `date`) VALUES
+(0, 1, 'NA10003', '', '2021-02-03'),
+(0, 2, 'NA10003', '', '2021-02-03');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `fee`
 --
 
@@ -57,20 +103,20 @@ INSERT INTO `fee` (`id`, `year`, `ammount`, `time`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `numList`
+-- Table structure for table `numlist`
 --
 
-CREATE TABLE `numList` (
+CREATE TABLE `numlist` (
   `id` int(11) NOT NULL,
   `value` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `numList`
+-- Dumping data for table `numlist`
 --
 
-INSERT INTO `numList` (`id`, `value`) VALUES
-(1, '10002');
+INSERT INTO `numlist` (`id`, `value`) VALUES
+(1, '10003');
 
 -- --------------------------------------------------------
 
@@ -142,7 +188,8 @@ CREATE TABLE `registration` (
 --
 
 INSERT INTO `registration` (`id`, `f_name`, `s_name`, `m_name`, `email`, `password`, `gender`, `phone`, `img`, `token`, `activate`, `alert`, `params`, `dob`, `institution_type`, `intitution`, `dept`, `level`, `area_of_int`, `membershipNo`, `year_of_reg`, `pay`, `amount`, `paystatus`, `zone`, `chapter_reg`, `reg_date`) VALUES
-(1, 'abiola', 'yakubu', 'sunday', 'yakubuabiola2003@gmail.com', '1a1dc91c907325c69271ddf0c944bc72', 'male', '08030960928', 'image is here', '600d50466fed9', '1', '1', 'pass', '01/06/2021', 'College of Education', 'Akwa Ibom College Of Education', 'Computer Engineering', '200L', 'Select Option | Software Development', 'NA10002', 2021, 'owxxioww2', '100', '2', 'SS', 'NA2018AK3127', '2021-01-26 08:16:54');
+(1, 'abiola', 'yakubu', 'sunday', 'yakubuabiola2003@gmail.com', '1a1dc91c907325c69271ddf0c944bc72', 'male', '08030960928', 'image is here', '600d50466fed9', '1', '1', 'pass', '01/06/2021', 'College of Education', 'Akwa Ibom College Of Education', 'Computer Engineering', '200L', 'Select Option | Software Development', 'NA10002', 2021, 'owxxioww2', '100', '2', 'SS', 'NA2018AK3127', '2021-01-26 08:16:54'),
+(2, 'Mayowa', 'Adebayo', 'Michael', 'mayowatope119@gmail.com', '7e967461cd78ee9fdc368c21c1e26240', 'male', '0903939935', 'image is here', '601a3a0474fa0', '1', '1', 'etisalat123', '04/17/2000', 'Polytechnic', 'Moshood Abiola Polytechnic,Abeokuta', 'Select Department', '300L', 'Select Option | Back End Development ', 'NA10003', 2021, '', '100', '1', 'SW', 'NA2018MA9903', '2021-02-03 05:53:55');
 
 -- --------------------------------------------------------
 
@@ -411,15 +458,21 @@ ALTER TABLE `ets`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `event`
+--
+ALTER TABLE `event`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `fee`
 --
 ALTER TABLE `fee`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `numList`
+-- Indexes for table `numlist`
 --
-ALTER TABLE `numList`
+ALTER TABLE `numlist`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -452,15 +505,21 @@ ALTER TABLE `ets`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT for table `event`
+--
+ALTER TABLE `event`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
 -- AUTO_INCREMENT for table `fee`
 --
 ALTER TABLE `fee`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT for table `numList`
+-- AUTO_INCREMENT for table `numlist`
 --
-ALTER TABLE `numList`
+ALTER TABLE `numlist`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
@@ -473,7 +532,7 @@ ALTER TABLE `payments`
 -- AUTO_INCREMENT for table `registration`
 --
 ALTER TABLE `registration`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `schools`
